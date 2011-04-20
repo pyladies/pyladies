@@ -1,7 +1,7 @@
 <VirtualHost *:80>
     ServerAdmin admin-pyladies-staging@cartwheelweb.com
-    ServerName www.staging.pyladies.com
-    ServerAlias staging.pyladies.com
+    ServerName pyladies.cartwheelweb.com
+    ServerAlias pyladies.cartwheelweb.com
 
     WSGIScriptReloading On
     WSGIDaemonProcess pyladiescom
