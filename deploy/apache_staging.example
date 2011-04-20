@@ -1,0 +1,37 @@
+<VirtualHost *:80>
+    ServerAdmin admin-pyladies-staging@cartwheelweb.com
+    ServerName www.staging.pyladies.com
+    ServerAlias staging.pyladies.com
+
+    WSGIScriptReloading On
+    WSGIDaemonProcess pyladiescom
+    WSGIProcessGroup pyladiescom
+    WSGIApplicationGroup pyladiescom
+    WSGIPassAuthorization On
+    
+    WSGIScriptAlias / /home/pyladies/pyladies/deploy/deploy.wsgi
+
+    <Location "/">
+        Order Allow,Deny
+        Allow from all
+    </Location>
+    
+    <Location "/site_media/static">
+        SetHandler None
+    </Location>
+
+    Alias /site_media/static /home/pyladies/pyladies/media
+    
+    <Location "/site_media/admin">
+        SetHandler None
+    </Location>
+    
+    Alias /site_media/admin /home/pyladies/.virtualenvs/pyladies/lib/python2.6/site-packages/django/contrib/admin/media
+
+    ErrorLog /home/pyladies/logs/error.log
+    # Possible values include: debug, info, notice, warn, error, crit,
+    # alert, emerg.
+    LogLevel debug
+    CustomLog /home/pyladies/logs/access.log combined
+</VirtualHost>
+
