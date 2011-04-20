@@ -20,7 +20,7 @@
         SetHandler None
     </Location>
 
-    Alias /site_media/static /home/pyladies/pyladies/media
+    Alias /site_media/static /home/pyladies/pyladies/site_media
     
     <Location "/site_media/admin">
         SetHandler None
