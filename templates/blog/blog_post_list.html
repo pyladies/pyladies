@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+{% load i18n mezzanine_tags blog_tags %}
+
+{% block meta_title %}{{ blog_page.title }}{% endblock %}
+
+{% block meta_keywords %}{% metablock %}
+{% for keyword in blog_page.keywords.all %}
+    {% if not forloop.first %}, {% endif %}
+    {{ keyword }}
+{% endfor %}
+{% endmetablock %}{% endblock %}
+
+{% block meta_description %}{% metablock %}
+{{ blog_page.description }}
+{% endmetablock %}{% endblock %}
+
+{% block title %}
+{% editable blog_page.title %}{{ blog_page.title }}{% endeditable %}
+{% endblock %}
+
+{% block main %}
+
+{% if tag or category or year or month or author %}
+    <p id="description">
+    {% if tag %}
+        {% trans "Viewing posts tagged" %} {{ tag }}
+    {% else %}{% if category %}
+        {% trans "Viewing posts for the category" %} {{ category }}
+    {% else %}{% if year or month %}
+        {% trans "Viewing posts from" %} {% if month %}{{ month }}, {% endif %}
+    {{ year }}
+    {% else %}{% if author %}
+        {% trans "Viewing posts by" %} 
+        {{ author.get_full_name|default:author.username }}
+    {% endif %}{% endif %}{% endif %}{% endif %}
+    </p>
+{% else %}
+    {% editable blog_page.content %}
+    {{ blog_page.content|safe }}
+    {% endeditable %}
+{% endif %}
+
+
+{% for blog_post in blog_posts.object_list %}
+{% editable blog_post.title blog_post.publish_date %}
+<h2 class="blog-post-title">
+    <a href="{% url blog_post_detail blog_post.slug %}">{{ blog_post.title }}</a>
+</h2>
+<em class="since">
+    {% with blog_post.user as author %}
+    <a href="{% url blog_post_list_author author %}">
+        {{ author.first_name }} {{ author.last_name }}
+    </a>
+    {% endwith %}
+    {{ blog_post.publish_date|timesince }} {% trans "ago" %}
+</em>
+{% endeditable %}
+
+{% editable blog_post.content %}
+{{ blog_post.description_from_content|safe }}
+{% endeditable %}
+
+<p class="description">
+    <a href="{% url blog_post_detail blog_post.slug %}">{% trans "read more" %}</a> 
+    / 
+    {% if use_disqus %}
+    <a href="{% url blog_post_detail blog_post.slug %}#disqus_thread">
+        {% trans "Comments" %}
+    </a>
+    {% else %}
+    <a href="{% url blog_post_detail blog_post.slug %}#comments">
+        {% blocktrans count blog_post.num_comments as num_comments %}
+        1 comment
+        {% plural %}
+        {{ num_comments }} comments
+        {% endblocktrans %}
+    </a>
+    {% endif %}
+</p>
+{% endfor %}
+
+{% pagination_for blog_posts %} 
+
+{% if use_disqus %}
+{% include "blog/includes/disqus_counts.html" %} 
+{% endif %}
+
+{% endblock %}
+
+{% block right_panel %}
+{% include "blog/includes/filter_panel.html" %}
+{% endblock %}
+

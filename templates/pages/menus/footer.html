@@ -1,0 +1,28 @@
+{% load i18n pages_tags %}
+
+{% spaceless %}
+{% for page in page_branch %}
+
+    {% if page.is_primary %}
+        {% if forloop.first %}
+        <ul>
+        {% endif %}
+        <li><ul>
+    {% endif %}
+
+    {% if page.in_footer %}
+    <li {% if page.is_current_or_ascendant %}class="active"{% endif %}>
+        <a href="{% url page page.slug %}">{{ page.title }}</a></li>
+    {% endif %}
+
+    {% page_menu page %}
+
+    {% if page.is_primary %}
+        </ul></li>
+        {% if forloop.last %}
+        </ul>
+        {% endif %}
+    {% endif %}
+
+{% endfor %}
+{% endspaceless %}
