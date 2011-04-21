@@ -67,13 +67,13 @@
     display:block; margin-top:3px;
 }
 #grid-bottom {
-    background:#666;
+    background:#111;
 }
-#grid-bottom .container_12 {
-    background:#555;
+#grid-bottom .container {
+    background:#111;
 }
 #grid-bottom .grid {
-    background:#444; border:1px solid #333;
+    background:#111; border:1px solid #333;
     border-top:0; border-bottom:0;
 }
 #grid-bottom ul {
@@ -87,9 +87,8 @@
     list-style:none;
 }
 #grid-bottom li li {
-    width:100px; clear:both; margin:5px;
-    border:1px solid #333; background:#555; padding:5px 10px;
-    border-right:0; border-bottom:0;
+    width:100px; clear:both; margin:0;
+    border:0; background:#111; padding:5px 10px;
     list-style:none;
 }
 h2,
