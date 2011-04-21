@@ -12,8 +12,11 @@
     <link rel="alternate" type="application/atom+xml" title="Atom"  
         href="{% url blog_post_feed "atom" %}" />
 
-    <link rel="stylesheet" href="{{ MEDIA_URL }}css/960.css" type="text/css" />
-    <link rel="stylesheet" href="{{ MEDIA_URL }}css/reset.css" type="text/css" />
+      <link rel="stylesheet" href="{{ MEDIA_URL }}css/blueprint/screen.css" type="text/css" media="screen, projection">
+      <link rel="stylesheet" href="{{ MEDIA_URL }}css/blueprint/print.css" type="text/css" media="print"> 
+      <!--[if lt IE 8]>
+        <link rel="stylesheet" href="{{ MEDIA_URL }}css/blueprint/ie.css" type="text/css" media="screen, projection">
+      <![endif]-->
     <link rel="stylesheet" href="{{ MEDIA_URL }}css/global.css" type="text/css" />
     {% block extra_head %}{% endblock %}
 
@@ -24,13 +27,13 @@
     {% page_menu "pages/menus/primary.html" %}
 </div>
 
-<div class="container_12 clearfix">
+<div class="container clearfix">
 
-    <div id="grid-left" class="grid_3 grid">
+    <div id="grid-left" class="span-6">
         {% page_menu "pages/menus/tree.html" %}
     </div>
 
-    <div id="grid-middle" class="grid_6 grid">
+    <div id="grid-middle" class="span-12">
         <div class="gutter">
             <h1>{% block title %}{% endblock %}</h1>
             <div id="breadcrumb-menu">
@@ -42,7 +45,7 @@
         </div>
     </div>
 
-    <div id="grid-right" class="grid_3 grid">
+    <div id="grid-right" class="span-6 last">
         {% include "includes/search.html" %}
         {% block right_panel %}
             {% include "twitter/tweets.html" %}
@@ -59,8 +62,8 @@
 </div>
 
 <div id="grid-bottom">
-    <div class="container_12 clearfix">
-        <div class="grid_6 push_3 grid">
+    <div class="container clearfix">
+        <div class="span-12 push-6">
             {% page_menu "pages/menus/footer.html" %}
         </div>
     </div>
