@@ -12,55 +12,56 @@
     <link rel="alternate" type="application/atom+xml" title="Atom"  
         href="{% url blog_post_feed "atom" %}" />
 
-      <link rel="stylesheet" href="{{ MEDIA_URL }}css/blueprint/screen.css" type="text/css" media="screen, projection">
-      <link rel="stylesheet" href="{{ MEDIA_URL }}css/blueprint/print.css" type="text/css" media="print"> 
-      <!--[if lt IE 8]>
+    <link rel="stylesheet" href="{{ MEDIA_URL }}css/blueprint/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="{{ MEDIA_URL }}css/blueprint/print.css" type="text/css" media="print"> 
+    <!--[if lt IE 8]>
         <link rel="stylesheet" href="{{ MEDIA_URL }}css/blueprint/ie.css" type="text/css" media="screen, projection">
-      <![endif]-->
+    <![endif]-->
+    <link rel="stylesheet" href="{{ MEDIA_URL }}css/sticky-footer.css" type="text/css" media="screen, projection">
     <link rel="stylesheet" href="{{ MEDIA_URL }}css/global.css" type="text/css" />
     {% block extra_head %}{% endblock %}
 
 </head>
 <body id="{% block body_id %}{% endblock %}">
-
-<div id="grid-top">
-    {% page_menu "pages/menus/primary.html" %}
-</div>
-
-<div class="container clearfix">
-
-    <div id="grid-left" class="span-6">
-        {% page_menu "pages/menus/tree.html" %}
+<div id="wrap">
+    <div id="grid-top">
+        {% page_menu "pages/menus/primary.html" %}
     </div>
 
-    <div id="grid-middle" class="span-12">
-        <div class="gutter">
-            <h1>{% block title %}{% endblock %}</h1>
-            <div id="breadcrumb-menu">
-                {% block breadcrumb_menu %}
-                    {% page_menu "pages/menus/breadcrumb.html" %}
-                {% endblock %}
-            </div>
-            {% block main %}{% endblock %}
+    <div class="container clearfix">
+
+        <div id="grid-left" class="span-6">
+            {% page_menu "pages/menus/tree.html" %}
         </div>
-    </div>
 
-    <div id="grid-right" class="span-6 last">
-        {% include "includes/search.html" %}
-        {% block right_panel %}
-            {% include "twitter/tweets.html" %}
-        {% endblock %}
-        <p class="mezzanine">
-            {% trans "Powered by" %} 
-            <a href="http://mezzanine.jupo.org">Mezzanine</a><br />
-            <a href="{% url set_device "mobile" %}?next={{ request.path }}">
-                {% trans "View Mobile Site." %}
-            </a>
-        </p>
-    </div>
+        <div id="grid-middle" class="span-12">
+            <div class="gutter">
+                <h1>{% block title %}{% endblock %}</h1>
+                <div id="breadcrumb-menu">
+                    {% block breadcrumb_menu %}
+                        {% page_menu "pages/menus/breadcrumb.html" %}
+                    {% endblock %}
+                </div>
+                {% block main %}{% endblock %}
+            </div>
+        </div>
 
+        <div id="grid-right" class="span-6 last">
+            {% include "includes/search.html" %}
+            {% block right_panel %}
+                {% include "twitter/tweets.html" %}
+            {% endblock %}
+            <p class="mezzanine">
+                {% trans "Powered by" %} 
+                <a href="http://mezzanine.jupo.org">Mezzanine</a><br />
+                <a href="{% url set_device "mobile" %}?next={{ request.path }}">
+                    {% trans "View Mobile Site." %}
+                </a>
+            </p>
+        </div>
+
+    </div>
 </div>
-
 <div id="grid-bottom">
     <div class="container clearfix">
         <div class="span-12 push-6">
