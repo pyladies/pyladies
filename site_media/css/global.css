@@ -97,6 +97,9 @@ p,
 .comment {
     margin:20px 0;
 }
+#breadcrumb-menu ul {
+    padding-left:0;
+}
 h1 {
     font-size:250%; border-bottom:1px solid #ccc; font-weight:normal;
 }
