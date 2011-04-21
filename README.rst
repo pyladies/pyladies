@@ -1,8 +1,8 @@
-===============================
-LA Women's Python Group Website
-===============================
+========================================
+PyLadies: Website for our LA Women's Python Group
+========================================
 
-Website URL to be determined.
+The site is live at http://www.pyladies.com
 
 How to download and run this locally
 ------------------------------------
