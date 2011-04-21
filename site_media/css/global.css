@@ -23,7 +23,7 @@
 #primary-menu {
     margin:0;
 }
-#primary-menu li a:active, #primary-menu li a:visited {
+#primary-menu li a:link, #primary-menu li a:visited {
     color:#eee;
     font-weight:bold;
     text-decoration:none;
