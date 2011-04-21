@@ -16,5 +16,6 @@ Installation::
     cd pyladies
     pip install -r requirements.txt
     cp local_settings.py.example local_settings.py
+    cp mezzanine.dbexample mezzanine.db
     python manage.py runserver
 
