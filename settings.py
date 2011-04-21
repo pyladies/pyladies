@@ -110,7 +110,7 @@ ADMIN_MEDIA_PREFIX = "/media/"
 MEDIA_URL = "/site_media/static/"
 
 # Absolute path to the directory that holds media.
-MEDIA_ROOT = os.path.join(PROJECT_ROOT, MEDIA_URL.strip("/"))
+MEDIA_ROOT = os.path.join(PROJECT_ROOT, "site_media")
 
 # Package/module name to import the root urlpatterns from for the project.
 ROOT_URLCONF = "%s.urls" % PROJECT_DIRNAME
