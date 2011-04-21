@@ -54,10 +54,14 @@
             {% endblock %}
             <p class="mezzanine">
                 {% trans "Powered by" %} 
+                <a href="http://www.djangoproject.com">Django</a> {% trans "and" %}
                 <a href="http://mezzanine.jupo.org">Mezzanine</a><br />
                 <a href="{% url set_device "mobile" %}?next={{ request.path }}">
                     {% trans "View Mobile Site." %}
                 </a>
+            </p>
+            <p>
+                This website is open-source! Watch or fork <a href="https://github.com/audrey/pyladies">our Github repo</a>.
             </p>
         </div>
 
