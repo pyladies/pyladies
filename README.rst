@@ -12,7 +12,7 @@ Prerequisites: pip, virtualenv, virtualenvwrapper.
 Installation::
 
     mkvirtualenv pyladies
-    git clone
+    (then fork the repo and "git clone" your fork)
     cd pyladies
     pip install -r requirements.txt
     cp local_settings.py.example local_settings.py
