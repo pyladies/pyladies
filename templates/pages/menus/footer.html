@@ -1,6 +1,17 @@
 {% load i18n pages_tags %}
 
 {% spaceless %}
+
+<ul>
+{% for page in page_branch %}
+    {% if page.in_footer %}
+        <li {% if page.is_current_or_ascendant %}class="active"{% endif %}>
+        <a href="{% url page page.slug %}">{{ page.title }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
+
+{% comment %}
 {% for page in page_branch %}
 
     {% if page.is_primary %}
@@ -25,4 +36,6 @@
     {% endif %}
 
 {% endfor %}
+{% endcomment %}
+
 {% endspaceless %}
