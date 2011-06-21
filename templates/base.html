@@ -1,4 +1,5 @@
 {% load pages_tags i18n %}
+{% load mezzanine_superfish_tags %}
 <html>
 <head>
 
@@ -18,24 +19,33 @@
         <link rel="stylesheet" href="{{ MEDIA_URL }}css/blueprint/ie.css" type="text/css" media="screen, projection">
     <![endif]-->
     <link rel="stylesheet" href="{{ MEDIA_URL }}css/sticky-footer.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="{{ MEDIA_URL }}css/superfish.css" type="text/css" />
     <link rel="stylesheet" href="{{ MEDIA_URL }}css/global.css" type="text/css" />
     {% block extra_head %}{% endblock %}
 
+    <script type='text/javascript' src='{{ MEDIA_URL }}js/jquery-1.5.2.min.js'></script>
+    <script type='text/javascript' src='{{ MEDIA_URL }}js/hoverIntent.js'></script>
+    <script type='text/javascript' src='{{ MEDIA_URL }}js/jquery.bgiframe.min.js'></script>
+    <script type='text/javascript' src='{{ MEDIA_URL }}js/supersubs.js'></script>
+    <script type='text/javascript' src='{{ MEDIA_URL }}js/superfish.js'></script>
+    <script> 
+        $(document).ready(function() { 
+            $('ul.sf-menu').superfish().supersize();
+        }); 
+    </script>
 </head>
 <body id="{% block body_id %}{% endblock %}">
 <div id="wrap">
 <div id="main">
+    <img id="logo" src="{{ MEDIA_URL }}img/logo.png" />
     <div id="grid-top">
-        {% page_menu "pages/menus/primary.html" %}
+        {% comment %}{% page_menu "pages/menus/primary.html" %}{% endcomment %}
+        {% superfish_submenu "mezzanine_superfish/superfish.html" %}
     </div>
 
-    <div class="container clearfix">
+    <div class="container clearfix" id="content">
 
-        <div id="grid-left" class="span-6">
-            {% page_menu "pages/menus/tree.html" %}
-        </div>
-
-        <div id="grid-middle" class="span-12">
+        <div id="grid-middle" class="span-16">
             <div class="gutter">
                 <h1>{% block title %}{% endblock %}</h1>
                 <div id="breadcrumb-menu">
@@ -48,11 +58,11 @@
         </div>
 
         <div id="grid-right" class="span-6 last">
-            <h2>Show Your Support</h2>
-            <p>
-                <a href="http://www.facebook.com/pages/PyLadies/172371899488492">Like Us on Facebook</a><br/>
-                <a href="http://twitter.com/pyladies">Follow us on Twitter</a>
-            </p>
+            <div id="social-support">
+                <a href="http://www.facebook.com/pages/PyLadies/172371899488492"><img src="{{ MEDIA_URL }}img/facebook.png" title="Like Us on Facebook" /></a>
+                <a href="http://twitter.com/pyladies"><img src="{{ MEDIA_URL }}img/twitter.png" title="Follow Us on Twitter" /></a>
+                <a href="https://github.com/audrey/pyladies"><img src="{{ MEDIA_URL }}img/github.png" title="Watch or fork our Github repo" /></a>
+            </div>
 
 <!-- Begin MailChimp Signup Form -->
 <!--[if IE]>
@@ -68,23 +78,22 @@
 <![endif]-->
 
 <div id="mc_embed_signup">
-<form action="http://pyladies.us2.list-manage.com/subscribe/post?u=9d20e0bc6bc0e88a076738c6f&amp;id=23e4f35e45" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" style="font: normal 100% Arial, sans-serif;font-size: 10px;">
-	<fieldset style="-moz-border-radius: 4px;border-radius: 4px;-webkit-border-radius: 4px;border: 1px solid #ccc;padding-top: 1.5em;margin: .5em 0;background-color: #fff;color: #000;text-align: left;">
-	<legend style="white-space: normal;text-transform: capitalize;font-weight: bold;color: #000;background: #fff;padding: .5em 1em;border: 1px solid #ccc;-moz-border-radius: 4px;border-radius: 4px;-webkit-border-radius: 4px;font-size: 1.2em;"><span>join our mailing list</span></legend>
-<div class="indicate-required" style="text-align: right;font-style: italic;overflow: hidden;color: #000;margin: 0 9% 0 0;">* indicates required</div>
-<div class="mc-field-group" style="margin: 1.3em 5%;clear: both;overflow: hidden;">
-<label for="mce-EMAIL" style="display: block;margin: .3em 0;line-height: 1em;font-weight: bold;">Email Address <strong class="note-required">*</strong>
-</label>
-<input type="text" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="margin-right: 1.5em;padding: .2em .3em;width: 90%;float: left;z-index: 999;">
-</div>
+<form action="http://pyladies.us2.list-manage.com/subscribe/post?u=9d20e0bc6bc0e88a076738c6f&amp;id=23e4f35e45" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+	<fieldset>
+	<legend><span>{% trans "join our mailing list" %}</span></legend>
+        <div class="mc-field-group">
+            <label for="mce-EMAIL">Email Address <strong>*</strong></label>
+            <input type="text" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+        </div>
 		<div id="mce-responses" style="float: left;top: -1.4em;padding: 0em .5em 0em .5em;overflow: hidden;width: 90%;margin: 0 5%;clear: both;">
 			<div class="response" id="mce-error-response" style="display: none;margin: 1em 0;padding: 1em .5em .5em 0;font-weight: bold;float: left;top: -1.5em;z-index: 1;width: 80%;background: FBE3E4;color: #D12F19;"></div>
 			<div class="response" id="mce-success-response" style="display: none;margin: 1em 0;padding: 1em .5em .5em 0;font-weight: bold;float: left;top: -1.5em;z-index: 1;width: 80%;background: #E3FBE4;color: #529214;"></div>
 		</div>
-		<div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn" style="clear: both;width: auto;display: block;margin: 1em 0 1em 5%;"></div>
+		<div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button white"></div>
 	</fieldset>	
 	<a href="#" id="mc_embed_close" class="mc_embed_close" style="display: none;">Close</a>
 </form>
+
     <p>Keep up with what's going in the PyLadies community on our low-volume announcement list.  Men and women from everywhere are welcome.
     </p>
 </div>
@@ -116,7 +125,7 @@ var err_style = '';
 try{
     err_style = mc_custom_error_style;
 } catch(e){
-    err_style = 'margin: 1em 0 0 0; padding: 1em 0.5em 0.5em 0.5em; background: FFEEEE none repeat scroll 0% 0%; font-weight: bold; float: left; z-index: 1; width: 80%; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; color: FF0000;';
+    err_style = 'margin: .5em 0 .5em 0; font-weight: bold; z-index: 1; color: C00;';
 }
 var head= document.getElementsByTagName('head')[0];
 var style= document.createElement('style');
@@ -252,19 +261,10 @@ function mce_success_cb(resp){
 </script>
 <!--End mc_embed_signup-->
 
-            <br/>
             {% include "includes/search.html" %}
             {% block right_panel %}
                 {% include "twitter/tweets.html" %}
             {% endblock %}
-            <p class="mezzanine">
-                {% trans "Powered by" %} 
-                <a href="http://www.djangoproject.com">Django</a> {% trans "and" %}
-                <a href="http://mezzanine.jupo.org">Mezzanine</a><br />
-                <a href="{% url set_device "mobile" %}?next={{ request.path }}">
-                    {% trans "View Mobile Site." %}
-                </a>
-            </p>
             <p>
                 This website is open-source! Watch or fork <a href="https://github.com/audrey/pyladies">our Github repo</a>.
             </p>
@@ -276,10 +276,18 @@ function mce_success_cb(resp){
 </div>
 <div id="grid-bottom">
     <div class="container clearfix">
-        <div class="span-12 push-6 prepend-top">
+        <div class="span-12 push-8 prepend-top">
             {% page_menu "pages/menus/footer.html" %}
         </div>
     </div>
+    <p class="mezzanine">
+        {% trans "Powered by" %} 
+        <a href="http://www.djangoproject.com">Django</a> {% trans "and" %}
+        <a href="http://mezzanine.jupo.org">Mezzanine</a><br />
+        <a href="{% url set_device "mobile" %}?next={{ request.path }}">
+            {% trans "View Mobile Site." %}
+        </a>
+    </p>
 </div>
 
 {% include "includes/footer_scripts.html" %}
