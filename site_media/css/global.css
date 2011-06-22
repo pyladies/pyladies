@@ -1,16 +1,7 @@
 /*------ REPLACE THIS WITH YOUR CUSTOM CSS --------- */
 @font-face {
-    font-family: 'TrumpGothicWestMedium';
-    src: url('/site_media/static/fonts/TrumpGotWesMed-webfont.eot');
-    src: local('â˜º'), url('/site_media/static/fonts/TrumpGotWesMed-webfont.woff') format('woff'), url('/site_media/static/fonts/TrumpGotWesMed-webfont.ttf') format('truetype'), url('/site_media/static/fonts/TrumpGotWesMed-webfont.svg#webfont7SBf1uGe') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'TrumpGothicWestBold';
-    src: url('/site_media/static/fonts/TrumpGotWesBol-webfont.eot');
-    src: local('â˜º'), url('/site_media/static/fonts/TrumpGotWesBol-webfont.woff') format('woff'), url('/site_media/static/fonts/TrumpGotWesBol-webfont.ttf') format('truetype'), url('/site_media/static/fonts/TrumpGotWesBol-webfont.svg#webfont21NGB6QG') format('svg');
+    font-family: "KenyanCoffeeRg";
+    src: url("/site_media/static/fonts/kenyan_coffee_rg.eot") format("eot"), url("/site_media/static/fonts/kenyan_coffee_rg.woff") format("woff"), url("/site_media/static/fonts/kenyan_coffee_rg.ttf") format("truetype"), url("/site_media/static/fonts/kenyan_coffee_rg.svg#KenyanCoffeeRg-Bold") format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -40,15 +31,14 @@
     font-size: 20px;
 }
 #grid-top li {
-    display: inline-block;
-    font-family: Helvetica, Verdana;
-}
-#grid-top li {
     margin: 0;
+    display: inline-block;
     background: #FA023C;
 }
 #grid-top li li {
-    background: #06C;
+    background: #FA000C;
+    background: #FF0040;
+    border-top: 1px solid black;
 }
 #grid-top li ul {
     margin: 0;
@@ -57,14 +47,20 @@
     padding: 12px 20px 9px 20px;
     display: block;
 }
-#grid-top a:link, 
-#grid-top a:visited {
+#grid-top li a:link, 
+#grid-top li a:visited {
     text-transform: uppercase;
-    font-family: "TrumpGothicWestBold";
+    font-family: "KenyanCoffeeRg", Arial;
     color: white;
-    font-weight: bold;
     text-decoration: none;
 }
+/* Sub-items */
+#grid-top li li a {
+    font-family: "Verdana", "Helvetica"!important;
+    font-size: 14px;
+    text-transform: none!important;
+}
+#grid-top li.sfHover,
 #grid-top a:hover {
     background: #FA6179;
     color: white;
@@ -75,6 +71,9 @@
     font-style: normal;
     padding: 10px 20px 6px 20px;
     border-bottom: 3px solid white;
+}
+#grid-top li li a.active {
+    padding: 12px 20px 9px 20px;
 }
 
 
