@@ -14,15 +14,15 @@
     margin-bottom: 20px;
 }
 
+/* GRID-TOP */
 #logo {
     position: absolute;
     top: 16px;
     left: 180px;
 }
-
 #grid-top {
     padding: 0;
-    margin-bottom: 40px;
+    margin-bottom: 55px;
 
     background: #FA023C;
     border-top: 9px solid #333;
@@ -39,6 +39,40 @@
     background: #FA000C;
     background: #FF0040;
     border-top: 1px solid black;
+    
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    
+	-webkit-box-shadow: 0 1px 4px #ddd;
+	-moz-box-shadow: 0 1px 4px #ddd;
+    box-shadow: 0 1px 4px #ddd;
+	
+    border: 1px solid #AAA;
+	text-shadow: 1px 1px 0 white;
+
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#F4F4F4',endColorstr='#ECECEC');
+	background: -webkit-gradient(linear,left top,left bottom,from(#F4F4F4),to(#ECECEC));
+	background: -moz-linear-gradient(top,#F4F4F4,#ECECEC);
+}
+#grid-top li li a:hover,
+#grid-top li li a.active {
+	color: white;
+	border-color: #518CC6;
+	border-bottom-color: #2A65A0;
+	text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#599BDC',endColorstr='#3072B3');
+	background: -webkit-gradient(linear,left top,left bottom,from(#599BDC),to(#3072B3));
+	background: -moz-linear-gradient(top,#599BDC, #3072B3);
+}
+#grid-top li li a:active {
+    color: white;
+	border-color: #2a65a0;
+	border-bottom-color: #518cc6;
+	background: #3072b3;
+
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#3072b3',endColorstr='#599bdc');
+	background:-webkit-gradient(linear,left top,left bottom,from(#3072b3),to(#599bdc));
+	background:-moz-linear-gradient(top,#3072b3,#599bdc);
 }
 #grid-top li ul {
     margin: 0;
@@ -47,18 +81,19 @@
     padding: 12px 20px 9px 20px;
     display: block;
 }
-#grid-top li a:link, 
+#grid-top li a, 
 #grid-top li a:visited {
     text-transform: uppercase;
     font-family: "KenyanCoffeeRg", Arial;
     color: white;
     text-decoration: none;
 }
-/* Sub-items */
 #grid-top li li a {
-    font-family: "Verdana", "Helvetica"!important;
-    font-size: 14px;
-    text-transform: none!important;
+	color: #333;
+    font-family: "Verdana", "Helvetica";
+    font-size: 12px;
+    text-transform: none;
+    padding: 10px 5px;
 }
 #grid-top li.sfHover,
 #grid-top a:hover {
@@ -80,26 +115,20 @@
 .container_12 {
     background: #e9e9e9;
 }
+
+/* GRID-MIDDLE */
 #grid-middle {
     background: #fff; 
 }
 #grid-middle img {
     max-width: 400px;
 }
-.gutter {
-    padding:0 30px;
-}
-#grid-left {
-    font-size:130%;
-}
-#grid-left li {
-    display:block; margin:5px 30px;
-}
-#grid-left ul ul li {
-    list-style-type:disc; font-size:80%;
-}
 #grid-middle ul {
     list-style:disc;
+}
+#grid-middle ul li {
+    font-size: 115%;
+    margin-left: 20px;
 }
 #grid-middle ol {
     list-style:decimal;
@@ -113,6 +142,7 @@
     line-height: 100%;
 }
 
+/* GRID-RIGHT */
 #grid-right {
     margin-left: 50px;
 }
@@ -152,6 +182,9 @@
 #grid-right h3 {
     font-size: 150%;
 }
+#search-results p {
+    margin:5px 0;
+}
 #search .button {
     margin:0; 
     padding: 3px 8px; 
@@ -163,6 +196,7 @@
     color: #333;
 }
 
+/* GRID-BOTTOM */
 #grid-bottom {
     background: #232323;
     text-align: center;
@@ -193,25 +227,20 @@
     border-bottom: 2px solid #FA023C;
     padding-bottom: 4px;
 }
-/*
-#grid-bottom ul ul {
-    margin: 0;
+.mezzanine {
+    font-size:80%;
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    z-index: 1000;
+    color: white;
 }
-#grid-bottom li {
-    float: left;
-    list-style: none;
+#grid-bottom .mezzanine a {
+    color: #06C;
 }
-#grid-bottom li li {
-    width: 100px; 
-    clear: both; 
-    margin: 0;
-    border: 0; 
-    background: #111; 
-    padding: 5px 10px;
-    list-style: none;
-}*/
 
 
+/* GENERAL STYLES */
 h2,
 p,
 #breadcrumb-menu,
@@ -256,7 +285,6 @@ h5 {
     font-weight:bold; margin-top:20px;
 }
 a {
-    color: #008;
     color: #06C;
     font-weight: bold;
     text-decoration: none;
@@ -378,11 +406,6 @@ td, th {
 .share {
     background:#eee; padding:5px;
 }
-/*.button {
-    float:right; 
-    padding:10px;
-    margin:10px;
-}*/
 .form li {
     display:block; padding:5px 10px;
 }
@@ -457,17 +480,6 @@ ul .posted {
 .retweet  {
     float:none; margin-bottom:-5px; width:16px; height:16px;
 }
-.mezzanine {
-    font-size:80%;
-    position: absolute;
-    bottom: 5px;
-    right: 20px;
-    z-index: 1000;
-    color: white;
-}
-#grid-bottom .mezzanine a {
-    color: #06C;
-}
 .form {
     background:#eee; border-bottom:1px solid #ccc; float:left;
 }
@@ -481,9 +493,6 @@ ul .posted {
 .form li li label {
     width:auto; float:none;cursor:pointer;
 }
-#search-results p {
-    margin:5px 0;
-}
 
 input[type="text"]:focus, 
 input[type="password"]:focus, 
@@ -491,4 +500,83 @@ input.text:focus,
 input.title:focus, 
 textarea:focus {
     outline: 2px solid #73A6FF!important;
+}
+
+/* EVENTS */
+#breadcrumb-menu {
+    display: none;
+}
+#grid-middle p.date-and-time {
+    margin: 15px 0 20px 0;
+    padding: 8px 0px 8px 5px;
+
+    background-color: #F6F6F6;
+    color: #333;
+    border: 1px solid #ccc;
+
+    text-align: center;
+    line-height: 20px;
+    font-family: 'Droid Sans', arial, helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.event-item {
+    margin-bottom: 30px;
+    padding: 5px 20px;
+
+    background: #FAFAFA;
+    border: 3px solid #DDD;
+}
+#grid-middle div.event-item h2 {
+    font-size: 160%;
+    margin-bottom: 20px;
+    color: #FA023C;
+}
+#grid-middle div.event-item #click-and-register {
+    margin-left: 280px;
+}
+
+/* LEADERSHIP */
+.leader-item {
+    float: left;
+    clear: both;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #CCC;
+}
+.leader-picture {
+    display: block;
+    width: 120px;
+
+    background: #FAFAFA;
+    border: 1px solid #ccc;
+    padding: 7px;
+
+	-webkit-box-shadow: 1px 1px 4px #ddd;
+	-moz-box-shadow: 1px 1px 4px #ddd;
+    box-shadow: 1px 1px 4px #ddd;
+}
+.picture-left {
+    float: left;
+    margin: 0 20px 5px 0;
+}
+.picture-right {
+    float: right;
+    margin: 0 0px 5px 20px;
+}
+.leader-description {
+    float: left;
+    position: relative;
+    width: 474px;
+    margin-top: 0;
+    font-size: 13px;
+}
+.twitter-bird {
+    margin-left: 10px;
+    position: absolute;
+    top: -5px;
+}
+.leader-description h3 {
+    margin-top: 0;
+    display: inline;
 }

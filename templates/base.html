@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="{{ MEDIA_URL }}css/sticky-footer.css" type="text/css" media="screen, projection">
     <link rel="stylesheet" href="{{ MEDIA_URL }}css/superfish.css" type="text/css" />
     <link rel="stylesheet" href="{{ MEDIA_URL }}css/global.css" type="text/css" />
-    {% block extra_head %}{% endblock %}
 
     <script type='text/javascript' src='{{ MEDIA_URL }}js/jquery-1.5.2.min.js'></script>
     <script type='text/javascript' src='{{ MEDIA_URL }}js/hoverIntent.js'></script>
@@ -30,23 +29,24 @@
     <script type='text/javascript' src='{{ MEDIA_URL }}js/superfish.js'></script>
     <script> 
         $(document).ready(function() { 
-            $('ul.sf-menu').superfish().supersize();
+            $('ul.sf-menu').superfish();
         }); 
     </script>
+
+    {% block extra_head %}{% endblock %}
 </head>
 <body id="{% block body_id %}{% endblock %}">
 <div id="wrap">
 <div id="main">
     <img id="logo" src="{{ MEDIA_URL }}img/logo.png" />
     <div id="grid-top">
-        {% comment %}{% page_menu "pages/menus/primary.html" %}{% endcomment %}
         {% superfish_submenu "mezzanine_superfish/superfish.html" %}
     </div>
 
     <div class="container clearfix" id="content">
 
         <div id="grid-middle" class="span-16">
-            <div class="gutter">
+            <div> <!--class="gutter">-->
                 <h1>{% block title %}{% endblock %}</h1>
                 <div id="breadcrumb-menu">
                     {% block breadcrumb_menu %}
