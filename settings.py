@@ -185,6 +185,7 @@ OPTIONAL_APPS = (
     "debug_toolbar",
     "south",
     "django_extensions",
+    "devserver",
     PACKAGE_NAME_FILEBROWSER,
     PACKAGE_NAME_GRAPPELLI,
 )
