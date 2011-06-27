@@ -1,6 +1,6 @@
-========================================
-PyLadies: Website for our LA Women's Python Group
-========================================
+====================
+PyLadies.com Website
+====================
 
 This repo has moved to https://github.com/pyladies/pyladies.  Please update your git config files.
 
