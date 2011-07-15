@@ -21,6 +21,10 @@
     <link rel="stylesheet" href="{{ MEDIA_URL }}css/sticky-footer.css" type="text/css" media="screen, projection">
     <link rel="stylesheet" href="{{ MEDIA_URL }}css/superfish.css" type="text/css" />
     <link rel="stylesheet" href="{{ MEDIA_URL }}css/global.css" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light&v1' rel='stylesheet' type='text/css'>
+    <link  href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic&v1" rel="stylesheet" type="text/css" >
+
+
 
     <script type='text/javascript' src='{{ MEDIA_URL }}js/jquery-1.5.2.min.js'></script>
     <script type='text/javascript' src='{{ MEDIA_URL }}js/hoverIntent.js'></script>
@@ -38,16 +42,16 @@
 <body id="{% block body_id %}{% endblock %}">
 <div id="wrap">
 <div id="main">
-    <img id="logo" src="{{ MEDIA_URL }}img/logo.png" />
     <div id="grid-top">
+        <img id="logo" src="{{ MEDIA_URL }}img/logo.png" />
         {% superfish_submenu "mezzanine_superfish/superfish.html" %}
     </div>
 
     <div class="container clearfix" id="content">
 
         <div id="grid-middle" class="span-16">
-            <div> <!--class="gutter">-->
-                <h1>{% block title %}{% endblock %}</h1>
+            <div>
+                <h1 id="title">{% block title %}{% endblock %}</h1>
                 <div id="breadcrumb-menu">
                     {% block breadcrumb_menu %}
                         {% page_menu "pages/menus/breadcrumb.html" %}
@@ -265,7 +269,7 @@ function mce_success_cb(resp){
             {% block right_panel %}
                 {% include "twitter/tweets.html" %}
             {% endblock %}
-            <p>
+            <p id="fork-us-github">
                 This website is open-source! Watch or fork <a href="https://github.com/audrey/pyladies">our Github repo</a>.
             </p>
 
