@@ -1,10 +1,11 @@
 ========================================
-PyLadies: Website for our LA Women's Python Group
+PyLadies: Website for the LA Women's Python Group
 ========================================
 
-The site is live at http://www.pyladies.com
+This is my version of the PyLadies website with cleaned up CSS and JS using the HTML5 Boilerplate. My spin on a new clean design inspired by the original look as well as the fork by maraujop.
 
-How to download and run this locally
+
+How to Use
 ------------------------------------
 
 Prerequisites: pip, virtualenv, virtualenvwrapper.
