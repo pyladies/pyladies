@@ -5,11 +5,11 @@
 <ul class="footer-tree-menu-level-{{ branch_level }}">
 	{% for page in page_branch %}
 
-    {% if page.is_primary and forloop.first %}
-	<li class="first{% if on_home %} active{% endif %}">
-	    <a href="{% url home %}">{% trans "Home" %}</a>
-	</li>
-	{% endif %}
+        {% if page.is_primary and forloop.first %}
+    <li class="first{% if on_home %} active{% endif %}">
+        <a href="{% url home %}">{% trans "Home" %}</a>
+    </li>
+    {% endif %}
 
 	{% if page.in_footer %}
 	<li class="{% if page.is_current_or_ascendant %}active{% endif %}
