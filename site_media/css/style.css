@@ -88,6 +88,15 @@ p {
 	padding: 0 0 10px 0;
 }
 
+input[type="text"] {
+	border: 1px solid #ccc;
+	height: 20px;
+	padding: 5px;
+}
+input[type="submit"] {
+	border: none;
+}
+
 header {
 	background: #FA023C;
 }
@@ -95,7 +104,6 @@ header #top {
 	width: 900px;
 	margin: auto;
 }
-
 header h1 {
 	background: url(../img/logo.png) top left no-repeat;
 	text-indent: -9999px;
@@ -104,7 +112,6 @@ header h1 {
 	position: absolute;
 }
 header ul {
-	
 	float: right;
 }
 header ul li {
@@ -125,8 +132,19 @@ header ul li.active {
 	background: #FA6179;
 }
 header ul li ul {
+	position: absolute;
 	display: none;
 }
+header ul li ul li {
+	font-size: 0.8em;
+	background: #FA023C;
+	border-top: 1px solid #fff;
+}
+header ul li ul li a {
+    display: block; 
+    color: #fff;
+}
+
 
 #container {
 	width: 900px;
@@ -146,6 +164,72 @@ header ul li ul {
 	width: 250px;
 	float: right;
 }
+
+
+fieldset {
+    border: 1px solid #CCCCCC;
+    padding: 5px 20px 20px 20px;
+	margin: 0 0 20px 0;
+}
+#mc-embedded-subscribe-form legend {
+    background: #FAFAFA;
+    border: 1px solid #ccc;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: capitalize;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+}
+#mc-embedded-subscribe-form p {
+	font-style: italic;
+	padding: 10px 0;
+}
+#mc-embedded-subscribe-form label {
+	font-size: 1.1em;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+	display: block;
+} 
+#mc-embedded-subscribe-form input[type="text"] {
+	width: 210px;
+}
+#mc-embedded-subscribe-form #mc-embedded-subscribe {
+	background: #FA023C;
+	color: #fff;
+	font-size: 1.2em;
+	letter-spacing: 0.1em;
+	margin: 15px 0 0 0;
+	padding: 5px 15px;
+	border: none;
+	float: right;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+
+#search h3 {
+	font-size: 1.3em;
+	padding: 0 0 5px 0;
+}
+#search input[type="text"] {
+	width: 190px;
+	float: left;
+}
+#search .button {
+	background: #FA023C;
+	color: #fff;
+	font-size: 1.2em;
+	letter-spacing: 0.1em;
+	padding: 7px;
+	float: right;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+}
+
 
 
 footer {
