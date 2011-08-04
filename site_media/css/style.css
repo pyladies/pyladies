@@ -91,6 +91,10 @@ em {
 	font-style: italic;
 }
 
+ul, ol {
+	margin: 0 0 10px 0;
+}
+
 input[type="text"] {
 	border: 1px solid #ccc;
 	height: 20px;
