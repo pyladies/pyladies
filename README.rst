@@ -1,8 +1,8 @@
 ========================================
-PyLadies: Website for the LA Women's Python Group
+PyLadies Website
 ========================================
 
-This is my version of the PyLadies website with cleaned up CSS and JS using the HTML5 Boilerplate. My spin on a new clean design inspired by the original look as well as the fork by maraujop.
+PyLadies is an international group of women who use and love the Python programming language. The main (pyladies.com) website is powered by Mezzanine (http://mezzanine.jupo.org/). Front-end design and development is by Christine Cheung (http://www.github.com/xtine) using HTML5Boilerplate and jQuery.
 
 
 How to Use
