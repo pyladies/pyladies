@@ -46,20 +46,22 @@
         {% endeditable %}
     {% endif %}
 
+    <div id="blog">
     {% for blog_post in blog_posts.object_list %}
-        <div class="blog-item" onclick="window.location.href='{% url blog_post_detail blog_post.slug %}'">
+        <article>
             {% editable blog_post.title blog_post.publish_date %}
-                <h2 class="blog-post-title">
+                <h3>
                     <a href="{% url blog_post_detail blog_post.slug %}">{{ blog_post.title }}</a>
-                </h2>
-                <em class="since">
+                </h3>
+                <div class="since">
+                    By 
                     {% with blog_post.user as author %}
                         <a href="{% url blog_post_list_author author %}">
                             {{ author.first_name }} {{ author.last_name }}
                         </a>
-                    {% endwith %}
-                    {{ blog_post.publish_date|timesince }} {% trans "ago" %}
-                </em>
+                    {% endwith %} posted
+                    {{ blog_post.publish_date }}
+                </div>
             {% endeditable %}
 
             {% editable blog_post.content %}
@@ -68,9 +70,10 @@
                 </div>
             {% endeditable %}
 
-            <p class="description">
-                <a href="{% url blog_post_detail blog_post.slug %}">{% trans "read more" %}</a> 
-                / 
+            <div class="more">
+                (<a href="{% url blog_post_detail blog_post.slug %}">{% trans "read more" %}</a>)
+            </div>
+            <div class="comments">
                 {% if use_disqus %}
                     <a href="{% url blog_post_detail blog_post.slug %}#disqus_thread">
                         {% trans "Comments" %}
@@ -84,14 +87,15 @@
                         {% endblocktrans %}
                     </a>
                 {% endif %}
-            </p>
-        </div>
+            </div>
+        </article>
     {% endfor %}
     {% pagination_for blog_posts %} 
 
     {% if use_disqus %}
         {% include "blog/includes/disqus_counts.html" %} 
     {% endif %}
+    </div>
 {% endblock %}
 
 {% block right_panel %}

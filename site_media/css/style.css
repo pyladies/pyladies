@@ -87,6 +87,9 @@ a {
 p {
 	padding: 0 0 10px 0;
 }
+em {
+	font-style: italic;
+}
 
 input[type="text"] {
 	border: 1px solid #ccc;
@@ -164,6 +167,11 @@ header ul li ul li a {
 	font-size: 1.5em;
 	padding: 0 0 7px 0;
 }
+#container #main h4 {
+	font-size: 1.2em;
+	padding: 0 0 5px 0;
+}
+
 
 #container aside {
 	width: 250px;
@@ -266,6 +274,47 @@ fieldset {
 }
 
 
+/* Blog Styles */
+#blog article {
+	padding: 15px 0;
+	margin: 10px 0;
+	border-top: 1px dotted #444;
+}
+#blog a {
+	color: #444;
+}
+#blog a:hover {
+	text-decoration: underline;
+}
+#blog .since {
+	padding: 0 0 5px 0;
+	font-style: italic;
+}
+#blog .more {
+	padding: 10px 0;
+	font-weight: bold;
+}
+#blog .comments {
+	padding: 10px 0;
+}
+
+
+/* Pagination */
+.paging ul {
+	margin: 0;
+}
+.paging ul li {
+	list-style: none;
+	margin: 5px;
+	padding: 7px 10px;	
+	border: 1px solid #444;
+	float: left;
+}
+.paging ul li a:hover {
+	font-weight: bold;
+	
+}
+
 
 footer {
 	text-align: center;
@@ -293,7 +342,7 @@ footer .copyright {
 
 
 
-.ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.ir { display: block; text-indent: -9999px; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
 .hidden { display: none; visibility: hidden; }
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
 .visuallyhidden.focusable:active,
