@@ -184,6 +184,10 @@ header ul li ul li a {
 	width: 250px;
 	float: right;
 }
+#container aside h3 {
+	font-size: 1.3em;
+	padding: 0 0 5px 0;
+}
 
 .facebook {
 	background: url(../img/facebook.png) top left no-repeat;
@@ -260,10 +264,6 @@ fieldset {
 	border-radius: 7px;
 }
 
-#search h3 {
-	font-size: 1.3em;
-	padding: 0 0 5px 0;
-}
 #search input[type="text"] {
 	width: 190px;
 	float: left;
@@ -303,6 +303,14 @@ fieldset {
 }
 #blog .comments {
 	padding: 10px 0;
+}
+
+#blog-side {
+	clear: both;
+	padding: 15px 0;
+}
+#blog-side ul {
+	list-style: none;
 }
 
 

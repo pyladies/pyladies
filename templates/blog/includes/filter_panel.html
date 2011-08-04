@@ -13,53 +13,51 @@
     {% endif %}
 {% endcomment %}
 
+<div id="blog-side">
 {% blog_months as months %}
 {% if months %}
-    <div id="blog-archive">
-        <h2>{% trans "Archive" %}</h2>
-        
-        <ul>
-            {% for month in months|slice:":10" %}
-                <li><a href="{% url blog_post_list_month year=month.year month=month.month %}">{{ month|date:"F Y" }}</a></li>
-            {% endfor %}
-
-            {% if months|length > 10 %}
-                <li><a href="#">{% trans "Complete archives" %}</a>
-            {% endif %}
-        </ul>
+    <h3>{% trans "Archive" %}</h3>
     
-        {% comment %}
-        {% for month in months %}
-            {% ifchanged month.year %}
-                {% if not forloop.first %}</ul>{% endif %}
-                <h3>{{ month.year }}</h3>
-                <ul>
-            {% endifchanged %}
-                    <li><a href="{% url blog_post_list_month year=month.year month=month.month %}"
-                        >{{ month|date:"F" }}</a></li>
+    <ul>
+        {% for month in months|slice:":10" %}
+            <li><a href="{% url blog_post_list_month year=month.year month=month.month %}">{{ month|date:"F Y" }}</a></li>
         {% endfor %}
-        </ul>
-        {% endcomment %}
-    </div>
+
+        {% if months|length > 10 %}
+            <li><a href="#">{% trans "Complete archives" %}</a>
+        {% endif %}
+    </ul>
+
+    {% comment %}
+    {% for month in months %}
+        {% ifchanged month.year %}
+            {% if not forloop.first %}</ul>{% endif %}
+            <h3>{{ month.year }}</h3>
+            <ul>
+        {% endifchanged %}
+                <li><a href="{% url blog_post_list_month year=month.year month=month.month %}"
+                    >{{ month|date:"F" }}</a></li>
+    {% endfor %}
+    </ul>
+    {% endcomment %}
+
 {% endif %}
 
 {% blog_categories as categories %}
 {% if categories %}
-    <div id="blog-categories">
-        <h2>{% trans "Categories" %}</h2>
-        <ul>
-            {% for category in categories %}
-                <li><a href="{% url blog_post_list_category category.slug %}"
-                    >{{ category }}</a></li>
-            {% endfor %}
-        </ul>
-    </div>
+    <h3>{% trans "Categories" %}</h3>
+    <ul>
+        {% for category in categories %}
+            <li><a href="{% url blog_post_list_category category.slug %}"
+                >{{ category }}</a></li>
+        {% endfor %}
+    </ul>
 {% endif %}
 
 {% comment %}
     {% blog_tags as tags %}
     {% if tags %}
-        <h2>{% trans "Tags" %}</h2>
+        <h3>{% trans "Tags" %}</h3>
         <ul class="tags">
         {% for tag in tags %}
             <li><a href="{% url blog_post_list_tag tag.slug %}" 
@@ -80,8 +78,9 @@
     {% endif %}
 {% endcomment %}
 
-<h2>{% trans "Feeds" %}</h2>
+<h3>{% trans "Feeds" %}</h3>
 <a href="{% url blog_post_feed "rss" %}">{% trans "RSS" %}</a> /
 <a href="{% url blog_post_feed "atom" %}">{% trans "Atom" %}</a>
 
+</div>
 

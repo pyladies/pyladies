@@ -42,18 +42,18 @@
 {% endblock %}
 
 {% block main %}
-<div id="blog-article">
-    <h1>{% editable blog_post.title %}{{ blog_post.title }}{% endeditable %}</h1>
+<div id="blog">
+    <h2>{% editable blog_post.title %}{{ blog_post.title }}{% endeditable %}</h2>
     <p>
         <em>
-            {% trans "Posted by" %}
+            {% trans "By" %}
             <strong>
                 {% with blog_post.user as author %}
                 <a href="{% url blog_post_list_author author %}"
                     >{{ author.get_full_name|default:author.username }}</a>
                 {% endwith %}
             </strong>
-            {{ blog_post.publish_date|timesince }} {% trans "ago" %}
+            posted {{ blog_post.publish_date }}
         </em>
         {% comment %}
             (<a href="#comments">{% spaceless %}
