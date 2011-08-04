@@ -1,32 +1,38 @@
 
-{% load twitter_tags i18n %}
+<div class="twitter-widget">
+    
+<h3>Twitter</h3>
+    
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 6000,
+  width: 250,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#ffffff',
+      color: '#000000'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#000000',
+      links: '#eb0762'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    hashtags: true,
+    timestamp: true,
+    avatars: false,
+    behavior: 'all'
+  }
+}).render().setUser('pyladies').start();
+</script>
 
-{% tweets_for_list "la-python-ladies" 5 as tweets %}
-
-{% if tweets %}
-<h3>{% trans "Recent Tweets" %}</h3>
-<ul class="tweets">
-    {% for tweet in tweets %}
-    <li>
-
-        <img src="{{ tweet.profile_image_url }}"><a
-            href="http://twitter.com/{{ tweet.user_name }}"
-            >{{ tweet.user_name }}</a>
-            {% ifnotequal tweet.user_name tweet.full_name %}<span class="name">{{ tweet.full_name }}</span>{% endifnotequal %}
-
-        {% if tweet.is_retweet %}
-        <p><span class="recycle">&#x267B;</span>
-        <img class="retweet" src="{{ tweet.retweeter_profile_image_url }}"><a
-            href="http://twitter.com/{{ tweet.retweeter_user_name }}"
-            >{{ tweet.retweeter_full_name }}</a></p>
-        {% endif %}
-
-        <div>{{ tweet.text|safe }}</div>
-
-        <span class="timespan">
-            {{ tweet.created_at|timesince }} {% trans "ago" %}
-        </span>
-    </li>
-    {% endfor %}
-</ul>
-{% endif %}
+</div>
