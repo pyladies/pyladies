@@ -12,6 +12,7 @@ admin.autodiscover()
 # the project's homepage.
 urlpatterns = patterns("",
     ("^admin/", include(admin.site.urls)),
-    url("^$", direct_to_template, {"template": "index.html"}, name="home"),
+    url("^$", "mezzanine.pages.views.page", {"slug": "home"}, name="home"),
+    # url("^$", direct_to_template, {"template": "index.html"}, name="home"),
     ("^", include("mezzanine.urls")),
 )
