@@ -91,10 +91,7 @@ em {
 	font-style: italic;
 }
 
-ul {
-	margin: 0 0 10px 0;
-}
-ol {
+ul, ol {
 	margin: 0 0 10px 25px;
 }
 
