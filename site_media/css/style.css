@@ -165,11 +165,41 @@ header ul li ul li a {
 	float: right;
 }
 
+.facebook {
+	background: url(../img/facebook.png) top left no-repeat;
+	width: 50px;
+	height: 50px;
+	margin: 0 10px 20px 20px;
+	float: left;
+}
+.twitter {
+	background: url(../img/twitter.png) top left no-repeat;
+	width: 50px;
+	height: 50px;
+	margin: 0 10px 20px 0;
+	float: left;
+}
+.github {
+	background: url(../img/github.png) top left no-repeat;
+	width: 100px;
+	height: 44px;
+	margin: 0 0 20px 0;
+	float: left;
+}
+.facebook a, .twitter a, .github a {
+	text-indent: -9999px;
+	width: inherit;
+	height: inherit;
+	display: block;
+}
 
 fieldset {
     border: 1px solid #CCCCCC;
     padding: 5px 20px 20px 20px;
 	margin: 0 0 20px 0;
+}
+#mc-embedded-subscribe-form {
+	clear: both;
 }
 #mc-embedded-subscribe-form legend {
     background: #FAFAFA;
@@ -235,6 +265,7 @@ fieldset {
 footer {
 	text-align: center;
 	padding-top: 10px;
+	clear: both;
 }
 footer ul li {
 	border-top: 1px dotted #ccc;
