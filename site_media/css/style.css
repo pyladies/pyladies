@@ -158,6 +158,11 @@ header ul li ul li a {
 }
 #container #main h2 {
 	font-size: 2em;
+	padding: 0 0 10px 0;
+}
+#container #main h3 {
+	font-size: 1.5em;
+	padding: 0 0 7px 0;
 }
 
 #container aside {
