@@ -1,4 +1,4 @@
-(function ($) {
+var PyLadies = (function () {
 
 	$('header li').hover(
 		function () {
@@ -12,4 +12,4 @@
 		}
 	);
 
-})(jQuery)
+})();

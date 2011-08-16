@@ -53,7 +53,7 @@
                 <h3>
                     <a href="{% url blog_post_detail blog_post.slug %}">{{ blog_post.title }}</a>
                 </h3>
-                <div class="since">
+                <div class="byline">
                     By 
                     {% with blog_post.user as author %}
                         <strong>

@@ -14,22 +14,7 @@
 {{ blog_post.description }}
 {% endmetablock %}{% endblock %}
 
-
-{% block extra_head %}
-<script type="text/javascript" 
-    src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js">
-</script>
-<script type="text/javascript">
-    $(function() {
-        $('.reply').click(function() {
-            $(this).next('.comment').toggle();
-        });
-    });
-</script>
-{% endblock %}
-
-{% block title %}
-{% endblock %}
+{% block title %}{% endblock %}
 
 {% block body_id %}blog-item{% endblock %}
 
@@ -43,62 +28,64 @@
 
 {% block main %}
 <div id="blog">
-    <h2>{% editable blog_post.title %}{{ blog_post.title }}{% endeditable %}</h2>
-    <p>
-        <em>
-            {% trans "By" %}
-            <strong>
-                {% with blog_post.user as author %}
-                <a href="{% url blog_post_list_author author %}"
-                    >{{ author.get_full_name|default:author.username }}</a>
-                {% endwith %}
-            </strong>
-            posted {{ blog_post.publish_date }}
-        </em>
-        {% comment %}
-            (<a href="#comments">{% spaceless %}
-                {% blocktrans count blog_post.num_comments as num_comments %}
-                1 comment
-                {% plural %}
-                {{ num_comments }} comments
-                {% endblocktrans %}
-            {% endspaceless %}</a>)
-        {% endcomment %}
-    </p>
+    <article>
+        <h2>{% editable blog_post.title %}{{ blog_post.title }}{% endeditable %}</h2>
+        <p>
+            <em>
+                {% trans "By" %}
+                <strong>
+                    {% with blog_post.user as author %}
+                    <a href="{% url blog_post_list_author author %}"
+                        >{{ author.get_full_name|default:author.username }}</a>
+                    {% endwith %}
+                </strong>
+                posted {{ blog_post.publish_date }}
+            </em>
+            {% comment %}
+                (<a href="#comments">{% spaceless %}
+                    {% blocktrans count blog_post.num_comments as num_comments %}
+                    1 comment
+                    {% plural %}
+                    {{ num_comments }} comments
+                    {% endblocktrans %}
+                {% endspaceless %}</a>)
+            {% endcomment %}
+        </p>
 
-    {% editable blog_post.content %}
-    {{ blog_post.content|safe }}
-    {% endeditable %}
+        {% editable blog_post.content %}
+        {{ blog_post.content|safe }}
+        {% endeditable %}
 
-    {% with blog_post.keywords.all as tags %}
-    {% if tags %}
-    <div class="tags">
-        {% trans "Tags" %}: 
-        <ul>
-            {% for tag in tags %}
-            <li><a href="{% url blog_post_list_tag tag.slug %}" 
-                class="tag-weight-{{ tag.weight }}">#{{ tag }}</a></li>
-            {% endfor %}
-        </ul>
-    </div>
-    {% endif %}
-    {% endwith %}
+        {% with blog_post.keywords.all as tags %}
+        {% if tags %}
+        <div class="tags">
+            {% trans "Tags" %}: 
+            <ul>
+                {% for tag in tags %}
+                <li><a href="{% url blog_post_list_tag tag.slug %}" 
+                    class="tag-weight-{{ tag.weight }}">#{{ tag }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+        {% endwith %}
 
-    <div class="share">
-    {% set_short_url_for blog_post %}
-    {% trans "Share this on:" %} 
-    <a target=_"blank" href="http://twitter.com/home?status={{ blog_post.short_url|urlencode }}%20{{ blog_post.title|urlencode }}">Twitter</a>
-     / 
-    <a target=_"blank" href="http://facebook.com/sharer.php?u={{ request.build_absolute_uri }}&t={{ blog_post.title|urlencode }}">Facebook</a>
-    </div>
+        <div class="share">
+        {% set_short_url_for blog_post %}
+        {% trans "Share this on:" %} 
+        <a target=_"blank" href="http://twitter.com/home?status={{ blog_post.short_url|urlencode }}%20{{ blog_post.title|urlencode }}">Twitter</a>
+         / 
+        <a target=_"blank" href="http://facebook.com/sharer.php?u={{ request.build_absolute_uri }}&t={{ blog_post.title|urlencode }}">Facebook</a>
+        </div>
 
-    <div id="comments">
-    {% if use_disqus %}
-    {% include "blog/includes/disqus_comments.html" %} 
-    {% else %}
-    {% include "blog/includes/comments.html" %} 
-    {% endif %}
-    </div>
+        <div id="comments">
+        {% if use_disqus %}
+        {% include "blog/includes/disqus_comments.html" %} 
+        {% else %}
+        {% include "blog/includes/comments.html" %} 
+        {% endif %}
+        </div>
+    </article>
 </div>
 
 {% endblock %}
