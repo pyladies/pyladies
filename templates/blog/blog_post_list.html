@@ -75,21 +75,7 @@
             <div class="more">
                 (<a href="{% url blog_post_detail blog_post.slug %}">{% trans "read more" %}</a>)
             </div>
-            <div class="comments">
-                {% if use_disqus %}
-                    <a href="{% url blog_post_detail blog_post.slug %}#disqus_thread">
-                        {% trans "Comments" %}
-                    </a>
-                {% else %}
-                    <a href="{% url blog_post_detail blog_post.slug %}#comments">
-                        {% blocktrans count blog_post.num_comments as num_comments %}
-                            1 comment
-                            {% plural %}
-                            {{ num_comments }} comments
-                        {% endblocktrans %}
-                    </a>
-                {% endif %}
-            </div>
+
         </article>
     {% endfor %}
     {% pagination_for blog_posts %} 
