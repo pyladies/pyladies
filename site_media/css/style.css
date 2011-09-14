@@ -112,8 +112,14 @@ header h1 {
 	height: 65px;
 	position: absolute;
 }
+header h1 a {
+	width: inherit;
+	height: inherit;
+	display: block;
+}
 header ul {
-	float: right;
+	float: left;
+	padding: 0 0 0 160px;
 }
 header ul li {
 	font-size: 1.5em;
@@ -136,6 +142,7 @@ header ul li.active {
 header ul li ul {
 	position: absolute;
 	display: none;
+	padding: 0;
 }
 header ul li ul li {
 	font-size: 0.8em;
