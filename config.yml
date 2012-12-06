@@ -1,0 +1,12 @@
+base_url: /
+domain: pyladies.com
+author: PyLadies
+title: PyLadies
+post_limit: 10
+archive_layout: archive.html
+archives_url: /archives/
+jinja:
+    extensions:
+        - jinja2.ext.loopcontrols
+tag_layout: tag.html
+tags_url: /tags/
