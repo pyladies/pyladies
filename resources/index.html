@@ -1,0 +1,119 @@
+{% extends "site.html" %}
+{% block title %}Resources{% endblock %}
+{% block content %}
+    <section id="archive">
+        <h1>Resources</h1>
+        <img src="{{ get_asset('images/pylady_geek.png') }}" width="150" height="83">
+            <article>
+                <p>Here's a list of useful resources for learning and using Python. If you have further questions, please come to the next PyLadies event and ask any of the organizers for advice or help. </p>
+
+                <p>We also go to all the Python user group meetups in the area (see below). You should come too -- it's a fun community! Don't be shy about bothering any of us for Python help at user groups.</p>
+
+                <h3>Learning Python</h3>
+                <h4>Tutorials & How-tos</h4>
+                <ul>
+                    <li><a href="http://learnpythonthehardway.org/" title="LPTHW">Learn Python The Hard Way</a></li>
+                    <li><a href="http://greenteapress.com/thinkpython/html/">How to Think Like a Computer Scientist </a></li>
+                    <li><a href="http://krondo.com/?page_id=1327" title="Intro to Twisted">Introduction to Twisted</a>: A thorough introduction to Twisted and Asyncronous programming in Python. </li>
+                    <li><a href="http://try.github.com/levels/1/challenges/1" title="tryGit">tryGit</a>: Learn Git with GitHub&amp; Codeschool&#39;s new tutorial. </li>
+                    <li> Model, View, Controller <a href="http://www.tomdalling.com/blog/software-design/model-view-controller-explained" title="MVC Explained">explained</a>.</li>
+                    <li> Basic Python Syntax <a href="http://www.tutorialspoint.com/python/python_basic_syntax.htm" title="Basic Python Syntax">Tutorial</a>. (Helpful for both new toprogramming in general, and new to Python with prior programming experience).</li>
+                    <li> Django tutorial:<a href="http://lightbird.net/dbe/blog.html" title="Django Simple Blog">A simple Blog</a> (uses an old version of Django).</li>
+                    
+                    <li><a href="http://people.csail.mit.edu/pgbovine/python/" title="Online Python Tutorial">Online Python Tutor</a>: Learn &amp; Practice programming in your browser.</li>
+                    <li><a href="http://craigkerstiens.com/2012/06/19/pro-tips-for-conference-talks/" title="Conference Pro Tips">Protips on Conference Talks</a>: Thinking about giving a talk at a conference? Here is some great advice on how to rock it!</li>
+                </ul>
+
+                <h4>Libraries</h4>
+                <ul>
+                    <li><a href="%20http://pypi.python.org/pypi/pep8" title="PEP-8 tool">>PEP-8 Style Guide Checker</a>: Are you writing code according to the standard Python guidelines?  Have no idea?  Try out this library.</li>
+                    <li><a href="https://github.com/BrewerHimself/Logr" title="Simple Python blogger">Logr</a>: Simple Python blogger. </li>
+                    <li><a href="https://github.com/kennethreitz/legit" title="Git for Humans">Git Legit</a>: Git for Humans.</li>
+                </ul>
+
+                <h4>User Groups</h4>
+                <p>A great way to continue learning Python is to work on your own, then attend presentations and ask questions at local user groups.Attend as many as you can!</p>
+
+                <ul>
+                    <li><a href="http://pyladies.com/">PyLadies</a></li>
+                    <li><a href="http://socal-piggies.org/scp">SoCal Piggies</a></li>
+                    <li><a href="http://www.meetup.com/lapython/">LA Python</a></li>
+                    <li><a href="http://www.meetup.com/ladjango/">LA Django (see below)</a></li>
+                </ul>
+
+                <h4>Newsletters</h4>
+                <ul>
+                    <li><a href="http://www.pythonweekly.com">Python Weekly</a> is a free weekly newsletter all about Python (articles, news, jobs, etc) http://www.pythonweekly.com</li>
+                    <li><a href="http://pycoders.com">Pycoders Weekly</a> is another free weekly newsletter.</a></li>
+                </ul>
+
+
+                <h3>Tools</h3>
+                <h4>Text editors</h4>
+                <ul>
+                    <li>gEdit (Linux & Mac OS X)</li>
+                    <li>Notepad++ (Windows)</li>
+                    <li>Sublime (Windows, Max OS X, and Linux) </li>
+                    <li><a href="http://opensourcehacker.com/2012/05/11/sublime-text-2-tips-for-python-and-web-developers/" title="Sublime Text 2 for Python &amp; Web Developers">Sublime for Python and Web Developers</a>: How to squeeze more power out of one of the most popular, light weight text editors for Python.</li>
+                    <li><a href="https://www.shortcutfoo.com/app/tutorial/sublimetext" title="Sublime Shortcuts">Sublime Short cuts</a>**: Learn to get more out of the latest text editor. </li>
+                </ul><br />
+
+                <p>More "advanced" editors are emacs, vim (although @audreyr knows how to use both of those pretty well and still swears by gEdit for everything)</p>
+
+                <h4>IDEs</h4>
+                <p>PyCharm, Eclipse with PyDev plugin, Wingware</p>
+
+                <h4>Highly recommended Python package tools</h4>
+                <ul>
+                    <li><a href="http://www.pip-installer.org/">pip</a>: better installation of packages</li>
+                    <li><a href="http://www.virtualenv.org/">virtualenv</a>: create isolated Python environments</li>
+                    <li><a href="http://www.doughellmann.com/projects/virtualenvwrapper/">virtualenvwrapper</a>: make virtualenv easier to use</li>
+                </ul>
+
+                <h3>Using Python to build web apps</h3>
+
+                <h4>Django</h4>
+
+                <p>One of the most popular web frameworks: Official <a href="http://www.djangoproject.com/">Django</a> poll app <a href="https://docs.djangoproject.com/en/1.4/intro/tutorial01/">tutorial</a>: recommended if you don’t know where to start with using Python for web programming. Develop your web app locally and then deploy it onto a web server.</p>
+
+                <a href="http://www.konstruktor.ee/blog/django-the-undocumented-settings/" title="Django: the Undocumented Settings">Django: The Undocumented Settings</a>: Tricks when writing the settings.py file for Django. </li>
+
+                <p>We recommend one of the following Django hosting options:</p>
+                    <ul>
+                        <li><a href="http://djangozoom.com/">DjangoZoom</a></li>
+                        <li><a href="http://www.webfaction.com/">Webfaction</a></li>
+                        <li><a href="https://heroku.com/">Heroku</a> and <a href="https://devcenter.heroku.com/articles/django" title="tutorial for Django on Heroku">Getting Started with Django from Heroku</a>: A tutorial using Django and deploying with Heroku.  Assumes some knowledge of virtual environments. </li>
+                        <li><a href="http://www.ep.io/">ep.io</a></li>
+                    </ul>
+
+                <p>Several of the PyLadies organizers use Django regularly and are members of LA Django. Come to this meetup every month to learn <a href="http://www.meetup.com/ladjango/">more.</a></p>
+
+                <h4>Other web frameworks</h4>
+                <p>These have smaller communities but can also be interesting, depending on your needs:
+                    <ul>
+                        <li><a href="http://docs.pylonsproject.org/projects/pyramid/dev/">Pyramid (merger of Pylons and repoze.bfg)</a></li>
+                        <li><a href="http://flask.pocoo.org/">Flask</a></li>
+                        <li><a href="http://code.google.com/appengine/">GAE</a></li>
+                    </ul>
+                </p>
+
+                <h3>Organizing your own women's Python workshops</h3>
+
+                <p>Are you interested in doing a women's Python workshop of your own in your city? Email any of the organizers and we'll help you get the word out. We'll tweet, post blog entries, and do whatever we can to help.</p>
+                <p>We don't care what you call it, how you structure it, or whether you're male or female. Any effort you put into encouraging women to join the Python community is something that we support. </p>
+
+                <h4>Other workshop materials</h4>
+                <p>Here are links to other women's Python workshops. If you don't reach out to us, reach out to them.</p>
+                <ul>
+                    <li><a href="http://pystar.org/">PyStar</a></li>
+                    <li><a href="http://wiki.montrealpython.org/wiki/PythonIntroduction-2011-05-03">Montrael Python</a></li>
+                </ul>
+
+                <h3>Community-building</h3>
+                <p>Workshops are just one part of PyLadies' effort to increase the female count in the Python world. PyLadies is a community of female developers who care about helping other women get into Python.</p>
+
+                <p>We plan to put together a package of materials to help you build your own local women's Python community. We'll be posting a "PyLadies Kit" here soon.</p>
+
+            </article>
+    </section>
+{% endblock %}

@@ -1,0 +1,20 @@
+base_url: /
+domain: pyladies.com
+author: A PyLady
+subtitle: Women Who Love Coding in Python
+title: PyLadies
+post_limit: 1
+date_format: "%B %d, %Y"
+posts_url: /blog/<title>/
+analytics: UA-36930002-1
+feed: true
+social:
+    github: http://github.com/pyladies
+    google_plus: https://plus.google.com/communities/108807002736066163985
+archive_layout: archive.html
+archives_url: /archives/
+jinja:
+    extensions:
+        - jinja2.ext.loopcontrols
+tag_layout: tag.html
+tags_url: /tags/
