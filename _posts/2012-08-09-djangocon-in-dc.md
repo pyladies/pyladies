@@ -3,7 +3,7 @@ layout: post.html
 title: DjangoCon 2012: Pro Tips for those new to D.C.
 tags: [Events]
 ---
-[This guest post is lifted straight from D.C. PyLady Katie's [wonderful blog](http://therealkatie.net/blog/2012/aug/7/djangocon-dc-tips/)! She will be writing a [series of posts](http://therealkatie.net/blog/) to help Djangonauts from all over feel at home in the U.S. capital come early September!]
+[_This guest post is lifted straight from D.C. PyLady Katie's [wonderful blog](http://therealkatie.net/blog/2012/aug/7/djangocon-dc-tips/)! She will be writing a [series of posts](http://therealkatie.net/blog/) to help Djangonauts from all over feel at home in the U.S. capital come early September!_]
 
 #Coming to DjangoCon in September? Let's have a chat about DC.
 
