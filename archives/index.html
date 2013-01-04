@@ -1,10 +1,10 @@
-{% extends 'layout.html' %}
+{% extends 'site.html' %}
 
 
 {% set title = 'Archives' %}
 
 {% block content %}
-    <h2>Archives</h2>
+    <h1>Archives</h1>
     {% for year, archive in archives %}
         <dl class="archives">
             <dt><a href="{{ get_url(archive.url) }}">{{ year }}</a></dt>

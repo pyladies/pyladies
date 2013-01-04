@@ -1,0 +1,10 @@
+Jinja2==2.6
+PyYAML==3.10
+Pygments==1.5
+argh==0.17.2
+argparse==1.2.1
+misaka==1.0.2
+mynt==0.2.2
+pathtools==0.1.2
+watchdog==0.6.0
+wsgiref==0.1.2
