@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+mynt gen -f _site
+mkdir _site/feed
+cp _site/feed.xml _site/feed/index.html
