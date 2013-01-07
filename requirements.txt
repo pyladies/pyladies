@@ -10,3 +10,4 @@ pathtools==0.1.2
 static==0.4
 watchdog==0.6.0
 wsgiref==0.1.2
+goldenarch
