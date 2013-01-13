@@ -545,6 +545,19 @@ body {
 .nav-wrapper, .footer-wrapper {
   width: 100%; }
 
+.nav-wrapper > li {
+	float: left;
+	border-right: 1px solid #77805f;
+}
+.nav-wrapper > li:last-child {
+	border-right: none;
+}
+.nav-wrapper > li a:hover {
+	text-decoration: underline;
+	color: #dd4a38;
+	padding: 0 10px;
+}
+
 .footer-wrapper {
   background-color: #313236; }
 nav {
