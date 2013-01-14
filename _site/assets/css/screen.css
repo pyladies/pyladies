@@ -154,9 +154,7 @@ ol > li {
 ol > li:before {
   content: counter(item, decimal) ".";
 }
-ul > li:before {
-  content: "\2022";
-}
+
 ul.unstyled > li:before {
   padding-right: 0px;
   content: none;
