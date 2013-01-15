@@ -16,19 +16,19 @@
 <body>
     <nav>
         
-        <ul class="nav-wrapper">
-            <a href="{{ get_url('/') }}">Home</a> |
-            <a href="{{ get_url('about/') }}">About</a> |
-            <a href="{{ get_url('blog/') }}">Blog</a> | 
-            <a href="{{ get_url('locations/') }}">Locations</a>
+        <ul class="nav-wrapper nav-narrow">
+            <li><a href="{{ get_url('/') }}">Home</a></li>
+            <li><a href="{{ get_url('about/') }}">About</a></li>
+            <li><a href="{{ get_url('blog/') }}">Blog</a></li>
+            <li><a href="{{ get_url('locations/') }}">Locations</a></li>
         </ul>
         <a href="/"><img src="{{ get_asset('images/pyladies_logo.png') }}" width="300" height="130"></a>
-        <ul class="nav-wrapper">
-            <a href="{{ get_url('sponsor/') }}">Sponsor Us</a> |
-            <a href="{{ get_url('resources/') }}">Resources</a> |
-            <a href="{{ get_url('CodeOfConduct/') }}">Code of Conduct</a> |
-            {% if site.feed %}<a href="{{ get_url('feed.xml') }}">Feed</a> |{% endif %}
-            <a href="mailto:info@pyladies.com?subject=Hello" id="contact-link">Contact</a>
+        <ul class="nav-wrapper nav-wide">
+            <li><a href="{{ get_url('sponsor/') }}">Sponsor Us</a></li>
+            <li><a href="{{ get_url('resources/') }}">Resources</a></li>
+            <li><a href="{{ get_url('CodeOfConduct/') }}">Code of Conduct</a></li>
+            {% if site.feed %}<li><a href="{{ get_url('feed.xml') }}">Feed</a></li>{% endif %}
+            <li><a href="mailto:info@pyladies.com?subject=Hello" id="contact-link">Contact</a></li>
         </ul>
     </nav>
     <div class="page">
@@ -38,10 +38,10 @@
     <div class="footer-wrapper">
             <footer id="bottom">
                 <ul class="social">
-                    <a class="icon google-plus" data-icon="&#62223;" href="https://plus.google.com/communities/108807002736066163985" title="Google+"></a>
-                    <a class="icon github" data-icon="&#62208;" href="http://github.com/pyladies" title="GitHub"></a>
-                    <a class="icon rss" data-icon="&#59194;" href="{{ get_url('feed.xml', true)}}" title="RSS"></a>
-                    <a class="icon creative-commons" data-icon="&#128325;" href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons"></a>2007 - {{ None|date('%Y') }} PyLadies. All Rights Reserved.
+                    <li><a class="icon google-plus" data-icon="&#62223;" href="https://plus.google.com/communities/108807002736066163985" title="Google+"></a></li>
+                    <li><a class="icon github" data-icon="&#62208;" href="http://github.com/pyladies" title="GitHub"></a></li>
+                    <li><a class="icon rss" data-icon="&#59194;" href="{{ get_url('feed.xml', true)}}" title="RSS"></a></li>
+                    <li><a class="icon creative-commons" data-icon="&#128325;" href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons"></a>2007 - {{ None|date('%Y') }} PyLadies. All Rights Reserved.</li>
                 </ul>
             </footer>
     </div>
