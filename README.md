@@ -1,6 +1,6 @@
 # Overview
 
-This is the source code for the http://pyladies.org/ website. It uses
+This is the source code for the http://pyladies.com/ website. It uses
 `mynt`, a static site generator.
 
 ## Directory Layout
@@ -62,12 +62,7 @@ tags: [list, of relevant, tags]
 
 4. (PyLadies) $ `mynt _gen -f _site && mynt serve _site`
 
-## Hosting
-
-It's currently hosted on Heroku for free with some .htaccess tricks to
-redirect pyladies.com -> www.pyladies.com (since heroku doesn't
-support naked domains).
-
+## For Organizers
 ### Your own domain/site:
 
 You are welcome to create your own location's webspace,
