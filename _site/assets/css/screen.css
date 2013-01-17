@@ -542,6 +542,35 @@ body {
 
 .nav-wrapper, .footer-wrapper {
   width: 100%; }
+.nav-wrapper {
+	margin: 15px auto;
+	text-align: center;
+	overflow: hidden;
+}
+.nav-wrapper > li {
+	list-style-type: none;
+	float: left;
+	padding: 0 10px;
+	text-transform: none;
+	border-right: 1px solid #77805f;
+}
+.nav-wrapper > li:before {
+	content: "";
+}
+.nav-wrapper > li:last-child {
+	border-right: none;
+}
+
+.nav-narrow {
+	width: 30%;
+}
+.nav-wide {
+	width: 55%;
+}
+.nav-wrapper > li a:hover {
+	text-decoration: underline;
+	color: #dd4a38;
+}
 
 .footer-wrapper {
   background-color: #313236; }
@@ -805,7 +834,8 @@ footer {
     width: 49.15254%;footer
     float: left;
     margin-right: 1.69492%;
-    display: inline; }
+    display: inline;
+    color: #dd3a38; }
     /* line 205, ../sass/screen.scss */
     footer ul.social li {
       display: inline; }
@@ -1004,6 +1034,20 @@ article li span {
   font-size: 72px;
   border-bottom: none;
   margin-right: 0.25em; }
+.social .icon > li {
+	float: left;
+	padding: 0 10px 0 0;
+}
+.social > li:before {
+	content: "";
+}
+footer .social li a.icon {
+	color: #dd4a38;
+}
+footer .social li a.icon:hover {
+	color: #dd4a38;
+	text-decoration: none;
+}
   .social .icon.google-plus:before, .social .icon.twitter:before, .social .icon.tumblr:before, .social .icon.github:before, .social .icon.dribbble:before, .social .icon.instagram:before, .social .icon.pinterest:before {
     font-family: 'entypo-social';
     content: attr(data-icon); }
