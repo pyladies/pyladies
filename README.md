@@ -7,11 +7,11 @@ This is the source code for the http://pyladies.org/ website.
 1. Fork http://github.com/pyladies/pyladies to your own github account.
 2. Clone to your machine
 3. Create a virtualenv called PyLadies
-4. (PyLadies) $ pip install -r requirements.txt
-5. (PyLadies) $ mynt gen -f _site && mynt serve _site
+4. (PyLadies) $ `pip install -r requirements.txt`
+5. (PyLadies) $ `mynt gen -f _site && mynt serve _site`
 
-How to fork and clone: https://help.github.com/articles/fork-a-repo
-How to create a virtualenv: http://simononsoftware.com/virtualenv-tutorial/
+* How to fork and clone: https://help.github.com/articles/fork-a-repo
+* How to create a virtualenv: http://simononsoftware.com/virtualenv-tutorial/
 
 **Note**: It is important that when you create your virtualenv, do not
 create it in the same folder as the code you downloaded. The reason is
@@ -21,7 +21,7 @@ it will find your virtualenv folder and error out).
 
 ## To write a blog post
 
-1. Write it in Markdown (suggestion: Mou.app for mac is create for
+1. Write it in Markdown (Suggestion: Mou.app for mac is create for
 Markdown - gives you a preview while you write)
 
 2. The very top of the blog post needs the following (including the
@@ -37,7 +37,7 @@ tags: [list, of relevant, tags]
 
 3. Save in _posts
 
-4. (PyLadies) $ mynt _gen -f _site && mynt serve _site
+4. (PyLadies) $ `mynt _gen -f _site && mynt serve _site`
 
 ## Hosting
 
@@ -67,3 +67,6 @@ Suggestions:
 I _really_ don't mind if you want to do a whole different design that
 doesn't match w/ the current homepage. Maybe keep it as mynt though
 - but your choice completely.
+
+
+-your friendly administrator.
