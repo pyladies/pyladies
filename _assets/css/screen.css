@@ -549,7 +549,7 @@ body {
 }
 .nav-wrapper > li {
 	list-style-type: none;
-	float: left;
+	float: center;
 	padding: 0 10px;
 	text-transform: none;
 	border-right: 1px solid #77805f;
@@ -562,10 +562,11 @@ body {
 }
 
 .nav-narrow {
-	width: 30%;
+	width: 55%%;
 }
 .nav-wide {
-	width: 55%;
+	width: 85%;
+
 }
 .nav-wrapper > li a:hover {
 	text-decoration: underline;
