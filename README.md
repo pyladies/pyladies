@@ -14,11 +14,9 @@ things that aren't labeled contain content for the website.
 ├── CodeOfConduct
 ├── _assets        # javascript and CSS stuff goes here
 ├── _posts         # these are the blog posts written in markdown
-├── _site          # this is the compiled website. Don't edit things here.
 ├── _templates     # these are the base templates that other things use.
 ├── about
 ├── archives
-├── bin            # this contains a script to build the website.
 ├── blog
 ├── locations
 ├── resources
