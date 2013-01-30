@@ -14,7 +14,7 @@
 
 ## Images
 
-If you wish to include images, they must be 500 pixels wide or less. You should own the images you're submitting or they should be available under a Creative Commons license.
+If you wish to include images, they must be 500 pixels wide or less. You must own the images you're submitting, or they must be available under a Creative Commons license.
 
 ## Formatting
 
