@@ -6,7 +6,7 @@ This is the source code for the http://pyladies.com/ website. It uses
 ## Directory Layout
 
 This is a general overview of the top-level directory structure. The
-things that aren't labeled contain content for the website. 
+things that aren't labeled contain content for the website.
 
 
 ```
@@ -42,23 +42,7 @@ it will find your virtualenv folder and error out).
 
 ## To write a blog post
 
-1. Write it in Markdown (Suggestion: Mou.app for mac is create for
-Markdown - gives you a preview while you write)
-
-2. The very top of the blog post needs the following (including the
-three dashes before & after the layout/title/tags):
-
-```
----
-layout: post.html
-title: "Your title here"
-tags: [list, of relevant, tags]
----
-```
-
-3. Save in _posts
-
-4. (PyLadies) $ `mynt _gen -f _site && mynt serve _site`
+See [CONTRIBUTING.md](https://github.com/pyladies/pyladies/blob/master/CONTRIBUTING.md) for instructions and guidelines.
 
 ## For Organizers
 ### Your own domain/site:
