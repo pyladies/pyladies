@@ -4,6 +4,7 @@
     <section id="archive">
         <h1>Blog</h1>
             <article>
+                <h2>Blog</h2>
                 {% for post in posts %}
                     <h3><a href="{{ get_url(post.url) }}">{{ post.title }}</a></h3>
                     <time pubdate datetime="{{ post.timestamp|date('%Y-%m-%d') }}">{{ post.date }}</time>
