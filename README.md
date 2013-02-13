@@ -25,6 +25,10 @@ things that aren't labeled contain content for the website.
 
 ## To run locally
 
+**Note**: before continuing, make sure you have headers for Python and libevent
+installed (e.g., on Ubuntu, **python-dev** and **libevent-dev**). Packages in
+requirements.txt require these to compile successfully.
+
 1. Fork http://github.com/pyladies/pyladies to your own github account.
 2. Clone to your machine
 3. Create a virtualenv called PyLadies
