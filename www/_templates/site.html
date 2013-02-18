@@ -3,7 +3,7 @@
 <html>
 <head>
     {% if site.title %}
-    <title>{% if title %}{{ title }} &ndash; {% endif %}{{ site.title }}{% if not title and site.subtitle %} &ndash; {{ site.subtitle }}{% endif %}</title>{% endif %}
+    <title>{% block title %}{% if title %}{{ title }} &ndash; {% endif %}{{ site.title }}{% if not title and site.subtitle %} &ndash; {{ site.subtitle }}{% endif %}{% endblock %}</title>{% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="{{ get_asset('css/pygments.css') }}" media="screen" title="screen">
     <link rel="stylesheet" href="{{ get_asset('css/screen.css') }}" media="screen" title="screen">
