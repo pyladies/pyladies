@@ -33,7 +33,8 @@ requirements.txt require these to compile successfully.
 2. Clone to your machine
 3. Create a virtualenv called PyLadies
 4. (PyLadies) $ `pip install -r requirements.txt`
-5. (PyLadies) $ `mynt gen -f _site && mynt serve _site`
+5. (PyLadies) $ `cd www`
+6. (PyLadies) $ `mynt gen -f _site && mynt serve _site`
 
 * How to fork and clone: https://help.github.com/articles/fork-a-repo
 * How to create a virtualenv: http://simononsoftware.com/virtualenv-tutorial/
