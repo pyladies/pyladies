@@ -3,7 +3,7 @@
 <html>
 <head>
     {% if site.title %}
-    <title>{% if title %}{{ title }} &ndash; {% endif %}{{ site.title }}{% if not title and site.subtitle %} &ndash; {{ site.subtitle }}{% endif %}</title>{% endif %}
+    <title>{% block title %}{% if title %}{{ title }} &ndash; {% endif %}{{ site.title }}{% if not title and site.subtitle %} &ndash; {{ site.subtitle }}{% endif %}{% endblock %}</title>{% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="{{ get_asset('css/pygments.css') }}" media="screen" title="screen">
     <link rel="stylesheet" href="{{ get_asset('css/screen.css') }}" media="screen" title="screen">
@@ -12,13 +12,19 @@
     <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="{{ get_url('feed.xml', true) }}" />
     <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	{% block headjs %}
     <script src="https://platform.twitter.com/widgets.js" type="text/javascript"></script>
     <script type="text/javascript" src="{{ get_asset('js/meetup_widget.js') }}"></script>
     <script type="text/javascript">
         $(document).ready(function() {
-            addUpcomingMeetups();
+			// meetup group_ids in order: portland, san francisco, la, nyc, dc, atlanta, seattle, austin, brno/cz, san diego, toronto
+		    var chapter_ids = '4808882,3604052,2288171,4576312,2292131,4507652,5411282,5947662,5160912,5089102,6488102';
+            addUpcomingMeetups(chapter_ids);
         });//end doc.ready
-    </script>
+	</script>
+	{% endblock %}
+	{% block style %}
+	{% endblock %}
 </head>
 
 <body>
@@ -43,7 +49,8 @@
         {% block content %}{% endblock %}
     </div>
 
-    <div class="sidebar">
+	<div class="sidebar">
+		{% block sidebar %}
         <div id="mc_embed_signup">
             <form action="http://pyladies.us2.list-manage1.com/subscribe/post?u=9d20e0bc6bc0e88a076738c6f&amp;id=23e4f35e45" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <label for="mce-EMAIL">Keep up with what's going in the PyLadies community on our low-volume announcement list.  Men and women from everywhere are welcome.  Unsubscribe anytime. </label>
@@ -63,17 +70,20 @@
             <div id="chapter_tweets"><a class="twitter-timeline" data-dnt="true" href="https://twitter.com/PyLadies_pdx/pyladies-chapters" data-widget-id="301260507678117890"></a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
             </div>
-        </div>
+		</div>
+		{% endblock %}
     </div>
 
     <div class="footer-wrapper">
             <footer id="bottom">
+			{% block footer %}
                 <ul class="social">
                     <li><a class="icon google-plus" data-icon="&#62223;" href="https://plus.google.com/communities/108807002736066163985" title="Google+"></a></li>
                     <li><a class="icon github" data-icon="&#62208;" href="http://github.com/pyladies" title="GitHub"></a></li>
                     <li><a class="icon rss" data-icon="&#59194;" href="{{ get_url('feed.xml', true)}}" title="RSS"></a></li>
                     <li><a class="icon creative-commons" data-icon="&#128325;" href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons"></a>2007 - {{ None|date('%Y') }} PyLadies. All Rights Reserved.</li>
                 </ul>
+            {% endblock %}
             </footer>
     </div>
 
