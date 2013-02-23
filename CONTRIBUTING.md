@@ -12,7 +12,7 @@ Note: we reserve the right to decline posts, or work to improve the work of the 
 
 ## Attribution
 
-* Cite your courses! Either link to them in your post, or the old-fashioned academic Chicago MLA style of "quoting someone's work"(Root) with an entry for "Root" at the bottom of your post (or any ohter MLA styling).
+Cite your courses! Either link to them in your post, or the old-fashioned academic Chicago MLA style of "quoting someone's work"(Root) with an entry for "Root" at the bottom of your post (or any ohter MLA styling).
 
 **Also** Please include whether:
 
