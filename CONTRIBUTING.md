@@ -16,9 +16,9 @@ Note: we reserve the right to decline posts, or work to improve the work of the 
 
 * Please include whether:
 
-	1) You want to be noted as the author
-	2) If so, what name you want to use
-	3) If we can link to you somehow, either through Twitter handle, email, or website.
+	1. You want to be noted as the author
+	2. If so, what name you want to use
+	3. If we can link to you somehow, either through Twitter handle, email, or website.
 
 Anonymous submissions are fine.
 
