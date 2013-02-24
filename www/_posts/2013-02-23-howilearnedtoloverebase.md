@@ -8,6 +8,23 @@ Rebase is a downright scary concept. When the best way to explain how it works I
 
 But while rebase is a responsibility to take seriously — especially if you're working on a team and you could wipe out every commit people have added since last Sunday — perhaps we're in less danger from time travel paradoxes than I previously assumed.
 
+##A Quick Example of Rebase
+
+Just so we all are on the same page, let's go through a quick example of how you might use rebase:
+
+Let's assume that you have a git repository with a file in it and that you've branched that file and made some changes. Meanwhile, someone else has modified that same file on the master branch. In order to get everything put back together again, you may consider using git rebase. To do so, you would need to do the following:
+
+$ 'git rebase master'
+
+That's it. There might be some conflicts that you'd need to go in and clean up if your co-coder has been up to some serious business since you've last merged in your changes, but the command itself is simple. Now it looks like your changes started from the current master rather than from the original branch point.
+
+If you want to now add your up-to-date changes back into the master, you'll still need to merge it in.
+
+$ 'git checkout master'
+$ 'git merge branchname'
+
+How is this whole process different from just using git merge in the first place? It's just prettier: someone going through the code's history would see straight forward progress along the master branch.
+
 ##A Better Metaphor for Rebase
 
 Rebase is generally considered a slightly-nuclear option. It's possible to be careful about rebasing code, say by duplicating the master branch and rebasing your code on that new version to see if you accidentally destroy the world before trying to rebase within the actual master. Somehow, though, we still see it as something dangerous.
