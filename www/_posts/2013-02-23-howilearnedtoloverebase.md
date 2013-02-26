@@ -6,7 +6,7 @@ tags: [rebase, git, version control]
 
 Rebase is a downright scary concept. When the best way to explain how it works I've heard starts with thinking that you're time-traveling back to before certain changes were ever introduced to a project, you probably should be afraid. We've all read enough science fiction to know what happens if you go back to the Age of the Dinosaurs and step on an ugly-looking bug.
 
-But while rebase is a responsibility to take seriously — especially if you're working on a team and you could wipe out every commit people have added since last Sunday — perhaps we're in less danger from time travel paradoxes than I previously assumed.
+But while rebase is a responsibility to take seriously - especially if you're working on a team and you could wipe out every commit people have added since last Sunday - perhaps we're in less danger from time travel paradoxes than I previously assumed.
 
 ##A Quick Example of Rebase
 
@@ -43,3 +43,7 @@ Just like in sewing, though, there are some rules that you absolutely need to fo
 In fact, as long as you're taking proper precautions, it's possible to come back from most rebase screw ups (though this opinion is based on my own, admittedly limited, experience). The precautions seems a little tedious, just like measuring fabric twice and double-checking that you know what to do with your pattern can be. But that tedium can help you avoid big screw-ups, even if you never notice the accident you avoided.
 
 The moment that I realized that rebase isn't so much a bomb as a seam ripper, it was a lot less worrying to type in that command and hit 'enter.'
+
+---
+
+Written by our own PDX PyLady, [@thursdayb](http://twitter.com/thursdayb) and regularly writes for her [blog](thursdaybram.com).
