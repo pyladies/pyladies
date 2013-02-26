@@ -14,20 +14,22 @@ Just so we all are on the same page, let's go through a quick example of how you
 
 Let's assume that you have a git repository with a file in it and that you've branched that file and made some changes. Meanwhile, someone else has modified that same file on the master branch. In order to get everything put back together again, you may consider using git rebase. To do so, you would need to do the following:
 
-$ 'git rebase master'
+	$ git rebase master
 
 That's it. There might be some conflicts that you'd need to go in and clean up if your co-coder has been up to some serious business since you've last merged in your changes, but the command itself is simple. Now it looks like your changes started from the current master rather than from the original branch point.
 
 If you want to now add your up-to-date changes back into the master, you'll still need to merge it in.
 
-$ 'git checkout master'
-$ 'git merge branchname'
+	$ git checkout master
+	$ git merge branchname
 
 How is this whole process different from just using git merge in the first place? It's just prettier: someone going through the code's history would see straight forward progress along the master branch.
 
 ##A Better Metaphor for Rebase
 
 Rebase is generally considered a slightly-nuclear option. It's possible to be careful about rebasing code, say by duplicating the master branch and rebasing your code on that new version to see if you accidentally destroy the world before trying to rebase within the actual master. Somehow, though, we still see it as something dangerous.
+
+<a href="http://marklodato.github.com/visual-git-guide/index-en.html"><img src="http://marklodato.github.com/visual-git-guide/rebase.svg" align="right" width="400" height="400"/></a>
 
 Perhaps a new metaphor may be more useful here. I'm the type to go out and read a bunch about a particular command before I'll get comfortable with using it. I've gone over [this section from ProGit](http://git-scm.com/book/en/Git-Branching-Rebasing) a couple of times and something finally became clear: when you rebase, you can reorder a whole bunch of different things!
 
