@@ -1236,10 +1236,31 @@ div.code td.linenos pre {
 }
 
 
-
-
-
-
-
-
-
+.ribbon {
+  background-color: #fa023c;
+  overflow: hidden;
+  /* top left corner */
+  position: absolute;
+  left: -4em;
+  top: 4em;
+  /* 45 deg ccw rotation */
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  /* shadow */
+  -moz-box-shadow: 0 0 1em #888;
+  -webkit-box-shadow: 0 0 1em #888;
+}
+.ribbon a {
+  border: 1px solid #faa;
+  color: #fff;
+  display: block;
+  font-weight: bold;
+  font: 'Quicksand',sans-serif;
+  font-color: #fcfcfa;
+  margin: 0.05em 0 0.075em 0;
+  padding: 0.5em 3.5em;
+  text-align: center;
+  text-decoration: none;
+  /* shadow */
+  /*text-shadow: 0 0 0.5em #444;*/
+}
