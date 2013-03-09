@@ -12,7 +12,7 @@
     <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="{{ get_url('feed.xml', true) }}" />
     <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script src="https://platform.twitter.com/widgets.js" type="text/javascript"></script>
+    <!--script src="https://platform.twitter.com/widgets.js" type="text/javascript"></script-->
     <script type="text/javascript" src="{{ get_asset('js/meetup_widget.js') }}"></script>
     <script type="text/javascript">
         $(document).ready(function() {
@@ -63,10 +63,12 @@
 
         <div id="twitter_feed">
             <h3>Recent Tweets</h3>
-            <div id="chapter_tweets"><a class="twitter-timeline" data-dnt="true" href="https://twitter.com/PyLadies_pdx/pyladies-chapters" data-widget-id="301260507678117890"></a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-            </div>
-        </div>
+			<div id="chapter_tweets">	
+				  <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/PyLadies_pdx/pyladies-chapters" data-widget-id="310264562802888704">Tweets from @PyLadies_pdx/pyladies-chapters</a>
+				  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+		</div>
+		
     </div>
 
     <div class="footer-wrapper">
