@@ -14,33 +14,37 @@ For several months, I always carried a deck of cards in my backpack. I like play
 I learned a Computer Science magic trick from [cs4fn.org/magic](http://cs4fn.org/magic), and I've been hooked ever since. I've performed this trick to much success when manning booths at outreach events and teacher visiting days. It lets you engage people while illustrating a bit of computer science. At the PyLadies' lunch at [PyCon '13](https://us.pycon.org/2013/), Esther Nam convinced me to write a blog post about this card trick I was so excited about. "Lots of people want to know how to demonstrate computer science without a computer!" she said.
 
 
-![Teaching the card trick to Computer Science student volunteers at the Tucson Festival of Books.]()
+![Teaching the card trick to Computer Science student volunteers at the Tucson Festival of Books.](http://4.bp.blogspot.com/-QWERYs18cuw/UUWEUHD2leI/AAAAAAAAAEI/DNVDS_mvWNo/s400/cards1.jpg)
 
-![Performing the big reveal at a University of Arizona College of Science ceremony.]()
+![Performing the big reveal at a University of Arizona College of Science ceremony.](http://2.bp.blogspot.com/-7zkM7b9NU3c/UVeDQxvHd5I/AAAAAAAAALM/6nes0mg8Vxg/s400/cards2_light.jpg)
 
  That's exactly why I love this trick. It's portable, it's easy, and it doesn't use a computer. It allows people to see an easily digestible example of the logic, discrete math, and information that is at the core of Computer Science. For people who aren't impressed by physical computers or cryptic terminal windows, this can really be a draw.
 
 
-> "[Computer science] is not really about computers—and it's not about computers in the same sense that physics is not really about particle accelerators, and biology is not about microscopes and Petri dishes.... Now the reason that we think computer science is about computers is pretty much the same reason that the Egyptians thought geometry was about surveying instruments: when some field is just getting started and you don't really understand it very well, it's very easy to confuse the essence of what you're doing with the tools that you use." - Hal Abelson (1986)
+> "[Computer science] is not really about computers -- and it's not about computers in the same sense that physics is not really about particle accelerators, and biology is not about microscopes and Petri dishes.... Now the reason that we think computer science is about computers is pretty much the same reason that the Egyptians thought geometry was about surveying instruments: when some field is just getting started and you don't really understand it very well, it's very easy to confuse the essence of what you're doing with the tools that you use." - Hal Abelson (1986)
 
 Here's how I do it:
 -------------------
-You need **three people**: The magician, the assistant, and the learner.
-The magician closes her eyes and **keeps them closed until the end of the trick**.
-The learner is given the deck and told to **make a four by four matrix of cards with some face up and some face down, randomly distributed**.
++ You need **three people**: The magician, the assistant, and the learner.
+
++ The magician closes her eyes and **keeps them closed until the end of the trick**.
+
++ The learner is given the deck and told to **make a four by four matrix of cards with some face up and some face down, randomly distributed**.
 
 ![](http://2.bp.blogspot.com/-PaDicUidMdc/UVlR53gTf7I/AAAAAAAAAM4/6151cf6yKZE/s200/2013-03-31+13.36.14.jpg)
 
-The assistant takes the deck back and whispers to the learner: **"I'm going to make it harder for her and add another row and column".** The magician might groan at this point and say "Nooo it's so hard already!!!" The new row and column are added.
++ The assistant takes the deck back and whispers to the learner: **"I'm going to make it harder for her and add another row and column".** The magician might groan at this point and say "Nooo it's so hard already!!!" The new row and column are added.
 
 ![](http://4.bp.blogspot.com/-SjXhvfiM7ks/UVlR5KOW9oI/AAAAAAAAAM0/YnuzY62o7g4/s200/2013-03-31+13.37.51.jpg)
 
-The assistant tells the learner to flip one card, and that the magician will tell him which card he flipped. **The learner flips one card.**
++ The assistant tells the learner to flip one card, and that the magician will tell him which card he flipped. **The learner flips one card.**
 
-![]](http://1.bp.blogspot.com/-rd8vxAd32pU/UVlR2EGsu5I/AAAAAAAAAMs/Ie0E7w2SL0k/s200/2013-03-31+13.39.49.jpg)
+![](http://1.bp.blogspot.com/-rd8vxAd32pU/UVlR2EGsu5I/AAAAAAAAAMs/Ie0E7w2SL0k/s200/2013-03-31+13.39.49.jpg)
 
-The magician opens her eyes, hovers her hands over the cards, and **identifies the flipped card!**
-The learner is very impressed. While the amazement hasn't worn off, the magician and assistant tell the learner that **this method is used to identify errors in computer data.** Face up and face down cards are just like the way a computer stores information in 1s and 0s. Perhaps the information is being sent from one computer to another and one of the bits—one of the 1s or 0s—gets changed to the other (flipped!). Computer Scientists invented this technique so computers could discover where the error took place. If the learner is still interested, explain how the trick worked.
++ The magician opens her eyes, hovers her hands over the cards, and **identifies the flipped card!**
+
++ The learner is very impressed. While the amazement hasn't worn off, the magician and assistant tell the learner that **this method is used to identify errors in computer data.** Face up and face down cards are just like the way a computer stores information in 1s and 0s. Perhaps the information is being sent from one computer to another and one of the bits -- one of the 1s or 0s -- gets changed to the other (flipped!). Computer Scientists invented this technique so computers could discover where the error took place. If the learner is still interested, explain how the trick worked.
+
 
 How does the trick work??!!??
 -----------------------------
@@ -72,10 +76,11 @@ The kids at the CSUnplugged show figured it out on their own, I was very impress
 Optional Follow-up
 ------------------
 
-Make sure the learner really understands by **putting the cards back into their parity'd state and asking him to close his eyes and guess which card his friend flipped**. This is demoed in the video above. If you have more time for more than a quick wow moment, you can ask the learner
-Does it matter if the error is in the parity bits?
-Is it possible to detect two errors, and if so, can they be corrected?
-How about three errors?
+Make sure the learner really understands by **putting the cards back into their parity'd state and asking him to close his eyes and guess which card his friend flipped**. This is demoed in the video above. If you have more time for more than a quick wow moment, you can ask the learner:
+
+* Does it matter if the error is in the parity bits?
+* Is it possible to detect two errors, and if so, can they be corrected?
+* How about three errors?
 
 
 Practice!
@@ -94,13 +99,13 @@ Practice with your cat! And people.
 Alternate versions
 ------------------
 
-I like doing this trick with cards because cards are easy to get my hands on when I'm inspired to perform. Usually I have limited table space, so it's hard to squeeze in more cards than I have described. In the CSUnplugged version, they start with a larger grid and black and white squares. (Note that it doesn't matter how big your grid is—the trick works the same.) They also had the nifty idea to make them magnetic so the trick can be performed on a whiteboard.
+I like doing this trick with cards because cards are easy to get my hands on when I'm inspired to perform. Usually I have limited table space, so it's hard to squeeze in more cards than I have described. In the CSUnplugged version, they start with a larger grid and black and white squares. (Note that it doesn't matter how big your grid is -- the trick works the same.) They also had the nifty idea to make them magnetic so the trick can be performed on a whiteboard.
 
 ![](http://1.bp.blogspot.com/-CfcakI791kE/UU3hycAFaQI/AAAAAAAAAHQ/C8VUDQ5swZU/s640/parity_trick.jpg)
 
-CSUnplugged has the magician add the extra row, eliminating the assistant. I like having the assistant better, because the magician's reveal is more impressive, since clearly no memorization is done—the magician hasn't seen the cards at all! Also, when a little kid is the learner, the assistant is necessary to make sure he or she puts down the cards correctly and flips only one card. But for a demonstration in front of a classroom or when you're alone, it's worth thinking about.
+CSUnplugged has the magician add the extra row, eliminating the assistant. I like having the assistant better, because the magician's reveal is more impressive, since clearly no memorization is done -- the magician hasn't seen the cards at all! Also, when a little kid is the learner, the assistant is necessary to make sure he or she puts down the cards correctly and flips only one card. But for a demonstration in front of a classroom or when you're alone, it's worth thinking about.
 
-Find the original cs4fn version of the trick on page 25 here: <http://www.cs4fn.org/magic/downloads/cs4fnmagicbook1.pdf>. They add the extra row based on face down cards instead of face up cards. It doesn't matter really of course—do what's easier to see quickly. Or if you change the size of the grid to have an even number of rows and columns at the end of the trick, it doesn't matter! Face up and face down will both have to be even or odd.
+Find the original cs4fn version of the trick on page 25 here: <http://www.cs4fn.org/magic/downloads/cs4fnmagicbook1.pdf>. They add the extra row based on face down cards instead of face up cards. It doesn't matter really of course -- do what's easier to see quickly. Or if you change the size of the grid to have an even number of rows and columns at the end of the trick, it doesn't matter! Face up and face down will both have to be even or odd.
 
 P.s. Now that you are using this trick, you have to watch out for Magnita Makov, world's greatest magician.
 
