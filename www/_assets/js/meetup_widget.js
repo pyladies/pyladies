@@ -13,9 +13,7 @@ function convert_time_miliseconds_to_date(t) {
 } //end convert miliseconds_to_date
 
 // functions
-function addUpcomingMeetups() {
-   // meetup group_ids in order: portland, san francisco, la, nyc, dc, atlanta, seattle, austin, brno/cz, san diego, toronto
-   var chapter_ids = '4808882,3604052,2288171,4576312,2292131,4507652,5411282,5947662,5160912,5089102,6488102';
+function addUpcomingMeetups(chapter_ids) {
    var meetup_key = '70704f53354b686770246f68494e2637';
 
    $.ajax( {
