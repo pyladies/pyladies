@@ -1,7 +1,7 @@
 ---
 layout: post.html
 title: "Intro to Python, April 6 - Recap"
-tags: [PyCon, events]
+tags: [Python, events, education]
 ---
 
 This past weekend, I helped a bright group of Austin women take their initial steps into the Python world.  Austin PyLadies' first women's 'Intro to Python' class took place on Saturday, April 6th.  Our classroom space was generously donated by by Erica Douglass of [Opportunity Space](http://opportunityspace.com/ "Opportunity Space").  We also had the help of several terrific volunteers: Sara Safavi, Cassidy Santaguida and Andrew Dupont.
