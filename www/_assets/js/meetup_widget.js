@@ -1,4 +1,5 @@
 ///Asks Meetup.com for any public event listing from one of the PyLadies chapters upcoming in the next week
+//Localized for use by any chapter--just copy file over to your location site and sub your meetup key for "meetup_key" and meetup group id (indicated as data id on locations index.html page) for "chapter_ids" in addUpcomingMeetups function.
 
 //helper functions
 function create_urls(input) {
