@@ -1,7 +1,8 @@
 ---
 layout: post.html
 title: "Code of Conduct"
-tags: [CoC-full]
+tags: [CoC]
+category: [codeconduct]
 ---
 
 <p>Pyladies is dedicated to providing a respectful, harassment-free community for everyone. We do not tolerate harassment or bullying of any community member in any form. This does not only extend to members to local PyLadies communities, but to anyone who chooses to become involved in the larger PyLadies community of users, developers and integrators through events or interactions.</p>
