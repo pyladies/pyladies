@@ -2,20 +2,24 @@
 layout: post.html
 title: "Get Your Mac Ready for Python Programming"
 tags: [absolute beginner, getting started, Mac OS X]
+category: [pyladies, resources]
+author: A PDX PyLady
+author_link: http://twitter.com/juliuliana
+summary: "For a beginner, by a beginner: I'll explain what each line of code is doing so you can learn a little bit about working with a command line interface in the process."
 ---
 
 As an absolute beginner to programming, you can very quickly learn to do lots of cool things using just your Python interpreter and simple Python scripts. However, you're going to want a few more tools eventually to help you expand to more complex projects. Why not start getting familiar with them now?
 
 For me, the hardest thing about branching out was figuring out what tools I really needed and how to interpret their install instructions. Here's a list of tools you will need and a list of easy steps to follow to get set up on a Mac. I'll explain what each line of code is doing so you can learn a little bit about working with a command line interface in the process. All of this should work on Mac OS X 10.7 and 10.8.
 
-####1. Install Xcode
+#### 1. Install Xcode
 
 Xcode is Apple's Integrated Development Environment (IDE), and there are some tools that come with it that we'll need later. You can get Xcode in the Apple appstore. It's a pretty big download, but this is the easiest way to get these tools on your machine. If you get bored while you're waiting, you could skip ahead and do steps 2, 5, and 6 now. If you want an alternative way to just get the tools you need, without the whole IDE, [look here][1].
 
 Once Xcode is installed, **you still need to install the Apple command line tools**! They're easy to get, though. Under the Xcode menu, click preferences. On the window that pops up, go to the Downloads tab. Find "command lines tools" and click the install button. 
 
 	
-####2. Open Terminal. Get Comfy.
+#### 2. Open Terminal. Get Comfy.
 	
 If you've never used Terminal or some kind of command line interface before, it's a good idea to take a minute to familiarize yourself with how they work. [Here's a quick intro][2]. Later you you can learn a bit more with the free online book, [Learn Command Line Interface the Hard Way][3].
 
@@ -33,7 +37,7 @@ The `mkdir` part means 'make directory'. A directory is analogous to what Finder
     usage: mkdir [-pv] [-m mode] directory ...
                
 
-####3. Install Homebrew
+#### 3. Install Homebrew
 	
 Homebrew is a package manager for OS X. A package is a collection of code files that work together. Installing them usually means running a script (a bit of code) that puts certain files in the various directories. A lot of the packages you will want are going to have dependencies. That means they require you to have other packages already installed on your computer. Homebrew will find and install dependencies for you AND it will keep them organized in one location AND it can tell you when updates are available for them.  On top of all of that it gives super helpful instructions when everything doesn't go smoothly. You can read more about it at Homebrew's [website][4]. For now, install Homebrew using the following line of code:
 	
@@ -41,7 +45,7 @@ Homebrew is a package manager for OS X. A package is a collection of code files 
 	
 So what's going on here? The last bit is obviously a URL. If you were to open this URL in your browser, you would just see code. This is a Ruby script that tells your computer what to do to install Homebrew. The `curl` part is a command line tool that transfers files using URLs. The `-fsSL` part is a combination of four option flags for `curl` that specify how to handle the file at the url. If you want to know more about what these flags do, type `man curl` at your command prompt. (You can use `man` in front of most commands to open up a manual page for that command.) We also need to actually execute this Ruby script, so we used the command `ruby` at the beginning. The `-e` is an option flag for ruby that executes a string as one line of code, in this case, the `"$(curl … /go)"` part. You may need to follow a few more instructions to finish the install, but Homebrew will help you do so.
 
-####4. Install Python
+#### 4. Install Python
 	
 Python comes with OS X, so you can probably don't need to do this step. You can check this by typing `python --version` into Terminal. If you get an error message, you need to install Python. If Terminal prints something like `Python 2.7.3` where the exact numbers you see may be different, you're all set to move on to step #5.
 
@@ -52,7 +56,7 @@ If for some reason you don't have Python or if you want to get the current versi
 If you'd rather install the latest version of python 3, replace `python` with `python3`.
 	
 
-####5. Install pip
+#### 5. Install pip
 	
 There are a few package managers that are specific to Python, and pip is the preferred one. The name pip stands for "pip installs packages". pip has one dependeny--distribute, but Homebrew doesn't know how to install either one. Luckily, both distribute and pip can be easily installed with python scripts that are available on the web. We can use `curl`, just like we did to get Homebrew. 
 
@@ -67,7 +71,7 @@ It's possible that you will run into a permission issue here. Every file on your
 
 For more information about using pip, you can go [here][5].
 	
-####6. Install virtualenv
+#### 6. Install virtualenv
 
 A virtual environment is useful when you start to get invovled with projects that have different or conflicting dependencies that you dont want to install globally on your machine. For example, you might use a library that requires Python 3 and have another project that is only compatible with Python 2.
 
@@ -77,7 +81,7 @@ To install virtualenv, simply:
         
 [Here][6] is virtualenv's documentation.
 	
-####7. Install Git and make a Github account
+#### 7. Install Git and make a Github account
 
 Git is a version control system. It keeps track of the revisions you make to your code and other files associated with a project, without storing multiple copies of each file. It will also help you merge your work with that of other programmers if you're working on a collaborative project. To install Git, type the following at your command prompt.
 
@@ -87,11 +91,9 @@ Github is a website that uses git and is the most common way people share their 
 
 If you're a little confused about this step, or want to know why and how you should use Github, you might want to read [this][8].
 
-####8. What now?
+#### 8. What now?
 You have a lot of powerful tools on your machine, now and it may be a little overwhelming. That's okay, you don't have to learn them all at once, but at least you have them set up now.  but there are also plenty of resources freely available on the web to help you learn. Try browsing the Pyladies [Resources][9] page, or just using Google to find what you need. Talking with a more experienced programmer is always helpful as well. Have fun!
 
----
-Written by PDX PyLady [@juliuliana][10]
 
  [1]: https://github.com/kennethreitz/osx-gcc-installer
  [2]: http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything
@@ -102,4 +104,3 @@ Written by PDX PyLady [@juliuliana][10]
  [7]: http://www.github.com
  [8]: http://lifehacker.com/5983680/how-the-heck-do-i-use-github
  [9]: http://www.pyladies.com/resources/
- [10]: http://twitter.com/juliuliana
