@@ -8,6 +8,13 @@
     <section id="archive">
         <article>
             <h2>{{ post.title }}</h2>
+            {% if post.author %}
+            	{% if post.author_link %}
+            	<h4><a href="{{ post.author_link }}">{{ post.author}}</a></h4>
+            	{% else %}
+            	<h4>{{ post.author }}</h4>
+            	{% endif %}
+            {% endif %}
             <h3>{{ post.date }}{% if post.tags %} | Tag: <span>&raquo;</span> {% for tag in post.tags %}<a href="{{ get_url(tags[tag].url) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}</h3>
 
             {{ post.content }}

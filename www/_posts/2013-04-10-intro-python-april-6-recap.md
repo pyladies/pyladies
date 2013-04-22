@@ -2,6 +2,10 @@
 layout: post.html
 title: "Intro to Python, April 6 - Recap"
 tags: [Python, events, education]
+category: resources, pyladies
+author: Barbara Shaurette
+author_link: http://twitter.com/bshaurette
+summary: "This one-day workshop covered some computing and programming concepts, then launched straight into the basics of the Python programming language."
 ---
 
 This past weekend, I helped a bright group of Austin women take their initial steps into the Python world.  Austin PyLadies' first women's 'Intro to Python' class took place on Saturday, April 6th.  Our classroom space was generously donated by by Erica Douglass of [Opportunity Space](http://opportunityspace.com/ "Opportunity Space").  We also had the help of several terrific volunteers: Sara Safavi, Cassidy Santaguida and Andrew Dupont.
@@ -39,8 +43,6 @@ Some things I'd like to add for the next class:
 * More structured exercises (not every section had them this time) so that students can also get a little more experience with problem-solving
 
 [Workshop Photos](http://www.meetup.com/PyLadies-ATX/photos/14117282/ "Intro to Python")
-
-By [Barbara Shaurette](http://twitter.com/bshaurette "BShaurette | Twitter")
 
 [Tweet](http://twitter.com/share)
 

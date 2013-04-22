@@ -8,7 +8,8 @@
                 {% for post in posts %}
                     {% if 'resources' in post.category and 'pyladies' in post.category %}
                         <h3>{{ post.title }}</h3>
-                        <p>{{ post.excerpt }}  <a href="{{ get_url(post.url) }}" class='more-link'>Read more &rarr;</a></p>
+                        <h4>{{ post.author }}</h4>
+                        <p>{{ post.summary }}  <a href="{{ get_url(post.url) }}" class='more-link'>Read more &rarr;</a></p>
                     {% endif %}
                 {% endfor %}
 
