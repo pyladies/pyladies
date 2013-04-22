@@ -16,7 +16,7 @@ category: [resources]
 
 [LPTHW]: http://learnpythonthehardway.org/
 [compscientist]: http://greenteapress.com/thinkpython/html/
-[twisted]: http://krondo.com/?page_id=1327" title="Intro to Twisted
+[twisted]: http://krondo.com/?page_id=1327"
 [trygit]: http://try.github.com/levels/1/challenges/1
 [MVC]: http://www.tomdalling.com/blog/software-design/model-view-controller-explained
 [syntax]: http://www.tutorialspoint.com/python/python_basic_syntax.htm

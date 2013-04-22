@@ -4,20 +4,22 @@
     <section id="archive">
         <h1>Resources</h1>
             <article>
-                <h2>Resources we’ve written</h2>
+                <h2>Resources we've written</h2>
                 {% for post in posts %}
-                    {% if resources in post.category and pyladies in post.category}
-                    <h4>{{ post.title }}</h4>
-                    {% if post.tags %}<small>Tagged <span>&raquo;</span> {% for tag in post.tags %}<a href="{{ get_url(tags[tag].url) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</small>{% endif %}
-                    <p>{{ post.excerpt }}  <a href="{{ get_url(post.url) }}" class='more-link'>Read more &rarr;</a></p>
+                    {% if 'resources' in post.category and 'pyladies' in post.category %}
+                        <h3>{{ post.title }}</h3>
+                        <p>{{ post.excerpt }}  <a href="{{ get_url(post.url) }}" class='more-link'>Read more &rarr;</a></p>
+                    {% endif %}
+                {% endfor %}
 
-                <h2>Other Resources</h2>
+                <h2>Other Resources we like</h2>
 
                 {% for post in posts %}
-                    {% if resources in post.category and not pyladies in post.category %}
-                    <h4>{{ post.title }}</h4>
-                    {% if post.tags %}<small>Tagged <span>&raquo;</span> {% for tag in post.tags %}<a href="{{ get_url(tags[tag].url) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</small>{% endif %}
-                    <p>{{ post.content }}</p>
+                    {% if 'resources' in post.category and not 'pyladies' in post.category %}
+                        <h3>{{ post.title }}</h3>
+                        <p>{{ post.content }}</p>
+                    {% endif %}
+                {% endfor %}
 
             </article>
     </section>
