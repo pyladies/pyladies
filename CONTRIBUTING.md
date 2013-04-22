@@ -43,6 +43,8 @@ A cheatsheet for Markdown commands is at [http://daringfireball.net/projects/mar
 layout: post.html
 title: "Your title here"
 tags: [list, of relevant, tags]
+author: Name, or blank/none
+author_link: Twitter/Blog/etc or blank/none
 ---
 ```
 

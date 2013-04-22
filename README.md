@@ -44,9 +44,45 @@ that mynt will search the current directory for files to build and it
 looks for all folders that don't start with an underscore (which means
 it will find your virtualenv folder and error out).
 
+
 ## To write a blog post
 
 See [CONTRIBUTING.md](https://github.com/pyladies/pyladies/blob/master/CONTRIBUTING.md) for instructions and guidelines.
+
+## To write a resource (more "sticky" than a blog post)
+
+### Collection of outside resources
+
+If you want to add a bullet item to an existing subject matter, find the relevant post in `www/_posts` (file titled by it's general category) and add to the `.md` file.  Please also update the date in the `.md` file.  For instance, if you want to add another suggestion to text editors, the original file is: `www/_posts/2013-04-19-tools-resources.md`, and once you're done editing, it would be renamed to `www/_post/todays-date-tools-resources.md`.
+
+If there is a collection of resources that do not fit into our loosely-named categories, like "tools" or "tutorials", etc, then start your own in `www/_posts/` and name the Markdown file with today's date, general category, plus the word "resources", like: `2013-04-21-developer-tips-resources.md`.  You will also need to have the following at the top:
+
+```
+---
+layout: post.html
+title: "Your title here"
+tags: [list, of relevant, tags]
+category: resources
+---
+```
+
+### Your own resource
+If you want to write your own resources, like [Barbara's beginner workshop notes](http://www.pyladies.com/blog/intro-python-april-6-recap/) or [Juliana's Mac setup](http://www.pyladies.com/blog/Get-Your-Mac-Ready-for-Python-Programming/), in addition to [CONTRIBUTING.md](https://github.com/pyladies/pyladies/blob/master/CONTRIBUTING.md), you will need to add more items in the header portion, like so:
+
+```
+---
+layout: post.html
+title: "Your title here"
+tags: [list, of relevant, tags]
+author: Name, or blank/none
+author_link: Twitter/Blog/etc or blank/none
+category: resources, pyladies
+---
+```
+
+Notice that `pyladies` and `resources` are required in for `category`.
+
+Once done, save it in `www/_posts/` with the date and title in the name of the file, like so: `2013-04-21-lynns-awesome-resource.md`.
 
 ## For Organizers
 ### Your own domain/site:
