@@ -84,6 +84,8 @@ Notice that `pyladies` and `resources` are required in for `category`.
 
 Once done, save it in `www/_posts/` with the date and title in the name of the file, like so: `2013-04-21-lynns-awesome-resource.md`.
 
+To find this resource online, you would navigate to http://pyladies.com/blog/[your_post_name]
+
 ## For Organizers
 ### Your own domain/site:
 
