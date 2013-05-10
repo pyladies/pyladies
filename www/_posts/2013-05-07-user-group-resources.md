@@ -15,6 +15,8 @@ If you are unable to find a local group, you can still communicate with people a
 
 * Guide to getting started on [IRC][irc]
 
+IRC is a great way to get in touch with open source developers around the world. Here's a guide to setting up an IRC nickname and joining the friendly #pyladies channel, a great way to get familiar with how IRC works.
+
 [pugs]: http://wiki.python.org/moin/LocalUserGroups
 [meetup]: http://www.meetup.com/find/?keywords=python
-[irc]: /blog/irc-resources
+[irc]: {{ get_url("/blog/irc-resources")}}
