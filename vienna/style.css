@@ -45,12 +45,21 @@ a img {
 /* =Layout
 -------------------------------------------------------------- */
 
+header,
+footer,
+#content {
+  max-width: 800px;
+  margin: 1em auto;
+}
+
+
 a,
 p,
 span,
 h3 {
   font-family: verdana, arial, sans-serif;
-  font-size: 14px;
+  font-size: .9em;
+  line-height: 1.3em;
   color: #4e4e4d;
 }
 
@@ -61,7 +70,8 @@ small {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -73,7 +83,6 @@ a:active {
 }
 
 p {
-  line-height: 18px;
   margin-bottom: 10px;
 }
 
@@ -89,27 +98,13 @@ span a:visited {
   text-decoration: none;
 }
 
-#index-page {
-  width: 940px;
-  padding-left: 200px;
-  padding-right: 200px;
-}
-
-#content {
-  width: 700px;
-  float: left;
-}
-
-#container {
-  margin-bottom: 30px;
-}
-
 img {
 }
 
 #coaches p {
-  line-height: 18px;
-  margin-bottom: 0;
+  float: left;
+  width: 30%;
+  margin-right: 3%;
 }
 
 #coaches a,
