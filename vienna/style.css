@@ -111,3 +111,9 @@ img {
 #coaches small {
   text-decoration: none;
 }
+#twitter {
+  width: 350px;
+  height: 350px;
+  float: right;
+  margin-left: 30px;
+}
