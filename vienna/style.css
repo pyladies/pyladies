@@ -45,4 +45,74 @@ a img {
 /* =Layout
 -------------------------------------------------------------- */
 
-/*
+a,
+p,
+span,
+h3 {
+  font-family: verdana, arial, sans-serif;
+  font-size: 14px;
+  color: #4e4e4d;
+}
+
+small {
+  font-family: verdana, arial, sans-serif;
+  font-size: 14px;
+  color: #fa023c;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+a:hover,
+a:active {
+  font-family: verdana, arial, sans-serif;
+  color: #fa023c;
+}
+
+p {
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+
+span a,
+span a:hover,
+span a:visited {
+  color: #FFF;
+  background-color: #fa023c;
+  padding: 10px;
+  float: right;
+  clear: both;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#index-page {
+  width: 940px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#content {
+  width: 700px;
+  float: left;
+}
+
+#container {
+  margin-bottom: 30px;
+}
+
+img {
+}
+
+#coaches p {
+  line-height: 18px;
+  margin-bottom: 0;
+}
+
+#coaches a,
+#coaches small {
+  text-decoration: none;
+}
