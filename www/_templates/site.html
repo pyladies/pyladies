@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    {% if site.title %}
+    <title>{% if title %}{{ title }} &ndash; {% endif %}{{ site.title }}{% if not title and site.subtitle %} &ndash; {{ site.subtitle }}{% endif %}</title>{% endif %}
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="{{ get_asset('css/pygments.css') }}" media="screen" title="screen">
+    <link rel="stylesheet" href="{{ get_asset('css/screen.css') }}" media="screen" title="screen">
+    <link href='http://fonts.googleapis.com/css?family=Glegoo|Quicksand:300,400,700|Droid+Serif:400,700,400italic,700italic|Raleway:400,200,300,500,600,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="{{ get_asset('images/favicon.ico') }}" type="image/ico" />
+    <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="{{ get_url('feed.xml', true) }}" />
+    <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="https://platform.twitter.com/widgets.js" type="text/javascript"></script>
+    <script type="text/javascript" src="{{ get_asset('js/meetup_widget.js') }}"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            addUpcomingMeetups();
+        });//end doc.ready
+    </script>
+</head>
+
+<body>
+    <div class="header">
+        <div id="pyladies_header_logo">
+            <a href="/"><img src="{{ get_asset('images/pyladies_logo.png') }}" width="260px" height="120px"></a>
+        </div>
+        <nav>
+            <ul class="nav-wrapper">
+                <li><a href="{{ get_url('/') }}">Home</a></li>
+                <li><a href="{{ get_url('about/') }}">About</a></li>
+                <li><a href="{{ get_url('locations/') }}">Locations</a></li>
+                <li><a href="{{ get_url('blog/') }}">Blog</a></li>
+                <li><a href="{{ get_url('CodeOfConduct/') }}">Code of Conduct</a></li>
+                <li><a href="{{ get_url('resources/') }}">Resources</a></li>
+                <li><a href="mailto:info@pyladies.com?subject=Hello" id="contact-link">Contact</a></li>
+                {% if site.feed %}<li><a href="{{ get_url('feed.xml', true)}}" title="RSS">RSS</a></li>{% endif %}
+            </ul>
+        </nav>
+    </div>
+    <div class="page">
+        {% block content %}{% endblock %}
+    </div>
+
+    <div class="sidebar">
+        <div id="mc_embed_signup">
+            <form action="http://pyladies.us2.list-manage1.com/subscribe/post?u=9d20e0bc6bc0e88a076738c6f&amp;id=23e4f35e45" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <label for="mce-EMAIL">Keep up with what's going in the PyLadies community on our low-volume announcement list.  Men and women from everywhere are welcome.  Unsubscribe anytime. </label>
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            </form>
+        </div>
+
+        <div id="sponsor_us_btn"><a href="{{ get_url('sponsor/') }}">Sponsor Us</a></div>
+
+        <h3>Upcoming Meetups</h3>
+        <div id="upcomingMeetupsList">
+        </div>
+
+        <div id="twitter_feed">
+            <h3>Recent Tweets</h3>
+            <div id="chapter_tweets"><a class="twitter-timeline" data-dnt="true" href="https://twitter.com/PyLadies_pdx/pyladies-chapters" data-widget-id="301260507678117890"></a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-wrapper">
+            <footer id="bottom">
+                <ul class="social">
+                    <li><a class="icon google-plus" data-icon="&#62223;" href="https://plus.google.com/communities/108807002736066163985" title="Google+"></a></li>
+                    <li><a class="icon github" data-icon="&#62208;" href="http://github.com/pyladies" title="GitHub"></a></li>
+                    <li><a class="icon rss" data-icon="&#59194;" href="{{ get_url('feed.xml', true)}}" title="RSS"></a></li>
+                    <li><a class="icon creative-commons" data-icon="&#128325;" href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons"></a>2007 - {{ None|date('%Y') }} PyLadies. All Rights Reserved.</li>
+                </ul>
+            </footer>
+    </div>
+
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-36930002-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+</body>
+</html>
