@@ -1,0 +1,115 @@
+.page #upcomingMeetupsList {
+  height: 100px;
+  position: relative;
+  overflow: auto;
+  line-height: 1em;
+  font-size: 0.9em;
+  word-wrap: break-word !important;
+  background-color: #fcfcfa;
+  margin-bottom: 40px;
+}
+
+.page #upcomingMeetupsList ul {
+  width: 100%;
+  position: absolute;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.page #upcomingMeetupsList li {
+  width: 100%;
+  overflow: auto;
+  border-bottom: 1px solid #949494;
+}
+
+.page .meetup_group_icon {
+  float: left;
+  max-width: 60px;
+  max-height: 60px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  margin: 10px 20px;
+}
+
+.page .meetup_listing_group {
+  font-size: 1.4em;
+  font-variant: small-caps;
+  padding: 6px 0;
+  margin: 0;
+}
+
+.page .meetup_listing_event_title {
+  font-size: 1.1em;
+  padding-bottom: 4px;
+  margin: 0;
+}
+
+.page .meetup_event_date {
+  line-height: 1.2em;
+  padding-left: 10px;
+  padding-bottom: 6px;
+  margin: 0;
+}
+
+.page .meetup_listing_url {
+  line-height: 1em;
+  padding: 0 0 8px 0;
+  margin: 6px 0 10px 0;
+}
+
+.page .meetup_listing_url a {
+  width: 74%;
+  float: right;
+  display: block;
+  font-size: 0.8em;
+  text-decoration: none;
+  border-bottom: none;
+  color: #4d4d4d;
+  padding: 0 0 10px 0;
+}
+
+.sidebar {margin-top:0;}
+
+.sidebar .button {
+  width: 300px;
+  height: 50px;
+  background: #febbbb; /* Old browsers */
+  background: -moz-linear-gradient(top,  #febbbb 0%, #fe9090 45%, #ff5c5c 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#febbbb), color-stop(45%,#fe9090), color-stop(100%,#ff5c5c)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 ); /* IE6-9 */
+  border: 1px solid #febbbb;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  margin: 20px 10px;
+}
+
+.sidebar .button a, #sponsor_us_btn.button a {
+  display: block;
+  font-size: 1.4em;
+  color: #fff;
+  text-shadow: 2px 1px 2px rgb(255, 75, 75);
+  border-bottom: none;
+  margin: 15px auto;
+  text-align:center;
+}
+
+.sidebar h3 {
+	border-bottom:1px solid #f0f0f0;
+	width:60%;
+	margin:auto;
+	padding-bottom:3px;
+	margin-bottom:10px;
+}                 
+
+.sidebar #chapter_tweets {
+	border:none;
+}  
+
+#sponsors a {border-bottom:none;}
+.timeline-footer {padding:5px 10px;}

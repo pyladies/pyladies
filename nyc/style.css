@@ -28,6 +28,7 @@ body{
 /* The rest is pretty self explanatory - it appears in the order that it occurs on the HTML document */
 #top{
 	height:40px;
+	border-bottom: 1px solid #444444;
 }
 
 #logo{
@@ -43,10 +44,9 @@ body{
 
 #logotitle{
 	float:left;
-	font-family:Lora, Helvetica, sans-serif;
+	font-family:'Josefin Sans', Helvetica, sans-serif;
 	font-weight:normal;
 	font-size:215%;
-	text-shadow: 0 1px 1px #FFF;
 }
 
 #logotitle a{
@@ -69,7 +69,7 @@ nav ul li{
 }
 
 nav ul li a{
-	font-family:Lato, Helvetica, Arial, sans-serif;
+	font-family:'Josefin Sans', Helvetica, Arial, sans-serif;
 	width:90%;
 	text-decoration:none;
 	text-transform:uppercase;
@@ -84,7 +84,7 @@ nav ul li a:hover{
 }
 
 nav ul li p{
-	font-family:Lato, Helvetica, Arial, sans-serif;
+	font-family:'Josefin Sans', Helvetica, Arial, sans-serif;
 	width:90%;
 	text-decoration:none;
 	text-transform:uppercase;
@@ -94,51 +94,18 @@ nav ul li p{
 	color:#f38094;
 }
 
-hr{
-	height:1px;
-	width:100%;
-	background-color:#2d2d2d;
-	margin:3% 0;
-}
-
-header{
-	width:100%;
-	margin:5% 0 5% 0;
-}
-
-header h1{
-	font-family: Lato, Arial, Helvetica, sans-serif;
-	text-align:center;
-	font-size:140%;
-	font-weight:normal;
-	letter-spacing:1px;
-	margin-bottom:1%;
-}
-
-header h1 span{
-	color:#f38094;
-	text-shadow: 0 1px 1px #dadada;
-}
-
-header h2{
-	font-family: Lato, Arial, Helvetica, sans-serif;
-	text-align:center;
-	font-size:100%;
-	font-weight:normal;
-}
-
-.slideshow{
+.about{
 	width:100%;
     margin-top:2%;
-    font-family:Lato, Arial, Helvetica, sans-serif;
+    font-family:'muli', Arial, Helvetica, sans-serif;
     margin-bottom:40px;
+    font-size:12pt;
 }
 
-.slideshow h3{
-	font-family:Lora, Arial, Helvetica, sans-serif;
+.about h3{
+	font-family:'Josefin Sans', Arial, Helvetica, sans-serif;
 	font-size:180%;
 	font-weight:normal;
-	color:#f38094;
 	margin-bottom:10px;
 }
 blockquote{padding:20px; color:#444444;}
@@ -170,27 +137,23 @@ blockquote{padding:20px; color:#444444;}
 
 .left{
 	margin-top:4%;
-	width:100%;
+	width:48%;
 	float:left;
 	margin-bottom:2%;
-
 }
 
-.left h3{
-	font-family:Lora, Arial, Helvetica, sans-serif;
+.left h3, .left h4 {
+	font-family:'Josefin Sans', Arial, Helvetica, sans-serif;
 	font-size:180%;
 	font-weight:normal;
 	text-align:left;
-	color:#f38094;
 	margin-bottom:5%;
-	text-shadow: 0 1px 1px #dadada;
 }
 
 .left p, .left ul{
-	font-family:Lato, Arial, Helvetica, sans-serif;
-	font-size:100%;
+	font-family:'Josefin Sans', Arial, Helvetica, sans-serif;
+	font-size:12pt;
 	line-height:140%;
-	list-style-type: none; 
 }
 
 .left ul li{
@@ -210,11 +173,10 @@ blockquote{padding:20px; color:#444444;}
 }
 
 .right h3{
-	font-family:Lora, Arial, Helvetica, sans-serif;
+	font-family:Lato, Arial, Helvetica, sans-serif;
 	font-size:180%;
 	font-weight:normal;
 	text-align:center;
-	color:#f38094;
 	margin-bottom:5%;
 	text-shadow: 0 1px 1px #dadada;
 }
@@ -238,10 +200,15 @@ blockquote{padding:20px; color:#444444;}
 }
 
 
+#events li {
+list-style-type: none;
+}
+
+
 .item{
 	border-radius:15px;
 	width:180px;
-	height:185px;
+	height:235px;
 	background-color:#FFF;
 	margin:10px;
 	float:left;
@@ -265,7 +232,7 @@ blockquote{padding:20px; color:#444444;}
 
 .item img{
 	display:block;
-	/*width:100%;*/
+	width:100%;
 	-webkit-box-shadow: 0 2px 1px #c3c3c3;
     -moz-box-shadow: 0 2px 1px #c3c3c3;
     box-shadow: 0 2px 1px #c3c3c3;
@@ -286,9 +253,11 @@ blockquote{padding:20px; color:#444444;}
 
 .item h3{
 	font-family:Lato, Arial, Helvetica, sans-serif;
-	font-size:105%;
+	font-size:1.2em;
 	font-weight:normal;
+	line-height: 1.2em;
 	padding:5px 0 0 8px;
+	margin:0;
 	color:#2d2d2d;
 	text-decoration:none;
 }
@@ -299,11 +268,12 @@ blockquote{padding:20px; color:#444444;}
 }
 
 .item p{
-	font-family:Lato, Arial, Helvetica, sans-serif;
-	font-size:70%;
-	font-weight:normal;
+	font-family:'Josefin Sans', Arial, Helvetica, sans-serif;
+	font-size:1em;
 	padding:0 0 0 8px;
-	color:#f38094;
+	margin:0;
+	line-height: 1em;
+	color:#2d2d2d;
 	text-decoration:none;
 }
 /* ----------------------- WORK LINKS END ------------------------- */
@@ -311,7 +281,7 @@ blockquote{padding:20px; color:#444444;}
 
 #bottom h3{
 	margin:4% 0 3% 0;
-	font-family:Cookie, Arial, Helvetica, sans-serif;
+	font-family:'Josefin Sans', Arial, Helvetica, sans-serif;
 	font-size:190%;
 	font-weight:normal;
 	text-align:center;
@@ -321,35 +291,35 @@ blockquote{padding:20px; color:#444444;}
 
 
 footer{
+	border-top: 1px solid #2d2d2d;
 	width:100%;
 	padding:10px 0;
-	background-color:#2d2d2d;
+	background-color:#ffffff;
 }
 
 .icon{
 	float:right;
-	width:32px;
+	width: 65px;
 	margin:5px 0 2px 4%;
-	opacity:0.85;
+	opacity:1;
 }
 
 .icon:hover{
 	opacity:1;
 }
 
-.social{
-	color:#f38094;
+.social h4{
+	text-align: right;
 }
 
 
 /* ----------------------------- FORM ----------------------------------- */
 
-.left h4{
-	font-family:Cookie, Arial, Helvetica, sans-serif;
+.right h4{
+	font-family:'Josefin Sans', Arial, Helvetica, sans-serif;
 	font-size:180%;
 	font-weight:normal;
-	color:#f38094;
-	margin-bottom:10px;
+	margin-bottom:0px;
 }
 
 #formwrap{
@@ -363,7 +333,6 @@ footer{
 	font-size:14px;
 	width: 95%;
 	background-color:rgba(255,255,255,1);
-	background-image:url(../images/backgroundtexture.png);
 	margin-bottom:10px;
 	opacity:0.9;
 	padding:3px;
@@ -580,6 +549,3 @@ input:focus, input.focused, textarea:focus, textarea.focused {  color: #3e3e3e; 
 		font-size:40%;
 	}
 }
-
-
-

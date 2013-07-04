@@ -13,9 +13,9 @@
         </article>
 
         <article class="latest">
-            <h3>Latest Blog Post</h3>
+            <h3>Latest Blog Posts</h3>
                 <div id="latestBlog">
-                    {% for post in posts %}
+                    {% for post in posts[:2] %}
                         <h3><a href="{{ get_url(post.url) }}">{{ post.title }}</a></h3>
                         <time pubdate datetime="{{ post.timestamp|date('%Y-%m-%d') }}">{{ post.date }}</time>
                         <p>{{ post.excerpt }}  <a href="{{ get_url(post.url) }}" class='more-link'>Read more &rarr;</a></p>

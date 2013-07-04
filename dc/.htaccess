@@ -1,0 +1,1 @@
+RedirectMatch 301 /(.*) http://www.pyladies.com/locations/dc/$1

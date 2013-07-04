@@ -600,7 +600,6 @@ nav a:active {
 }
 
 .page article.latest {
-  height: 300px;
   font-size: 1.1em;
 }
 
@@ -609,7 +608,7 @@ nav a:active {
 }
 
 .page article.chapters {
-  overflow: auto;
+  overflow: hidden;
   margin-top: -25px;
 }
 
@@ -943,7 +942,7 @@ footer .social li a.icon:hover {
 	text-decoration: none;
 }
 
-.social .icon.google-plus:before, .social .icon.twitter:before, .social .icon.tumblr:before, .social .icon.github:before, .social .icon.dribbble:before, .social .icon.instagram:before, .social .icon.pinterest:before {
+.social .icon.google-plus:before, .icon.facebook:before, .social .icon.twitter:before, .social .icon.tumblr:before, .social .icon.github:before, .social .icon.dribbble:before, .social .icon.instagram:before, .social .icon.pinterest:before {
   font-family: 'entypo-social';
   content: attr(data-icon);
 }
@@ -972,6 +971,36 @@ footer .social li a.icon:hover {
 
 .icon-creative-commons:hover {
   border-bottom: 1px dashed #f2f2f3;
+}
+
+.ribbon {
+  background-color: #fa023c;
+  overflow: hidden;
+  /* top left corner */
+  position: absolute;
+  left: -4em;
+  top: 4em;
+  /* 45 deg ccw rotation */
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  /* shadow */
+  -moz-box-shadow: 0 0 1em #888;
+  -webkit-box-shadow: 0 0 1em #888;
+}
+
+.ribbon a {
+  border: 1px solid #faa;
+  color: #fff;
+  display: block;
+  font-weight: bold;
+  font: 'Quicksand',sans-serif;
+  font-color: #fcfcfa;
+  margin: 0.05em 0 0.075em 0;
+  padding: 0.5em 3.5em;
+  text-align: center;
+  text-decoration: none;
+  /* shadow */
+  /*text-shadow: 0 0 0.5em #444;*/
 }
 
 /*************************************  BLOG ARCHIVES CSS  *****************************/
@@ -1087,6 +1116,9 @@ div.code td.linenos pre {
 }
 
 @media (max-width: 1089px) {
+  nav {
+    padding: 1.2em 0;
+  }
   .nav-wrapper li {
     float: none;
     display: inline-block;
@@ -1116,6 +1148,9 @@ div.code td.linenos pre {
   .footer {
     width: 80%;
   }
+  .nav-wrapper {
+    padding-left: 0;
+  }
 }
 
 @media (max-width: 420px) {
@@ -1137,9 +1172,6 @@ div.code td.linenos pre {
   .sidebar {
     width: 80%;
   }
-  .page article.latest {
-    height: 264px;
-  }
   .page div.chapter_location {
     width: 94%;
     margin: 4% 2%;
@@ -1150,6 +1182,42 @@ div.code td.linenos pre {
   .sidebar #sponsor_us_btn a {
     margin: 15px 74px 20px 74px;
   }
+}
+
+@media (max-width: 360px) {
+  #pyladies_header_logo img {
+    max-width: 230px;
+  }
+  .nav-wrapper {
+    padding-left: 0;
+  }
+  .page #welcome_message img {
+    max-width: 240px;
+  }
+  .sidebar #sponsor_us_btn {
+    width: 220px;
+    margin-left: 5px;
+  }
+  .sidebar #sponsor_us_btn a {
+    margin: 15px 49px 20px 49px;
+  }
+  .page article.chapters img {
+    margin-left: 25%;
+  }
+  .page article.chapters ul {
+    margin-left: 5%;
+    overflow: hidden;
+    padding-left: 0;
+    width: 90%;
+}
+  img {
+    max-width: 260px;
+    height: auto;
+  }
+  footer ul.social {
+    margin: 10px auto;
+    width: 80%;
+}
 }
 
 @media (min-width: 421px) and (max-width: 479px) {
@@ -1165,9 +1233,6 @@ div.code td.linenos pre {
   .nav-wrapper > li {
     float: none;
   }
-  .page article.latest {
-    height: 420px;
-  }
   .page div.chapter_location {
     width: 84%;
     margin: 4%;
@@ -1181,9 +1246,6 @@ div.code td.linenos pre {
 }
 
 @media (min-width: 480px) and (max-width: 539px) {
-  .page article.latest {
-    height: 360px;
-  }
   .page div.chapter_location {
     width: 84%;
     margin: 4%;
@@ -1194,9 +1256,6 @@ div.code td.linenos pre {
 }
 
 @media (min-width: 540px) and (max-width: 667px) {
-  .page article.latest {
-    height: 340px;
-  }
   .page div.chapter_location {
     width: 70%;
     float: none;
@@ -1208,38 +1267,21 @@ div.code td.linenos pre {
 }
 
 @media (min-width: 668px) and (max-width: 785px) {
-  .page article.latest {
-    height: 320px;
-  }
   .sidebar #sponsor_us_btn {
   margin: 40px 12%;
   }
 }
 
 @media (min-width: 786px) and (max-width: 879px) {
-  .page article.latest {
-    height: 360px;
-  }
   .sidebar #sponsor_us_btn {
     margin: 40px 14%;
   }
 }
 
 @media (min-width: 880px) and (max-width: 1089px) {
-  .page article.latest {
-    height: 360px;
-  }
   .page div.chapter_location {
     width: 70%;
     float: none;
   }
 }
-
-
-
-
-
-
-
-
 
