@@ -19,6 +19,7 @@ PyCon is in beautiful Montreal in April of 2014. Need help getting to PyCon? No 
 Talks are 30 or 45 minutes long. Beginners can give talks. Hobbyists can give talks. You, yes you, would give a great talk on something that excites you about Python. Proposals are due by September 15th.
 
 Check out:
+
 * [Proposal resources][resources]
 * [How to write a compelling proposal][advice]
 * [An example talk proposal][sample]
