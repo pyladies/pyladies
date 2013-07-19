@@ -307,14 +307,33 @@ ol > li:before, ul > li:before {
   color: #444444;
 }
 
+ol > li {
+  counter-increment: item;
+}
+
+ol > li:before {
+  content: counter(item, decimal) ".";
+}
+
 ul.unstyled > li:before {
   padding-right: 0;
   content: none;
 }
 
+ol, ul {
+  margin-left: 35px;
+  list-style-image: none;
+  list-style-position: inside;
+  list-style: disc;
+}
+
 ol ol, ol ul, ul ol, ul ul {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+ol {
+  counter-reset: item;
 }
 
 p {
