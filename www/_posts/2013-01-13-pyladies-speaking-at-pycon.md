@@ -8,13 +8,13 @@ tags: [PyCon, conferences]
 
 Here's the run-down - be sure to add these to your schedule when PyCon comes to Santa Clara, CA in March of 2013:
 
-* [How to Except When You're Excepting](https://us.pycon.org/2013/schedule/presentation/35/): An introduction to the practice of exception handling ([Esther Nam](https://us.pycon.org/2013/speaker/profile/195/) - [Los Angeles](http://www.meetup.com/la-pyladies/))
+* [How to Except When You're Excepting](https://us.pycon.org/2013/schedule/presentation/35/): An introduction to the practice of exception handling ([Esther Nam](https://us.pycon.org/2013/speaker/profile/195/) - [Los Angeles](http://www.meetup.com/Pyladies-LA/))
 
 * [What teachers really need from us](https://us.pycon.org/2013/schedule/presentation/42/): What teachers say about what they need and what the Python community has to offer K-12 classrooms. ([Selena Deckelmann](https://us.pycon.org/2013/speaker/profile/149/) - [Portland, OR](http://www.meetup.com/PyLadies-PDX/))
 
-* [Using Python To Generate Art And Sound](https://us.pycon.org/2013/schedule/presentation/58/): Navigating the Python audio/imaging landscape ([Audrey M. Roy](https://us.pycon.org/2013/speaker/profile/76/) - [Los Angeles](http://www.meetup.com/la-pyladies/))
+* [Using Python To Generate Art And Sound](https://us.pycon.org/2013/schedule/presentation/58/): Navigating the Python audio/imaging landscape ([Audrey M. Roy](https://us.pycon.org/2013/speaker/profile/76/) - [Los Angeles](http://www.meetup.com/Pyladies-LA/))
 
-* [Lessons Learned in Teaching Python](https://us.pycon.org/2013/schedule/presentation/81/) ([Alexandra Strong](https://us.pycon.org/2013/speaker/profile/333/) and [Christine Cheung](https://us.pycon.org/2013/speaker/profile/159/) - [Los Angeles](http://www.meetup.com/la-pyladies/))
+* [Lessons Learned in Teaching Python](https://us.pycon.org/2013/schedule/presentation/81/) ([Alexandra Strong](https://us.pycon.org/2013/speaker/profile/333/) and [Christine Cheung](https://us.pycon.org/2013/speaker/profile/159/) - [Los Angeles](http://www.meetup.com/Pyladies-LA/))
 
 * [Location, Location, Location](https://us.pycon.org/2013/schedule/presentation/92/): Building a Django application that needs to handle geographic location data ([Julia Grace](https://us.pycon.org/2013/speaker/profile/302/) - [San Francisco](http://www.meetup.com/PyLadiesSF/))
 
