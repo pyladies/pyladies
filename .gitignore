@@ -4,3 +4,5 @@
 local_settings.py
 _site/
 .DS_Store
+
+boston/index.html
