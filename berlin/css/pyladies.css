@@ -10,4 +10,8 @@ section {
 section.about_us, section.resources {
    border: 1px solid #eee;
    border-radius: 5px;
+   }
+   
+section.about_us img {
+   width: 500px; 
 }
