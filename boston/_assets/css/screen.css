@@ -1,0 +1,429 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border-width: 0px;
+  outline: invert none 0px;
+}
+
+body {
+  background-color: #272727;
+  background-image: url("../images/bg.png");
+  background-position: left top;
+  background-repeat: repeat;
+  color: #d9d9d9;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 13px;
+}
+
+blockquote, dl, ol, p, pre, table, ul {
+  margin: 18px 0px 18px 0px;
+}
+
+blockquote {
+  overflow: hidden;
+  padding: 0px 18px 0px 18px;
+  background-color: #1f1f1f;
+}
+
+dd, dt {
+  line-height: 18px;
+}
+
+dl.horizontal > dd {
+  margin-left: 65px;
+}
+dl.horizontal > dd + dt {
+  margin-top: 18px;
+}
+dl.horizontal > dd + dt + dd {
+  margin-top: 18px;
+}
+dl.horizontal > dt {
+  float: left;
+  width: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 18px;
+}
+
+h1, h2 {
+  line-height: 36px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+li {
+  line-height: 18px;
+}
+ol > li:before, ul > li:before {
+  padding-right: 8px;
+  color: #e6db74;
+}
+ol > li {
+  counter-increment: item;
+}
+ol > li:before {
+  content: counter(item, decimal) ".";
+}
+ul > li:before {
+  content: "\2022";
+}
+ul.unstyled > li:before {
+  padding-right: 0px;
+  content: none;
+}
+
+ol, ul {
+  list-style-image: none;
+  list-style-position: inside;
+  list-style-type: none;
+}
+ol ol, ol ul, ul ol, ul ul {
+  margin: 0px 0px 0px 20px;
+}
+
+ol {
+  counter-reset: item;
+}
+
+p {
+  line-height: 18px;
+  text-align: justify;
+}
+
+pre {
+  padding: 0px 3px 0px 3px;
+  background-color: #1f1f1f;
+  font-family: "Envy Code R", "Ubuntu Mono", monospace;
+  line-height: 18px;
+}
+
+table {
+  background-color: #1f1f1f;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 9px;
+  line-height: 18px;
+}
+
+td > :first-child {
+  margin-top: 0px;
+}
+td > :last-child {
+  margin-bottom: 0px;
+}
+tr:nth-child(2n) > td {
+  background-color: #222222;
+}
+
+th {
+  background-color: #1a1a1a;
+  color: #e6db74;
+  font-style: italic;
+  font-weight: normal;
+  text-align: left;
+}
+
+a {
+  color: #a6ca48;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #e6db74;
+}
+
+code {
+  padding: 0px 3px 0px 3px;
+  background-color: #1f1f1f;
+  color: #a6a6a6;
+  font-family: "Envy Code R", "Ubuntu Mono", monospace;
+  line-height: 18px;
+  white-space: pre;
+}
+pre code {
+  padding: 0px;
+  background-color: transparent;
+  color: #f8f8f2;
+}
+table code {
+  background-color: #1a1a1a;
+}
+
+a > img {
+  vertical-align: text-bottom;
+  padding: 5px;
+  background-color: #1f1f1f;
+}
+
+#container {
+  margin-top: 18px;
+  width: 960px;
+}
+
+#sidebar {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  padding: 0px 18px 0px 18px;
+  width: 255px;
+}
+
+#header {
+  margin: 18px 0px 18px 0px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding: 0px 18px 0px 18px;
+  width: 255px;
+}
+
+#breadcrumbs {
+  position: fixed;
+  top: 18px;
+  left: 309px;
+  margin: 0px;
+  padding: 9px;
+  width: 633px;
+}
+
+#content {
+  margin: 18px 0px 18px 309px;
+  width: 651px;
+}
+#breadcrumbs + #content {
+  margin-top: 72px;
+}
+#content > :first-child {
+  margin-top: 0px;
+}
+#content > :last-child {
+  margin-bottom: 0px;
+}
+
+#sidebar {
+  background-color: #1a1a1a;
+  background-image: url("../images/sbg.png");
+  background-position: left top;
+  background-repeat: repeat;
+}
+
+#header > h1 {
+  font-family: "Ubuntu Mono", sans-serif;
+  font-size: 36px;
+}
+#header > h2 {
+  color: #a6a6a6;
+  font-size: 16px;
+  line-height: 18px;
+}
+#header a {
+  color: white;
+  -webkit-transition: color 0.25s;
+  -moz-transition: color 0.25s;
+  -ms-transition: color 0.25s;
+  -o-transition: color 0.25s;
+  transition: color 0.25s;
+}
+#header a:hover {
+  color: #a6ca48;
+}
+
+.module {
+  margin-top: 18px;
+  font-style: italic;
+}
+
+.module-nav {
+  font-family: "Ubuntu Mono", sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+#footer {
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+#breadcrumbs {
+  background-color: #1a1a1a;
+  color: #a6a6a6;
+  font-family: "Ubuntu Mono", sans-serif;
+  font-style: italic;
+}
+#breadcrumbs > li {
+  float: left;
+}
+#breadcrumbs > li:before {
+  padding-right: 0px;
+  content: none;
+}
+#breadcrumbs span {
+  padding: 0px 6px 0px 6px;
+  color: #d9d9d9;
+  font-style: normal;
+}
+
+.item-header {
+  padding: 12px;
+  background-color: #1f1f1f;
+}
+.item-header > h1 {
+  font-size: 24px;
+  line-height: 30px;
+}
+.item-header > h2 {
+  color: #a6a6a6;
+  font-size: 11px;
+  font-style: normal;
+  line-height: 18px;
+  text-transform: uppercase;
+  word-spacing: 2px;
+}
+.item-header span {
+  position: relative;
+  top: -1px;
+}
+
+.item-body {
+  margin-top: 18px;
+}
+.item-body > :first-child {
+  margin-top: 0px;
+}
+.item-body > :last-child {
+  margin-bottom: 0px;
+}
+.item-body h1 {
+  margin: 24px 0px -6px 0px;
+}
+
+div.code {
+  margin: 18px 0px 18px 0px;
+}
+div.code > div {
+  overflow: auto;
+  background-color: #1f1f1f;
+}
+div.code pre {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  background-color: transparent;
+}
+
+.highlighttable {
+  margin: 0px;
+  background-color: transparent;
+}
+.highlighttable .linenos, .highlighttable .code {
+  padding: 9px;
+}
+.highlighttable .linenos {
+  background-color: #1a1a1a;
+  color: #a6a6a6;
+}
+
+.item-header-posts {
+  margin: 18px 0px 18px 0px;
+  padding: 9px;
+}
+.item-header-posts > h1 {
+  font-size: 16px;
+  line-height: 18px;
+}
+.item-header-posts > h2 {
+  font-size: 10px;
+  line-height: 18px;
+}
+.item-header-posts > h2 a {
+  color: white;
+}
+.item-header-posts > h2 a:hover {
+  color: #a6ca48;
+}
+
+.archives {
+  padding: 9px;
+  background-color: #1f1f1f;
+}
+.archives .archives {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  background-color: transparent;
+}
+
+.archives-year a {
+  color: white;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 18px;
+}
+.archives-year a:hover {
+  color: #a6ca48;
+}
+
+.archives-post-date {
+  color: #a6a6a6;
+  font-size: 12px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.archives-post-title {
+  font-style: italic;
+}
+
+.archives-post-tags {
+  color: #a6a6a6;
+  font-size: 10px;
+  text-transform: uppercase;
+  word-spacing: 2px;
+}
+.archives-post-tags a {
+  color: white;
+}
+.archives-post-tags a:hover {
+  color: #a6ca48;
+}
+.archives-post-tags span {
+  position: relative;
+  top: -1px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    {% include 'page.header.html' %}
+    
+    {% if site.title %}<title>{% if title %}{{ title }} &ndash; {% endif %}{{ site.title }}{% if not title and site.subtitle %} &ndash; {{ site.subtitle }}{% endif %}</title>{% endif %}
+</head>
+
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <div id="header">
+                <h1><a href="{{ get_url() }}">{{ site.title }}</a></h1>
+                {% if site.subtitle %}<h2>{{ site.subtitle }}</h2>{% endif %}
+            </div>
+            
+            <div class="module module-nav">
+                <ul class="unstyled">
+                    <li><a href="{{ get_url() }}">Home</a></li>
+                    <li><a href="{{ get_url('events/') }}">Events</a></li>
+                    <li><a href="{{ get_url('library/') }}">Library</a></li>
+                    <li><a href="mailto:boston[at]pyladies[dot]com">Contact</a></li>
+                </ul>
+            </div>
+            </hr>
+            
+            <!--<div class="module">
+                <p>This is a convenient place to put a quick blurb about yourself and the purpose of this site.</p>
+                <p>This is also a good place to list any other sites you are on like <a href="https://github.com/">GitHub</a> and <a href="https://twitter.com/">Twitter</a>.</p>
+                <p><code>/_templates/layout.html#L26-30</code></p>
+            </div>-->
+        </div>
+        
+        <div id="content">
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+</body>
+</html>

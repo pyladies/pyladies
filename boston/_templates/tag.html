@@ -1,0 +1,34 @@
+{% extends 'layout.html' %}
+
+
+{% set title = 'Blog &rsaquo; Archives  &rsaquo; ' ~ tag.name %}
+
+{% block breadcrumbs %}
+    <ul id="breadcrumbs">
+        <li><a href="{{ get_url() }}" data-pjax="#content">Blog</a><span>&rsaquo;</span></li>
+        <li><a href="{{ get_url('archives/') }}" data-pjax="#content">Archives</a><span>&rsaquo;</span></li>
+        <li>{{ tag.name }}</li>
+    </ul>
+{% endblock %}
+
+{% block content %}
+    {% for year, archive in tag.archives %}
+        <dl class="horizontal archives">
+            <dt class="archives-year"><a href="{{ get_url(archive.url) }}">{{ year }}</a></dt>
+            <dd>
+                <dl class="horizontal archives">
+                    {% for month, posts in archive.months %}
+                        {% for post in posts %}
+                            <dt class="archives-post-date">{{ post.timestamp|date('%b %d') }}</dt>
+                            <dd class="archives-post-title"><a href="{{ get_url(post.url) }}">{{ post.title }}</a></dd>
+                            
+                            {% if post.tags %}
+                                <dd class="archives-post-tags">Tagged <span>&raquo;</span> {% for tag in post.tags %}<a href="{{ get_url(tags[tag].url) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</dd>
+                            {% endif %}
+                        {% endfor %}
+                    {% endfor %}
+                </dl>
+            </dd>
+        </dl>
+    {% endfor %}
+{% endblock %}

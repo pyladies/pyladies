@@ -1,31 +1,5 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-        <link rel="stylesheet" href="../css/styles.css">
-        <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-        <script src="../js/tabletop.js"></script>
-        <script src="../js/jquery.dataTables.min.js"></script>
-        <script src="../js/main.js"></script>
-    </head>
-    <body>
-    	<div id="top">
-	        <div id="logo">
-	            <h1 id="logotitle">PyLadies Boston</h1>
-	        </div>
-
-	        <nav>
-	            <ul>
-	                <li><a href="../index.html">Home</a></li>
-	                <li><a href="../events/index.html">Events</a></li>
-	                <li><a href="">Library</a></li>
-	                <li><a href="mailto:boston[at]pyladies[dot]com">Contact</a></li>
-	            </ul>
-	        </nav>
-	    </div>
-
-	    <hr/>
+{% extends "layout.html" %}
+{% block content %}
     	<div id="libraryContainer">
 			<table cellpadding="0" cellspacing="0" border="0" class="display" id="library">
 				<thead>
@@ -42,5 +16,4 @@
 				<tbody></tbody>
 			</table>
     	</div>
-    </body>
-</html>
+{% endblock %}

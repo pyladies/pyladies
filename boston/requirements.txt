@@ -1,0 +1,11 @@
+Jinja2==2.7
+MarkupSafe==0.18
+PyYAML==3.10
+Pygments==1.6
+argh==0.23.3
+houdini.py==0.1.0
+misaka==1.0.2
+mynt==0.2.3
+pathtools==0.1.2
+watchdog==0.6.0
+wsgiref==0.1.2
