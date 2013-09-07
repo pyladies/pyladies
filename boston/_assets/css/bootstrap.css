@@ -6816,7 +6816,9 @@ td.visible-print {
   }
 }
 
-
+div.indented-text {
+  margin-left:70px;
+}
 
 #libraryContainer {
   display: none;
@@ -6827,6 +6829,10 @@ td.visible-print {
   margin: 40px;
 }
 
+#resource-types
+{
+    list-style-type: none;
+}
 
 /*
  * Table
