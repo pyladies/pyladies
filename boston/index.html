@@ -1,29 +1,83 @@
 {% extends 'layout.html' %}
 
 {% block content %}
-        <p class="about">
-            <p>PyLadies Boston is for anyone who identifies as a woman and is a Python programmer or an aspiring Python programmer in the Boston area. Or even if you have no clue what Python is, but you're interested in learning to program. It's a great language to learn if you have no prior programming experience.</p>
-            <p>Our goal is to get a larger number of women coding and involved in the open source community. Developers and aspiring developers only, please. PyLadies Boston is welcoming to and respectful of trans women. We encourage all women to come out to our meetups.</p>
-            <p>From PyLadies.com: We are a group of women developers worldwide who love the Python programming language. We write code by day or night. Some of us hack on Python projects on the side, while others work full-time on Python development. But it doesn't matter. We all just like writing Python code, and that's what brings us together.</p>
-            <p>RSVP for our events on our <a href="http://www.meetup.com/PyLadies-Boston/">Meetup</a> page! You can also follow us on <a href="http://www.twitter.com/PyLadiesBoston">Twitter</a></p>
-        </p>
-        <footer id="footer">
-            <h4>Connect with us!</h4>
-            <a href="mailto:boston[at]pyladies[dot]com"><img class="icon" src="{{ get_asset('images/email.png') }}" width="65" height="65" alt="email"></a>
-            <a href="http://meetup.com/PyLadies-Boston"><img class="icon" src="{{ get_asset('images/meetup.gif') }}" width="65" height="45" alt="meetup"></a>
-            <a href="https://github.com/PyLadies-Boston">
-                <img class="icon" src="{{ get_asset('images/github.png') }}" width="65" height="65" alt="github"></a>
-            <a href="http://www.twitter.com/pyladiesboston">
-                <img class="icon" src="{{ get_asset('images/twitter.png') }}" width="65" height="65" alt="twitter"></a>
-            <h3>Organizers</h3>
-            <a href="http://twitter.com/oboesqueaks">
-                <img src="{{ get_asset('images/jennifer.jpeg') }}" width="100" alt="@oboesqueaks"></a>
-            <h3>Jennifer Morton</h3>
-            <p>Founder/Organizer</p>
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+<!--           <img src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:First slide" alt="First slide"> -->
+          <div class="container">
+            <div class="carousel-caption">
+                <img id="logo" src="{{get_asset('images/pyladies_boston_logo.png')}}">
+              <h1>PyLadies Boston</h1>
+              <p>We're a group of female Python programmers - we code day or night! We have all skill levels, from beginners who have never touched code to experienced developers. Free and open to all who identify as women.</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-            <a href="http://twitter.com/eudaimonious">
-                <img src="{{ get_asset('images/margaret.jpeg') }}" width="100" alt="@eudaimonious"></a>
-            <h3>Margaret Scott</h3>
-            <p>Organizer</p>
-        </footer>
+    </div><!-- /.carousel -->
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="{{ get_asset('images/twitter.png') }}" alt="@PyLadiesBoston">
+          <p>
+            <div class="twitter-feed">        
+                <a class="twitter-timeline" href="https://twitter.com/PyLadiesBoston" data-widget-id="376404988924141568">Tweets by @PyLadiesBoston</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
+          </p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="{{ get_asset('images/cs_barbie.jpg') }}" alt="CS Barbie">
+          <h2>Featured Bio</h2>
+          <p><h3>Barbie</h3>
+            For years, I worked as a swimsuit model, astronaut, veterinarian, doctor, princess, and homemaker. Then I found the magic of Python!
+            ... just kidding, featured bio coming soon.</p>
+          <!-- <p><a class="btn btn-default" href="#">View details &raquo;</a></p> -->
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="{{ get_asset('images/github.png') }}" alt="Connect">
+          <h2>Connect with us!</h2>
+            <a href="https://github.com/PyLadies-Boston"><img class="icon" src="{{ get_asset('images/github.png') }}" width="65" height="65" alt="github"></a> Follow us on Github</br></br>
+            <a href="http://meetup.com/PyLadies-Boston"><img class="icon" src="{{ get_asset('images/meetup.gif') }}" width="65" height="45" alt="meetup"></a> Join PyLadies Boston</br></br>
+            <a href="mailto:boston[at]pyladies[dot]com"><img class="icon" src="{{ get_asset('images/email.png') }}" width="65" height="65" alt="email"></a> Contact the organizers</br></br>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <div id="organizers" class="row">
+        <div class="col-lg-4">
+            <br/>
+            <br/>
+          <h2><br/><br/>PyLadies Boston Organizers</h2>
+        </div>
+        <div class="col-lg-4">
+          <a href="http://www.twitter.com/oboesqueaks"><img class="img-circle" src="{{ get_asset('images/jennifer.jpeg') }}" alt="@oboesqueaks"></a>
+          <h2>Jennifer Morton</h2>
+          <p>Jennifer was trained to be an Industrial Engineer but decided coding was more fun. She works on a mix of Ubuntu and OS X machines, coding in Python, Javascript, and Ruby. Follow her <a href="http://www.twitter.com/oboesqueaks">@oboesqueaks</a>.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <a href="http://www.twitter.com/eudaimonious"><img class="img-circle" src="{{ get_asset('images/margaret.jpeg') }}" alt="@eudaimonious"></a>
+          <h2>Margaret Scott</h2>
+          <p>Web application developer. Recent Startup Institute Alum. Follow her <a href="http://www.twitter.com/eudaimonious">@eudamonious</a>.</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2013 PyLadies Boston</p>
+      </footer>
 {% endblock %}

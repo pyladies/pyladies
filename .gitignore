@@ -4,3 +4,9 @@
 local_settings.py
 _site/
 .DS_Store
+
+boston/.floo
+
+boston/.flooignore
+
+boston/.sublime-project
