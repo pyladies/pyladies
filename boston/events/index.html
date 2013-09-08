@@ -1,23 +1,4 @@
-<html>
-	<head>
-		<title>Events</title>
-	</head>
-	<body>
-        <div id="top">
-            <div id="logo">
-                <h1 id="logotitle">PyLadies Boston</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="">Events</a></li>
-                    <li><a href="../library/index.html">Library</a></li>
-                    <li><a href="mailto:boston[at]pyladies[dot]com">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-
-        <hr/>
-		Check back later for future events!
-	</body>
-</html>
+{% extends "layout.html" %}
+{% block content %}
+<div id="upcomingMeetupsList"></div>
+{% endblock %}
