@@ -6,10 +6,6 @@
 
 <link rel="shortcut icon" href="{{ get_asset('images/favicon.ico') }}" type="image/x-icon">
 
-
-<!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic|Ubuntu+Mono:400,400italic" type="text/css"> -->
-<link rel="stylesheet" href="{{ get_asset('css/styles.css') }}" type="text/css">
-<!-- {% if site.pygmentize %}<link rel="stylesheet" href="{{ get_asset('css/pygments.css') }}" type="text/css">{% endif %} -->
 <link href="{{ get_asset('css/bootstrap.css') }}" rel="stylesheet">
 <link href="{{ get_asset('css/carousel.css') }}" rel="stylesheet">
 
@@ -20,6 +16,13 @@
 <script src="{{ get_asset('js/main.js') }}"></script>
 <script src="{{ get_asset('js/bootstrap.js') }}"></script>
 <script src="{{ get_asset('js/holder.js') }}"></script>
+<script type="text/javascript" src="{{ get_asset('js/meetup_widget.js') }}"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        var chapter_ids = '8401402';
+        addUpcomingMeetups(chapter_ids);
+    });//end doc.ready
+</script>
 
 {% if site.analytics %}
     <script type="text/javascript">

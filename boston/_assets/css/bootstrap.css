@@ -48,6 +48,7 @@ html {
 
 body {
   margin: 0;
+  border-top: 1px solid #ddd;
 }
 
 a:focus {
@@ -129,14 +130,16 @@ img {
 }
 
 #logo {
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
 }
 
 /*#organizers {
   width: 1200px;
   margin: 0 auto;
 }*/
+
+
 
 svg:not(:root) {
   overflow: hidden;
@@ -513,16 +516,19 @@ h6 {
 h1,
 .h1 {
   font-size: 36px;
+  font-weight: 100;
 }
 
 h2,
 .h2 {
   font-size: 30px;
+  font-weight: 200;
 }
 
 h3,
 .h3 {
   font-size: 24px;
+  font-weight: 200;
 }
 
 h4,
@@ -4385,8 +4391,14 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+background: -moz-linear-gradient(top, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.05) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.2)), color-stop(100%,rgba(0,0,0,0.05))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.05) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.05) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.05) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.05) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#0d000000',GradientType=0 ); /* IE6-9 */
+border: none;
 }
 
 .navbar-default .navbar-brand {
@@ -4502,12 +4514,19 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse {
-  background-color: #222222;
-  border-color: #080808;
+background: -moz-linear-gradient(top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.6) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.8)), color-stop(100%,rgba(0,0,0,0.6))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.6) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.6) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.6) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.6) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#99000000',GradientType=0 ); /* IE6-9 */
+border: none;
+box-shadow: 0 0 30px #FFFFFF;
 }
 
 .navbar-inverse .navbar-brand {
-  color: #999999;
+  color: #ccc;
 }
 
 .navbar-inverse .navbar-brand:hover,
@@ -4517,11 +4536,11 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-text {
-  color: #999999;
+  color: #ccc;
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: #999999;
+  color: #ccc;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
@@ -6175,9 +6194,13 @@ body.modal-open,
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #ffffff;
+  color: #333;
   text-align: center;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.carousel-caption h1 {
+  font-weight: 100;
+  font-size: 300%;
 }
 
 .carousel-caption .btn {
@@ -7632,4 +7655,68 @@ div.box {
   overflow: auto;
   border: 1px solid #8080FF;
   background-color: #E5E5FF;
+}
+
+#upcomingMeetupsList {
+  margin: 20px 63px;
+}
+
+#upcomingMeetupsList dl {
+  margin-bottom: 30px;
+  padding-top: 25px;
+  border-top: 1px dotted #ccc;
+}
+
+#upcomingMeetupsList dt {
+  font-size: 110%;
+}
+
+#upcomingMeetupsList dl:first-child {
+  border: none;
+  padding-top: none;
+}
+
+.meetup_event_venue {
+  font-size: 85%;
+  line-height: 110%;
+  margin: 0 0 20px;
+  color: #999;
+}
+
+.meetup_event_description {
+    font-size: 85%;
+    line-height: 110%;
+    padding: 20px;
+    background: #f5f5f5;
+    color: #666;
+}
+
+.meetup_event_date {
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.navbar-inverse .navbar-brand, .navbar-brand {
+  color: #DE0538;
+  font-size: 175%;
+  font-weight: 100;
+  text-shadow: 0 1px 1px black;
+}
+
+#organizers {
+  margin: 40px 0 40px;
+  background: #f4f4f4;
+  padding: 40px 20px 20px;
+  border-radius: 12px;
+}
+
+#organizers h2 {
+  font-weight: 100;
+}
+
+#organizers .title h2 {
+  font-size: 300%;
+  position: relative;
+  top: 85px;
+  color: #DE0538;
 }
