@@ -1,0 +1,76 @@
+{% extends "site.html" %}
+{% block title %}PyLadies AMS{% endblock %}
+{% block headjs %}
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ get_asset('js/meetup_widget.js') }}"></script>
+	<script type="text/javascript">
+        $(document).ready(function() {
+			var chapter_id = '9301202'; //AMS meetup group ID
+            addUpcomingMeetups(chapter_id);
+        });//end doc.ready
+	</script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+		//fetch PyLadiesAMS mailing list feed & parse headlines; posts snippets
+		google.load("feeds", "1");
+
+		function initialize() {
+		  var feed = new google.feeds.Feed("http://www.meetup.com/PyLadiesAMS/messages/archive/rss/PyLadiesAMS-list+Meetup+Mailing+List/");
+		  feed.load(function(result) {
+			if (!result.error) {
+			  var container = document.getElementById("feed");
+			  for (var i = 0; i < result.feed.entries.length; i++) {
+				var div = document.createElement("div");
+				var entry = result.feed.entries[i];
+				var pub_date = new Date(entry.publishedDate);
+				div.innerHTML = (pub_date + "<br><a href='"+ entry.link + "'>" + entry.title + "</a><br>" + entry.contentSnippet + "<hr><p>");
+				container.appendChild(div);
+			  }
+			} //end if
+		  }); //end feed load
+		} //end initialize
+		google.setOnLoadCallback(initialize);
+</script>
+{% endblock %}
+{% block style %}
+	<style type="text/css">
+		.sidebar #sponsor_us_btn span {
+			 margin: 15px -30px 20px -30px;
+		}
+	</style>
+{% endblock %}
+
+{% block content %}
+    <section id="archive">
+        <h1>PyLadies AMS</h1>
+            <article>
+				<h2>Welcome!</h2>
+				PyLadies Amsterdam  is a social group for female Python programmers at every experience levelfrom Amsterdam Area. Our mission is to promote, educate and advance a diverse Python community through outreach, education, conferences, events and social gatherings. Please feel free to join us!<br> <br>
+					<li>On Twitter: <a href="https://twitter.com/PyLadiesAMS">@PyLadiesAMS</a>. </li>
+					<li>And on Facebook: <a href="https://www.facebook.com/PyladiesAmsterdam">facebook.com/PyladiesAmsterdam</a> </li></ul>
+				And if you'd like to get some more information about our parent organization, check out the web site: <a href="http://www.pyladies.com">http://www.pyladies.com</a> <br>
+            </article>
+			<h2>Latest from the Mailing List</h2>
+			<div id ="feed"></div>
+    </section>
+{% endblock %}
+
+{% block sidebar%}
+	<div id="sponsor_us_btn">
+		<a href="http://www.meetup.com/PyLadiesAMS/join/?rg=joinus2"><span style="white-space:nowrap">Join Our Meetup</span></a>
+	</div>
+
+	<div id="sponsor_us_btn"><a href="http://www.meetup.com/PyLadiesAMS/sponsor/">Sponsor Us</a></div>
+
+	<h3>Upcoming Events</h3>
+	<div id="upcomingMeetupsList">
+	</div>
+{% endblock %}
+
+{% block footer %}
+	<ul class="social">
+		<li><a class="icon google-plus" data-icon="&#62223;" href="https://plus.google.com/u/1/117429969302060859471/" title="Google+"></a></li>
+		<li><a class="icon rss" data-icon="&#59194;" href="{{ get_url('feed.xml', true)}}" title="RSS"></a></li>
+		<li><a class="icon creative-commons" data-icon="&#128325;" href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons"></a>2013 - {{ None|date('%Y') }} PyLadies AMS. All Rights Reserved.</li>
+	</ul>
+{% endblock %}
