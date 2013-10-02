@@ -12,12 +12,12 @@
     {% include 'nav-main.html' with context %}
 
     <!-- Content -->
-    <div id="content" class="container">
+    <div class="container" role="document">
     {% block content %}{% endblock %}
     </div>
 
     <!-- Footer -->
-    <footer class="footer" role="contentinfo">
+    <footer role="contentinfo">
       <div class="container">
         {% include 'social-buttons.html' %}
       </div>

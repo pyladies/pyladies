@@ -8,17 +8,24 @@
   {% if page %}{{page}} - {% endif %}{{ site.title }}
 </title>
 
-<!-- Bootstrap core CSS -->
-<link href="{{ get_asset('css/bootstrap.css') }}" rel="stylesheet">
+<!-- import fonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Caption:700" rel="stylesheet">
 
 <!-- Main CSS -->
 <link href="{{ get_asset('css/main.css') }}" rel="stylesheet">
 
+<<<<<<< HEAD
 <!-- Fontello font-->
 <link href="{{ get_asset('css/fontello.css') }}" rel="stylesheet">
 
+=======
+>>>>>>> f04e3b2... Adding bootstrap sass
 <!-- Favicons -->
 <link rel="shortcut icon" href="{{ get_asset('images/favicon.ico') }}" type="image/x-icon">
+
+<!-- Scripts required at loading time -->
+<script src="{{ get_asset('js/head.min.js') }}"></script>
+
 
 {% if site.analytics %}
     <script type="text/javascript">
