@@ -1,0 +1,30 @@
+---
+layout: post.html
+title: "Fundraising for PyLadies for PyCon 2014"
+tag: [PyCon]
+author: Lynn Root
+author_link: http://twitter.com/roguelynn
+---
+
+With [PyCon 2014][0] planning in high gear, PyLadies is revving up to raise funds to help women attend the biggest Python conference of the year.
+
+Our goal is to raise enough funds so that every PyLady who wants to attend the conference can. That is a lofty goal, but can you blame us? At PyCon 2012, 11% of conference attendees were women. In 2013, it shot to over 20%; and the ratio of speakers matched. Last year, PyLadies and the [Python Software Foundation][1] worked hard to increase diversity with the help of financial aid, and it clearly showed. We're hoping to continue that momentum.
+
+In the past, one PyLady from the US/North America needed about $500 - $1000 to help pay for flights and hotels, with about $1000-2000 needed for those that are international. Now that PyCon is hosted in Canada, Pyladies needs more financial help than ever before.
+
+We're hoping to raise at least $20,000 to help about 20 magnificent women to attend. That money will go to women that will be speaking, giving a tutorial, presenting a poster, or trying out a lightning talk. It will go to women attending that give back to the Python and Open Source community, and those looking to make connections to start their own local PyLadies group.
+
+Are you a company that would like to help out? Email us at [info@pyladies.com][2] if you would like more information! We will give profuse thanks on our [blog][3] and newsletter, tweet from our local PyLadies handles, and include promotional advertising in our PyCon-edition of the PyLadies newsletter.
+
+We have a [donation page][4] for those of you who would like to donate directly and/or anonymously to PyLadies.
+
+We are under the financial enclave of the Python Software Foundation, a non-profit organization, so any donation is tax-deductible. You may donate through our [donation website][4], and/or we can send you an invoice to mail or wire payment. Ping us at [info@pyladies.com][2] if you would like more information!
+
+More information is available on the [PyCon Financial Aid][5] site if you would like to apply for financial aid for PyCon, whether you are a PyLady or PyGent.
+
+[0]: http://us.pycon.org/2014
+[1]: http://python.org/psf
+[2]: mailto:info@pyladies.com?subject=Donation
+[3]: http://pyladies.com/blog
+[4]: https://psfmember.org/civicrm/contribute/transact?reset=1&id=6
+[5]: https://us.pycon.org/2014/assistance/
