@@ -7716,7 +7716,7 @@ div.box {
 
 #organizers .title h2 {
   font-size: 300%;
-  position: relative;
+  /*position: relative;*/
   top: 85px;
   color: #DE0538;
 }
