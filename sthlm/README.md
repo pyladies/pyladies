@@ -46,11 +46,11 @@ two divering paths
 
 
 ### Working on site
-`npm install && bower install && bundle install` to draw in all dependencies
+`npm install && bower install && bundle install && pip install -r requirements.txt` to draw in all dependencies
 
 #### Basic commands
 * `grunt server` to run a local development server, opens [http://localhost:9000](http://localhost:9000) and reloads at changes
-* `grunt deploy` copies the files from `src` and the built `_site` over to the `PyladiesSthlm.github.io` repository, assuming it's in the same folder as the `pyladies` repository. If it is, it will automatically add the changes, commit it and push it onto the origin.
+* `grunt deploy` pushes the changes in the site to the live site repository, with a commit message stating its' auto-generated
 
 ## To do:
 
