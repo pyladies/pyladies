@@ -234,7 +234,9 @@ module.exports = function (grunt) {
                         '<%= yeoman.app %>/_assets/_bower_components/sass-bootstrap/js/carousel.js',
                         '<%= yeoman.app %>/_assets/_bower_components/sass-bootstrap/js/scrollspy.js',
                         '<%= yeoman.app %>/_assets/_bower_components/sass-bootstrap/js/collapse.js',
-                        '<%= yeoman.app %>/_assets/_bower_components/sass-bootstrap/js/tab.js'
+                        '<%= yeoman.app %>/_assets/_bower_components/sass-bootstrap/js/tab.js',
+                        '<%= yeoman.app %>/_assets/js/meetup_widget.js',
+                        '<%= yeoman.app %>/_assets/js/main.js'
                     ]
                 }
             },
@@ -242,7 +244,7 @@ module.exports = function (grunt) {
                 files: {
                     '.tmp/assets/js/head.js': [
                         '<%= yeoman.app %>/_assets/_bower_components/jquery/jquery.js',
-                        '<%= yeoman.app %>/_assets/_bower_components/modernizr/modernizr.custom.js'
+                        '<%= yeoman.app %>/_assets/_bower_components/modernizr/modernizr.custom.js',
                     ],
                     '.tmp/assets/js/foot.js': [
                         '<%= yeoman.app %>/_assets/_bower_components/sass-bootstrap/js/affix.js',
@@ -257,7 +259,9 @@ module.exports = function (grunt) {
                         '<%= yeoman.app %>/_assets/_bower_components/sass-bootstrap/js/carousel.js',
                         '<%= yeoman.app %>/_assets/_bower_components/sass-bootstrap/js/scrollspy.js',
                         '<%= yeoman.app %>/_assets/_bower_components/sass-bootstrap/js/collapse.js',
-                        '<%= yeoman.app %>/_assets/_bower_components/sass-bootstrap/js/tab.js'
+                        '<%= yeoman.app %>/_assets/_bower_components/sass-bootstrap/js/tab.js',
+                        '<%= yeoman.app %>/_assets/js/meetup_widget.js',
+                        '<%= yeoman.app %>/_assets/js/main.js'
                     ]
                 }
             }

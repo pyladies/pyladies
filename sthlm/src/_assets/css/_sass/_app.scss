@@ -136,6 +136,10 @@ a.icon-github-circled, a.icon-github-circled:hover {
     }
 }
 
+.twitter-timeline {
+    margin-top: 20px;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
@@ -159,5 +163,5 @@ a.icon-github-circled, a.icon-github-circled:hover {
 nav[aria-label="main"] .nav-tabs {
     // Too much magic, but works for now
     position: relative;
-    top: -17px;
+    top: 1px;
 }
