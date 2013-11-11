@@ -22,7 +22,7 @@
     <link href='http://fonts.googleapis.com/css?family=l:200,400|Lora|News+Cycle|Josefin+Sans|Muli|Lato:300,400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script type="text/javascript" src="http://katychuang.pythonanywhere.com/static/scripts.js"></script>
+    <script type="text/javascript" src="http://www.pyladies.com/assets/js/meetup_widget.js"></script>
     </head>
 
 <body>
@@ -32,20 +32,23 @@
             <h1 id="logotitle">NYC PyLadies</h1>    <!-- Logo text -->
         </div><!--/logo-->
 
-        <nav>   <!-- Navigation Start -->
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="#events">Events</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#footer">Contact</a></li>
-            </ul>
-        </nav>  <!-- Navigation End -->
-    </div><!--/top-->
+        <aside class="social">   <!-- Navigation Start -->
+            <a href="http://www.github.com/nycpyladies">
+                <img class="icon" src="images/github.png" width="65" height="65" alt="github"></a>
+            <a href="https://plus.google.com/u/3/102690834924315037337/">
+                <img class="icon" src="images/gplus.png" width="65" height="65" alt="google"></a>
+            <a href="http://facebook.com/nycpyladies"><img class="icon" src="images/facebook.png" width="65" height="65" alt="facebook"></a>
+            <a href="http://nyc-pyladies.tumblr.com/">
+                <img class="icon" src="images/tumblr.png" width="65" height="65" alt="tumblr"></a>
+            <a href="http://www.twitter.com/nycpyladies">
+                <img class="icon" src="images/twitter.png" width="65" height="65" alt="twitter"></a>
 
+        </aside>  <!-- Navigation End -->
+    </div><!--/top-->
 
     <hr/><!-- Horizontal Line -->
 
-    <aside class="about">
+    <aside class="about social">
         <p>We are a group for Python ladies of all levels of programming experience, in the NYC metro area. </p>
         <p>&nbsp;</p>
         <p>Pyladies is an international mentorship group with a focus on helping more women become active participants and leaders in the Python open-source community. Our mission is to promote, educate and advance a diverse Python community through outreach, education, conferences, events and social gatherings. </p>
@@ -58,37 +61,12 @@
 
     <aside id="events" class="left">
         <h3>Upcoming Events</h3>
-            <h4>July 2013</h4>
-            <ul>
-                <li>July 27-28 <a href="http://pyohio.org/">PyOhio</a></li>
-                <li>July 27-28 PyData Boston</li>
-            </ul>
-            <p>&nbsp;</p>
-            <h4>August 2013</h4>
-            <ul>
-                <li>1st week of August - Writing Workshop & Pycon CFP</li>
-                <li>Last week of August - Demo/Hack night!</li>
-            </ul>
-            <p>&nbsp;</p>
-            <h4>September 2013</h4>
-            <ul>
-                <li>DjangoCon 2013 (Chicago)</li>
-            </ul>
-    </aside>
-
-    <aside id="news" class="left"> <!-- Text Section Start -->
-        <h3>Recent News</h3><!-- Replace all text with what you want -->
+        <div id="upcomingMeetupsList">
+        </div>
         <p>
-        <ul>
-            <li><em>02.22.2013:</em> <b>Chapter Website</b> <blockquote>Chapter website is up. We are seeking volunteers for further design/development work. Send email to nyc [at] pyladies [dot] com with subject line 'Chapter Website Redesign'. </blockquote></li>
-            <li><em>02.20.2013:</em> <b>PyData 2013</b> <blockquote>Schedule finalized for PyData SV 2013. Our very own Katherine Chuang will be presenting a talk and a tutorial next month.</blockquote></li>
-            <li><em>02.18.2013:</em> <b>Details finalized for our event with Spotify!</b>
-                <blockquote>In partnership with Spotify, our first joint Meetup of 2013. This talk will be centered around the various uses of Python at Spotify and Zanab Hussain from NYC Pyladies will discuss some of her work with Python.<br /><br />
-            <p>Come to learn, network and have a good time. Discussion topics are listed in the schedule below. Also, you guys get to DJ. Click on <a href="http://open.spotify.com/user/122053335/playlist/10mTHqOE89TibbxKRWNMJo">this link</a>, launch the Spotify app, click "Subscribe" under the playlist title and add songs to the collaborative playlist for the event.</p></blockquote></li>
-        </ul>
+            <a href="http://meetup.com/NYC-Pyladies">Visit our Meetup Page</a>
         </p>
     </aside>
-
 
     <div class="clearfix"></div> <!-- Text Section End -->
 
@@ -97,45 +75,11 @@
 
 
 
-
-<footer id="footer">
-    <div class="wrapper">
-        <aside class="right social"> <!-- Social Icons Start -->
-            <h4>Connect with us!</h4>
-            <h4>&nbsp;</h4>
-            <h4>nyc [at] pyladies [dot] com</h4>
-            <h4><a href="http://meetup.com/NYC-Pyladies">meetup.com/NYC-Pyladies</a></h4>
-            <h4>&nbsp;</h4>
-            <a href="http://www.github.com/nycpyladies">
-                <img class="icon" src="images/github.png" width="65" height="65" alt="github"></a>
-            <a href="https://plus.google.com/u/3/102690834924315037337/">
-                <img class="icon" src="images/gplus.png" width="65" height="65" alt="google"></a>
-            <a href="http://facebook.com/nycpyladies"><img class="icon" src="images/facebook.png" width="65" height="65" alt="facebook"></a>
-            <a href="http://www.twitter.com/nycpyladies">
-                <img class="icon" src="images/twitter.png" width="65" height="65" alt="twitter"></a>
-            <a href="http://nyc-pyladies.tumblr.com/">
-                <img class="icon" src="images/tumblr.png" width="65" height="65" alt="tumblr"></a>
-        </aside> <!-- Social Icons End -->
-
-        <aside class="left">
-            <h3>Leaders</h3>
-            <div class="item">
-                <a href="http://twitter.com/katychuang">
-                    <img src="https://si0.twimg.com/profile_images/378800000084325729/e6494a980d70d02dc16f021e36597bed.png" width="180" alt="@katychuang"></a><!-- Image must be 400px by 300px -->
-                <h3>Kat Chuang</h3><!--Title-->
-                <p>Founder</p><!--Category-->
-            </div><!--/item-->
-            <div class="item">
-                <a href="http://twitter.com/emchenNYC">
-                    <img src="https://si0.twimg.com/profile_images/3114017290/4750c900cf58599bb712f7d86eb6e217.jpeg" width="180" alt="@emchenNYC"></a><!-- Image must be 400px by 300px -->
-                <h3>Emily Chen</h3><!--Title-->
-                <p>Organizer</p><!--Category-->
-            </div><!--/item-->
-        </aside>
-
-    </div>
-</footer>
-
-
+<script type="text/javascript">
+        $(document).ready(function() {
+            var nychapter_id = '4576312';
+            addUpcomingMeetups(nychapter_id);
+        });//end doc.ready
+    </script>
 </body>
 </html>

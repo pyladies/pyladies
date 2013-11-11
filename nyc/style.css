@@ -16,6 +16,10 @@ body{
 	color:#2d2d2d;
 }
 
+a, a:visited {
+	color: rgb(243, 128, 148);
+	text-decoration: none;
+}
 
 /* ------------------ keeps all content in the center of page -----------------  */
 .wrapper{
@@ -27,8 +31,8 @@ body{
 
 /* The rest is pretty self explanatory - it appears in the order that it occurs on the HTML document */
 #top{
-	height:40px;
-	border-bottom: 1px solid #444444;
+	height:70px;
+	/*border-bottom: 1px solid #444444;*/
 }
 
 #logo{
@@ -43,10 +47,10 @@ body{
 }
 
 #logotitle{
-	float:left;
+	/*float:left;*/
 	font-family:'Josefin Sans', Helvetica, sans-serif;
-	font-weight:normal;
-	font-size:215%;
+	font-weight: bold;
+	font-size:305%;
 }
 
 #logotitle a{
@@ -57,49 +61,17 @@ body{
 nav{
 	float:right;
 	width:400px;
-	display:block;
-	height:40px;
-}
-
-nav ul li{
-	display:block;
-	width:25%;
-	float:left;
-	text-align:center;
-}
-
-nav ul li a{
-	font-family:'Josefin Sans', Helvetica, Arial, sans-serif;
-	width:90%;
-	text-decoration:none;
-	text-transform:uppercase;
-	font-weight:400;
-	line-height:250%;
-	display:block;
-	color:#2d2d2d;
-}
-
-nav ul li a:hover{
-	color:#f38094;
-}
-
-nav ul li p{
-	font-family:'Josefin Sans', Helvetica, Arial, sans-serif;
-	width:90%;
-	text-decoration:none;
-	text-transform:uppercase;
-	font-weight:400;
-	line-height:250%;
-	display:block;
-	color:#f38094;
 }
 
 .about{
-	width:100%;
-    margin-top:2%;
-    font-family:'muli', Arial, Helvetica, sans-serif;
-    margin-bottom:40px;
+	width: 100%;
+    background: #fefefe;
+    font-family:'Muli', Arial, Helvetica, sans-serif;
     font-size:12pt;
+    margin-bottom:40px;
+    margin-top:2%;
+    padding: 20px;
+    border:1px solid #ccc;
 }
 
 .about h3{
@@ -110,30 +82,7 @@ nav ul li p{
 }
 blockquote{padding:20px; color:#444444;}
 
-/* - - - - - - - - - - - - - - -  Slider START  - - - - - - - - - - - - - - - */
 
-.html_carousel {
-}
-.html_carousel div.slide {
-	position: relative;
-}
-.html_carousel div.slide img {
-	width: 100%;
-	height: auto;
-	-webkit-box-shadow: 0 1px 1px #c1c1c1;
-    -moz-box-shadow: 0 1px 1px #c1c1c1;
-    box-shadow: 0 1px 1px #c1c1c1;
-	border-radius:15px;
-}
-
-.clearfix {
-	float: none;
-	clear: both;
-}
-
-/* - - - - - - - - - - - - - - -  Slider END  - - - - - - - - - - - - - - - */
-
-.centered {margin-left:40%;}
 
 .left{
 	margin-top:4%;
@@ -291,10 +240,10 @@ list-style-type: none;
 
 
 footer{
-	border-top: 1px solid #2d2d2d;
 	width:100%;
 	padding:10px 0;
 	background-color:#ffffff;
+	text-align: center;
 }
 
 .icon{
@@ -548,4 +497,13 @@ input:focus, input.focused, textarea:focus, textarea.focused {  color: #3e3e3e; 
 	.item p{
 		font-size:40%;
 	}
+}
+
+#upcomingMeetupsList ul li {
+	margin-bottom: 20px;
+}
+
+.meetup_group_icon {
+	float:left;
+	margin-right: 20px;
 }
