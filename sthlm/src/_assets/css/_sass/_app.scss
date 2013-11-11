@@ -54,50 +54,22 @@ body {
 }
 
 .icons {
-<<<<<<< HEAD
   font-size: 20px;
+  list-style: none;
+  padding-left: 0;
 
-<<<<<<< HEAD
-.icons > a, .icons > a:hover {
-  display: inline-block;
-  margin: 6px;
-  text-decoration: none;
-=======
-    > div {
-=======
-    list-style: none;
-    padding-left: 0;
     li {
->>>>>>> c779ecb... Changing icons to list
       display: inline-block;
       margin: 6px;
     }
->>>>>>> 5ee3b2f... Refactoring HTML to be more semantic
 }
 
-<<<<<<< HEAD
-a.icon-twitter, a.icon-twitter:hover {
-  color: #20ABD3;
-}
-
-a.icon-facebook, a.icon-facebook:hover {
-  color: #4B6498;
-}
-
-a.icon-meetup, a.icon-meetup:hover {
-  color: #E51938;
-}
-
-a.icon-github-circled, a.icon-github-circled:hover {
-  color: black;
-=======
 [class^="icon-"] {
     @extend %ir;
     &:before {
         font-size: 20px;
         @extend %social-icons;
     }
->>>>>>> c779ecb... Changing icons to list
 }
 
 /* Custom page footer */

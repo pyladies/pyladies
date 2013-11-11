@@ -9,6 +9,7 @@
  */
 
 // Core variables and mixins
+@import "sass-bootstrap/lib/variables";
 @import "sass-bootstrap/lib/mixins";
 
 // Reset
@@ -26,10 +27,6 @@
 
 // Components
 @import "sass-bootstrap/lib/component-animations";
-<<<<<<< HEAD
-// @import "sass-bootstrap/lib/glyphicons";
-=======
->>>>>>> 0b0509f... making a mixin of social media icons
 @import "sass-bootstrap/lib/dropdowns";
 @import "sass-bootstrap/lib/button-groups";
 @import "sass-bootstrap/lib/input-groups";

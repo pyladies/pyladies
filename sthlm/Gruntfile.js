@@ -20,19 +20,8 @@ module.exports = function (grunt) {
 
     // configurable paths
     var yeomanConfig = {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        app: 'www',
-        dist: '_site',
-        deploy: '../../PyladiesSthlm.github.io'
-=======
         app: 'src',
         dist: '_site'
->>>>>>> 99253b1... Moving www to src
-=======
-        app: 'src',
-        dist: '_site'
->>>>>>> 544ce1c... Correct Bower components location
     };
 
     grunt.initConfig({
@@ -42,28 +31,18 @@ module.exports = function (grunt) {
                 command: 'mynt gen -f src _site'
             },
             mynt: {                      // Target
-<<<<<<< HEAD
-<<<<<<< HEAD
-                command: 'mynt gen -f www .tmp'
+                command: 'mynt gen -f src .tmp'
             },
-            deploy: {
+            update: {
                 command: [
-                    'git add --all',
-                    'git commit -m "Automatic commit from main repository"',
-                    'git push'
+                    'npm update',
+                    'bower update',
+                    'bundle update',
+                    'pip install -r "requirements.txt"'
                 ].join('&&'),
                 options: {
-                    stdout: true,
-                    execOptions: {
-                        cwd: '<%= yeoman.deploy %>'
-                    }
+                    stdout: true
                 }
-=======
-                command: 'mynt gen -f src .tmp'
->>>>>>> 99253b1... Moving www to src
-=======
-                command: 'mynt gen -f src .tmp'
->>>>>>> 544ce1c... Correct Bower components location
             }
         },
         watch: {
@@ -446,5 +425,9 @@ module.exports = function (grunt) {
         'js',
         'test',
         'build'
+    ]);
+
+    grunt.registerTask('update', [
+        'shell:update'
     ]);
 };
