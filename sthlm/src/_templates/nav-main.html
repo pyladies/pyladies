@@ -1,0 +1,21 @@
+<div class="container">
+  <header role="banner">
+    <!--<nav aria-label="main" role="navigation">
+        <ul class="nav nav-tabs pull-right">
+          <li {% if not page %} class="active"{% endif %}>
+            <a href="{{ get_url('/') }}">Home</a>
+          </li>
+          <li {% if page == "About" %} class="active"{% endif %}>
+            <a href="{{ get_url('about/') }}">About</a>
+          </li>
+          <li{% if page == "Events" %} class="active"{% endif %}>
+            <a href="{{ get_url('events/')}}">Events</a>
+          </li>
+        </ul>
+    </nav>-->
+    <a class="pull-left" href="/">
+      <img class="media-object" src="{{ get_asset('images/pylady_geek_logo.png') }}" alt="Pyladies Logo">
+    </a>
+    <h3 class="text-muted">PyLadies Stockholm</h3>
+  </header>
+</div>

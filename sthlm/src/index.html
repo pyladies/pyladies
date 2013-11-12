@@ -1,0 +1,49 @@
+{% extends 'default.html' %}
+
+
+{% block content %}
+<div class="jumbotron">
+  <h1>PyLadies Stockholm</h1>
+  <p class="lead">We are the Stockholm chapter of PyLadies, an international mentorship group for women who love Python.
+  Our focus is to help more women to become active participants and leaders in the tech community in Stockholm.
+  We organize study groups, workshops, mini-conferences or just get together to code in Python.
+  Our mission is to create a diverse, creative and friendly community for developers of all levels. </p>
+  <!--<p><a class="btn btn-danger btn-lg" href="{{ get_url('about/') }}">Learn more</a></p>-->
+</div>
+
+<div class="row marketing">
+  <div class="col-lg-6">
+    <h3>Upcoming Meetups</h3>
+    <div id="upcomingMeetupsList">
+      <p>We meet to learn more about Python and software development
+        every other Saturday. Everyone is welcome to join, 
+        the only requirement is that you are interested in programming. 
+        Every once in a while we also meet for an evening of talks and 
+        just trying to be social ;-)
+      </p>
+      <p>
+        Sign up for the upcoming events at <a href="http://www.meetup.com/PyLadiesStockholm/">http://www.meetup.com/PyLadiesStockholm/</a>
+      </p>
+      <p>
+        We also organize workshops in collaboration with <a href="http://www.meetup.com/Thursday-Code-Pub/">Thursday Code Pub</a>.
+       </p>
+    </div>
+     <h3>Our sponsors</h3>
+    <div id="sponsors">
+      <p>
+        Many companies in Stockholm show their support and help 
+        us organize our meetups. If you are looking for new Python
+        opportunities don't forget to check out these guys: <a href="http://www.spotify.com">Spotify</a>, <a href="http://www.campanja.se">Campanja</a>, <a href="http://www.netlight.com/en/">Netlight</a>, <a href="http://www.shapeupclub.com/">ShapeUpClub</a> and <a href="http://tritech.se/">Tritech</a>.
+      </p>
+    </div>
+  </div>
+
+  <div class="col-lg-6">
+  <a class="twitter-timeline" href="https://twitter.com/PyladiesSthlm" data-widget-id="398835641414201346">Tweets by @PyladiesSthlm</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    {% include 'header.html' %}
+    <!-- Place anything custom after this. -->
+  </head>
+  <body>
+    {% set page = page %}
+
+    <!-- Master nav -->
+    {% include 'nav-main.html' with context %}
+
+    <!-- Content -->
+    <div class="container" role="document">
+    {% block content %}{% endblock %}
+    </div>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+      <div class="container">
+        {% include 'social-buttons.html' %}
+      </div>
+    </footer>
+
+    <!-- JS only. -->
+    {% include 'footer.html' %}
+
+  </body>
+</html>

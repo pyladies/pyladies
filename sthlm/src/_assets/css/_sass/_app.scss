@@ -1,0 +1,139 @@
+/* Hide from both screenreaders and browsers: h5bp.com/u */
+.hidden { display: none !important; visibility: hidden; }
+
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+.screen-reader-text { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+/* Extends the .screen-reader-text class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
+.screen-reader-text.focusable:active,
+.screen-reader-text.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible { visibility: hidden; }
+
+%ir {
+    border: 0;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow-y: scroll;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+[role="banner"],
+.marketing,
+[role="contentinfo"] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+[role="banner"] {
+  border-bottom: 1px solid #e5e5e5;
+    /* Make the masthead heading the same height as the navigation */
+    h3 {
+      margin-top: 0;
+      margin-bottom: 0;
+      line-height: 40px;
+      padding-bottom: 1px;
+    }
+
+    img {
+      margin-right: 10px;
+    }
+}
+
+[role="document"] {
+  min-height: 450px;
+}
+
+.icons {
+  font-size: 20px;
+  list-style: none;
+  padding-left: 0;
+
+    li {
+      display: inline-block;
+      margin: 6px;
+    }
+}
+
+[class^="icon-"] {
+    @extend %ir;
+    &:before {
+        font-size: 20px;
+        @extend %social-icons;
+    }
+}
+
+/* Custom page footer */
+[role="contentinfo"] {
+  padding-top: 20px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    text-align: left;
+    border-bottom: 1px solid #e5e5e5;
+
+    .btn {
+      font-size: 21px;
+      padding: 14px 24px;
+    }
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+    p + h4 {
+      margin-top: 28px;
+    }
+}
+
+.twitter-timeline {
+    margin-top: 20px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  [role="banner"],
+  .marketing,
+  [role="contentinfo"] {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  [role="banner"] {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+// shame
+nav[aria-label="main"] .nav-tabs {
+    // Too much magic, but works for now
+    position: relative;
+    top: 1px;
+}
