@@ -44,7 +44,7 @@ _(percentages are not at all accurate, and are roughly estimated based on guessi
 
 * Unless you explicitly choose to be anonymous (though the [online donation site][5] or in private discussions), we will profusely thank you via our public channels (Twitter, this blog, and at our PyCon booth)
 * Provide a detailed write-up and financial introspection of how many women we've helped because of this campaign
-* Visibility! It shows the PyCon/Python community that your company/you are serious about women in tech - which can directly benefit Spotify with increased hiring pool of female Pythonistas.
+* Visibility! It shows the PyCon/Python community that your company/you are serious about women in tech - which can directly benefit sponsors with increased hiring pool of female Pythonistas.
 
 
 ### Ways to donate
