@@ -1,0 +1,10 @@
+// Uses the multi-dimensional array $social-media, defined in the _config.scss-file
+// It assumes that the selector for the icons themselves are nested in the link
+%social-icons {
+    @each $media in $social-media {
+        $selector: nth($media, 1);
+        [href*="#{$selector}"] & {
+            color: nth($media, 2);
+        }
+    }
+}
