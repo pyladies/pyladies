@@ -6,9 +6,9 @@ author: Jessica McKellar
 author_link: https://twitter.com/jessicamckellar
 ---
 
-![GNOME OPW logo]({{ get_asset('images/blog/opw.png') }})
-
 PyLadies is proud to be working with the Python Software Foundation to support [paid Python internships for women this summer][pyfound] through the GNOME Outreach Program for Women.
+
+![GNOME OPW logo]({{ get_asset('images/blog/opw.png') }})
 
 [Please visit the project page for the full program details and how to apply!][apply]
 
