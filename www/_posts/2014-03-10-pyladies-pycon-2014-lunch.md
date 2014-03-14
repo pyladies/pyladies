@@ -7,7 +7,7 @@ author_link: https://twitter.com/estherbester
 ---
 
 
-Thanks to the generous support of the PSF, PyLadies will be having a luncheon for women (and those who identify as women) on the third day of the PyCon 2014 conference!
+Thanks to the generous support of the PSF, PyLadies will be having a luncheon for attendees who identify as women on the third day of the PyCon 2014 conference!
 
 ![PyCon 2013 Lunch]({{ get_asset('images/blog/pycon2013_lunch.jpg') }})
 
