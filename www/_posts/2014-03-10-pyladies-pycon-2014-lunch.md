@@ -7,7 +7,7 @@ author_link: https://twitter.com/estherbester
 ---
 
 
-Thanks to the generous support of the PSF, PyLadies will be having a luncheon for women (and those who identify as women) on the third day of the PyCon 2014 conference!
+Thanks to the generous support of the PSF, PyLadies will be having a luncheon for attendees who identify as women on the third day of the PyCon 2014 conference!
 
 ![PyCon 2013 Lunch]({{ get_asset('images/blog/pycon2013_lunch.jpg') }})
 
@@ -15,7 +15,7 @@ More than one hundred PyLadies attended last year's lunch at PyCon 2013, and thi
 
 In order to help the organizers plan the event, we **highly** recommend you procure your **free** ticket now, via the RSVP link below.
 
-**Who** - Women (and those identifying as women) who are attending PyCon 2014
+**Who** - Anybody attending PyCon 2014 who identifies as a woman
 **When** - Sunday, April 13, 2014 during lunch
 **Where** - Room 516 at the Convention Ctr
 **RSVP** - [Eventbrite][rsvp] - Free but  exclusive to conference attendees.
