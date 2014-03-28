@@ -7,7 +7,7 @@ tags: [pycon, events]
 
 PyLadies Activities at PyCon 2014 in Montreal
 =============================================
-So many happenings! Add these PyLadies events to your schedule! Or bookmark this link for [quick reference:][quickref]
+So many happenings! Add these PyLadies events to your schedule! Or bookmark this [quick reference][quickref] link.
 
 
 PyLadies Mixer
@@ -33,8 +33,6 @@ PyLadies Auction
 
 PyCon: Last year, PyLadies held its first auction at PyCon in Santa Clara and raised over _$10,000_.  This year, we have the audacity to do it again!  Come with thick wallets or your employer's credit card and bid on items contributed by OpenStack, Spotify, Rackspace, Facebook, the Python Software Foundation, Numerical Algorithm Group, and more!  More information can be found [here][auction].
 
-If you have an item that you'd like to donate for the PyLadies auction, please get in touch with [Ewa Jodlowska][Ewa].
-
 
 PyCon Lunch with PyLadies
 -------------------------
@@ -50,8 +48,8 @@ Open Spaces
 
 Open spaces are a way for people to come together to talk about topics, ideas or whatever they want. Any subject that two or more attendees want to talk about is a candidate for an Open Space.  Just show up if you want to attend!   There are manyplanned [open space meetups][openspace] (as well as ad-hoc ones, too!).  Here are a few highlighted ones:
 
-* Trans* Pythonistas and Allies Meetup [trans]
-* Geekfeminism and feminist hackerspace meetup [geekfeminism]
+* [Trans* Pythonistas and Allies Meetup][trans]
+* [Geekfeminism and feminist hackerspace meetup][geekfeminism]
 * Mani/Pedi party - check back on the open spaces site for more information!
 
 
