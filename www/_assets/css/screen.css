@@ -91,7 +91,7 @@ body {
   background-repeat: no-repeat;
   color: #747474;
   font-size: 14px;
-  font-family: 'Quicksand',sans-serif;
+  font-family: 'Bitter',serif;
   line-height: 1.3em;
 }
 
@@ -993,7 +993,7 @@ footer .social li a.icon:hover {
   color: #fff;
   display: block;
   font-weight: bold;
-  font: 'Quicksand',sans-serif;
+  font-family: 'Bitter', serif;
   font-color: #fcfcfa;
   margin: 0.05em 0 0.075em 0;
   padding: 0.5em 3.5em;
