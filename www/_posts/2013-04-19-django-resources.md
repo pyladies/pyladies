@@ -30,7 +30,7 @@ Experiment with all of them! Here are a few links to get you started.
 [heroku]: https://heroku.com/
 [djangoheroku]: https://devcenter.heroku.com/articles/django
 [openshift]: http://openshift.redhat.com
-[twoscoops]: https://django.2scoops.org/
+[twoscoops]: http://twoscoopspress.com/products/two-scoops-of-django-1-6
 [pyramid]: http://docs.pylonsproject.org/projects/pyramid/dev/
 [flask]: http://flask.pocoo.org/
 [appengine]: http://code.google.com/appengine/
