@@ -2,6 +2,13 @@ Charleston PyLadies
 ==========
 
 From within charleston/
-```
+
+```bash
 pip install -r requirements.txt
-mynt gen -f www _site && mynt serve _site```
+```
+
+Then from within `charleston/www`
+
+```bash
+mynt gen -f _site && mynt serve _site
+```
