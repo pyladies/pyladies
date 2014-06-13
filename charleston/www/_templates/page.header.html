@@ -1,0 +1,56 @@
+<title>Charleston PyLadies</title>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="mynt v{{ site.version }}">
+{% if site.author %}<meta name="author" content="{{ site.author }}">{% endif %}
+{% if site.description %}<meta name="description" content="{{ site.description }}">{% endif %}
+
+<link rel="shortcut icon" href="{{ get_asset('images/favicon.ico') }}" type="image/x-icon">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+<!-- Custom styles for this template -->
+<link rel="stylesheet" href="{{ get_asset('css/theme.css') }}" >
+
+<!-- Just for debugging purposes. Don't actually copy this line! -->
+<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<script src="{{ get_asset('js/mynt.min.js') }}" type="text/javascript"></script>
+<!--<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>-->
+<script src="{{ get_asset('js/tabletop.js') }}"></script>
+<script src="{{ get_asset('js/jquery.dataTables.min.js') }}"></script>
+<script src="{{ get_asset('js/main.js') }}"></script>
+<script src="{{ get_asset('js/holder.js') }}"></script>
+<script type="text/javascript" src="{{ get_asset('js/meetup_widget.js') }}"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        var chapter_ids = '8401402';
+        addUpcomingMeetups(chapter_ids);
+    });//end doc.ready
+</script>
+
+{% if site.analytics %}
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', '{{ site.analytics }}']);
+    _gaq.push(['_trackPageview']);
+    
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+{% endif %}

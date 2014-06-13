@@ -1,0 +1,88 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<div class="container theme-showcase" role="main">
+  <div class="jumbotron">
+    <h1>Charleston PyLadies</h1>
+    <p>PyLadies is an international mentorship group with a focus on helping more women to become active participants and leaders in the Python open-source community.</p>
+    <p>Meetups, workshops, and tutorials begin June 2014 at <a href="http://goo.gl/maps/kEImI">PokitDok</a> Charleston.</p>
+    <p>Free and open to all supporters of women in tech.</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row clearfix">
+    <div class="col-md-1 column"></div>
+    <div class="col-md-10 column text-center">
+      <div class="row clearfix top-buffer"></div>
+      <div class="row clearfix top-buffers text-left">
+        <div class="col-sm-3 column">
+          <a href="http://meetup.com/PyLadies-Charleston">
+          <img class="icon" src="{{ get_asset('images/meetup.gif') }}" width="65" height="65" alt="meetup"/>
+          </a>
+          Join PyLadies Charleston
+        </div>
+        <div class="col-sm-3 column">
+          <a href="mailto:charleston@pyladies.com">
+            <img class="icon" src="{{ get_asset('images/email.png') }}" width="65" height="65" alt="email"/>
+          </a>
+          Contact the organizer
+        </div>
+        <div class="col-sm-3 column">
+          <a href="http://twitter.com/PyLadiesCHS">
+            <img src="{{ get_asset('images/twitter.png') }}" alt="@PyLadiesCHS"/>
+          </a>
+          Follow us on Twitter
+        </div>
+        <div class="col-sm-3 column">
+          <a href="https://pokitdok.com/">
+            <img src="{{ get_asset('images/pokitdok_logo.png') }}" alt="PokitDok Logo"/>
+          </a>
+          Our first sponsor!
+        </div>
+      </div>
+      <div class="row clearfix top-buffer"></div>
+      <div class="row clearfix top-buffer">
+        <div class="col-md-2 column"></div>
+        <div class="col-md-8 column">
+          <div class="twitter-feed">
+            <a class="twitter-timeline" href="https://twitter.com/PyLadiesCHS" data-widget-id="459792221554741248">Tweets by @PyLadiesCHS</a>
+            <script>
+              !function(d,s,id) {
+                var js, fjs=d.getElementsByTagName(s)[0], p=/^http:/.test(d.location)?'http':'https';
+                if (!d.getElementById(id)) {
+                  js=d.createElement(s);
+                  js.id=id;
+                  js.src=p+"://platform.twitter.com/widgets.js";
+                  fjs.parentNode.insertBefore(js,fjs);
+                }
+              }
+              (document,"script","twitter-wjs");
+            </script>
+          </div>
+        </div>
+        <div class="col-md-2 column"></div>
+      </div>
+      
+      <div class="row clearfix top-buffer">
+        <div class="col-md-2 column"></div>
+        <div class="col-md-8 column">
+          <div id="organizers">
+              <h2>Charleston PyLadies Organizer</h2>
+              <img class="img-circle" src="{{ get_asset('images/cayci.jpg') }}" alt="Cayci and Evan"/>
+              <h3>Cayci Gorlitsky</h3>
+              <p>Cayci is a Pythonista who has lived in the Charleston area for 15 years.</p>
+              <p>She became enchanted with Python while attending PyTennessee and PyCon Montreal.</p>
+              <p>She hopes to teach, inspire, and encourage diversity in the Charleston tech field.</p>
+              <p>Follow her on Twitter <a href="http://www.twitter.com/caycicayci">@caycicayci</a></p>
+          </div>
+        </div>
+        <div class="col-md-2 column"></div>
+      </div>
+    </div>
+    <div class="col-md-1 column"></div>
+  </div>
+</div>
+
+{% endblock %}
