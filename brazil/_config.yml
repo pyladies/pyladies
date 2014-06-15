@@ -1,0 +1,10 @@
+# Site settings
+title: PyLadies Brasil
+email: brazil@pyladies.com
+description: "We are an international mentorship group with a focus on helping more women become active participants and leaders in the pyhton open-source community."
+baseurl: ""
+url: "http://brazil.pyladies.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
