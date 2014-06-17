@@ -31,9 +31,10 @@ requirements.txt require these to compile successfully.
 
 1. Fork http://github.com/pyladies/pyladies to your own github account.
 2. Clone to your machine
-3. Create a virtualenv called PyLadies
+3. Create a virtualenv called PyLadies and launch it (see Note below).
 4. (PyLadies) $ `pip install -r requirements.txt`
-5. (PyLadies) $ `mynt gen -f _site && mynt serve _site`
+5. Navigate to the `pyladies/www` directory of the cloned repository on your machine.
+6. (PyLadies) $ `mynt gen -f _site && mynt serve _site`
 
 * How to fork and clone: https://help.github.com/articles/fork-a-repo
 * How to create a virtualenv: http://simononsoftware.com/virtualenv-tutorial/
