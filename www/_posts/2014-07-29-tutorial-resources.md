@@ -13,6 +13,7 @@ category: [resources]
 * Model, View, Controller [explained][MVC].
 * Basic Python Syntax [Tutorial][syntax]. (Helpful for both new to programming in general, and new to Python with prior programming experience).
 * [Online Python Tutor][tutor]: Learn & Practice programming in your browser.
+* [Python Puzzles][puzzles]: Puzzles to solve using Python, by the Boston Python Workshop (solutions included)
 
 [LPTHW]: http://learnpythonthehardway.org/
 [compscientist]: http://greenteapress.com/thinkpython/html/
@@ -22,3 +23,4 @@ category: [resources]
 [syntax]: http://www.tutorialspoint.com/python/python_basic_syntax.htm
 [django]: http://lightbird.net/dbe/blog.html
 [tutor]: http://people.csail.mit.edu/pgbovine/python/
+[puzzles]: http://puzzles.bostonpython.com/
