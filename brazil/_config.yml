@@ -8,3 +8,4 @@ url: "http://brazil.pyladies.com"
 # Build settings
 markdown: kramdown
 permalink: pretty
+exclude: ["Gemfile", "Gemfile.lock", "README.md", ".gitignore", "_deploy_brasil.sh"]
