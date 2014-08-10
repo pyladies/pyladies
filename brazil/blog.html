@@ -1,16 +1,20 @@
 ---
 layout: default
+title: Blog
+permalink: /blog/
+tab: true
+icon: icon-archive
 ---
 
 <div class="home">
-
-  <h1>Posts</h1>
-
+<br>
   <ul class="posts">
     {% for post in site.posts %}
       <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-date">
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          {{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • <a href="{{post.author_link}}">{{ post.author }}</a>{% endif %}
+        </span>
       </li>
     {% endfor %}
   </ul>
