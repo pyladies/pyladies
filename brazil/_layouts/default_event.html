@@ -13,14 +13,18 @@
           <!-- Tab List -->
           <ul class='etabs'>
               <li class="tab">
-                <a href="/"><i class="icon-home"></i>PyLadies Brasil</a>
+                <a href="/"><i class="icon-home"></i></a>
               </li>
-              {% for p in site.pages %}
-                {% if p.tab_recife %}
-                  <li {% if p.url == page.url %}class="tab active"{% else %}class="tab"{% endif %} >
-                    <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url | prepend: site.baseurl }}"><i class="{{p.icon}}"></i>{{ p.title }}</a>
-                  </li>
-                {% endif %}
+              {% for order in (1..10) %}
+                {% for p in site.pages %}
+                  {% if p.order == order %}
+                    {% if p.tab_recife %}
+                      <li {% if p.url == page.url %}class="tab active"{% else %}class="tab"{% endif %} >
+                        <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url | prepend: site.baseurl }}"><i class="{{p.icon}}"></i>{{ p.title }}</a>
+                      </li>
+                    {% endif %}
+                  {% endif %}
+                {% endfor %}
               {% endfor %}
           </ul>
           <div id="tab-data-wrap">

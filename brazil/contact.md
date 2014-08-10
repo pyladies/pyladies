@@ -4,6 +4,7 @@ title: Fale Conosco
 permalink: /contact/
 icon: icon-envelope
 tab: true
+order: 4
 ---
 <div class="contact">
 	<div class="row" style="padding-left: 50px;">

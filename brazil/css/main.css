@@ -30,7 +30,7 @@ a:hover   { color: #CF4063; text-decoration: underline; }
 .wrap:after { content:""; display:table; }
 .wrap:after { clear: both; }
 .wrap {
-  max-width: 1000px;
+  max-width: 1075px;
   padding: 0 30px;
   margin: 0 auto;
   zoom: 1;

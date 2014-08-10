@@ -3,6 +3,7 @@ layout: default_event
 title: PyLadies Recife
 tab_recife: true
 icon: icon-bullhorn
+order: 1
 ---
 <br>
 <br>

@@ -4,6 +4,7 @@ title: Eventos
 permalink: /events/
 tab: true
 icon: icon-calendar
+order: 2
 ---
 
 Não perca os próximos eventos do PyLadies Brasil:
