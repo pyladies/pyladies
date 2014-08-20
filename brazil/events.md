@@ -14,5 +14,5 @@ Não perca os próximos eventos do PyLadies Brasil:
  
 Eventos Passados:
 
-* PyLadies Natal
+* [PyLadies Natal](http://pyladiesnatal.github.io/)
 
