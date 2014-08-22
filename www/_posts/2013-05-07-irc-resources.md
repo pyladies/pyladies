@@ -66,6 +66,8 @@ Otherwise, you have to do run these commands yourself every time:
 * #django
 * #pyramid
 * #pocoo
+* #positivepython
+* #openhatch 
 
 ## Helpful commands
 
