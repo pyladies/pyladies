@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Welcome to PyLadies Brasil!"
-date:   2014-06-12 01:41:22
-categories: jekyll update
+title:  "PyLadies Brasil!"
+date:   2014-08-09 01:41:22
+categories: misc
+author: Gabi
+author_link: 
 ---
 
 O PyLadies é uma comunidade mundial que foi trazida ao Brasil com o propósito de instigar mais mulheres a entrarem na área tecnológica. Queremos mudar essa realidade de poucas garotas em uma área tão rica e fantásticas como a computação. E olhe que temos muita história nesse campo viu?!

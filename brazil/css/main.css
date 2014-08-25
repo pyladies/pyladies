@@ -12,7 +12,7 @@
 html, body { height: 100%; }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font: 100% 'Lato', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
@@ -21,9 +21,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 
-a         { color: #2a7ae2; text-decoration: none; }
-a:hover   { color: #000; text-decoration: underline; }
-a:visited { color: #205caa; }
+a         { color: #B3012C; text-decoration: none; }
+a:hover   { color: #CF4063; text-decoration: underline; }
 
 /* Utility */
 
@@ -31,7 +30,7 @@ a:visited { color: #205caa; }
 .wrap:after { content:""; display:table; }
 .wrap:after { clear: both; }
 .wrap {
-  max-width: 800px;
+  max-width: 1075px;
   padding: 0 30px;
   margin: 0 auto;
   zoom: 1;
@@ -41,13 +40,24 @@ a:visited { color: #205caa; }
 /* Layout Styles */
 /* ----------------------------------------------------------*/
 
+body{
+  background-image: url('../images/bg.jpg');
+}
+
 /* Site header */
 
+.logo {
+  text-align: center;
+  max-width: 700px;
+
+}
+
+.logo img {
+  max-width: 65%;
+}
+
 .site-header {
-  border-top: 5px solid #333;
-  border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
-  background-color: white;
 }
 
 .site-title,
@@ -79,7 +89,6 @@ a:visited { color: #205caa; }
 /* Site footer */
 
 .site-footer {
-  border-top: 1px solid #e8e8e8;
   padding: 30px 0;
 }
 
@@ -93,36 +102,32 @@ a:visited { color: #205caa; }
 .site-footer .column { float: left; margin-bottom: 15px; }
 
 .footer-col-1 {
-  width: 270px; /*fallback*/
-  width: -webkit-calc(35% - 10px);
-  width: -moz-calc(35% - 10px);
-  width: -o-calc(35% - 10px);
-  width: calc(35% - 10px);
+  width: -webkit-calc(53% - 10px);
+  width: -moz-calc(53% - 10px);
+  width: -o-calc(53% - 10px);
+  width: calc(53% - 10px);
   margin-right: 10px
 }
 .footer-col-2 {
-  width: 175px; /*fallback*/
-  width: -webkit-calc(23.125% - 10px);
-  width: -moz-calc(23.125% - 10px);
-  width: -o-calc(23.125% - 10px);
-  width: calc(23.125% - 10px);
+  width: -webkit-calc(45.125% - 10px);
+  width: -moz-calc(45.125% - 10px);
+  width: -o-calc(45.125% - 10px);
+  width: calc(45.125% - 10px);
   margin-right: 10px
-}
-.footer-col-3 {
-  width: 335px; /*fallback*/
-  width: -webkit-calc(41.875%);
-  width: -moz-calc(41.875%);
-  width: -o-calc(41.875%);
-  width: calc(41.875%);
 }
 
 .site-footer ul { list-style: none; }
 
 .site-footer li,
 .site-footer p {
-  font-size: 15px;
+  font-size: 12px;
   letter-spacing: -.3px;
-  color: #828282;
+  color: #B3012C;
+}
+
+.site-footer i {
+  font-size: 25px;
+  padding-right: 15px;
 }
 
 .github-icon-svg,
@@ -134,13 +139,20 @@ a:visited { color: #205caa; }
   top: 3px;
 }
 
+.contact p {
+  font-size: 12px;
+}
+
 
 /* Page Content styles */
 /* ----------------------------------------------------------*/
 
 .page-content {
   padding: 30px 0;
-  background-color: #fff;
+}
+
+.page-content img {
+  width: 400px;
 }
 
 
@@ -169,7 +181,7 @@ a:visited { color: #205caa; }
 /* Post styles */
 /* ----------------------------------------------------------*/
 
-.post-header { margin: 10px 0 30px; }
+.post-header { margin: 0px; }
 
 .post-header h1 {
   font-size: 42px;
@@ -184,7 +196,7 @@ a:visited { color: #205caa; }
   margin-top: 5px;
 }
 
-.post-content { margin: 0 0 30px; }
+.post-content { margin: 0 0 10px; }
 
 .post-content > * { margin: 20px 0; }
 
@@ -257,6 +269,69 @@ a:visited { color: #205caa; }
 }
 
 .post pre.terminal code { background-color: #333; }
+
+
+/* Tabs */
+.etabs{
+  margin: 0;
+  padding: 0px;
+  text-align: center;
+}
+.etabs li span{
+  display: none;
+}
+#tab-data-wrap{
+  padding: 5px 20px;
+  background: #fff;
+  border: 1px solid #f1f1f1;
+  box-shadow: 0px 6px #c0392b;
+  border-radius: 4px;
+}
+
+
+.tab {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  background: #fff;
+  border: solid 1px #f1f1f1;
+  border-bottom: 0px;
+  -moz-border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
+  margin-right:10px; 
+}
+
+.tab a {
+  text-transform: uppercase;
+  font-size: 14px;
+  display: block;
+  padding: 10px 40px 10px 40px;
+  outline: none;
+  color: #888;
+  text-decoration: none;
+}
+
+.tab a:hover {
+  text-decoration: none;
+}
+
+.tab.active {
+  position: relative;
+  top: 2px;
+  border-color: #f1f1f1;
+  border-bottom: none;
+}
+
+.tab a.active {
+  color: #e74c3c;
+}
+.tab a i{
+  font-size: 16px;
+  margin-right: 0px;
+  padding-right: 5px;
+  line-height: normal;
+}
+
 
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/

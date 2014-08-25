@@ -1,0 +1,174 @@
+@charset 'UTF-8';
+
+@font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
+
+/*
+	Miniport 2.5 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+ 
+	form
+	{
+	}
+	
+		form input,
+		form select,
+		form textarea
+		{
+		}
+
+		form input[type=text],
+		form input[type=password],
+		form select,
+		form textarea
+		{
+			border: 0;
+			padding: 0.25em;
+			font-size: 1em;
+			border-radius: 8px;
+			color: #1C1C1C;
+			background-color: #B5B5B5;
+			box-shadow: inset 0px 2px 5px 0px rgba(0,0,0,0.05), 0px 1px 0px 0px rgba(255,255,255,0.025);
+			width: 100%;
+			-moz-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
+			-webkit-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
+			-o-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
+			-ms-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
+			transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
+		}
+
+		form input[type=text]:focus,
+		form input[type=password]:focus,
+		form select:focus,
+		form textarea:focus
+		{
+			box-shadow: inset 0px 2px 5px 0px rgba(0,0,0,0.05), 0px 1px 0px 0px rgba(255,255,255,0.025), inset 0px 0px 2px 1px #74CAEE;
+		}
+
+		form textarea
+		{
+			height: 10em;
+		}
+		
+		form .formerize-placeholder
+		{
+			color: #555 !important;
+		}
+
+		form ::-webkit-input-placeholder
+		{
+			color: #555 !important;
+		}
+
+		form :-moz-placeholder
+		{
+			color: #555 !important;
+		}
+
+		form ::-moz-placeholder
+		{
+			color: #555 !important;
+		}
+
+		form :-ms-input-placeholder
+		{
+			color: #555 !important;
+		}
+
+		form ::-moz-focus-inner
+		{
+			border: 0;
+		}
+
+
+	.but
+	{ 
+		margin-left: 30%;
+		
+	}
+
+	.button
+	{
+		padding: 0.5em;
+		float: right;
+		margin-right: 15px;
+		font-size: 14px;
+		position: relative;
+		display: inline-block;
+		color: #fff;
+		text-decoration: none;
+		border: 0;
+		outline: 0;
+		cursor: pointer;
+		border-radius: 8px;
+		text-shadow: -1px -1px 0.5px rgba(0,0,0,0.5);
+		overflow: hidden;
+		background: #4F4F4F;
+	}
+
+		.button:before
+		{
+			content: '';
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background: url('images/bg.png');
+		}
+
+		.button:hover
+		{
+			background-color: #8A8A8A;
+			color: #fff !important;
+		}
+		
+		.button:active
+		{
+			background-image: -moz-linear-gradient(top, rgba(48,141,196,1), rgba(77,164,199,0));
+			background-image: -webkit-linear-gradient(top, rgba(48,141,196,1), rgba(77,164,199,0));
+			background-image: -o-linear-gradient(top, rgba(48,141,196,1), rgba(77,164,199,0));
+			background-image: -ms-linear-gradient(top, rgba(48,141,196,1), rgba(77,164,199,0));
+			background-image: linear-gradient(top, rgba(48,141,196,1), rgba(77,164,199,0));
+			box-shadow: inset 0px 0px 0px 1px #135c86, inset 0px -2px 1px 0px rgba(255,255,255,0.75);
+			top: 1px;
+		}
+	
+		.button-alt
+		{
+			background-color: #393939;
+			background-image: -moz-linear-gradient(top, rgba(50,50,50,0), rgba(45,45,45,1));
+			background-image: -webkit-linear-gradient(top, rgba(50,50,50,0), rgba(45,45,45,1));
+			background-image: -o-linear-gradient(top, rgba(50,50,50,0), rgba(45,45,45,1));
+			background-image: -ms-linear-gradient(top, rgba(50,50,50,0), rgba(45,45,45,1));
+			background-image: linear-gradient(top, rgba(50,50,50,0), rgba(45,45,45,1));
+			box-shadow: inset 0px 0px 0px 1px #242424, inset 0px 2px 1px 0px rgba(255,255,255,0.2);
+		}
+
+			.button-alt:hover
+			{
+				background-color: #E74C3C;
+			}
+			
+			.button-alt:active
+			{
+				background-image: -moz-linear-gradient(top, rgba(45,45,45,1), rgba(50,50,50,0));
+				background-image: -webkit-linear-gradient(top, rgba(45,45,45,1), rgba(50,50,50,0));
+				background-image: -o-linear-gradient(top, rgba(45,45,45,1), rgba(50,50,50,0));
+				background-image: -ms-linear-gradient(top, rgba(45,45,45,1), rgba(50,50,50,0));
+				background-image: linear-gradient(top, rgba(45,45,45,1), rgba(50,50,50,0));
+				box-shadow: inset 0px 0px 0px 1px #242424, inset 0px -2px 1px 0px rgba(255,255,255,0.2);
+			}
+	
+		.button-big
+		{
+		} 
+	
+		 

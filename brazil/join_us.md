@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Crie seu próprio grupo
-permalink: /grupo/
+permalink: /join/
 ---
 
 ####Então você decidiu começar seu próprio grupo PyLadies \o
