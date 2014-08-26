@@ -37,4 +37,4 @@ Here are a few more words I have found helpful as an adult:
     * Prioritize people. 
     * Proactively practice compassion and self-care.
 
-One humble PyLady's plan: When in doubt, please practice __People > Python__.
+Sometimes people act in ways that compel us to take a moment to pause and think about that person and their perspective. One humble PyLady's plan: When in doubt, please practice __People > Python__.
