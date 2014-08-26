@@ -12,10 +12,13 @@
         <div class="tab-container">
           <!-- Tab List -->
           <ul class='etabs'>
+              <li class="tab">
+                <a href="/"><i class="icon-home"></i></a>
+              </li>
               {% for order in (1..10) %}
                 {% for p in site.pages %}
                   {% if p.order == order %}
-                    {% if p.tab %}
+                    {% if p.tab_recife %}
                       <li {% if p.url == page.url %}class="tab active"{% else %}class="tab"{% endif %} >
                         <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url | prepend: site.baseurl }}"><i class="{{p.icon}}"></i>{{ p.title }}</a>
                       </li>
