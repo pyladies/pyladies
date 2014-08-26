@@ -6,9 +6,11 @@ author: Sara Safavi
 author_link: mailto:sara@sarasafavi.com
 ---
 
-![Photo](/assets/images/blog/austin_django_2014.jpeg)
+From August 9-11, I led a 2-part, all-women workshop series on web frameworks & learning Django for PyLadiesATX. 
 
-From August 9-11, I led a 2-part, all-women workshop series on web frameworks & learning Django for PyLadiesATX. For this class, I decided to teach Django 1.7, and, after verifying my demo project on 2.7 & 3.3, let the students use any Python version they preferred. This ended up working really well: teaching migrations without bothering with South is great, and dealing with 18 very different laptop platforms is a tiny bit easier when pre-existing Python versions aren't a problem!
+For this class, I decided to teach Django 1.7, and, after verifying my demo project on 2.7 & 3.3, let the students use any Python version they preferred. This ended up working really well: teaching migrations without bothering with South is great, and dealing with 18 very different laptop platforms is a tiny bit easier when pre-existing Python versions aren't a problem!
+
+![Photo](/assets/images/blog/austin_django_2014.jpeg)
 
 The first class in the series was a two-hour session, which began by covering the basics of how the web works (we started with the question, "what happens when you hit 'enter' after typing a URL into the browser?") and where a framework like Django fit into the big picture. We then spent the second half of that first session working to get everyone's development environments set up, and Django 1.7 installed in a virtualenv. This turned out to be a huge improvement over single-day workshops, as it meant everyone was able to show up to the 2nd class ready to start working immediately. After seeing this work so well for us, I strongly recommend anyone planning a similar workshop consider splitting a setup session out from the main class time.
 
