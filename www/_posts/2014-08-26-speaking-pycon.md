@@ -1,6 +1,10 @@
-========================
-PyLadies, PyCon, and You
-========================
+---
+layout: post.html
+title: "PyLadies, PyCon, and You"
+tags: [speaking, pycon, mentoring, conferences]
+category: [resources]
+---
+
 This document is curated by PyLadies and shared with the entire Python 
 community.
 
@@ -57,6 +61,7 @@ Resources
 
 Speaking
 --------
+- [Speaker support of awesomeness](http://juliepagano.com/blog/2014/06/30/speaker-support-of-awesomeness/)
 - [Speak Up! Welcome and mission](http://speakup.io/)
 - [Speaking Resources from Speak Up!](http://speakup.io/resources.html)
 - [CR@P I'M SPEAKING AT [insert conference here]! How do I prepare?](http://www.roguelynn.com/words/crap-im-speaking/)
