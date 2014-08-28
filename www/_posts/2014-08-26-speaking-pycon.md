@@ -18,10 +18,19 @@ PyCon Talk Proposals and CFP
 
 PyCon 2015 Important Dates
 --------------------------
+A list of [important dates](https://us.pycon.org/2015/speaking/cfp/), including
+financial aid, can be found on the PyCon website.
+
 
     CFP Talks Close    September 15, 2014
 
     CFP Poster Close   November 1, 2014
+
+    *Financial Aid*
+
+    Financial aid application opens     September 1, 2014
+
+    Financial aid application closes    January 1, 2015
 
 
 Choose your own speaking adventure
