@@ -2,12 +2,12 @@
 layout: post.html
 title: "Austin Ladies Hack"
 tags: [Blog, events, austin]
-author: Mazhalai “Maddy” Chellathurai
+author: Mazhalai "Maddy" Chellathurai
 ---
 
-[PyLadies Austin](https://www.facebook.com/PyladiesAustin) hosted Austin’s first ever Ladies-focussed Hackathon - Austin Ladies Hack,  from Aug 15th-17th, 2014. 
+[PyLadies Austin](https://www.facebook.com/PyladiesAustin) hosted Austin's first ever Ladies-focussed Hackathon - Austin Ladies Hack,  from Aug 15th-17th, 2014.
 
-On Friday, Ladies met at the Flying Saucer to meet with fellow hackers, discuss ideas and form teams. Thanks to the PSF, food at this event was free to all the ladies who attended. On the 2nd day, the hackers were treated to a yummy breakfast by hosts and sponsors Rackspace. 25 ladies formed 5 teams and promptly started hacking at 10:15 am. They took a brief break for lunch and continued till 5pm, after which some teams met at local coffee houses to continue working on their apps. On the last day, all the teams worked feverishly to finish their apps and presentations before lunch. 
+On Friday, Ladies met at the Flying Saucer to meet with fellow hackers, discuss ideas and form teams. Thanks to the PSF, food at this event was free to all the ladies who attended. On the 2nd day, the hackers were treated to a yummy breakfast by hosts and sponsors Rackspace. 25 ladies formed 5 teams and promptly started hacking at 10:15 am. They took a brief break for lunch and continued till 5pm, after which some teams met at local coffee houses to continue working on their apps. On the last day, all the teams worked feverishly to finish their apps and presentations before lunch.
 
 ![Participants and Organizers](/assets/images/blog/atxhack/partorgzs.png)
 
@@ -25,9 +25,9 @@ App #4 analysed job postings to tune in on skill pairings [SkillCluster](https:/
 
 ![1st Prize winners: Texas Women's Clinic Finder with Judges](/assets/images/blog/atxhack/first.png)
 
-Last but not least, Texas Women's Clinic Finder provided maps and funding information for women's health in Texas. They also translated their site into Spanish. Technologies used: Python, Google Maps API, Mapbox, and JavaScript. 
+Last but not least, Texas Women's Clinic Finder provided maps and funding information for women's health in Texas. They also translated their site into Spanish. Technologies used: Python, Google Maps API, Mapbox, and JavaScript.
 
-All attendees were given door prizes -  glasses laser-etched with a PyLadies Logo and “Austin Ladies Hack,” made by one of the organizers (Jess F).  Special prizes - books from O’Reilly Media - were also handed out to winners of the foosball tournament.
+All attendees were given door prizes -  glasses laser-etched with a PyLadies Logo and "Austin Ladies Hack", made by one of the organizers (Jess F).  Special prizes - books from O'Reilly Media - were also handed out to winners of the foosball tournament.
 
 ![2nd prize winners: Water Your Wallet with Judges](/assets/images/blog/atxhack/second.png)
 
