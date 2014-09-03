@@ -84,6 +84,7 @@ Past PyCon talks can be found at <http://pyvideo.org>.
 - ["What your conference proposal is missing"](http://www.sarahmei.com/blog/2014/04/07/what-your-conference-proposal-is-missing/)
 - ["Conference prompts or how to submit proposals and influence people"](http://www.noelrappin.com/railsrx/2014/1/18/conference-prompts-or-how-to-submit-proposals-and-influence-people)
 - ["What I learned from reading 429 conference proposals"](http://www.noelrappin.com/railsrx/2014/3/17/what-i-learned-from-reading-429-conference-proposals)
+- ["Example PyCon talk proposals"](http://http://rhodesmill.org/brandon/2013/example-pycon-proposals/)
 
 
 #### Encouraging talk submissions
