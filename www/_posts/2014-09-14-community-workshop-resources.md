@@ -19,4 +19,4 @@ We plan to put together a package of materials to help you build your own local 
 
 
 [pystar]: http://pystar.org/
-[montreal]: http://wiki.montrealpython.org/wiki/PythonIntroduction-2011-05-03
+[montreal]: https://openhatch.org/wiki/Montreal_Python_Workshop
