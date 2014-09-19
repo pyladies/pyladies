@@ -671,6 +671,20 @@ section#archive h3.chpts a {
   margin-bottom: 0;
 }
 
+/* hack to fix https://github.com/pyladies/pyladies/issues/127 */
+section#archive . h3.chpts a.social {
+  display: inline-table;
+  margin-right: 18px;
+  margin-top: 0px;
+}
+section#archive h3.chpts a.social:after {
+  content: normal;
+}
+section#archive .chapter_location h3.chpts {
+  overflow: hidden;
+}
+/***/
+
 section#archive h3.chpts a:hover {
   color: #444;
 }
