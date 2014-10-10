@@ -5,8 +5,9 @@ tags: [workshops, community building]
 category: [resources]
 ---
 
-#### Workshops for Women
 Are you interested in doing a women's Python workshop of your own in your city? Email any of the organizers and we'll help you get the word out. Here are some resources:
+
+#### Workshops for Women
 
 * [PyStar][pystar]
 * [Montreal Python][montreal]
