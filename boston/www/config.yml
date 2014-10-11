@@ -21,7 +21,7 @@ domain: boston.pyladies.com
 #
 
 # Used in header meta tags and the site feed. (required to generate a valid feed)
-author: Jennifer Morton
+author: Jennifer Konikowski
 # A description of your site to be used in header meta tags.
 description: PyLadies Boston
 # Used in the site feed.
