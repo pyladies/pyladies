@@ -15,7 +15,7 @@ function convert_time_miliseconds_to_date(t) {
 
 // functions
 function addUpcomingMeetups(chapter_ids) {
-   var meetup_key = '70704f53354b686770246f68494e2637';
+   var meetup_key = '5b2055f1f7f7b522f405f479365b2';
 
    $.ajax( {
        url: 'http://api.meetup.com/2/events.json?key='+meetup_key+'&group_id='+chapter_ids+'&time=0m,3m&status=upcoming&sign=true',
