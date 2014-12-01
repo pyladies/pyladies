@@ -10,7 +10,7 @@ author_link: http://twitter.com/roguelynn
 
 With [PyCon 2015][0] planning in high gear, PyLadies is revving up to raise funds to help women attend the biggest Python conference of the year.
 
-Just like in 2013, we're hoping to raise at least **$40,000** to help women attend this coming PyCon.  Here's the breakdown:
+Just like last year, we're hoping to raise at least **$40,000** to help women attend this coming PyCon.  Here's the breakdown:
 
 ### Our numbers
 
