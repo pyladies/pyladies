@@ -11,11 +11,15 @@ var PyladiesMeetupWidget = (function() {
 
   // Private methods //
 
-  _createUrls = function(url) {
+  _createEventUrls = function(url) {
     // creates <a href> links from urls for event clickthroughs
     return url
       .replace(/(ftp|http|https|file):\/\/[\S]+(\b|$)/gim, '"$&" target="_blank"')
       .replace(/([^\/])(www[\S]+(\b|$))/gim, '"http://$2" target="_blank"');
+  };
+
+  _createGroupUrl = function(group) {
+    return 'http://meetup.com/' + group.urlname;
   };
 
   _convertMilisecondsToDate = function(ms) {
@@ -28,7 +32,7 @@ var PyladiesMeetupWidget = (function() {
     // fetch data
     $.ajax({
       url: 'http://api.meetup.com/2/events.json?key=' + key + '&group_id=' + ids +
-        '&fields=group_photo&time=0m,1m&status=upcoming&sign=true',
+        '&fields=group_photo&time=0m,1m&status=upcoming&sign=true&limited_events=true',
       dataType: 'jsonp',
       success: function(data) {
         _buildHtml(data);
@@ -47,7 +51,7 @@ var PyladiesMeetupWidget = (function() {
     var json = {
       thumbLink: datum.group.group_photo ? datum.group.group_photo.thumb_link : "",
       groupName: datum.group.name,
-      eventLink: _createUrls(datum.event_url),
+      eventLink: datum.event_url ? _createEventUrls(datum.event_url) : _createGroupUrl(datum.group),
       eventName: datum.name,
       eventDate: _convertMilisecondsToDate(datum.time)
     };
