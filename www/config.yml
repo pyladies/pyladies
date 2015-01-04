@@ -80,3 +80,11 @@ chapters:
       meetup_id: 10496402
     - name:      San Antonio
       meetup_id: 12994802
+    - name:      Singapore
+      meetup_id: 14910222
+    - name:      Raleigh, NC
+      meetup_id: 16760422
+    - name:      Edinburgh
+      meetup_id: 15507962
+    - name:      Antananarivo
+      meetup_id: 16281272
