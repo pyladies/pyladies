@@ -17,11 +17,7 @@
     <script type="text/javascript" src="{{ get_asset('js/meetup_widget.js') }}"></script>
     <script type="text/javascript">
         $(document).ready(function() {
-            // meetup group_ids in order: portland, san francisco, la, nyc, dc, atlanta, seattle,
-            // austin, brno/cz, san diego, toronto, vienna, stockholm, amsterdam, bangalore,
-            // berlin, boston, charleston, helsinki, india, montreal, salt lake city, seoul, taiwan,
-            // london, dublin, ann arbor, barcelona, san antonio
-            var meetupIds = '4808882,3604052,2288171,4576312,2292131,4507652,5411282,5947662,5160912,5089102,6488102,7538042,7660062,8160762,9301202,9206152,8623152,8401402,13995752,9042722,14872062,8161032,10708842,14748112,13106102,13320732,10841992,10496402,12994802,14129372';
+            var meetupIds = '{% for chapter in site.chapters %}{{ chapter.meetup_id }}{% if not loop.last %},{% endif %}{% endfor %}';
             PyladiesMeetupWidget.addUpcomingMeetups(meetupIds);
         });
 	</script>
