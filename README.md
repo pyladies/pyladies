@@ -33,7 +33,7 @@ requirements.txt require these to compile successfully.
 2. Clone to your machine
 3. Create a virtualenv called PyLadies and launch it (see Note below).
 4. (PyLadies) $ `pip install -r requirements.txt`
-5. Navigate to the `pyladies/www` directory of the cloned repository on your machine.
+5. (PyLadies) $ `cd www` (navigate to the `pyladies/www` directory of the cloned repository on your machine.)
 6. (PyLadies) $ `mynt gen -f _site && mynt serve _site`
 7. Copy the IP address provided once mynt has completed building the site. (It will say something like `>> Serving at 127.0.0.1....`), then paste the IP address into the URL bar of a browser window and load it to view the site.
 8. To view any changes you make to the site code, type ctrl+c in the terminal to stop the local server, then run the command from Step 6 again and refresh the browser window.
