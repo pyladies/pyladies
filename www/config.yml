@@ -21,3 +21,70 @@ tags_url: /tags/
 misaka:
     render_flags:
         toc: true
+chapters:
+    - name:      Portland
+      meetup_id: 4808882
+    - name:      San Francisco
+      meetup_id: 3604052
+    - name:      LA
+      meetup_id: 2288171
+    - name:      NYC
+      meetup_id: 4576312
+    - name:      DC
+      meetup_id: 2292131
+    - name:      Atlanta
+      meetup_id: 4507652
+    - name:      Seattle
+      meetup_id: 5411282
+    - name:      Austin
+      meetup_id: 5947662
+    - name:      Brno/CZ
+      meetup_id: 5160912
+    - name:      San Diego
+      meetup_id: 5089102
+    - name:      Toronto
+      meetup_id: 6488102
+    - name:      Vienna
+      meetup_id: 7538042
+    - name:      Stockholm
+      meetup_id: 7660062
+    - name:      Amsterdam
+      meetup_id: 8160762
+    - name:      Bangalore
+      meetup_id: 9301202
+    - name:      Berlin
+      meetup_id: 9206152
+    - name:      Boston
+      meetup_id: 8623152
+    - name:      Charleston
+      meetup_id: 8401402
+    - name:      Helsinki
+      meetup_id: 13995752
+    - name:      India
+      meetup_id: 9042722
+    - name:      Montreal
+      meetup_id: 14872062
+    - name:      Salt Lake City
+      meetup_id: 8161032
+    - name:      Seoul
+      meetup_id: 10708842
+    - name:      Taiwan
+      meetup_id: 14748112
+    - name:      London
+      meetup_id: 13106102
+    - name:      Dublin
+      meetup_id: 13320732
+    - name:      Ann Arbor
+      meetup_id: 10841992
+    - name:      Barcelona
+      meetup_id: 10496402
+    - name:      San Antonio
+      meetup_id: 12994802
+    - name:      Singapore
+      meetup_id: 14910222
+    - name:      Raleigh, NC
+      meetup_id: 16760422
+    - name:      Edinburgh
+      meetup_id: 15507962
+    - name:      Antananarivo
+      meetup_id: 16281272
