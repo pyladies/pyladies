@@ -100,20 +100,9 @@ span a:visited {
 
 img {
 }
-
-#coaches p {
-  float: left;
-  width: 30%;
-  margin-right: 3%;
-}
-
-#coaches a,
-#coaches small {
-  text-decoration: none;
-}
 #twitter {
   width: 350px;
   height: 350px;
-  float: right;
+  float: left;
   margin-left: 30px;
 }
