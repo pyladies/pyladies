@@ -102,8 +102,7 @@ img {
 }
 
 #coaches p {
-  float: left;
-  width: 30%;
+  width: 50%;
   margin-right: 3%;
 }
 
@@ -114,6 +113,13 @@ img {
 #twitter {
   width: 350px;
   height: 350px;
-  float: right;
+  float: left;
   margin-left: 30px;
+}
+
+footer {
+  width: 80%;
+  margin-top: 40px; 
+  border-top: 1px black solid;
+  padding-top: 10px;
 }
