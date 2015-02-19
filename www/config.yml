@@ -21,70 +21,291 @@ tags_url: /tags/
 misaka:
     render_flags:
         toc: true
+
 chapters:
-    - name:      Portland
-      meetup_id: 4808882
-    - name:      San Francisco
-      meetup_id: 3604052
-    - name:      LA
-      meetup_id: 2288171
-    - name:      NYC
-      meetup_id: 4576312
-    - name:      DC
-      meetup_id: 2292131
-    - name:      Atlanta
-      meetup_id: 4507652
-    - name:      Seattle
-      meetup_id: 5411282
-    - name:      Austin
-      meetup_id: 5947662
-    - name:      Brno/CZ
-      meetup_id: 5160912
-    - name:      San Diego
-      meetup_id: 5089102
-    - name:      Toronto
-      meetup_id: 6488102
-    - name:      Vienna
-      meetup_id: 7538042
-    - name:      Stockholm
-      meetup_id: 7660062
-    - name:      Amsterdam
+    - name:      Amsterdam, the Netherlands
       meetup_id: 8160762
-    - name:      Bangalore
+      website: amsterdam
+      image: pyladies_amsterdam.jpeg
+      email: amsterdam@pyladies.com
+      twitter: PyLadiesAMS
+      meetup: PyLadiesAMS
+
+    # - name:      Ann Arbor
+    #   meetup_id: 10841992
+
+    - name:      Antananarivo, MDG
+      meetup_id: 16281272
+      website: tnr
+      image: pytnrlogo.jpeg
+      email: tnr.mdg.pyladies@gmail.com 
+      twitter: Pyladies_tnr
+      meetup: pyladies_tnr
+
+    - name:      Atlanta, GA
+      meetup_id: 4507652
+      website: atl
+      image: pyladies_dc_atl_sea_tor.png
+      email: atl@pyladies.com
+      twitter: pyladiesATL
+      meetup: pyladiesATL
+
+    - name:      Austin, TX
+      meetup_id: 5947662
+      website: atx
+      image: pyladies_atx.jpeg
+      email: atx@pyladies.com
+      twitter: pyladiesATX
+      meetup: pyladies-atx
+
+    - name:      Australia
+      website: http://australia.pyladies.com/
+      external_ website: true
+      image: pyladies_australia.png
+      email: australia@pyladies.com
+      facebook: pyladiesau
+      github: PyLadiesAU
+      twitter: pyladiesau
+
+    - name:      Bangalore, India
       meetup_id: 9301202
-    - name:      Berlin
+      website: blr
+      image: pyladies_dc_atl_sea_tor.png
+      email: bangalore@pyladies.com
+      twitter: pyladiesblore
+      meetup: PyladiesBangalore
+
+    # - name:      Barcelona
+    #   meetup_id: 10496402
+
+    - name:      Berlin, Germany
       meetup_id: 9206152
-    - name:      Boston
+      website: http://berlin.pyladies.com
+      external_website: true
+      image: pyladies_berlin.png
+      email: berlin@pyladies.com
+      twitter: PyLadiesBer
+      meetup: PyLadies-Berlin
+
+    - name:      Boston, MA
       meetup_id: 8623152
-    - name:      Charleston
+      website: http://boston.pyladies.com
+      external_website: true
+      image: pyladies_boston_logo_2_white.png
+      email: boston@pyladies.com
+      twitter: PyLadiesBoston
+      meetup: PyLadies-Boston
+
+    - name:      Brazil
+      website: http://brasil.pyladies.com/
+      external_website: true
+      image: pyladies_brasil.png
+      email: brazil@pyladies.com
+      facebook: PyLadiesBrazil
+      github: pyladies-brazil
+      twitter: PyLadiesBrazil
+
+    - name:      Brno, Czech Republic
+      meetup_id: 5160912
+      website: cz
+      image: pyladies_sd_brno.png
+      email: brno@pyladies.com
+      twitter: pyladiesCZ
+      meetup: pyladiescz
+
+    - name:      Charleston, SC
       meetup_id: 8401402
-    - name:      Helsinki
+      website: http://charleston.pyladies.com
+      external_website: true
+      image: pyladies_charleston.png
+      email: charleston@pyladies.com
+      twitter: PyLadiesCHS
+      meetup: PyLadies-Charleston
+
+    - name:      Dublin, Ireland
+      meetup_id: 13320732
+      website: dublin
+      image: pyladies-dublin.png
+      email: dublin@pyladies.com
+      twitter: pyladiesdub
+      meetup: PyLadiesDublin
+
+    - name:      Edinburgh, Scotland
+      meetup_id: 15507962
+      website: edinburgh
+      image: pyladies_edinburgh_logo2.png
+      email: edinburgh@pyladies.com
+      twitter: PyLadiesEdin
+      meetup: PyLadiesEdinburgh
+
+    - name:      Helsinki, Finland
       meetup_id: 13995752
+      website: helsinki
+      image: pyladies_helsinki.png
+      email: helsinki@pyladies.com
+      meetup: Helsinki-Pyladies
+
     - name:      India
       meetup_id: 9042722
-    - name:      Montreal
+      image: pyladies_in.png
+      email: pyladies@openlabs.co.in
+      twitter: PyladiesIndia
+      meetup: PyladiesIndia
+
+    # - name:      London
+    #   meetup_id: 13106102
+
+    - name:      Los Angeles, CA
+      meetup_id: 2288171
+      website: la
+      image: pyladies_la.jpeg
+      email: la@pyladies.com
+      twitter: pyladiesLA
+      meetup: Pyladies-LA
+
+    - name:      Montreal, Canada
       meetup_id: 14872062
-    - name:      Salt Lake City
+      website: mtl
+      image: pyladies_dc_atl_sea_tor.png
+      email: montreal@pyladies.com
+      twitter: pyladiesMTL
+      meetup: PyLadiesMTL
+
+    - name:      Nashville, TN
+      website: nash
+      image: pyladies_nashville.jpeg
+      email: info@pyladies.com
+      twitter: PyNashLadies
+      meetup: Nashville-PyLadies
+
+    - name:      New York, NY
+      meetup_id: 4576312
+      website: http://nyc.pyladies.com
+      external_website: true
+      image: pyladies_ny.png
+      email: nyc@pyladies.com
+      twitter: NYCpyladies
+      meetup: nyc-pyladies
+
+    - name:      Portland, OR
+      meetup_id: 4808882
+      website: http://pyladiespdx.github.io
+      external_website: true
+      image: pyladies_pdx.png
+      email: pyladies.pdx@gmail.com
+      twitter: pyladies_pdx
+      meetup: pyladies-pdx
+      meetup: pyladies-rdu
+
+    - name:      Raleigh-Durham, NC
+      meetup_id: 16760422
+      website: rdu
+      image: pyladies_rdu.png
+      email: pyladiesrdu@gmail.com
+      twitter: pyladiesrdu
+      meetup: pyladies-rdu
+
+    - name:      Salt Lake Area, Utah
       meetup_id: 8161032
-    - name:      Seoul
+      website: saltlake
+      image: pyladies_sd_brno.png
+      email: saltlake@pyladies.com
+
+    # - name:      San Antonio
+    #   meetup_id: 12994802
+
+    - name:      San Diego, CA
+      meetup_id: 5089102
+      website: sd
+      image: pyladies_sd_brno.png
+      email: juliet.oberding@gmail.com
+      meetup: sd-pyladies
+
+    - name:      San Francisco, CA
+      meetup_id: 3604052
+      website: sf
+      image: pyladies_sf_logo.png
+      email: sf@pyladies.com
+      twitter: pyladiessf
+      meetup: pyladiessf
+
+    - name:      Seattle, WA
+      meetup_id: 5411282
+      website: sea
+      image: pyladies_dc_atl_sea_tor.png
+      email: seattle-pyladies@pyladies.com
+      twitter: pyladiesSEA
+      meetup: seattle-pyladies
+
+    - name:      Seoul, Korea
       meetup_id: 10708842
+      website: seoul
+      image: pyladies-seoul-logo.png
+      email: seoul@pyladies.com
+      twitter: PyladiesSeoul
+      facebook: pyladieseoul
+      google_plus: https://plus.google.com/106890062399007175692/posts
+
+    - name: Singapore
+      meetup_id: 14910222
+      website: sg
+      image: pyladies_dc_atl_sea_tor.png
+      email: sg@pyladies.com
+      twitter: pyladiessg
+      meetup: PyLadies-SG
+
+    - name: Spain
+      image: pyladies_es.png
+      email: spain@pyladies.com
+      twitter: PyLadies_ES
+
+    - name:      Stockholm, Sweden
+      meetup_id: 7660062
+      website: stockholm
+      image: pyladies_dc_atl_sea_tor.png
+      email: stockholm@pyladies.com
+      meetup: pyladiesstockholm
+
     - name:      Taiwan
       meetup_id: 14748112
-    - name:      London
-      meetup_id: 13106102
-    - name:      Dublin
-      meetup_id: 13320732
-    - name:      Ann Arbor
-      meetup_id: 10841992
-    - name:      Barcelona
-      meetup_id: 10496402
-    - name:      San Antonio
-      meetup_id: 12994802
-    - name:      Singapore
-      meetup_id: 14910222
-    - name:      Raleigh, NC
-      meetup_id: 16760422
-    - name:      Edinburgh
-      meetup_id: 15507962
-    - name:      Antananarivo
-      meetup_id: 16281272
+      website: http://tw.pyladies.com
+      external_website: true
+      image: pyladies-tw-logo.png
+      email: pyladies.tw@gmail.com
+      twitter: PyLadiesTW
+      meetup: PyLadiesTW
+
+    - name:      Toronto, Canada
+      meetup_id: 6488102
+      website: toronto
+      image: pyladies_dc_atl_sea_tor.png
+      email: info@pyladies.com
+      meetup: Pyladies-Toronto
+
+    - name: Tunisia
+      website: tunisia
+      image: pyladies_dc_atl_sea_tor.png
+      facebook: groups/458792744204403/
+
+    - name: Vancouver, Canada
+      website: vancouver
+      image: pyladies_dc_atl_sea_tor.png
+      email: vancouver@pyladies.com
+      twitter: pyladiesvan
+      meetup: pyladiesvan
+
+    - name: Vienna, Austria
+      meetup_id: 7538042
+      website: vienna
+      image: pyladies_dc_atl_sea_tor.png
+      email: vienna@pyladies.com
+      twitter: pyladies_vie
+      meetup: pyladies-vienna
+
+    - name: Washington, DC
+      meetup_id: 2292131
+      website: dc
+      image: pyladies_dc_atl_sea_tor.png
+      email: jackiekazil@pyladies.com
+      twitter: pyladiesdc
+      meetup: dc-pyladies
