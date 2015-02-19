@@ -1,0 +1,108 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	background: transparent;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1;
+}
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-weight: normal;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote {
+	quotes: none;
+}
+blockquote:before, blockquote:after {
+	content: '';
+	content: none;
+}
+del {
+	text-decoration: line-through;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a img {
+	border: none;
+}
+
+/* =Layout
+-------------------------------------------------------------- */
+
+header,
+footer,
+#content {
+  max-width: 800px;
+  margin: 1em auto;
+}
+
+
+a,
+p,
+span,
+h3 {
+  font-family: verdana, arial, sans-serif;
+  font-size: .9em;
+  line-height: 1.3em;
+  color: #4e4e4d;
+}
+
+small {
+  font-family: verdana, arial, sans-serif;
+  font-size: 14px;
+  color: #fa023c;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+a:hover,
+a:active {
+  font-family: verdana, arial, sans-serif;
+  color: #fa023c;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+span a,
+span a:hover,
+span a:visited {
+  color: #FFF;
+  background-color: #fa023c;
+  padding: 10px;
+  float: right;
+  clear: both;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+img {
+}
+#twitter {
+  width: 350px;
+  height: 350px;
+  float: left;
+  margin-left: 30px;
+}
