@@ -122,6 +122,14 @@ chapters:
       twitter: PyLadiesCHS
       meetup: PyLadies-Charleston
 
+    - name: Chicago, IL
+      meetup_id: 18320041
+      website: chicago
+      image: pyladies_chicago.png
+      email: chicago@pyladies.com
+      twitter: PyLadiesChicago
+      meetup: Chicago-PyLadies
+
     - name:      Dublin, Ireland
       meetup_id: 13320732
       website: dublin
@@ -309,3 +317,6 @@ chapters:
       email: jackiekazil@pyladies.com
       twitter: pyladiesdc
       meetup: dc-pyladies
+
+
+
