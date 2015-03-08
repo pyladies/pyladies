@@ -318,5 +318,11 @@ chapters:
       twitter: pyladiesdc
       meetup: dc-pyladies
 
-
+    - name: Poland
+      meetup_id: 185065560
+      website: pl
+      image: pyladies_poland.png
+      email: poland@pyladies.com
+      twitter: PyladiesPL
+      facebook: pyladiespl
 
