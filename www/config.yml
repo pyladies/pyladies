@@ -195,6 +195,14 @@ chapters:
       twitter: NYCpyladies
       meetup: nyc-pyladies
 
+    - name: Poland
+      meetup_id: 185065560
+      website: pl
+      image: pyladies_poland.png
+      email: poland@pyladies.com
+      twitter: PyladiesPL
+      facebook: pyladiespl
+
     - name:      Portland, OR
       meetup_id: 4808882
       website: http://pyladiespdx.github.io
@@ -317,12 +325,4 @@ chapters:
       email: jackiekazil@pyladies.com
       twitter: pyladiesdc
       meetup: dc-pyladies
-
-    - name: Poland
-      meetup_id: 185065560
-      website: pl
-      image: pyladies_poland.png
-      email: poland@pyladies.com
-      twitter: PyladiesPL
-      facebook: pyladiespl
 
