@@ -1299,3 +1299,12 @@ div.code td.linenos pre {
   }
 }
 
+
+/* hacks for images - LR */
+
+#transparent-geek {
+  background-color: white;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
