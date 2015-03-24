@@ -21,7 +21,8 @@ _Location:_ [Santos][4] (5 minute walk from conference center)
 
 Kick off PyCon with a friendly cocktail hour with PyLadies and Twitter!
 
-**RSVP required** - EventBrite page coming soon - Be sure to follow [@pyladies][12] and our calendar (linked above) for updates!
+**RSVP via [EventBrite][17]!! Spots limited!**
+
 
 ### PyLadies Booth
 
@@ -99,3 +100,4 @@ More information about sprints at PyCon can be found [here][16].
 [14]: https://github.com/pyladies/pyladies-kit
 [15]: https://pypi.python.org/pypi/pyladies
 [16]: https://us.pycon.org/2015/community/sprints/
+[17]: http://pyladiesmixer2015.eventbrite.com
