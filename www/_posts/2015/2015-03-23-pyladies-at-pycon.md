@@ -65,8 +65,8 @@ _RSVP?:_ None
 Open spaces are a way for people to come together to talk about topics, ideas, or whatever they want.  Any subject that two or more attendees want to talk about is a candidate for an Open Space.  Just show up if you want to attend!  More information about open spaces can be found [here][10].
 
 #### PyLadies GPG Key Signing Open Space
-_When:_ TBD - targeting Sunday afternoon
-_Where:_ TBD
+_When:_ 6-7pm - targeting Sunday afternoon
+_Where:_ Room 512BF
 _RSVP?:_ None
 
 This year we're trying something new: A GPG Key Signing Open Space.  This will be open to everyone. We will have how-tos for the very beginner of GPG key signings and how to use PGP encryption.  Not sure what GPG is?  Read up a little [here][11].
