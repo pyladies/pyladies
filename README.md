@@ -5,8 +5,9 @@ This is the source code for the http://pyladies.com/ website. It uses
 
 ## Directory Layout
 
-This is a general overview of the top-level directory structure. The
-things that aren't labeled contain content for the website.
+This is a general overview of the top-level directory structure, which lives
+in the `www` folder. The things that aren't labeled contain content for the 
+website.
 
 
 ```
