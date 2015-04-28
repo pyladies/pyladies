@@ -129,6 +129,14 @@ chapters:
       email: chicago@pyladies.com
       twitter: PyLadiesChicago
       meetup: Chicago-PyLadies
+  
+    - name: Dallas, TX
+      meetup_id: 2292131
+      website: dallas
+      image: pyladies_dc_atl_sea_tor.png
+      email: dfw@pyladies.com
+      twitter: pyladiesdallas
+      meetup: dfw-pyladies
 
     - name:      Dublin, Ireland
       meetup_id: 13320732
@@ -325,13 +333,4 @@ chapters:
       email: jackiekazil@pyladies.com
       twitter: pyladiesdc
       meetup: dc-pyladies
-
-    - name: Dallas, TX
-      meetup_id: 2292131
-      website: dallas
-      image: pyladies_dc_atl_sea_tor.png
-      email: dfw@pyladies.com
-      twitter: pyladiesdallas
-      meetup: dfw-pyladies
-
 
