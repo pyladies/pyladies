@@ -62,3 +62,24 @@ When you submit a pull request, everyone with commit access for Pyladies will se
 
 [1]: http://daringfireball.net/projects/markdown/syntax
 [2]: http://www.pyladies.com/blog/get-the-most-out-of-your-conference-going-experience/
+
+# Contributing to the PyLadies Repo 
+
+To contribute to the PyLadies repo, find an [open issue](https://github.com/pyladies/pyladies/issues?q=is%3Aopen+is%3Aissue+no%3Aassignee). Any unassigned issue is fair game! In order to have an issue assigned to you, you'll need to be a member of the [PyLadies Contributor Team](https://github.com/orgs/pyladies/teams/contributors); just add a message on the issue you'd like to work on and we'll add you to the team so we can assign that issue to you. 
+
+Note the labels: 
+
+- bug
+- design/front end 
+- docs/update
+- duplicate
+- enhancement
+- investigate
+- newbie friendly
+
+If you're new to contributing to open source, or just new to contributing to the PyLadies repo, check out the "newbie friendly" tag. These are simpler issues that would be good for first-time contributors. You can also use the labels to find issues that are tailored to skills you have or skills you want to develop. 
+
+Just fork the project, make your changes, and submit a pull request! Follow the setup instructions in the [README.md](https://github.com/pyladies/pyladies) to get the site running locally on your machine. 
+
+New to Git? Check out the [tutorial on tryGit](https://try.github.io/levels/1/challenges/1), a tutorial by GitHub and Codeschool. 
+
