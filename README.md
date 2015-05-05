@@ -53,6 +53,10 @@ it will find your virtualenv folder and error out).
 
 See [CONTRIBUTING.md](https://github.com/pyladies/pyladies/blob/master/CONTRIBUTING.md) for instructions and guidelines.
 
+## To contribute to the repository
+
+See [CONTRIBUTING.md](https://github.com/pyladies/pyladies/blob/master/CONTRIBUTING.md) for instructions and guidelines.
+
 ## To write a resource (more "sticky" than a blog post)
 
 ### Collection of outside resources
