@@ -17,7 +17,12 @@
     <script type="text/javascript" src="{{ get_asset('js/meetup_widget.js') }}"></script>
     <script type="text/javascript">
         $(document).ready(function() {
-            var meetupIds = '{% for chapter in site.chapters %}{{ chapter.meetup_id }}{% if not loop.last %},{% endif %}{% endfor %}';
+            var meetupIds = "{% for chapter in site.chapters -%}
+                               {%- if chapter.meetup_id -%}
+                                  {{ chapter.meetup_id }}
+                                  {%- if not loop.last -%},{% endif %}
+                               {%- endif %}
+                            {%- endfor -%}";
             PyladiesMeetupWidget.addUpcomingMeetups(meetupIds);
         });
 	</script>
