@@ -1,0 +1,77 @@
+/*=======  Modal =======*/
+/* Lembrete: top right bottom left*/
+.modal-header{
+    height: 100px;
+    background-color: #cc6698; /*#cc6698, #824583, #6b396c*/
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-top-left-radius: 5px;/* Safari */
+    -webkit-border-top-right-radius: 5px;/* Safari */
+    -moz-border-radius-topleft: 5px;/* Firefox */
+    -moz-border-radius-topright: 5px;/* Firefox */
+}
+.modal-footer{
+    background-color: #DCDCDC;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;/* Safari */
+    -webkit-border-bottom-right-radius: 5px;/* Safari */
+    -moz-border-radius-bottomleft: 5px;/* Firefox */
+    -moz-border-radius-bottomright: 5px;/* Firefox */
+}
+/* Logo modal-header */
+.pyladies{
+    margin-left: 200px;
+}
+#img{
+    margin-top: -50px;
+    border: solid 3px #ffffff;/*#824583*/
+}
+.name{
+    margin: -40px 0 0 100px;
+}
+
+
+
+/* About-Members */
+.info{font-size: 1.05em;}
+.info > ul li a{padding-bottom: 2px;}
+
+.about-members{margin: 50px 0 0 0;}
+.about-members > ul li a:link {font-color: #696969;text-decoration: none;}
+.about-members > ul li a:visited {color:#696969;text-decoration:none;}
+.about-members > ul li a:hover {color:#999999; text-decoration:underline;}
+.universidade{font-size: 1.05em;}
+
+
+
+/* Information */
+.information{
+    margin: 30px 0 0 0;
+}
+
+
+/* Social */
+.social-midia{
+    margin: 10px 0 -40px 0;
+    padding-top: 30px;
+}
+
+.social li{
+    list-style: none;
+}
+.social-midia ul li a{
+    text-decoration: none;
+    color: #696969;
+}
+.social-midia ul li a:hover{
+    color: #999999;
+}
+
+
+
+
+
+
+
+

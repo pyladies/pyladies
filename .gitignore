@@ -4,6 +4,7 @@
 local_settings.py
 _site/
 .DS_Store
+*/*/.idea
 
 boston/.floo
 
