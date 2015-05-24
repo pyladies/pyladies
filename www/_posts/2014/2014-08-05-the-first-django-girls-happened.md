@@ -10,7 +10,7 @@ This is a story about turning 45 women into Django developers.
 
 I bought the [djangogirls.org](http://djangogirls.org/) domain on 15th April. At that time I didn't have plans to do Django Girls in any near future but I've kind of known for a long time that I would organize it one day. Just two weeks later I was going to Berlin for ThingsCon and [Markus Holtermann](https://twitter.com/m_holtermann) tweeted me asking if we could meet. This meeting finally gave me a much needed kick in the butt to just go and do it.
 
-I emailed [Ola Sendecka](http://twitter.com/asendecka) just two weeks after that, when the [EuroPython](http://europython.com/) team agreed to host us. I knew Ola was the perfect person to help me with that: she is the best female Django developer I have the pleasure to know, I love working with her and we both really care about bringing more women into the Django world. Back then it was supposed to be this one-time thing we were doing to help bring more diversity into EuroPython, but it grew out of proportions on the very first day after we showed it to the world. I'm so happy it did!
+I emailed [Ola Sendecka](https://twitter.com/asendecka) just two weeks after that, when the [EuroPython](http://europython.com/) team agreed to host us. I knew Ola was the perfect person to help me with that: she is the best female Django developer I have the pleasure to know, I love working with her and we both really care about bringing more women into the Django world. Back then it was supposed to be this one-time thing we were doing to help bring more diversity into EuroPython, but it grew out of proportions on the very first day after we showed it to the world. I'm so happy it did!
 
 ### The first Django Girls
 

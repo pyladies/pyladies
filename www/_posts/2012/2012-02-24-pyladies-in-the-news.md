@@ -8,6 +8,6 @@ The LA Weekly blog featured a few of the LA PyLadies in a [recent post.](http://
 
 We've even stirred a bit of discussion on [Reddit](http://www.reddit.com/r/programming/comments/psnr6/geek_chicks_pyladies_a_gang_of_female_computer/) -- care to join the fray? =)
 
-By [Esther Nam](http://twitter.com/estherbester "Estherbester | Twitter")
+By [Esther Nam](https://twitter.com/estherbester "Estherbester | Twitter")
 
-[Tweet](http://twitter.com/share)
+[Tweet](https://twitter.com/share)

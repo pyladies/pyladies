@@ -14,6 +14,6 @@ Jessica is a kernel engineer from Cambridge, Massachusetts. She's a maintainer o
 
 On top of her open source contributions, she is also a Python Software Foundation board member and a crucial part in the Boston Python User Group, the largest Python user group in the world. With that group she runs the Boston Python Workshop, an introductory programming pipeline that has brought hundreds of women into the local Python community and is being replicated in cities across the US.
 
-By [Esther Nam](http://twitter.com/estherbester "Estherbester | Twitter")
+By [Esther Nam](https://twitter.com/estherbester "Estherbester | Twitter")
 
-[Tweet](http://twitter.com/share)
+[Tweet](https://twitter.com/share)

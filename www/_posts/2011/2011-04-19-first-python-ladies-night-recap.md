@@ -24,6 +24,6 @@ At the end, we went up to the rooftop lounge, where we had a spectacular view of
 
 Our next ladies' night is scheduled for May 6, 2011.  If you'd like to come and get involved, please contact me at [audreyr@cartwheelweb.com](mailto:audreyr@cartwheelweb.com) for more details.
 
-By [Audrey Roy](http://twitter.com/audreyr "AudreyR | Twitter")
+By [Audrey Roy](https://twitter.com/audreyr "AudreyR | Twitter")
 
-[Tweet](http://twitter.com/share)
+[Tweet](https://twitter.com/share)

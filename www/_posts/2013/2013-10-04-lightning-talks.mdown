@@ -3,7 +3,7 @@ layout: post.html
 title: "PyCon 2014: Lightning Talks Proposals Due October 15th!"
 tags: [pycon]
 author: Lynn Root
-author_link: http://twitter.com/roguelynn
+author_link: https://twitter.com/roguelynn
 ---
 
 For the first time at [PyCon][0], you can submit a proposal to give a Lightning Talk!  If you missed the earlier call for proposals for the longer talks, you still have a chance to present your beloved subject in front of a large audience. 

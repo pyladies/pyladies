@@ -16,6 +16,6 @@ SAVE THE DATE
 Python Ladies' Night 4 will be on Saturday, June 18 from 8pm onward, at Hollywood Canteen, 1006 Seward St, Los Angeles, CA 90038.
 
 
-By [Audrey Roy](http://twitter.com/audreyr "AudreyR | Twitter")
+By [Audrey Roy](https://twitter.com/audreyr "AudreyR | Twitter")
 
-[Tweet](http://twitter.com/share)
+[Tweet](https://twitter.com/share)

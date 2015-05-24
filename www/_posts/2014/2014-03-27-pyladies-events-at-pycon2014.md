@@ -59,7 +59,7 @@ To our Sponsors: THANK YOU
 The following companies stepped up in a big, big way to help increase diversity at PyCon. We are so encouraged by their support.
 
 * [Mandrill](http://mandrill.com/)
-* [Twitter Women in Engineering](http://twitter.com/womeng)
+* [Twitter Women in Engineering](https://twitter.com/womeng)
 * [Spotify](http://spotify.com)
 * [Caktus](http://www.caktusgroup.com/)
 * [TEDxNashville/PyTennessee](http://www.pytennessee.org/)

@@ -3,7 +3,7 @@ layout: post.html
 title: "A PyLadies-packed PyCon 2015"
 tag: [PyCon]
 author: Lynn Root
-author_link: http://twitter.com/roguelynn
+author_link: https://twitter.com/roguelynn
 ---
 
 Want to pack your PyCon schedule with PyLadies events?  Here are all the details!

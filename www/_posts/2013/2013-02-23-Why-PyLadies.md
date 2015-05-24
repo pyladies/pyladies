@@ -32,7 +32,7 @@ This post was originally posted on [Selena Deckleman][9]'s [blog][10] and repost
  [3]: http://www.meetup.com/PyLadies-PDX/
  [5]: http://www.pyladies.com/locations/
 
- [7]: http://twitter.com/floraworley
+ [7]: https://twitter.com/floraworley
  [8]: http://pycon.org
- [9]: http://twitter.com/selenamarie
+ [9]: https://twitter.com/selenamarie
  [10]: http://www.chesnok.com/daily/2013/02/23/why-pyladies/

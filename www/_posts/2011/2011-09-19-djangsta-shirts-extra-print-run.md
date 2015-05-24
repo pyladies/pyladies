@@ -20,6 +20,6 @@ Shirts will now cost $25, to cover shipping and/or PayPal fees.
 
 
 
-By [Esther Nam](http://twitter.com/estherbester "Estherbester | Twitter")
+By [Esther Nam](https://twitter.com/estherbester "Estherbester | Twitter")
 
-[Tweet](http://twitter.com/share)
+[Tweet](https://twitter.com/share)

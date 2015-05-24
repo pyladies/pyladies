@@ -10,9 +10,9 @@ Available: Womens L, Mens S/L
 
 A pre-order form will be available for a reprint run!
 
-![image0](http://i.imgur.com/7epc8.png) Model: [Jeff Schenck](http://twitter.com/#!/jeffschenck)
+![image0](http://i.imgur.com/7epc8.png) Model: [Jeff Schenck](https://twitter.com/#!/jeffschenck)
 
 
-By [C Cheung](http://twitter.com/plaidxtine "Plaidxtine | Twitter")
+By [C Cheung](https://twitter.com/plaidxtine "Plaidxtine | Twitter")
 
-[Tweet](http://twitter.com/share)
+[Tweet](https://twitter.com/share)

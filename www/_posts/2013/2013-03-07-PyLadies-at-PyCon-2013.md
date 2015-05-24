@@ -63,7 +63,7 @@ The women of Python are ruling the tutorial schedule:
 
 #### Saturday, March 16th
 
-* [BoF Mani Party!!](http://therealkatie.net/blog/2013/mar/4/pycon-mani-party/) @ 5pm - 6pm in room 202 - What started as a cute joke snowballed into an actual thing, as many of the best things often do! Hosted by [Katie Cunningham](http://twitter.com/kcunning).
+* [BoF Mani Party!!](http://therealkatie.net/blog/2013/mar/4/pycon-mani-party/) @ 5pm - 6pm in room 202 - What started as a cute joke snowballed into an actual thing, as many of the best things often do! Hosted by [Katie Cunningham](https://twitter.com/kcunning).
 * [Charity Auction for PyLadies](http://pycon2013auction.eventbrite.com/) @ 6:30pm - 8:30pm - come laugh at the PyLadies as we try our hands as auctioneers!  Dinner included.
 * [Women's Open Tech Office Hours](https://docs.google.com/spreadsheet/ccc?key=0AreC7k-K2saEdFlqckdkX25YQUpIVlZjU3FDX3BUQ2c#gid=0) @ 6pm - 3am in the Hyatt in room 1332
 

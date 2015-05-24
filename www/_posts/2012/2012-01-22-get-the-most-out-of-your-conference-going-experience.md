@@ -4,7 +4,7 @@ title: Get the Most out of your Conference-going Experience
 tags: [Conferences]
 ---
 
-As seen in our last newsletter: @[kjam](http://twitter.com/kjam) and @[sandymahalo](http://twitter.com/sandymahalo) are pro conference attendees (and speakers!). Here they present advice for those who may be new to the world of tech conferences and other neck-beard-laden gatherings like [SCALE10x](http://www.socallinuxexpo.org/), which is happening this entire weekend in Los Angeles.
+As seen in our last newsletter: @[kjam](https://twitter.com/kjam) and @[sandymahalo](https://twitter.com/sandymahalo) are pro conference attendees (and speakers!). Here they present advice for those who may be new to the world of tech conferences and other neck-beard-laden gatherings like [SCALE10x](http://www.socallinuxexpo.org/), which is happening this entire weekend in Los Angeles.
 
 ​1. **Don't be intimidated by intense topics or talks.** Part of attending a conference is exposing yourself to new content and learning from it. If you don't get it all, you may be reminded of it years later when you come across something similar.
 
@@ -12,6 +12,6 @@ As seen in our last newsletter: @[kjam](http://twitter.com/kjam) and @[sandymaha
 
 ​3. **Do talk to people.** One of the best things about conferences is meeting folks you enjoy or who challenge and inspire you. Don't fill your entire calendar with talks, spend some of the time just chatting with folks who are there and making new friends.
 
-By [Esther Nam](http://twitter.com/estherbester "Estherbester | Twitter")
+By [Esther Nam](https://twitter.com/estherbester "Estherbester | Twitter")
 
-[Tweet](http://twitter.com/share)
+[Tweet](https://twitter.com/share)

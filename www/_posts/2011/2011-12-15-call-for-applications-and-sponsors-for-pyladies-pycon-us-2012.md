@@ -43,4 +43,4 @@ Sponsors will receive:
     person you sponsored.  We will help them through their Python career
     and put friendly pressure on them to contribute to open-source =)
 
-By [Esther Nam](http://twitter.com/estherbester "Estherbester | Twitter")
+By [Esther Nam](https://twitter.com/estherbester "Estherbester | Twitter")

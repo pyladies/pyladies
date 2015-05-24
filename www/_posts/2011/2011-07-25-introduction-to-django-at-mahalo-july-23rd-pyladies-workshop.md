@@ -26,11 +26,11 @@ In the afternoon, most attendees chose to push on through the Django tutorial wi
 
 The hackday finished with another fine set of lightning talks:
 
--   [Katharine](http://twitter.com/kjam) gave an awesome talk on [how to keep up with the PyLadies](http://kjamistan.tumblr.com/post/7985900943/how-to-keep-up-with-the-pyladies)
--   [Randall](http://twitter.com/rdegges) gave a presentation on [the awesome Django-Twilio API](http://www.slideshare.net/rdegges/intro-to-telephony-in-django), for adding telephony features to web apps
+-   [Katharine](https://twitter.com/kjam) gave an awesome talk on [how to keep up with the PyLadies](http://kjamistan.tumblr.com/post/7985900943/how-to-keep-up-with-the-pyladies)
+-   [Randall](https://twitter.com/rdegges) gave a presentation on [the awesome Django-Twilio API](http://www.slideshare.net/rdegges/intro-to-telephony-in-django), for adding telephony features to web apps
 -   Michael gave [tips on applying for programming jobs](http://prezi.com/s82pxzuuvpsa/how-to-get-hired-as-a-new-developer/), aimed at n00bs but containing good advice for any job-seeker.
 -   Laura showed us how to use the [Python wrapper for the Twitter API](http://www.slideshare.net/rogueveda/whats-in-a-tweet?from=share_email_login3) ![image4](https://lh6.googleusercontent.com/-n4l5e6yMgk0/Tix8k5zilkI/AAAAAAAAAJk/c7gdwQzkKzc/s400/IMG_2612.JPG)
--   The indomitable [Sandy](http://twitter.com/sandymahalo) found it in her to give another talk, this time on [Django testing ](https://docs.google.com/present/edit?id=0AVthC0Z3iw8DZGRrdnFzeGdfMmNxd2d3emd2&hl=en_US)
+-   The indomitable [Sandy](https://twitter.com/sandymahalo) found it in her to give another talk, this time on [Django testing ](https://docs.google.com/present/edit?id=0AVthC0Z3iw8DZGRrdnFzeGdfMmNxd2d3emd2&hl=en_US)
 
 Since no PyLadies event is complete without a social hour, we walked over to Warszawa for a round of drinking and relaxation (i.e., we began formulating plans for tattoos, future PyLadies events, continued world domination, etc).
 
@@ -42,6 +42,6 @@ Finally, and as always, thanks to the [PSF](http://python.org/psf) for their con
 
 Stay on our mailing list to hear more! Or, if that's not enough PyLadies for you, [you know where else to find us](http://kjamistan.tumblr.com/post/7985900943/how-to-keep-up-with-the-pyladies)!
 
-By [Esther Nam](http://twitter.com/estherbester "Estherbester | Twitter")
+By [Esther Nam](https://twitter.com/estherbester "Estherbester | Twitter")
 
-[Tweet](http://twitter.com/share)
+[Tweet](https://twitter.com/share)

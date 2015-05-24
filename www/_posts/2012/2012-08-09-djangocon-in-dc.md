@@ -7,7 +7,7 @@ tags: [Events]
 
 ##Coming to DjangoCon in September? Let's have a chat about DC.
 
-by [Katie Cunningham](http://twitter.com/kcunning) (with mad props to [Jackie Kazil](http://twitter.com/jackiekazil), who helped write this post!)
+by [Katie Cunningham](https://twitter.com/kcunning) (with mad props to [Jackie Kazil](https://twitter.com/jackiekazil), who helped write this post!)
 
 ###The location
 [DjangoCon DC](http://djangocon.us/) is actually in Northern Virginia, not in the heart of the Capitol. Specifically, it's being held in Crystal City at the Hyatt Regency, which is close to the Crystal City Metro Station (the yellow and blue metro lines) and one stop away from Reagan National Airport (DCA).
@@ -55,6 +55,6 @@ I'm going to post something about our tourist scene, if anyone is interested in 
 
 
 
-By [Esther Nam](http://twitter.com/estherbester "Estherbester | Twitter")
+By [Esther Nam](https://twitter.com/estherbester "Estherbester | Twitter")
 
-[Tweet](http://twitter.com/share)
+[Tweet](https://twitter.com/share)

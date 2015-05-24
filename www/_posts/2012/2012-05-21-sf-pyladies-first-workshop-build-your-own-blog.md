@@ -12,6 +12,6 @@ We went through how to build a blog using Django and its class-based views. We a
 
 I’ve made a [GitHub repo](https://github.com/econchick/PyLadiesBYOBlog) for people to fork & contribute. I didn’t find an easily accessible tutorial for building a blog, or for building a simple app using Django’s class views, so hopefully this will grow to something useful in the Django community. Til next time!
 
-By [Esther Nam](http://twitter.com/estherbester "Estherbester | Twitter")
+By [Esther Nam](https://twitter.com/estherbester "Estherbester | Twitter")
 
-[Tweet](http://twitter.com/share)
+[Tweet](https://twitter.com/share)

@@ -3,7 +3,7 @@ layout: post.html
 title: "Fundraising for PyLadies for PyCon 2014"
 tag: [PyCon]
 author: Lynn Root
-author_link: http://twitter.com/roguelynn
+author_link: https://twitter.com/roguelynn
 ---
 
 **TL;DR**: [Donate](#ways-to-donate) to PyLadies for PyCon!

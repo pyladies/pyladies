@@ -36,24 +36,24 @@ In the afternoon, we split up into smaller breakout sessions:
 
 Then the PyLadies volunteer organizers gave lightning talks:
 
--   Equality: Equivalence in Python by [Jess Stanton](http://twitter.com/#!/tiny_mouse)
+-   Equality: Equivalence in Python by [Jess Stanton](https://twitter.com/#!/tiny_mouse)
 -   Project Euler Demo by [Christine Cheung](http://www.xtine.net/)
--   Python Web Frameworks by [Katharine Jarmul](http://twitter.com/#!/kjam)
--   Generators by [Sandy Strong](http://twitter.com/#!/sandymahalo)
--   Ergonomics by [Esther Nam](http://twitter.com/#!/estherbester)
--   The Code Behind PyLadies.com by [Audrey Roy](http://twitter.com/#!/audreyr)
--   Inequality: Stories from the Python & Developer Communities by [Jess Stanton](http://twitter.com/#!/tiny_mouse)
+-   Python Web Frameworks by [Katharine Jarmul](https://twitter.com/#!/kjam)
+-   Generators by [Sandy Strong](https://twitter.com/#!/sandymahalo)
+-   Ergonomics by [Esther Nam](https://twitter.com/#!/estherbester)
+-   The Code Behind PyLadies.com by [Audrey Roy](https://twitter.com/#!/audreyr)
+-   Inequality: Stories from the Python & Developer Communities by [Jess Stanton](https://twitter.com/#!/tiny_mouse)
 
 At the end, we celebrated over root beer floats. It was interesting and exciting to see that no one wanted to leave at the end! I was thrilled and floating on a cloud, and so were all the other organizers and volunteers.
 
 Thank you to our special out-of-town guests! If there's anything we can do to help you in any way with your local women's developer communities, let us know.
 
--   [Angie Chang](http://twitter.com/#!/thisgirlangie), co-founder of [Women 2.0](http://www.women2.org/) [Bay Area Girl Geek dinners](http://www.bayareagirlgeekdinners.com/) & product manager at Zinch from SF, who flew into LA just for our event
--   [Heather Payne](http://twitter.com/#!/heatherpayne), senior marketing coordinator for a global staffing/HR firm from Toronto, who flew home [eager to start a local women's Python coding group](http://heatherpayne.ca/review-of-pyladies-intro-to-python-workshop)
+-   [Angie Chang](https://twitter.com/#!/thisgirlangie), co-founder of [Women 2.0](http://www.women2.org/) [Bay Area Girl Geek dinners](http://www.bayareagirlgeekdinners.com/) & product manager at Zinch from SF, who flew into LA just for our event
+-   [Heather Payne](https://twitter.com/#!/heatherpayne), senior marketing coordinator for a global staffing/HR firm from Toronto, who flew home [eager to start a local women's Python coding group](http://heatherpayne.ca/review-of-pyladies-intro-to-python-workshop)
 
 Congratulations to all 25 ladies and 2 men who completed our intro workshop, and special thanks to all the men who attended and volunteered for braving the crowd of ladies.
 
 
-By [Audrey Roy](http://twitter.com/audreyr "AudreyR | Twitter")
+By [Audrey Roy](https://twitter.com/audreyr "AudreyR | Twitter")
 
-[Tweet](http://twitter.com/share)
+[Tweet](https://twitter.com/share)
