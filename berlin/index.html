@@ -1,77 +1,91 @@
- <!DOCTYPE html>
- <html>
-    <head>
-       <title>PyLadies Berlin</title>
-       <link rel="shortcut icon" href="img/favicon.ico" type="image/ico">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-       <link href="css/pyladies.css" rel="stylesheet" media="screen">
-    </head>
-    <body>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PyLadies Berlin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/pyladies.css" rel="stylesheet" media="screen">
+    <link rel="icon" type="image/png" href="img/PyLadies-Berlin-Favicon.png">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <p class="logo"><img src="img/PyLadies-Berlin-Logo.png"></p>
+      <div class="nav">
+        <ul class="list-inline">
+          <li><a href="#about">About</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#organizers">Organizers</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+  </header>
 
-       <div class="container">
-          <header>
-             <p class="logo"><img src="img/pyladies_berlin.png" width="260px"></p>
-             <div class="navbar">
-  <div class="navbar-inner">
-    <ul class="nav">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#aboutus">About Us</a></li>
-      <li><a href="#res">Resources</a></li>
-    </ul>
-  </div>
+<section id="about">
+<p>We are <strong>PyLadies Berlin</strong>, a group of girls and women coding in this lovely city. We are eager to develop and advance our knowlegde in the world of programming and you are invited to learn with us!</p>
+<!--
+<p><a target="_blank" href="img/pyladies.jpg"><img title="Git introduction workshop" class="img-thumbnail" src="img/pyladies-small.jpg"></a></p>
+-->
+<div class="container-max embed-responsive-16by9">
+<video loop onclick="if(this.paused){this.play()}else{this.pause()}" onplaying="this.controls=false" poster="img/vidprelo.jpg" onmouseenter="if(this.paused && this.currentTime == 0){this.poster='img/vidpre.jpg'}" onmouseout="if(this.paused && this.currentTime == 0){this.poster='img/vidprelo.jpg'}" preload="none">
+<source src="img/pyladiesberlin450p.webm" type="video/webm">
+<source src="img/pyladiesberlin450p.mp4" type="video/mp4">
+</video>
 </div>
+<p>The global <a href="http://pyladies.com">PyLadies</a> mentorship group has a focus on helping more women become active participants and leaders in the Python open-source community with the mission to promote, educate and advance a diverse Python community through outreach, education, conferences, events and social gatherings.</p>
+<p>PyLadies aims to provide a friendly support network for women and a bridge to the larger Python world.</p>
+</section>
 
- </header>
-          <section>
-             <h1><div id="home">About PyLadies</div></h1><br>
+<div class="row">
+<section id="events" class="col-md-6">
+<h1>Events</h1>
+<p>Our monthly meetups follow a <strong>short talk + workshop</strong> formula.</p>
+<p>You can find and join upcoming events on <a href="http://www.meetup.com/PyLadies-Berlin/">our Meetup group</a>.</p>
+<p>Python novices and beginners are especially encouraged to join our next meetup.</p>
+</section>
 
-             <h2><div id="home">Welcome!</div></h2><br>
+<section id="resources" class="col-md-6">
+<h1>Resources</h1>
+<p>You can find the content of our talks, tutorials, excercises and workshops in our <a href="https://github.com/PyLadiesBerlin/materials">materials GitHub repository</a>.</p>
+<div class="ytbox embed-responsive embed-responsive-16by9">
+<iframe src="https://www.youtube.com/embed/AD1cSBCEUzA?list=UUVlzy-BMSYReFD0YnTzoh7w" frameborder="0" allowfullscreen></iframe>
+</div>
+<p>Videos of some of the talks are on <a href="http://youtube.com/user/PyLadiesBerlin">our YouTube channel</a>.</p>
+</section>
+</div>
+<!-- .row -->
 
-             <div id="welcome_message" class="row">
-                    <div class="span4"><img src="img/pylady_geek.png" alt="PyLadies lady graphic" width="300px" /></div>
-                    <div class="span8"><p>We are an international mentorship group with a focus on helping more women become active participants and leaders in the Python open-source community. Our mission is to promote, educate and advance a diverse Python community through outreach, education, conferences, events and social gatherings.</p>
-                    <p>PyLadies also aims to provide a friendly support network for women and a bridge to the larger Python world. Anyone with an interest in Python is encouraged to participate! Python novices and beginners are especially encouraged to join us in our next meetup. </p></div>
-            </div>
+<div class="row">
+<section id="organizers" class="col-md-6">
+<h1>Organizers</h1>
+<div class="row">
+<div class="col-sm-3">
+<img class="img-circle" src="img/pyladies-head-small.png" /><br />
+Klara Holzmann
+</div>
+<div class="col-sm-3">
+<a href="https://github.com/mei-li"><img class="img-circle" src="https://avatars3.githubusercontent.com/u/1010264?s=128" /></a><br />
+<a href="mailto:meili.tr@gmail.com" title="Contact">Mei Li Triantafyllidi</a>
+</div>
+<div class="col-sm-3">
+<a href="https://github.com/patriciagarcia"><img class="img-circle" src="https://avatars3.githubusercontent.com/u/572958?s=128" /></a><br />
+<a href="mailto:pat@patriciagarcia.me" title="Contact">Patricia Garcia</a>
+</div>
+<div class="col-sm-3">
+<a href="https://github.com/ikajic"><img class="img-circle" src="https://avatars3.githubusercontent.com/u/2485670?v=3&s=128" /></a><br />
+<a href="mailto:ivana.kajic@gmail.com" title="Contact">Ivana Kajic</a>
+</div>
+</section>
 
-          </section>
-         <section class="intro row" id="aboutus">
-             <div class="span8">
-             <h2>PyLadies Berlin</h2>
-
-             <p>Hey guys,
-              we're PyLadies from Berlin, a young group of girls living and working in this awesome city. 
-              We're eager to learn and develop our knowlegde in the world of IT. 
-            </p>
-              <p>Find us on <a href="http://www.meetup.com/PyLadies-Berlin/">Meetup</a></p>
-                 </div>
-          </section>
-
-
-          <section class="about_us row">
-              <div class="span8">
-             <h2>About us</h2>
-              <h3>The organizers</h3>
-              <ul class="inline">
-                 <li>Klara Holzmann</li>
-                 <li><a href="mailto:meili.tr@gmail.com" title="Contact">Mei Li Triantafyllidi</a></li>
-                 <li><a href="mailto:pat@patriciagarcia.me" title="Contact">Patricia Garcia</a></li>
-                 <li><a href="mailto:ivana.kajic@gmail.com" title="Contact">Ivana Kajic</a></li>
-              </ul>
-              <h3>And our amazing PyLadies</h3>
-              <p>You can see them in the photo working hard on the first version of this same webpage as part of our Introduction to Git workshop</p>
-              <p class=foto><img src="img/group.jpg"></p>
-            </div>
-          </section>
-          <section class="resources row" id="res">
-             <div class="span8">
-             <h2>Resources from past events</h2>
-             <p> All the materials we used in talks, tutorials, exercises and workshops are available in our <a href="https://github.com/PyLadiesBerlin/materials">GitHub repository</a>. </p>                         
-            
-          </div>
-          </section>
-       </div>
-       <script src="http://code.jquery.com/jquery.js"></script>
-       <script src="js/bootstrap.min.js"></script>
-    </body>
- </html>
+<section id="contact" class="col-md-6">
+<h1>Contact</h1>
+<p>Please use the organizers "Contact" function on <a href="http://www.meetup.com/PyLadies-Berlin/">our Meetup page</a> (requires free account) to get in touch.</p>
+</section>
+</div>
+<!-- .row -->
+  </div>
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
