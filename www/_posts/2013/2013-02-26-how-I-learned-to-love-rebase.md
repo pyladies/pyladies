@@ -46,4 +46,4 @@ The moment that I realized that rebase isn't so much a bomb as a seam ripper, it
 
 ---
 
-Written by our own PDX PyLady, [@thursdayb](http://twitter.com/thursdayb) and regularly writes for her [blog](http://thursdaybram.com).
+Written by our own PDX PyLady, [@thursdayb](https://twitter.com/thursdayb) and regularly writes for her [blog](http://thursdaybram.com).

@@ -52,6 +52,6 @@ Also, we talked about some of the fun things we want to do together in the futur
 ![Katharine and Sandy at PyLadies meetup](http://farm4.static.flickr.com/3320/5707551585\_8fda850878.jpg)
 
 
-By [Audrey Roy](http://twitter.com/audreyr "AudreyR | Twitter")
+By [Audrey Roy](https://twitter.com/audreyr "AudreyR | Twitter")
 
-[Tweet](http://twitter.com/share)
+[Tweet](https://twitter.com/share)

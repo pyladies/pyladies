@@ -46,6 +46,6 @@ Justin and Kristy Fields
 Shawn Milochik
 
 
-By [Audrey Roy](http://twitter.com/audreyr "AudreyR | Twitter")
+By [Audrey Roy](https://twitter.com/audreyr "AudreyR | Twitter")
 
-[Tweet](http://twitter.com/share)
+[Tweet](https://twitter.com/share)

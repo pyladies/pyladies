@@ -35,7 +35,7 @@ Though the Hollywood sky was outside was warm and bright, we soon drifted back i
 -   Dirk gave a demo of his [Opani](http://opani.com) platform, which leverages the cloud for social supercomputing.
 -   Michael introduced the [Pyramid](http://docs.pylonsproject.org/projects/pyramid/dev/) web framework and [Jenkins CI](http://jenkins-ci.org/).
 -   Sandy shared some [amazing](http://www.youtube.com/watch?v=Kg0Rvj-Seto) [demos](http://www.youtube.com/watch?v=WDqYWsl39Ro) of [Python](http://openkinect.org/wiki/Python_Wrapper)-[Xbox Kinect](http://en.wikipedia.org/wiki/Kinect) [hacking](http://www.youtube.com/watch?v=PYq9gkdpiS8)
--   [Jacob](http://twitter.com/jacobburch) gave a PEP8 talk on best practices
+-   [Jacob](https://twitter.com/jacobburch) gave a PEP8 talk on best practices
 -   [Jeff](https://twitter.com/#%21/jeffschenck) admonished us to leave no Windows developers behind
 -   Katharine and Danny proffered some [words](http://kjamistan.tumblr.com/post/6675268237/on-becoming-a-fabulous-pythonista)
     of [encouragement](http://www.slideshare.net/pydanny/confessions-of-a-joe-developer) for developers of all skill levels.
@@ -54,8 +54,8 @@ Coming up....
 
 We really want to keep the momentum going for opening up the Python community to people of all stripes, and to provide a non-threatening environment where everyone feels welcome to work on their projects and learn to become a better developer without having to worry about whether they fit in or feeling stupid for trying.
 
-To that end, we’ve got at least [a few more hackathons and other cool outings](static/events) in the works, so don’t forget to sign up for our mailing list, and [follow us on Twitter](http://twitter.com/pyladies) so you'll be the first to know when and where and what the PyLadies will be doing next! Thanks to all who attended, whether virtually or in-person -- and sorry to those on the waitlist who couldn't: we hope you'll catch us earlier next time, or connect with us online!
+To that end, we’ve got at least [a few more hackathons and other cool outings](static/events) in the works, so don’t forget to sign up for our mailing list, and [follow us on Twitter](https://twitter.com/pyladies) so you'll be the first to know when and where and what the PyLadies will be doing next! Thanks to all who attended, whether virtually or in-person -- and sorry to those on the waitlist who couldn't: we hope you'll catch us earlier next time, or connect with us online!
 
-By [Esther Nam](http://twitter.com/estherbester "Estherbester | Twitter")
+By [Esther Nam](https://twitter.com/estherbester "Estherbester | Twitter")
 
-[Tweet](http://twitter.com/share)
+[Tweet](https://twitter.com/share)

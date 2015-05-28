@@ -4,7 +4,7 @@ title: "Intro to Python, April 6 - Recap"
 tags: [Python, events, education]
 category: resources, pyladies
 author: Barbara Shaurette
-author_link: http://twitter.com/bshaurette
+author_link: https://twitter.com/bshaurette
 summary: "This one-day workshop covered some computing and programming concepts, then launched straight into the basics of the Python programming language."
 ---
 
@@ -44,5 +44,5 @@ Some things I'd like to add for the next class:
 
 [Workshop Photos](http://www.meetup.com/PyLadies-ATX/photos/14117282/ "Intro to Python")
 
-[Tweet](http://twitter.com/share)
+[Tweet](https://twitter.com/share)
 

@@ -15,6 +15,6 @@ Wednesday, September 7, 2011 8pm onward Location: Ringlers Annex of McMenamins
 [http://www.mcmenamins.com/250-ringlers-annex-home](http://www.mcmenamins.com/250-ringlers-annex-home)
 
 
-By [Audrey Roy](http://twitter.com/audreyr "AudreyR | Twitter")
+By [Audrey Roy](https://twitter.com/audreyr "AudreyR | Twitter")
 
-[Tweet](http://twitter.com/share)
+[Tweet](https://twitter.com/share)

@@ -31,4 +31,4 @@ category: [resources]
 [pip]: http://www.pip-installer.org/
 [venv]: http://www.virtualenv.org/
 [venvw]: http://www.doughellmann.com/projects/virtualenvwrapper/
-[audreyr]: http://twitter.com/audreyr
+[audreyr]: https://twitter.com/audreyr

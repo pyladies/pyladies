@@ -52,9 +52,9 @@ Lightning talks from
 
 ![image3](https://dl.dropbox.com/u/39730/pyladiesblog/usc/nerdlevel.png)
 
-We hope to follow up with some Intermediate Python workshops in the coming months for those who want to level-up some more, so stay tuned -- subscribe to our newsletter (use the form at right) and [follow us on the Twitter](http://twitter.com/pyladies)!
+We hope to follow up with some Intermediate Python workshops in the coming months for those who want to level-up some more, so stay tuned -- subscribe to our newsletter (use the form at right) and [follow us on the Twitter](https://twitter.com/pyladies)!
 
 
-By [Esther Nam](http://twitter.com/estherbester "Estherbester | Twitter")
+By [Esther Nam](https://twitter.com/estherbester "Estherbester | Twitter")
 
-[Tweet](http://twitter.com/share)
+[Tweet](https://twitter.com/share)

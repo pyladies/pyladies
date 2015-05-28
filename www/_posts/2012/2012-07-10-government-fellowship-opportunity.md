@@ -14,6 +14,6 @@ Sounds like a fantastic way for a few good (or even a whole lot of) Pythonistas 
 
 You'd better hop to it, though - the deadline for applying to the Fellowship is this Friday, July 13th.  Email info@pyladies.com if you have any questions and we'll direct you to the contact person for this opportunity.
 
-By [Esther Nam](http://twitter.com/estherbester "Estherbester | Twitter")
+By [Esther Nam](https://twitter.com/estherbester "Estherbester | Twitter")
 
-[Tweet](http://twitter.com/share)
+[Tweet](https://twitter.com/share)

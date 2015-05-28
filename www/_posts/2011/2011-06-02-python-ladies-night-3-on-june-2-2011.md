@@ -18,6 +18,6 @@ If you think you'll be late, email [audreyr@pyladies.com](mailto:audreyr@pyladie
 
 How will you find us? Some of us will be wearing PyLadies t-shirts. See you soon!
 
-By [Audrey Roy](http://twitter.com/audreyr "AudreyR | Twitter")
+By [Audrey Roy](https://twitter.com/audreyr "AudreyR | Twitter")
 
-[Tweet](http://twitter.com/share)
+[Tweet](https://twitter.com/share)

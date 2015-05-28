@@ -4,7 +4,7 @@ title: "Get Your Mac Ready for Python Programming"
 tags: [absolute beginner, getting started, Mac OS X]
 category: [pyladies, resources]
 author: A PDX PyLady
-author_link: http://twitter.com/juliuliana
+author_link: https://twitter.com/juliuliana
 summary: "For a beginner, by a beginner: I'll explain what each line of code is doing so you can learn a little bit about working with a command line interface in the process."
 ---
 

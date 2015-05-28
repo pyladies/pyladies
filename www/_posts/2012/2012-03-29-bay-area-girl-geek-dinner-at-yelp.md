@@ -4,7 +4,7 @@ title: Bay Area Girl Geek Dinner
 tags: [events]
 ---
 
-_Ed. note_ The most recent [Bay Area Girl Geek Dinner](http://bayareagirlgeekdinners.com) was Python-themed, and hosted by Yelp. Many thanks to [Lynn](http://twitter.com/roguelynn) for letting us repost this article from [her blog](http://www.roguelynn.com/2012/03/28/girl-geek-dinner/ "RogueLynn Blog")! Lynn is starting up the [SF Chapter of PyLadies](http://twitter.com/pyladiessf "PyLadies SF Meetup"), so drop her a line if you're interested in joining!
+_Ed. note_ The most recent [Bay Area Girl Geek Dinner](http://bayareagirlgeekdinners.com) was Python-themed, and hosted by Yelp. Many thanks to [Lynn](https://twitter.com/roguelynn) for letting us repost this article from [her blog](http://www.roguelynn.com/2012/03/28/girl-geek-dinner/ "RogueLynn Blog")! Lynn is starting up the [SF Chapter of PyLadies](https://twitter.com/pyladiessf "PyLadies SF Meetup"), so drop her a line if you're interested in joining!
 
 I had the pleasure of attending last night’s Girl Geek dinner at Yelp’s headquarters. The event was about empowering women by hearing their success stories.
 
@@ -16,6 +16,6 @@ Lastly, Sasha of Women Who Code gave a great talk on how she starting the group,
 
 I would highly recommend attending a Girl Geek dinner in the future!
 
-By [Lynn Root](http://twitter.com/roguelynn "RogueLynn | Twitter")
+By [Lynn Root](https://twitter.com/roguelynn "RogueLynn | Twitter")
 
-[Tweet](http://twitter.com/share "Share")
+[Tweet](https://twitter.com/share "Share")

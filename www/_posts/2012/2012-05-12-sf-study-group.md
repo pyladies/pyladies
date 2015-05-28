@@ -14,6 +14,6 @@ Also - this event is for women, those who identify as women, and their friends (
 
 See [PyLadies SF event page](http://www.meetup.com/PyLadiesSF/events/62203752/)
 
-By [Esther Nam](http://twitter.com/estherbester "Estherbester | Twitter")
+By [Esther Nam](https://twitter.com/estherbester "Estherbester | Twitter")
 
-[Tweet](http://twitter.com/share)
+[Tweet](https://twitter.com/share)

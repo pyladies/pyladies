@@ -5,7 +5,7 @@ tags: [Events]
 ---
 
 The PyLadies are continuing their summer series of hackathons with a Django-themed day on July 23rd, hosted by venue sponsor 
-[Mahalo](http://mahalo.com) in Santa Monica. This time, we're teaming up with the awesome  [LA Django Meetup Group](http://www.meetup.com/ladjango/), who have valiantly supported our efforts to increase diversity by providing mentors like  [Jacob](http://twitter.com/jacobburch) and [Jeff](http://twitter.com/jeffschenck).
+[Mahalo](http://mahalo.com) in Santa Monica. This time, we're teaming up with the awesome  [LA Django Meetup Group](http://www.meetup.com/ladjango/), who have valiantly supported our efforts to increase diversity by providing mentors like  [Jacob](https://twitter.com/jacobburch) and [Jeff](https://twitter.com/jeffschenck).
 
 [|image2|](http://mahalo.com/)
 
@@ -28,6 +28,6 @@ To register for this low-cost workshop (which includes breakfast, lunch and dinn
 
 P.S. Many thanks to the [Python Software Foundation](http://python.org/psf) for their generous support!
 
-By [Esther Nam](http://twitter.com/estherbester "Estherbester | Twitter")
+By [Esther Nam](https://twitter.com/estherbester "Estherbester | Twitter")
 
-[Tweet](http://twitter.com/share)
+[Tweet](https://twitter.com/share)

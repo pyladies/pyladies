@@ -62,4 +62,4 @@ In cases of extreme financial need, we'll give the woman not just a ticket but h
 If you're a woman reading this and could use assistance, email audreyr {at} pyladies {dot} com.  We'll do our best to help as many women as possible.
 
 
-By [Audrey Roy](http://twitter.com/audreyr "AudreyR | Twitter")
+By [Audrey Roy](https://twitter.com/audreyr "AudreyR | Twitter")

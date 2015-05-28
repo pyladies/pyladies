@@ -15,6 +15,6 @@ Space is limited by the Google Hangout technology. An invite link will be sent o
 For those in the Bay Area, be sure to check out the [PyLadies San Francisco meetup, Workshop: Talk Proposal Writing for PyCon](http://www.meetup.com/PyLadiesSF/events/76870962/), on Tuesday, August 28th.
 
 
-By [Esther Nam](http://twitter.com/estherbester "Estherbester | Twitter")
+By [Esther Nam](https://twitter.com/estherbester "Estherbester | Twitter")
 
-[Tweet](http://twitter.com/share)
+[Tweet](https://twitter.com/share)
