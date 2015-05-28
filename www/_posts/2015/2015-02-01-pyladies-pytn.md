@@ -1,10 +1,9 @@
 ---
-layout: 2015-02-01-pyladies-pytn.html
+layout: post.html
 title: "PyLadies at PyTennessee"
 tags: [pytn, young coders, auction, scale13x, writers]
 author: Carol Willing
-author_link: @willingcarol
-
+author_link: https://twitter.com/willingcarol
 ---
 
 
