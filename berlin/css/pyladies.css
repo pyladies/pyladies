@@ -1,3 +1,9 @@
+body {
+  color: rgb(80,80,80);
+  font-size: 180%;
+  line-height: 160%;
+}
+
 header {
    margin: 10px;
 }
@@ -15,3 +21,55 @@ section.about_us, section.resources {
 section.about_us img {
    width: 500px; 
 }
+
+.logo, .nav {
+//  text-align: center;
+}
+
+.logo img {
+  margin: 0 auto;
+}
+
+h1 {
+//  text-align: center;
+  font-size: 115%;
+  text-transform: uppercase;
+}
+
+video {
+  width: 100%;
+  cursor: pointer;
+  background-image: url("/img/vidprelo.jpg");
+}
+video:hover {
+  background-image: url("/img/vidpre.jpg");
+}
+
+#organizers img {
+  width: 96px;
+  margin-bottom: .5em;
+}
+
+#organizers div div {
+  text-align: center;
+  text-align: center;
+  font-size: 90%;
+  line-height: 110%;
+  margin-bottom: 1em;
+}
+
+.container-max {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+a, a:visited {
+  color: #CE1032;
+}
+a:hover, a:focus, a:active {
+  color: #BA0021;
+}
+.ytbox {
+  margin-bottom: .5em;
+]
