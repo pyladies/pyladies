@@ -1,0 +1,75 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+<!--           <img src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:First slide" alt="First slide"> -->
+          <div class="container">
+            <div class="carousel-caption">
+                <img id="logo" src="{{get_asset('images/remote-logo.png')}}">
+              <h1>PyLadies Remote</h1>
+              <h3>A chapter with online classes for PyLadies living anywhere in the world! :) </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /.carousel -->
+
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+          <div class="col-lg-4 col-lg-offset-2”">
+            <img class="img-circle" src="{{ get_asset('images/twitter.png') }}" alt="@PyLadiesRemote">
+            <p>
+              <div class="twitter-feed">
+                <a class="twitter-timeline" href="https://twitter.com/PyLadiesRemote" data-widget-id="606510265925050368">Tweets von @PyLadiesRemote </a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+              </div>
+            </p>
+          </div>
+
+          <div class="col-lg-4">
+            <img class="img-circle" src="{{ get_asset('images/Eventbrite.png') }}" alt="Connect">
+            <h2>Upcoming Events:</h2>
+            <div style="text-align:center;" ><iframe  src="https://www.eventbrite.com/calendar-widget?eid=17362458581&showPrivate=1&sig=AGbIMNzoNM6vx-Bla8KaOvgsF1YpD2q0Jw" frameborder="0" height="351" width="195" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:195px; text-align:center;" ><a class="powered-by-eb" style="color: #dddddd; text-decoration: none;" target="_blank" href="http://www.eventbrite.com/r/ecal">Powered by Eventbrite</a></div></div>
+        </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+      </div>
+
+
+
+
+
+      <div id="organizers" class="row">
+        <div class="col-lg-4 title">
+          <h2>PyLadies Remote Organizer</h2>
+        </div>
+        <div class="col-lg-4">
+          <a href="http://www.twitter.com/ossanna16"><img class="img-circle" src="{{ get_asset('images/Anna.png') }}" alt="@ossanna16"></a>
+          <h2>Anna Ossowski</h2>
+          <p>Anna is an aspiring developer from Germany. She holds a degree in English and theology but fell
+          in love with programming a while ago and is now working on building a career in the field.</p>
+        <p>She is very involved in <a href="http://djangogirls.org">Django Girls</a>. She co-organized the Django
+         Girls Budapest and PyCon workshops and runs the "Your Django Story" interview series on
+         the <a href="http://blog.djangogirls.org">Django Girls blog</a>.</p>
+        <p>Anna is also a member of the Django Software Foundation grants committee, and recently became a
+        director of the Python Software Foundation.</p>
+       <p>She is very passionate about diversity and community outreach and wants to encourage more women to
+       learn programming because it's awesome! In her free time she writes a <a href="http://anna-oz.tumblr.com">blog</a>.
+        You can follow Anna on Twitter at <a href="http://twitter.com/ossanna16">@ossanna16</a>.</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2015 PyLadies Remote</p>
+      </footer>
+{% endblock %}
