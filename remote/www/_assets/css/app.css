@@ -1,0 +1,48 @@
+body {
+  padding: 20px 0;
+}
+
+#logo {
+  width: 150px;
+  height: 150px;
+}
+
+.navbar .navbar-brand {
+  color: #ED1B49;
+  font-size: 175%;
+  font-weight: 100;
+}
+.navbar .navbar-brand:hover {
+  color: rgb(255, 100, 100);
+}
+
+#organizers {
+  margin: 40px 0 40px;
+  background: #f4f4f4;
+  padding: 40px 20px 20px;
+  border-radius: 12px;
+}
+
+#organizers h2 {
+  font-weight: 100;
+}
+
+#organizers .title h2 {
+  font-size: 300%;
+  top: 85px;
+  color: #DE0538;
+}
+
+.jumbotron {
+  background-color:#f6f6f6;
+  background-image:
+    radial-gradient(circle at 100% 150%, #f6f6f6 24%, #fcfcfa 25%, #fcfcfa 28%, #f6f6f6 29%, #f6f6f6 36%, #fcfcfa 36%, #fcfcfa 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0    150%, #f6f6f6 24%, #fcfcfa 25%, #fcfcfa 28%, #f6f6f6 29%, #f6f6f6 36%, #fcfcfa 36%, #fcfcfa 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50%  100%, #fcfcfa 10%, #f6f6f6 11%, #f6f6f6 23%, #fcfcfa 24%, #fcfcfa 30%, #f6f6f6 31%, #f6f6f6 43%, #fcfcfa 44%, #fcfcfa 50%, #f6f6f6 51%, #f6f6f6 63%, #fcfcfa 64%, #fcfcfa 71%, transparent 71%, transparent),
+    radial-gradient(circle at 100% 50%, #fcfcfa 5%, #f6f6f6 6%, #f6f6f6 15%, #fcfcfa 16%, #fcfcfa 20%, #f6f6f6 21%, #f6f6f6 30%, #fcfcfa 31%, #fcfcfa 35%, #f6f6f6 36%, #f6f6f6 45%, #fcfcfa 46%, #fcfcfa 49%, transparent 50%, transparent),
+    radial-gradient(circle at 0    50%, #fcfcfa 5%, #f6f6f6 6%, #f6f6f6 15%, #fcfcfa 16%, #fcfcfa 20%, #f6f6f6 21%, #f6f6f6 30%, #fcfcfa 31%, #fcfcfa 35%, #f6f6f6 36%, #f6f6f6 45%, #fcfcfa 46%, #fcfcfa 49%, transparent 50%, transparent);
+  background-size:100px 50px;
+}
+.jumbotron h1 {
+  color: #DE0538;
+}
