@@ -9,10 +9,7 @@ from fabric.contrib.project import rsync_project
 
 env.user = "u52703"
 env.keyfile_name = "~/.ssh/pyladies.com"
-<<<<<<< HEAD
-=======
 env.hosts = "pyladies.com"
->>>>>>> ci-setup
 
 
 def prep_www_deploy():
@@ -23,11 +20,7 @@ def prep_www_deploy():
 def rsync_www():
     with lcd("www"):
         rsync_project(local_dir="_site",
-<<<<<<< HEAD
-                      remote_dir="u52703@pyladies.com:www/",
-=======
                       remote_dir="www/",
->>>>>>> ci-setup
                       extra_opts="rupaz")
 
 
