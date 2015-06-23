@@ -1,0 +1,14 @@
+machine:
+  python:
+    version: 2.7.6
+dependencies:
+  pre:
+    - pip install mynt==0.2.3 Fabric==1.10.2
+test:
+  override:
+    - ./test_www.py
+deployment:
+  production:
+    branch: master
+    commands:
+      - fab deploy_www
