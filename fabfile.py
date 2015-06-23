@@ -11,6 +11,7 @@ env.user = "u52703"
 env.keyfile_name = "~/.ssh/pyladies.com"
 env.hosts = "pyladies.com"
 
+
 def prep_www_deploy():
     with lcd("www"):  # locally change into www dir
         local("mynt gen -f _site")
