@@ -21,7 +21,7 @@ def rsync_www():
     with lcd("www"):
         rsync_project(local_dir="_site",
                       remote_dir="www/",
-                      extra_opts="rupaz")
+                      extra_opts="-ua")
 
 
 def deploy_www():
