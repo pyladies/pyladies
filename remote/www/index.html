@@ -1,77 +1,68 @@
 {% extends 'layout.html' %}
 
 {% block content %}
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="item active">
-<!--           <img src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:First slide" alt="First slide"> -->
-          <div class="container">
-            <div class="carousel-caption">
-                <img id="logo" src="{{get_asset('images/remote-logo.png')}}">
-              <h1>PyLadies Remote</h1>
-              <h3>A chapter with online classes for PyLadies living anywhere in the world! :) </h3>
-            </div>
-          </div>
+  <div class="container">
+    <div class="jumbotron text-center">
+        <img id="logo" src="{{get_asset('images/remote-logo.svg')}}">
+        <h1>PyLadies Remote</h1>
+        <h3>A chapter with online classes for PyLadies living anywhere in the world! :) </h3>
+    </div>
+  </div>
+
+
+  <div class="container marketing">
+
+    <div class="row">
+
+      <div class="col-sm-8">
+        <h2>Our Mission</h2>
+        <p>PyLadies is an international mentorship group with a focus on helping more women become active participants and leaders in the Python open-source community. PyLadies' mission is to promote, educate and advance a diverse Python community through outreach, education, conferences, events and social gatherings. PyLadies also aims to provide a friendly support network for women and a bridge to the larger Python world. Anyone with an interest in Python is encouraged to participate!</p>
+        <p>PyLadies Remote was established with the idea in mind to reach those women interested in Python who don’t live near a PyLadies chapter. All of the PyLadies Remote classes will be online classes in order to be easily accessible for PyLadies all over the world.</p>
+        <p>If you would like to teach a class for PyLadies Remote, have ideas for future classes, or questions, please get in touch at <a href="mailto:remote@pyladies.com">remote@pyladies.com</a>.</p>
+        <h2>Recent Tweets <img src="{{ get_asset('images/twitter.png') }}" width=30 height=30></h2>
+        <div class="twitter-feed">
+          <a class="twitter-timeline" href="https://twitter.com/PyLadiesRemote" data-widget-id="606510265925050368">Tweets von @PyLadiesRemote </a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </div>
       </div>
 
-    </div><!-- /.carousel -->
+      <div class="col-sm-4">
+        <h2>Upcoming Events <img src="{{ get_asset('images/Eventbrite.png') }}" class="img-circle" width=30 height=30>
+</h2>
+        <!-- EventBrite widget -->
+        <iframe  src="https://www.eventbrite.com/calendar-widget?eid=17362458581&showPrivate=1&sig=AGbIMNzoNM6vx-Bla8KaOvgsF1YpD2q0Jw" frameborder="0" height="351" width="195" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:195px; text-align:center;" ><a class="powered-by-eb" style="color: #dddddd; text-decoration: none;" target="_blank" href="http://www.eventbrite.com/r/ecal">Powered by Eventbrite</a></div>
+        <!-- /EventBrite widget -->
+      </div><!-- /.col-sm-4 -->
 
+    </div><!-- /.row -->
 
-    <div class="container marketing">
+  </div>
 
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-          <div class="col-lg-4 col-lg-offset-2”">
-            <img class="img-circle" src="{{ get_asset('images/twitter.png') }}" alt="@PyLadiesRemote">
-            <p>
-              <div class="twitter-feed">
-                <a class="twitter-timeline" href="https://twitter.com/PyLadiesRemote" data-widget-id="606510265925050368">Tweets von @PyLadiesRemote </a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-              </div>
-            </p>
-          </div>
-
-          <div class="col-lg-4">
-            <img class="img-circle" src="{{ get_asset('images/Eventbrite.png') }}" alt="Connect">
-            <h2>Upcoming Events:</h2>
-            <div style="text-align:center;" ><iframe  src="https://www.eventbrite.com/calendar-widget?eid=17362458581&showPrivate=1&sig=AGbIMNzoNM6vx-Bla8KaOvgsF1YpD2q0Jw" frameborder="0" height="351" width="195" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:195px; text-align:center;" ><a class="powered-by-eb" style="color: #dddddd; text-decoration: none;" target="_blank" href="http://www.eventbrite.com/r/ecal">Powered by Eventbrite</a></div></div>
-        </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
+  <div class="container">
+    <div id="organizers" class="row">
+      <div class="col-sm-4 title">
+        <h2>PyLadies Remote Organizer</h2>
       </div>
-
-
-
-
-
-      <div class="container">
-      <div id="organizers" class="row">
-        <div class="col-lg-4 title">
-          <h2>PyLadies Remote Organizer</h2>
-        </div>
-        <div class="col-lg-4">
-          <a href="http://www.twitter.com/ossanna16"><img class="img-circle" src="{{ get_asset('images/Anna.png') }}" alt="@ossanna16"></a>
-          <h2>Anna Ossowski</h2>
-          <p>Anna is an aspiring developer from Germany. She holds a degree in English and theology but fell
-          in love with programming a while ago and is now working on building a career in the field.</p>
+      <div class="col-sm-8">
+        <a href="http://www.twitter.com/ossanna16"><img class="img-circle" src="{{ get_asset('images/Anna-thumb.png') }}" alt="@ossanna16"></a>
+        <h2>Anna Ossowski</h2>
+        <p>Anna is an aspiring developer from Germany. She holds a degree in English and theology but fell
+        in love with programming a while ago and is now working on building a career in the field.</p>
         <p>She is very involved in <a href="http://djangogirls.org">Django Girls</a>. She co-organized the Django
-         Girls Budapest and PyCon workshops and runs the "Your Django Story" interview series on
-         the <a href="http://blog.djangogirls.org">Django Girls blog</a>.</p>
+        Girls Budapest and PyCon workshops and runs the "Your Django Story" interview series on
+        the <a href="http://blog.djangogirls.org">Django Girls blog</a>.</p>
         <p>Anna is also a member of the Django Software Foundation grants committee, and recently became a
         director of the Python Software Foundation.</p>
-       <p>She is very passionate about diversity and community outreach and wants to encourage more women to
-       learn programming because it's awesome! In her free time she writes a <a href="http://anna-oz.tumblr.com">blog</a>.
+        <p>She is very passionate about diversity and community outreach and wants to encourage more women to
+        learn programming because it's awesome! In her free time she writes a <a href="http://anna-oz.tumblr.com">blog</a>.
         You can follow Anna on Twitter at <a href="http://twitter.com/ossanna16">@ossanna16</a>.</p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
+      </div><!-- /.col-sm-4 -->
+    </div><!-- /.row -->
 
-
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2015 PyLadies Remote</p>
-      </footer>
-      </div>
+    <!-- FOOTER -->
+    <footer>
+      <p class="pull-right"><a href="#">Back to top</a></p>
+      <p>&copy; 2015 PyLadies Remote</p>
+    </footer>
+  </div>
 {% endblock %}
