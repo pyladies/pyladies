@@ -744,7 +744,7 @@ section#post aside time {
   margin: 0;
 }
 
-.sidebar #sponsor_us_btn {
+.sidebar #sponsor_us_btn, #shirts_btn, #stickers_btn {
   width: 300px;
   height: 50px;
   background: #febbbb; /* Old browsers */
@@ -758,10 +758,11 @@ section#post aside time {
   border: 1px solid #febbbb;
   border-radius: 12px;
   -webkit-border-radius: 12px;
-  margin: 40px 10px;
+  margin: 15px 10px;
 }
 
-.sidebar #sponsor_us_btn a {
+
+.sidebar #sponsor_us_btn a, #shirts_btn a, #stickers_btn a {
   display: block;
   font-size: 1.4em;
   color: #fff;
@@ -1190,10 +1191,10 @@ div.code td.linenos pre {
     width: 94%;
     margin: 4% 2%;
   }
-  .sidebar #sponsor_us_btn {
+  .sidebar #sponsor_us_btn, #shirts_btn, #stickers_btn {
   width: 270px;
   }
-  .sidebar #sponsor_us_btn a {
+  .sidebar #sponsor_us_btn a, #shirts_btn a, #stickers_btn a {
     margin: 15px 74px 20px 74px;
   }
 }
@@ -1208,11 +1209,11 @@ div.code td.linenos pre {
   .page #welcome_message img {
     max-width: 240px;
   }
-  .sidebar #sponsor_us_btn {
+  .sidebar #sponsor_us_btn, #shirts_btn, #stickers_btn {
     width: 220px;
     margin-left: 5px;
   }
-  .sidebar #sponsor_us_btn a {
+  .sidebar #sponsor_us_btn a, #shirts_btn a, #stickers_btn a {
     margin: 15px 49px 20px 49px;
   }
   .page article.chapters img {
@@ -1254,7 +1255,7 @@ div.code td.linenos pre {
   .sidebar {
     width: 80%;
   }
-  .sidebar #sponsor_us_btn {
+  .sidebar #sponsor_us_btn, #shirts_btn, #stickers_btn {
   margin: 40px 10%;
   }
 }
@@ -1264,7 +1265,7 @@ div.code td.linenos pre {
     width: 84%;
     margin: 4%;
   }
-  .sidebar #sponsor_us_btn {
+  .sidebar #sponsor_us_btn, #shirts_btn, #stickers_btn {
   margin: 40px 10%;
   }
 }
@@ -1275,19 +1276,19 @@ div.code td.linenos pre {
     float: none;
     margin: 2% 14%;
   }
-  .sidebar #sponsor_us_btn {
+  .sidebar #sponsor_us_btn, #shirts_btn, #stickers_btn {
   margin: 40px 10%;
   }
 }
 
 @media (min-width: 668px) and (max-width: 785px) {
-  .sidebar #sponsor_us_btn {
+  .sidebar #sponsor_us_btn, #shirts_btn, #stickers_btn {
   margin: 40px 12%;
   }
 }
 
 @media (min-width: 786px) and (max-width: 879px) {
-  .sidebar #sponsor_us_btn {
+  .sidebar #sponsor_us_btn, #shirts_btn, #stickers_btn {
     margin: 40px 14%;
   }
 }
