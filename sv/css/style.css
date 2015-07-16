@@ -84,6 +84,10 @@ body {
 	}
 
 .footer-color{
+	font-family: 'Poiret One', cursive;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
 	color:white;
 	text-shadow: 0 1px 3px rgba(0,0,0,0.15);
 }
@@ -94,3 +98,10 @@ body {
 a:hover {
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
+
+/* Leaflet Map
+-------------------------------------------------- */
+
+ #map { 
+ 	height: 180px; 
+ }
