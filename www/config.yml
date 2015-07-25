@@ -22,6 +22,9 @@ misaka:
     render_flags:
         toc: true
 
+mapbox:
+    api_key: pk.eyJ1IjoiaGVsZW5zdCIsImEiOiJiZmZhYjYxMzc1ZGMzNmI3MjdlNmNkMTQ0MGJkZDdmNyJ9.6mfnxn0mORV5Gt73x_smtg
+
 chapters:
     - name:      Amsterdam, the Netherlands
       meetup_id: 8160762
@@ -30,6 +33,9 @@ chapters:
       email: amsterdam@pyladies.com
       twitter: PyLadiesAMS
       meetup: PyLadiesAMS
+      location:
+            latitude: 52.374436
+            longitude: 4.8979956033677
 
     # - name:      Ann Arbor
     #   meetup_id: 10841992
@@ -41,6 +47,9 @@ chapters:
       email: tnr.mdg.pyladies@gmail.com
       twitter: Pyladies_tnr
       meetup: pyladies_tnr
+      location:
+            latitude: -18.9333
+            longitude: 47.5167
 
     - name:      Atlanta, GA
       meetup_id: 4507652
@@ -49,6 +58,9 @@ chapters:
       email: atl@pyladies.com
       twitter: pyladiesATL
       meetup: pyladiesATL
+      location:
+            latitude: 33.7490987
+            longitude: -84.3901849
 
     - name:      Austin, TX
       meetup_id: 5947662
@@ -57,6 +69,9 @@ chapters:
       email: atx@pyladies.com
       twitter: pyladiesATX
       meetup: pyladies-atx
+      location:
+            latitude: 30.2711286
+            longitude: -97.7436995
 
     - name:      Australia
       website: http://australia.pyladies.com/
@@ -66,6 +81,9 @@ chapters:
       facebook: pyladiesau
       github: PyLadiesAU
       twitter: pyladiesau
+      location:
+            latitude: -24.7761086
+            longitude: 134.755
 
     - name:      Bangalore, India
       meetup_id: 9301202
@@ -74,7 +92,9 @@ chapters:
       email: bangalore@pyladies.com
       twitter: pyladiesblore
       meetup: PyladiesBangalore
-
+      location:
+            latitude: 12.9791703
+            longitude: 77.5912429
     # - name:      Barcelona
     #   meetup_id: 10496402
 
@@ -86,6 +106,9 @@ chapters:
       email: berlin@pyladies.com
       twitter: PyLadiesBer
       meetup: PyLadies-Berlin
+      location:
+            latitude: 52.5170365
+            longitude: 13.3888599
 
     - name:      Boston, MA
       meetup_id: 8623152
@@ -95,6 +118,9 @@ chapters:
       email: boston@pyladies.com
       twitter: PyLadiesBoston
       meetup: PyLadies-Boston
+      location:
+            latitude: 42.3604823
+            longitude: -71.0595678
 
     - name:      Brazil
       website: http://brasil.pyladies.com/
@@ -104,6 +130,9 @@ chapters:
       facebook: PyLadiesBrazil
       github: pyladies-brazil
       twitter: PyLadiesBrazil
+      location:
+            latitude: -10.3333333
+            longitude: -53.2
 
     - name:      Brno, Czech Republic
       meetup_id: 5160912
@@ -112,6 +141,9 @@ chapters:
       email: brno@pyladies.com
       twitter: pyladiesCZ
       meetup: pyladiescz
+      location:
+            latitude: 49.1922443
+            longitude: 16.6113382
 
     - name:      Charleston, SC
       meetup_id: 8401402
@@ -121,6 +153,9 @@ chapters:
       email: charleston@pyladies.com
       twitter: PyLadiesCHS
       meetup: PyLadies-Charleston
+      location:
+            latitude: 32.7876012
+            longitude: -79.9402728
 
     - name: Chicago, IL
       meetup_id: 18320041
@@ -129,6 +164,9 @@ chapters:
       email: chicago@pyladies.com
       twitter: PyLadiesChicago
       meetup: Chicago-PyLadies
+      location:
+            latitude: 41.8755546
+            longitude: -87.6244212
 
     - name: Dallas, TX
       meetup_id: 2292131
@@ -137,6 +175,9 @@ chapters:
       email: dfw@pyladies.com
       twitter: pyladiesdallas
       meetup: dfw-pyladies
+      location:
+            latitude: 32.7776162
+            longitude: -96.7970585
 
     - name:      Dublin, Ireland
       meetup_id: 13320732
@@ -145,6 +186,9 @@ chapters:
       email: dublin@pyladies.com
       twitter: pyladiesdub
       meetup: PyLadiesDublin
+      location:
+            latitude: 53.3497645
+            longitude: -6.2602732
 
     - name:      Edinburgh, Scotland
       meetup_id: 15507962
@@ -153,6 +197,9 @@ chapters:
       email: edinburgh@pyladies.com
       twitter: PyLadiesEdin
       meetup: PyLadiesEdinburgh
+      location:
+            latitude: 55.9531
+            longitude: -3.1889
 
     - name:      Helsinki, Finland
       meetup_id: 13995752
@@ -160,6 +207,9 @@ chapters:
       image: pyladies_helsinki.png
       email: helsinki@pyladies.com
       meetup: Helsinki-Pyladies
+      location:
+            latitude: 60.1666277
+            longitude: 24.9435079
 
     - name:      India
       meetup_id: 9042722
@@ -167,7 +217,9 @@ chapters:
       email: pyladies@openlabs.co.in
       twitter: PyladiesIndia
       meetup: PyladiesIndia
-
+      location:
+            latitude: 22.3511148
+            longitude: 78.6677428
     # - name:      London
     #   meetup_id: 13106102
 
@@ -178,6 +230,9 @@ chapters:
       email: la@pyladies.com
       twitter: pyladiesLA
       meetup: Pyladies-LA
+      location:
+            latitude: 34.053717
+            longitude: -118.2427266
 
     - name:      Milan, Italy
       meetup_id: 186995752
@@ -186,6 +241,9 @@ chapters:
       twitter: PyLadiesMilan
       meetup: PyLadies-Milano
       facebook: PyLadies-Milano
+      location:
+            latitude: 45.4667971
+            longitude: 9.1904984
 
     - name:      Montreal, Canada
       meetup_id: 14872062
@@ -194,9 +252,15 @@ chapters:
       email: montreal@pyladies.com
       twitter: pyladiesMTL
       meetup: PyLadiesMTL
-      
+      location:
+            latitude: 45.5115944
+            longitude: -73.6051013
+
     - name:      Mumbai, India
       email: mum@pyladies.com
+      location:
+            latitude: 18.9523804
+            longitude: 72.8327112
 
     - name:      Nashville, TN
       website: nash
@@ -204,6 +268,9 @@ chapters:
       email: info@pyladies.com
       twitter: PyNashLadies
       meetup: Nashville-PyLadies
+      location:
+            latitude: 36.1622296
+            longitude: -86.7743531
 
     - name:      New York, NY
       meetup_id: 4576312
@@ -213,6 +280,9 @@ chapters:
       email: nyc@pyladies.com
       twitter: NYCpyladies
       meetup: nyc-pyladies
+      location:
+            latitude: 40.7305991
+            longitude: -73.9865812
 
     - name: Poland
       meetup_id: 185065560
@@ -221,6 +291,9 @@ chapters:
       email: poland@pyladies.com
       twitter: PyladiesPL
       facebook: pyladiespl
+      location:
+            latitude: 52.0977181
+            longitude: 19.0258159
 
     - name:      Portland, OR
       meetup_id: 4808882
@@ -231,6 +304,9 @@ chapters:
       twitter: pyladies_pdx
       meetup: pyladies-pdx
       meetup: pyladies-rdu
+      location:
+            latitude: 45.5202471
+            longitude: -122.6741949
 
     - name:      Raleigh-Durham, NC
       meetup_id: 16760422
@@ -239,12 +315,18 @@ chapters:
       email: rdu@pyladies.com
       twitter: pyladiesrdu
       meetup: pyladies-rdu
+      location:
+            latitude: 35.987644
+            longitude: -78.6720959
 
     - name:      Salt Lake Area, Utah
       meetup_id: 8161032
       website: saltlake
       image: pyladies_sd_brno.png
       email: saltlake@pyladies.com
+      location:
+            latitude: 41.6449294
+            longitude: -112.2535647
 
     # - name:      San Antonio
     #   meetup_id: 12994802
@@ -255,6 +337,9 @@ chapters:
       image: pyladies_sd_brno.png
       email: juliet.oberding@gmail.com
       meetup: sd-pyladies
+      location:
+            latitude: 32.7174209
+            longitude: -117.1627714
 
     - name:      San Francisco, CA
       meetup_id: 3604052
@@ -263,6 +348,9 @@ chapters:
       email: sf@pyladies.com
       twitter: pyladiessf
       meetup: pyladiessf
+      location:
+            latitude: 37.7792768
+            longitude: -122.4192704
 
     - name:      Seattle, WA
       meetup_id: 5411282
@@ -271,6 +359,9 @@ chapters:
       email: seattle-pyladies@pyladies.com
       twitter: pyladiesSEA
       meetup: seattle-pyladies
+      location:
+            latitude: 47.6038321
+            longitude: -122.3300624
 
     - name:      Seoul, Korea
       meetup_id: 10708842
@@ -280,6 +371,9 @@ chapters:
       twitter: PyladiesSeoul
       facebook: pyladieseoul
       google_plus: https://plus.google.com/106890062399007175692/posts
+      location:
+            latitude: 37.5666791
+            longitude: 126.9782914
 
     - name: Singapore
       meetup_id: 14910222
@@ -288,11 +382,17 @@ chapters:
       email: sg@pyladies.com
       twitter: pyladiessg
       meetup: PyLadies-SG
+      location:
+            latitude: 1.2904527
+            longitude: 103.852038
 
     - name: Spain
       image: pyladies_es.png
       email: spain@pyladies.com
       twitter: PyLadies_ES
+      location:
+            latitude: 40.0028028
+            longitude: -4.003104
 
     - name:      Stockholm, Sweden
       meetup_id: 7660062
@@ -300,6 +400,9 @@ chapters:
       image: pyladies_dc_atl_sea_tor.png
       email: stockholm@pyladies.com
       meetup: pyladiesstockholm
+      location:
+            latitude: 59.3251172
+            longitude: 18.0710935
 
     - name:      Taiwan
       meetup_id: 14748112
@@ -309,6 +412,9 @@ chapters:
       email: pyladies.tw@gmail.com
       twitter: PyLadiesTW
       meetup: PyLadiesTW
+      location:
+            latitude: 23.9739374
+            longitude: 120.9820179
 
     - name:      Toronto, Canada
       meetup_id: 6488102
@@ -316,11 +422,17 @@ chapters:
       image: pyladies_dc_atl_sea_tor.png
       email: info@pyladies.com
       meetup: Pyladies-Toronto
+      location:
+            latitude: 43.6529206
+            longitude: -79.3849008
 
     - name: Tunisia
       website: tunisia
       image: pyladies_dc_atl_sea_tor.png
       facebook: groups/458792744204403/
+      location:
+            latitude: 33.8439408
+            longitude: 9.400138
 
     - name: Vancouver, Canada
       meetup_id: 18607403
@@ -329,6 +441,9 @@ chapters:
       email: vancouver@pyladies.com
       twitter: pyladiesvan
       meetup: PyLadies-Vancouver
+      location:
+            latitude: 49.2608944
+            longitude: -123.1139383
 
     - name: Vienna, Austria
       meetup_id: 7538042
@@ -337,6 +452,9 @@ chapters:
       email: vienna@pyladies.com
       twitter: pyladies_vie
       meetup: pyladies-vienna
+      location:
+            latitude: 48.2083537
+            longitude: 16.3725042
 
     - name: Washington, DC
       meetup_id: 2292131
@@ -345,4 +463,7 @@ chapters:
       email: jackiekazil@pyladies.com
       twitter: pyladiesdc
       meetup: dc-pyladies
+      location:
+            latitude: 38.8949549
+            longitude: -77.0366456
 
