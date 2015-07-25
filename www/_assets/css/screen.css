@@ -609,7 +609,7 @@ nav a:active {
 
 .page article.chapters {
   overflow: hidden;
-  margin-top: -25px;
+  margin-top: -10px;
 }
 
 .page article.chapters img {
@@ -1118,6 +1118,31 @@ div.code td.linenos pre {
   background-color: #3c4030;
 }
 
+/*******************************************   MAP STYLES ***********************************/
+
+#map {
+  height: 450px;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+.leaflet-popup-close-button { border: none; }
+
+.leaflet-popup .social {
+  text-align: center;
+}
+
+.leaflet-container .leaflet-popup a {
+  color: #646464;
+}
+.leaflet-container .leaflet-popup a:hover {
+  color: #444;
+}
+
+.leaflet-popup .chapter-name {
+  margin-top: 10px;
+  font-size: 1.8em;
+}
 
 /*******************************************   MEDIA QUERIES  ***********************************/
 @media (max-width: 1330px) {
@@ -1127,6 +1152,9 @@ div.code td.linenos pre {
   }
   #pyladies_header_logo {
     width: 50%;
+  }
+  #map {
+    height: 320px;
   }
 }
 
