@@ -232,6 +232,13 @@ chapters:
       meetup: pyladies-pdx
       meetup: pyladies-rdu
 
+    - name:      Pune, India
+      website: pune
+      image: pyladies_pune.jpeg
+      email: pune@pyladies.com
+      twitter: PyladiesPune
+      meetup: PyLadies-Pune
+
     - name:      Raleigh-Durham, NC
       meetup_id: 16760422
       website: rdu
