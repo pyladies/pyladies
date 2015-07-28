@@ -233,7 +233,8 @@ chapters:
       meetup: pyladies-rdu
 
     - name:      Pune, India
-      website: pune
+      website: http://pune.pyladies.com/
+      external_website: true
       image: pyladies_pune.jpeg
       email: pune@pyladies.com
       twitter: PyladiesPune
