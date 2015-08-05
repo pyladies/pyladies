@@ -12,3 +12,5 @@ def simple_test():
 
 if __name__ == "__main__":
     simple_test()
+    print("Test passed. www directory exists.")
+
