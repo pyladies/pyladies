@@ -425,13 +425,12 @@ chapters:
             longitude: 120.9820179
 
     - name:      Tokyo, Japan
-      website: tokyo
-      image: pyladies-tokyo.png
-      email: https://groups.google.com/forum/?hl=ja#!forum/pyladies-tokyo
+      website: http://pyladies.tokyo/
+      image: pyladies_tokyo.png
+      email: tokyo@pyladies.com
       twitter: PyLadiesTokyo
       facebook: PyLadiesTokyo
       github: PyLadiesTokyo
-      google_plus: https://plus.google.com/u/0/communities/104671206479966966350
       location:
             latitude: 35.681382
             longitude: 139.766084
