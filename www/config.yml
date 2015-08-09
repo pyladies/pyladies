@@ -426,10 +426,11 @@ chapters:
 
     - name:      Tokyo, Japan
       website: tokyo
-      image: pyladies-tokyo-logo.png
+      image: pyladies-tokyo.png
       email: https://groups.google.com/forum/?hl=ja#!forum/pyladies-tokyo
       twitter: PyLadiesTokyo
       facebook: PyLadiesTokyo
+      github: PyLadiesTokyo
       google_plus: https://plus.google.com/u/0/communities/104671206479966966350
       location:
             latitude: 35.681382
