@@ -434,6 +434,17 @@ chapters:
             latitude: 23.9739374
             longitude: 120.9820179
 
+    - name:      Tokyo, Japan
+      website: http://pyladies.tokyo/
+      image: pyladies_tokyo.png
+      email: tokyo@pyladies.com
+      twitter: PyLadiesTokyo
+      facebook: PyLadiesTokyo
+      github: PyLadiesTokyo
+      location:
+            latitude: 35.681382
+            longitude: 139.766084
+
     - name:      Toronto, Canada
       meetup_id: 6488102
       website: toronto
