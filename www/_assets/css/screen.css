@@ -78,6 +78,8 @@ a:hover {
 
 a img {
   border: none;
+  width: 190px;
+  height: 90px;
 }
 
 a.nav_item {
@@ -93,6 +95,7 @@ body {
   font-size: 14px;
   font-family: 'Bitter',serif;
   line-height: 1.3em;
+  margin: 0;
 }
 
 blockquote, dl, ol, p, pre, table, ul {
@@ -216,6 +219,9 @@ h2 {
   line-height: 100%;
   margin-top: 0.6em;
   margin-bottom: 0.6em;
+  border-bottom: 1px solid rgba(229, 30, 65, 0.45);
+  padding-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 h3 {
@@ -357,7 +363,23 @@ pre {
   background-color: #313236;
   color: #fefefe;
 }
-
+hr{
+  padding: 0;
+  border: none;
+  border-top: medium double #F298A8;
+  color: #F298A8;
+  text-align: center;
+  width:30%;
+}
+hr:after{
+  content: "+";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+}
 pre code {
   padding: 0;
   background-color: transparent;
@@ -442,20 +464,22 @@ ul.unstyled {
 /******************************************  HEADER STYLES  *****************************/
 
 .header {
-  width: 90%;
-  min-height: 160px;
+  width: 100%;
+  min-height: 110px;
   height: auto;
   overflow: hidden;
   margin: 30px auto;
   clear: both;
   background-color: #fcfcfa;
+  margin-top: 0px;
+  border-bottom: 1px solid rgba(229, 30, 65, 0.11);
 }
 
 #pyladies_header_logo {
   display: block;
   float: left;
-  width: 20%;
-  margin: 20px 0 0 60px;
+  width: 190px;
+  margin: 20px 0 0 140px;
 }
 
 #pyladies_header_logo a {
@@ -464,11 +488,11 @@ ul.unstyled {
 
 nav {
   *zoom: 1;
-  width: 70%;
-  float: left;
+  /* width: 70%; */
+  float: right;
   font-size: 1.4em;
   font-weight: normal;
-  margin: 42px auto 0 auto;
+  margin: 12px auto 0 auto;
   text-align: center;
   padding: 1.2em 1em 0.8em 1.8em;
 }
@@ -534,10 +558,9 @@ nav a:active {
   float: left;
   min-height: 100%;
   height: auto !important;
-  height: 100%;
   clear: both;
   margin: 0 0 20px 10%;
-  padding: 30px 12px 20px 12px;
+  padding: 0px 12px 20px 12px;
 }
 
 .page:after {
@@ -584,8 +607,8 @@ nav a:active {
 
 .page article.welcome {
   font-size: 1.3em;
-  border-bottom: 1px solid rgb(255, 75, 75);
-  margin-bottom: 60px;
+  /* border-bottom: 1px solid rgb(255, 75, 75); */
+  margin-bottom: 0px;
 }
 
 .page #welcome_message {
@@ -601,6 +624,7 @@ nav a:active {
 
 .page article.latest {
   font-size: 1.1em;
+  margin-top: 60px;
 }
 
 .page #homepage_h1 {
@@ -643,11 +667,20 @@ nav a:active {
 
 /*********************************************  SECTION STYLES  ********************************/
 
+h3.latest-master {
+  border-bottom: 1px solid rgb(242, 152, 168);
+  padding-bottom: 10px;
+  margin-bottom: 0px !important;
+}
+div#latestBlog{
+  margin-top: -20px;
+}
 section#archive article p a.more-link { margin-left: .8em; }
 section#archive h3 a { color: #646464;}
 section#splash h2 abbr { color: #38a5dd;}
 section#archive article p {
   margin-top: 1em;
+  line-height: 1.4em;
   margin-bottom: 1em;
 }
 section#archive article#talks p {
@@ -656,7 +689,7 @@ section#archive article#talks p {
 }
 
 section#archive h3 {
-  margin-top: 1em;
+  margin-top: 2.9em;
   margin-bottom: 1em;
 }
 
@@ -731,7 +764,7 @@ section#post aside time {
 .sidebar {
   width: 320px;
   float: left;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .sidebar #mc_embed_signup {
@@ -746,14 +779,8 @@ section#post aside time {
 
 .sidebar #sponsor_us_btn, #shirts_btn, #stickers_btn {
   width: 300px;
-  height: 50px;
-  background: #febbbb; /* Old browsers */
-  background: -moz-linear-gradient(top,  #febbbb 0%, #fe9090 45%, #ff5c5c 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#febbbb), color-stop(45%,#fe9090), color-stop(100%,#ff5c5c)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* W3C */
+  height: 50px; /* Old browsers */ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
+  background: rgb(229, 30, 65); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 ); /* IE6-9 */
   border: 1px solid #febbbb;
   border-radius: 12px;
@@ -773,6 +800,7 @@ section#post aside time {
 
 .sidebar h3 {
   text-align: center;
+  margin-top: 50px;
 }
 
 .sidebar #upcomingMeetupsList {
@@ -867,7 +895,7 @@ footer {
   clear: both;
   margin-left: auto;
   margin-right: auto;
-  padding: 30px 0 40px 0;
+  padding: 10px 0 10px 0;
 }
 
 footer:after {
@@ -953,7 +981,7 @@ footer .social li a.icon {
 }
 
 footer .social li a.icon:hover {
-	color: rgb(255, 50, 50);
+	color: white;
 	text-decoration: none;
 }
 
@@ -1174,7 +1202,7 @@ div.code td.linenos pre {
 
 @media (max-width: 879px) {
  .page {
-    width: 90%;
+    width: 85%;
     min-height: 0;
     height: auto;
     float: none;
@@ -1305,7 +1333,7 @@ div.code td.linenos pre {
     margin: 2% 14%;
   }
   .sidebar #sponsor_us_btn, #shirts_btn, #stickers_btn {
-  margin: 40px 10%;
+  margin: 40px 10px;
   }
 }
 
