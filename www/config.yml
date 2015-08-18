@@ -172,6 +172,19 @@ chapters:
             longitude: -47.8825479
 
 
+    - name:      Sao Carlos, Brazil
+      website: http://brasil.pyladies.com
+      external_website: true
+      image: pyladies_saocarlos.png
+      email: saocarlos@pyladies.org
+      facebook: PyLadiesSaoCarlos
+      github: pyladies-brazil
+      twitter: pyladiesbrazil
+      location:
+            latitude: -22.0087175
+            longitude: -47.8909142
+
+
     - name:      Brno, Czech Republic
       meetup_id: 5160912
       website: cz
