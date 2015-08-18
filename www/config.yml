@@ -159,6 +159,19 @@ chapters:
             longitude: -35.200916
 
 
+    - name:      Brasilia, Brazil
+      website: http://brasil.pyladies.com
+      external_website: true
+      image: pyladies_brasilia.png
+      email: brasil@pyladies.org
+      facebook: PyLadiesbsb
+      github: pyladies-brazil
+      twitter: pyladiesbrazil
+      location:
+            latitude: -15.7941454
+            longitude: -47.8825479
+
+
     - name:      Brno, Czech Republic
       meetup_id: 5160912
       website: cz
