@@ -146,6 +146,19 @@ chapters:
             latitude: -25.4167
             longitude: -49.2500
 
+    - name:      Natal, Brazil
+      website: http://pyladiesnatal.github.io/
+      external_website: true
+      image: pyladies_natal.png
+      email: brasil@pyladies.org
+      facebook: PyLadiesbrazil
+      github: pyladies-brazil
+      twitter: pyladiesbrazil
+      location:
+            latitude: -5.7792569
+            longitude: -35.200916
+
+
     - name:      Brno, Czech Republic
       meetup_id: 5160912
       website: cz
