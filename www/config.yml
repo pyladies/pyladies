@@ -196,6 +196,17 @@ chapters:
             latitude: -8.0475458
             longitude: -34.8769621
 
+    - name:   Rio de Janeiro, Brazil
+      website: http://brasil.pyladies.com
+      external_website: true
+      image: pyladies_rio.png
+      email: brasil@pyladies.org
+      facebook: PyLadiesRio
+      github: pyladies-brazil
+      twitter: rio_pyladies
+      location:
+            latitude: -22.9082998
+            longitude: -43.1970773
 
     - name:      Brno, Czech Republic
       meetup_id: 5160912
