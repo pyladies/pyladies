@@ -134,6 +134,18 @@ chapters:
             latitude: -10.3333333
             longitude: -53.2
 
+    - name:      Curitiba, Brazil
+      website: http://brasil.pyladies.com/
+      external_website: true
+      image: pyladies-curitiba.png
+      email: curitiba@pyladies.com
+      facebook: PyLadiesCuritiba
+      github: pyladies-curitiba
+      twitter: pyladiescuritib
+      location:
+            latitude: -25.4167
+            longitude: -49.2500
+
     - name:      Brno, Czech Republic
       meetup_id: 5160912
       website: cz
