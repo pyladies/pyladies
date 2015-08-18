@@ -184,6 +184,18 @@ chapters:
             latitude: -22.0087175
             longitude: -47.8909142
 
+    - name:   Recife, Brazil
+      website: http://brasil.pyladies.com
+      external_website: true
+      image: pyladies_recife.png
+      email: recife@pyladies.org
+      facebook: PyLadies-Recife
+      github: pyladies-brazil
+      twitter: pyladiesrecife
+      location:
+            latitude: -8.0475458
+            longitude: -34.8769621
+
 
     - name:      Brno, Czech Republic
       meetup_id: 5160912
