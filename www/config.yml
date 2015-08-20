@@ -122,6 +122,18 @@ chapters:
             latitude: 42.3604823
             longitude: -71.0595678
 
+    - name:      Brasilia, Brazil
+      website: http://brasil.pyladies.com
+      external_website: true
+      image: pyladies_brasilia.png
+      email: brasil@pyladies.org
+      facebook: PyLadiesbsb
+      github: pyladies-brazil
+      twitter: pyladiesbrazil
+      location:
+            latitude: -15.7941454
+            longitude: -47.8825479
+
     - name:      Brazil
       website: http://brasil.pyladies.com/
       external_website: true
@@ -133,6 +145,7 @@ chapters:
       location:
             latitude: -10.3333333
             longitude: -53.2
+
 
     - name:      Brno, Czech Republic
       meetup_id: 5160912
@@ -167,6 +180,19 @@ chapters:
       location:
             latitude: 41.8755546
             longitude: -87.6244212
+
+    - name:      Curitiba, Brazil
+      website: http://brasil.pyladies.com/
+      external_website: true
+      image: pyladies-curitiba.png
+      email: curitiba@pyladies.com
+      facebook: PyLadiesCuritiba
+      github: pyladies-curitiba
+      twitter: pyladiescuritib
+      location:
+            latitude: -25.4167
+            longitude: -49.2500
+
 
     - name: Dallas, TX
       meetup_id: 2292131
@@ -290,6 +316,18 @@ chapters:
             latitude: 36.1622296
             longitude: -86.7743531
 
+    - name:      Natal, Brazil
+      website: http://pyladiesnatal.github.io/
+      external_website: true
+      image: pyladies_natal.png
+      email: brasil@pyladies.org
+      facebook: PyLadiesbrazil
+      github: pyladies-brazil
+      twitter: pyladiesbrazil
+      location:
+            latitude: -5.7792569
+            longitude: -35.200916
+
     - name:      New York, NY
       meetup_id: 4576312
       website: http://nyc.pyladies.com
@@ -345,6 +383,30 @@ chapters:
             latitude: 35.987644
             longitude: -78.6720959
 
+    - name:   Recife, Brazil
+      website: http://brasil.pyladies.com
+      external_website: true
+      image: pyladies_recife.png
+      email: recife@pyladies.org
+      facebook: PyLadies-Recife
+      github: pyladies-brazil
+      twitter: pyladiesrecife
+      location:
+            latitude: -8.0475458
+            longitude: -34.8769621
+
+    - name:   Rio de Janeiro, Brazil
+      website: http://brasil.pyladies.com
+      external_website: true
+      image: pyladies_rio.png
+      email: brasil@pyladies.org
+      facebook: PyLadiesRio
+      github: pyladies-brazil
+      twitter: rio_pyladies
+      location:
+            latitude: -22.9082998
+            longitude: -43.1970773
+
     - name:      Salt Lake Area, Utah
       meetup_id: 8161032
       website: saltlake
@@ -377,6 +439,18 @@ chapters:
       location:
             latitude: 37.7792768
             longitude: -122.4192704
+
+    - name:      Sao Carlos, Brazil
+      website: http://brasil.pyladies.com
+      external_website: true
+      image: pyladies_saocarlos.png
+      email: saocarlos@pyladies.org
+      facebook: PyLadiesSaoCarlos
+      github: pyladies-brazil
+      twitter: pyladiesbrazil
+      location:
+            latitude: -22.0087175
+            longitude: -47.8909142
 
     - name:      Seattle, WA
       meetup_id: 5411282
