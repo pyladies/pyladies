@@ -910,6 +910,7 @@ footer ul.social {
 
 footer ul.social li {
   display: inline;
+  float: left;
 }
 
 footer ul.social li a {
@@ -918,6 +919,16 @@ footer ul.social li a {
 
 footer ul.social li a:hover {
   color: rgb(255, 50, 50);
+}
+
+footer ul.footer-notice{
+  float: left;
+  display: block;
+}
+
+footer ul.footer-notice li{
+  display: block;
+  float: none;
 }
 
 .footer-wrapper {
@@ -1198,6 +1209,13 @@ div.code td.linenos pre {
     float: none;
     margin-bottom: 10px;
   }
+  footer ul.footer-notice{
+    display: block;
+    margin-left: 0px;
+    padding-left: 0;
+    margin-top: 20px;
+    clear: both;
+}
 }
 
 @media (max-width: 879px) {
