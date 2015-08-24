@@ -94,7 +94,10 @@
                     <li><a class="icon github" data-icon="&#62208;" href="http://github.com/pyladies" title="GitHub"></a></li>
                     <li><a class="icon rss" data-icon="&#59194;" href="{{ get_url('feed.xml', true)}}" title="RSS"></a></li>
                     <li><a class="icon creative-commons" data-icon="&#128325;" href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons"></a></li>
-                    <li>2007 - {{ None|date('%Y') }} PyLadies. All Rights Reserved.</li>
+                    <ul class="footer-notice">
+                        <li>2007 - {{ None|date('%Y') }} PyLadies. All Rights Reserved.</li>
+                        <li>Disclaimer - PyLadies and the PyLadies logo are trademarks of the Python Software Foundation</li>
+                    </ul>
                 </ul>
             {% endblock %}
             </footer>
