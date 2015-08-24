@@ -340,6 +340,17 @@ chapters:
             latitude: 40.7305991
             longitude: -73.9865812
 
+    - name: Paris, France
+      meetup_id: 18600594
+      website: paris
+      image: pyladies_dc_atl_sea_tor.png
+      email: paris@pyladies.com
+      twitter: PyLadiesParis
+      meetup: PyLadies-Paris
+      location:
+            latitude: 48.8600006
+            longitude: 2.3399999
+
     - name: Poland
       meetup_id: 185065560
       website: pl
