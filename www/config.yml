@@ -157,6 +157,18 @@ chapters:
       location:
             latitude: 49.1922443
             longitude: 16.6113382
+    
+    - name:      Campinas, Brazil
+ 	  website: http://brasil.pyladies.com
+ 	  external_website: true
+ 	  image: pyladies_campinas.png
+ 	  email: campinas@pyladies.com
+ 	  facebook: pyladiescps
+ 	  github: pyladiescps
+ 	  twitter: pyladiescps
+ 	  location:
+ 	        latitude: -22.909992
+ 	        longitude: -47.063006
 
     - name:      Charleston, SC
       meetup_id: 8401402
