@@ -530,7 +530,7 @@ chapters:
     - name:      Tokyo
       website: http://tokyo.pyladies.com/
       external_website: true
-      image: pyladies-sq-logo.png
+      image: pyladies_tokyo.png
       email: pyladies-tokyo@googlegroups.com
       facebook: PyLadiesTokyo
       github: PyLadiesTokyo
