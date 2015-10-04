@@ -157,7 +157,7 @@ chapters:
       location:
             latitude: 49.1922443
             longitude: 16.6113382
-    
+
     - name:      Campinas, Brazil
       website: http://brasil.pyladies.com
       external_website: true
@@ -301,6 +301,17 @@ chapters:
       location:
             latitude: 45.5115944
             longitude: -73.6051013
+
+    - name: Morocco, Morocco
+      meetup_id: 193620926
+      website: MA
+      image: pyladies_ma.png
+      email: MA@pyladies.com
+      twitter: PyLadiesMa
+      #meetup:
+      location:
+            latitude: 34.0209
+            longitude: 6.8416
 
     - name:      Moscow, Russia
       meetup_id: 185768797
@@ -602,13 +613,3 @@ chapters:
             latitude: 38.8949549
             longitude: -77.0366456
 
-      - name: Morocco, Morocco
-      meetup_id: 193620926
-      website: MA
-      image: pyladies_ma.png
-      email: MA@pyladies.com
-      twitter: PyLadiesMa
-      #meetup: 
-      location:
-            latitude: 34.0209
-            longitude: 6.8416
