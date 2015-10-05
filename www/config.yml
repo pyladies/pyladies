@@ -302,7 +302,7 @@ chapters:
             latitude: 45.5115944
             longitude: -73.6051013
 
-    - name: Morocco, Morocco
+    - name: Morocco
       meetup_id: 193620926
       website: MA
       image: pyladies_ma.png
@@ -310,8 +310,8 @@ chapters:
       twitter: PyLadiesMa
       #meetup:
       location:
-            latitude: 34.0209
-            longitude: 6.8416
+            latitude: 33.971590
+            longitude: -6.849813
 
     - name:      Moscow, Russia
       meetup_id: 185768797
