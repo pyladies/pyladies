@@ -170,6 +170,15 @@ chapters:
             latitude: -22.909992
             longitude: -47.063006
 
+    - name: Canakkale, Turkey
+      website: tr
+      image: pyladies_campinas.png
+      email: tr@pyladies.com
+      twitter: PyladiesTurkey
+      location:
+            latitude: 39.9167
+            longitude: 32.8333
+
     - name:      Charleston, SC
       meetup_id: 8401402
       website: http://charleston.pyladies.com
