@@ -258,6 +258,16 @@ chapters:
       location:
             latitude: 22.3511148
             longitude: 78.6677428
+            
+    - name:      Kyoto
+      website: http://pyladies-kyoto.connpass.com
+      external_website: true
+      image: pyladies-sq-logo.png
+      facebook: PyLadiesKyoto
+      google_plus: https://plus.google.com/u/0/communities/113677670074162908256
+      location:
+            latitude: 35.0117
+            longitude: 135.7683
 
     - name:      London, UK
       meetup_id: 13106102
