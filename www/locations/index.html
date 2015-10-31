@@ -22,7 +22,13 @@
 
                     {% for chapter in site.chapters %}
                     <div class="chapter_location" data-meetup-id="{{chapter.meetup_id}}" data-chapter-name="{{ chapter.name }}" >
-                        <img src="../assets/images/{{chapter.image}}" alt="{{chapter.name}}" width="100" height="100" />
+                        <div class="logo-container">
+                          {% if chapter.image %}
+                            <img src="../assets/images/{{chapter.image}}" alt="{{chapter.name}}" />
+                          {% else %}
+                            <img src="../assets/images/pyladies-sq-logo.png" alt="{{chapter.name}}" />
+                          {% endif %}
+                        </div>
                         <h3 class="chpts chapter-name">
                             {% if chapter.external_website %}
                                 <a href="{{chapter.website}}">
