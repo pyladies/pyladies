@@ -716,6 +716,21 @@ section#archive h3.chpts a.social:after {
 section#archive .chapter_location h3.chpts {
   overflow: hidden;
 }
+.logo-container {
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  margin-bottom: 15px;
+}
+.logo-container img {
+  max-height: 100px;
+  max-width: 100px;
+  vertical-align: middle;
+}
+section#archive .chapter_location img {
+  margin-left: 0;
+}
+
 /***/
 
 section#archive h3.chpts a:hover {
