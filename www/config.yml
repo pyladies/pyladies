@@ -98,6 +98,17 @@ chapters:
     # - name:      Barcelona
     #   meetup_id: 10496402
 
+    - name:      Belo Horizonte, Brazil
+      website: http://bh.pyladies.com
+      external_website: false
+      image: pyladies-bh.png
+      email: bh@pyladies.com
+      twitter: pyladiesbh
+      meetup: PyLadies-BH-Meetup
+      location:
+            latitude: -19.912998
+            longitude: -43.940933 
+
     - name:      Berlin, Germany
       meetup_id: 9206152
       website: http://berlin.pyladies.com
