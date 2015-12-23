@@ -1,0 +1,43 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<article class="who-block section">
+    <h3>The Women Behind Chicago PyLadies</h3>
+      <a class = 'internal' href = '#volunteer'><h4 class ="how">Join Us!</h4></a>
+      <div class="person">
+        <div class="avatar">
+          <a target = "_blank" href = "http://lorenamesa.com/" target = '_blank'><img src="{{get_asset('images/lorena.png')}}"></a>
+        </div>
+       <p><strong><a target = "_blank" href = "http://lorenamesa.com/" target = '_blank'>Lorena</a></strong> is so excited about PyLadies! By day, Lorena is a Software Engineer at Friendly Neighborhood Chicago Startup Sprout Social, and by night she is a dancing machine with a superhero alter-ego, saving lives with her sick moves and fun attitude.
+        </p>
+      </div>
+      <div class="person">
+        <div class="avatar">
+          <a target = "_blank" href="http://jessunrein.com/"><img src="{{get_asset('images/jess.png')}}"></a>
+        </div>
+          <p><strong><a target = "_blank" href="http://jessunrein.com/">Jess</a></strong> works as a software engineer with Shiftgig. She's passionate about demystifying programming for women who want to break into tech. Come talk Flask and SQLAlchemy with her in one of Chicago's exotic dive bars!</p>
+      </div>
+      <div class="person">
+        <div class="avatar">
+          <a target = "_blank" href = "http://safia.rocks/"><img src="{{get_asset('images/safia.png')}}"></a>
+        </div>
+          <p><strong><a target = "_blank" href = "http://safia.rocks/">Safia</a></strong> (like 'Mafia') is the co-organizer of PyLadies Chicago, where she teaches classes on data analytics and brings interesting individuals as panelists and speakers. She is also the Lead of Mentorship and Volunteer Initiatives at ChickTech Chicago, where she brings dedicated and passionate technologists to eager high school girls. She founded dsfa, an agency dedicated to uplifting small businesses and community organizations with data science. In her free time, she likes to contribute to open source, give fun talks at conferences, and teach individuals of all shapes and sizes how to be awesome with code.</p>
+      </div>
+      <div class="person">
+        <div class="avatar">
+          <a target = "_blank" href = "http://rebeldroid12.github.io/" target = '_blank'><img src="{{get_asset('images/loren.png')}}"></a>
+        </div>
+       <p><strong><a target = "_blank" href = "http://rebeldroid12.github.io/" target = '_blank'>Loren</a></strong> is a published Data Bender (data data data!). She learned Python back in Fall 2013 and has been a Parselmouth ever since &lt;3. Loren has a passion for working with any and all data especially when it can promote social good. She is an involved and active member of Statistics Without Borders where she has been the lead for many probono projects. She is also a huge advocate for open source technology and helping people empower themselves. When Loren isn't hacking she enjoys running, sleeping and binge watching TV.</p>
+      </div>
+ 
+      <div class="person">
+        <div class="avatar">
+          <a target = "_blank" href = "http://celeen.info"><img src="{{get_asset('images/celeen.png')}}"></a>
+        </div>
+          <p><strong><a target = "_blank" href = "http://celeen.info">Celeen</a></strong> spends her days software engineering at Braintree. The security and empowerment that programming has brought her inspires her to support organizations like PyLadies, in an effort to help other women find the same.</p>
+      </div>
+
+  </article>
+
+  {% endblock %}

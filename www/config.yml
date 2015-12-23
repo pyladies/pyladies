@@ -446,7 +446,11 @@ chapters:
       image: pyladies_pune.jpeg
       email: pune@pyladies.com
       twitter: PyladiesPune
+      facebook: PyLadiesPune
       meetup: PyLadies-Pune
+      location:
+            latitude: 18.486467
+            longitude: 73.816520
 
     - name:      Raleigh-Durham, NC
       meetup_id: 16760422
@@ -550,6 +554,19 @@ chapters:
       location:
             latitude: 37.5666791
             longitude: 126.9782914
+
+    - name:      Silicon Valley, CA
+      meetup_id: 19180337
+      website: http://siliconvalley.pyladies.com
+      image: pyladies-silicion-logo.png
+      email: siliconvalley@pyladies.com
+      meetup: PyLadies-Silicon-Valley
+      facebook: svpyladies
+      github: SiliconValleyPyLadies
+      location:
+            latitude: 37.415236
+            longitude: -122.0254301
+
 
     - name: Singapore
       meetup_id: 14910222
