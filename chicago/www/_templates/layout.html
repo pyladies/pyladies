@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    {% include 'page.header.html' %}
+    
+    {% if site.title %}<title>{% if title %}{{ title }} &ndash; {% endif %}{{ site.title }}{% if not title and site.subtitle %} &ndash; {{ site.subtitle }}{% endif %}</title>{% endif %}
+</head>
+<body>
+<header>
+    <div id = "logo"><a href = "{{get_url('/')}}"><img class="welcome" src = "{{get_asset('images/logo2.png')}}"></a></div>
+    <nav>
+        <ul>
+            <a class = "internal" href = "{{ get_url('about/') }}"><li class="what">About Us</li></a>
+            <a href = "http://www.meetup.com/Chicago-PyLadies/" target ="_blank"><li class="when">Events</li></a>
+            <a class = "internal" href = "{{get_url('contribute/')}}"><li class="how">Get Involved</li></a>
+        </ul>
+    </nav>
+</header>
+            {% block content %}{% endblock %}
+</body>
+</html>
