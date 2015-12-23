@@ -1,0 +1,180 @@
+$pink: #ff3232;
+$font: Bitter;
+
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+strong {font-weight: bold;}
+
+a {
+  border: none;
+  color: $pink;
+}
+
+li:hover {
+  color:white;
+  background-color: $pink;
+}
+
+#logo {
+  width: 55%;
+  height: auto;
+  margin: 25px auto 0 auto;
+}
+
+#logo img { width: 100%; }
+
+nav {
+  width: 55%;
+  li {
+    width: 32%;
+    padding: 5px 1px 5px 2px;
+    float: left;
+    border-top: 2px solid $pink;
+    border-bottom: 2px solid $pink;
+    border-left: 2px solid $pink;
+    font-size: .9em;
+    font-family: $font;
+    font-weight: 400;
+  }
+  a:last-of-type li { border-right: 2px solid $pink; }
+  h2 { margin: 10px auto; }
+}
+
+ul {
+  display: block;
+  overflow: hidden;
+}
+
+.section, nav {
+  color: $pink;
+  margin: 0 auto 25px auto;
+  text-align: center;
+}
+
+p {
+  font-family: $font;
+  line-height: 1.3;
+  margin: 15px auto;
+  width: 55%;
+}
+
+// WHO---------------------
+h3, h4 {
+  font-family: $font;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 50px 0 20px 0;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.25em;
+  margin: 0 0 20px 0;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.person {
+  min-height: 160px;
+  width: 55%;
+  margin: 10px 0;
+  display: block;
+  margin: 15px auto;
+  p {
+    text-align: justify;
+    padding-top: 4%;
+    width: 100%;
+  }
+}
+
+.avatar {
+  width: 25%;
+  display: inline-block;
+  -webkit-shape-outside: circle();
+  shape-outside: circle();
+  img {
+    width: 100%;
+    border-radius: 100%;
+    border: solid 5px $pink;
+  }
+}
+
+.person:nth-of-type(odd) .avatar {
+  float: left;
+  padding-right: 20px;
+}
+
+.person:nth-of-type(even) .avatar {
+  float: right;
+  padding-left: 20px;
+}
+
+// ******** RESPONSIVENESS *********
+
+@media screen and (max-width: 1200px) {
+  #logo, nav, p { width: 60%; }
+
+  nav li { width: 32%; }
+}
+
+@media screen and (max-width: 973px) {
+  #logo, nav, p { width: 65% }
+
+  nav li {
+    width: 32%;
+    font-size: .85em;
+  }
+
+  p { font-size: .9em; }
+
+}
+
+@media screen and (max-width: 815px) {
+  #logo, nav, p { width: 65% }
+
+  nav li {
+    width: 31.8%;
+    font-size: .85em;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #logo, nav, p { width: 80%; }
+
+  nav li {
+    width: 32%;
+    font-size: .8em;
+  }
+
+  nav a:last-of-type li { border-right: 2px solid $pink; }
+
+  nav a:nth-of-type(3) li { border-right: 2px solid $pink; } 
+
+  .person { width: 80%; }
+
+}
+
+@media screen and (max-width: 662px) {
+  nav li { width: 31.9%; }
+}
+
+@media screen and (max-width: 616px) {
+  nav li { width: 31.6%; }
+  .person { width: 85%; }
+}
+
+@media screen and (max-width: 509px) {
+  nav li { width: 31.3%; }
+}
+
+@media screen and (max-width: 434px) {
+  nav li { width: 31%; }
+}
+
+@media screen and (max-width: 390) {
+  nav li { width: 25%; }
+}
+
