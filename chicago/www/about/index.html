@@ -1,0 +1,44 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<article class="who-block section">
+    <h3>The Women Behind Chicago PyLadies</h3>
+      <a class = 'internal' href = '#volunteer'><h4 class ="how">Join Us!</h4></a>
+      <div class="person">
+        <div class="avatar">
+          <a target = "_blank" href = "http://lorenamesa.com/" target = '_blank'><img src="{{get_asset('images/lorena.jpg')}}"></a>
+        </div>
+        <div class="bio">
+        <p><strong><a target = "_blank" href = "http://lorenamesa.com/" target = '_blank'>Lorena</a></strong> is so excited about PyLadies! By day, Lorena is a Software Engineer at Friendly Neighborhood Chicago Startup Sprout Social, and by night she is a dancing machine with a superhero alter-ego, saving lives with her sick moves and fun attitude.
+        </p>
+        </div>
+      </div>
+      <div class="person">
+        <div class="avatar">
+          <a target = "_blank" href="http://jessunrein.com/"><img src="{{get_asset('images/jess.jpg')}}"></a>
+        </div>
+        <div class="bio">
+          <p><strong><a target = "_blank" href="http://jessunrein.com/">Jess</a></strong> works as a software engineer with Shiftgig. She's passionate about demystifying programming for women who want to break into tech. Come talk Flask and SQLAlchemy with her in one of Chicago's exotic dive bars!</p>
+        </div>
+      </div>
+      <div class="person">
+        <div class="avatar">
+          <a target = "_blank" href = "http://safia.rocks/"><img src="{{get_asset('images/safia.jpg')}}"></a>
+        </div>
+        <div class="bio">
+          <p><strong><a target = "_blank" href = "http://safia.rocks/">Safia</a></strong> is currently studying Computer Science at Northwestern University, and working part time as a Software Engineer here in Chicago. She generally enjoys being an incredible badass.</p>
+        </div>
+      </div>
+      <div class="person">
+        <div class="avatar">
+          <a target = "_blank" href = "http://celeen.info"><img src="{{get_asset('images/celeen.jpg')}}"></a>
+        </div>
+        <div class="bio">
+          <p><strong><a target = "_blank" href = "http://celeen.info">Celeen</a></strong> spends her days software engineering at Braintree. The security and empowerment that programming has brought her inspires her to support organizations like PyLadies, in an effort to help other women find the same.</p>
+        </div>
+      </div>
+
+  </article>
+
+  {% endblock %}
