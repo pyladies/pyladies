@@ -1,30 +1,43 @@
-#header ul li {
-	display: inline-block;
-	padding-left: 10px;
+#pyladies_pune_logo {
+	height: 250px;
+	width: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-#pyladies_pune_logo {
-	height: 280px;
-	width: 280px;
+#links {
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%
+}
+
+#links ul li {
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .images {
-	height: 90px;
-	width: 90px;
+	height: 60px;
+	width: 60px;
 }
 
 h2{
-	color:#FA5882;
+	color: #FA5882;
 	font-family: Verdana, Geneva, sans-serif;
 }
 
 p {
 	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .link {
 	color: #81BEF7;
-	text-decoration:none;
+	text-decoration: none;
 }
 
 .heading_images {
@@ -32,41 +45,42 @@ p {
 	width: 80px;
 }
 
-#weinnovate_image {
-	height: 300px;
-	width: 300px;
-	padding-top: 20px;
-}
-
 #about_us_box {
 	float: left;
-	padding-left: 30px;
-	padding-right: 30px;
-	}
+}
 
 #activities_box {
 	float: left;
-	padding-left: 30px;
-	padding-right: 30px;
-	}
-
-#projects_box {
-	float: left;
-	padding-left: 30px;
-	padding-right: 30px;
-	}
+}
 
 #mentions_box {
 	float: left;
-	padding-left: 30px;
+	width: 50%;
+}
+
+#logos ul {
+	list-style-type: none;
+}
+
+#logos ul li {
+	display: inline-block;
 	padding-right: 30px;
-	}
+}
+
+#pune_mirror_logo {
+	height: 70px;
+	width: 250px;
+}
+
+#iwit_doco_logo {
+	height: 150px;
+	width: 150px;
+}
 
 #sponsors_box {
-	float: left;
-	padding-left: 30px;
-	padding-right: 30px;
-	}
+	float: right;
+	width: 50%;
+}
 
 #red_hat_logo {
 	height:150px;
@@ -75,9 +89,7 @@ p {
 
 #organisers_box {
 	float: left;
-	padding-left: 30px;
-	padding-right: 30px;
-	}
+}
 
 #organisers_box ul li {
 	display: inline-block;
@@ -94,14 +106,4 @@ p {
 .organiser_img {
 	height: 220px;
 	width: 220px;
-}
-
-#footer {
-	float: left;
-}
-
-#footer ul li {
-	display: inline;
-	padding-left: 50px;
-	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
 }

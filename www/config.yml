@@ -446,7 +446,11 @@ chapters:
       image: pyladies_pune.jpeg
       email: pune@pyladies.com
       twitter: PyladiesPune
+      facebook: PyLadiesPune
       meetup: PyLadies-Pune
+      location:
+            latitude: 18.486467
+            longitude: 73.816520
 
     - name:      Raleigh-Durham, NC
       meetup_id: 16760422
