@@ -1,5 +1,5 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 {% if site.author %}<meta name="author" content="{{ site.author }}">{% endif %}
 {% if site.description %}<meta name="description" content="{{ site.description }}">{% endif %}
 <meta name="generator" content="mynt v{{ site.version }}">
@@ -22,7 +22,7 @@
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', '{{ site.analytics }}']);
         _gaq.push(['_trackPageview']);
-        
+
         (function() {
             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
