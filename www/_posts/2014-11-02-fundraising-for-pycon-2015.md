@@ -1,7 +1,7 @@
 ---
 layout: post.html
 title: "Fundraising for PyLadies for PyCon 2015"
-tag: [PyCon]
+tags: [PyCon]
 author: Lynn Root
 author_link: https://twitter.com/roguelynn
 ---

@@ -1,28 +1,28 @@
 {% extends 'site.html' %}
 
 
-{% set title = post.title %}
+{% set title = item.title %}
 
 {% block content %}
 
     <section id="archive">
         <article>
-            <h2>{{ post.title }}</h2>
-            {% if post.author %}
-            	{% if post.author_link %}
-            	<h4><a href="{{ post.author_link }}">{{ post.author}}</a></h4>
+            <h2>{{ item.title }}</h2>
+            {% if item.author %}
+            	{% if item.author_link %}
+            	<h4><a href="{{ item.author_link }}">{{ item.author}}</a></h4>
             	{% else %}
-            	<h4>{{ post.author }}</h4>
+            	<h4>{{ item.author }}</h4>
             	{% endif %}
             {% endif %}
-            <h3>{{ post.date }}{% if post.tags %} | Tag: <span>&raquo;</span> {% for tag in post.tags %}<a href="{{ get_url(tags[tag].url) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}</h3>
+            <h3>{{ item.date }}{% if item.tags %} | Tag: <span>&raquo;</span> {% for tag in item.tags %}<a href="{{ get_url(posts.tags[tag].url) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}</h3>
 
             <div>
                 <a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="pyladies">Tweet</a>
                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
             </div>
 
-            {{ post.content }}
+            {{ item.content }}
         </article>
     </section>
 
