@@ -189,6 +189,15 @@ chapters:
       location:
             latitude: 39.9167
             longitude: 32.8333
+            
+    - name: India, Gujarat 
+      website: gtu.ac.in
+
+      email: gtu@pyladies.com
+      twitter: PyladiesGTU
+      location:
+            latitude: 23.253627
+            longitude: 72.6338228
 
     - name:      Charleston, SC
       meetup_id: 8401402
