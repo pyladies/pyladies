@@ -639,6 +639,18 @@ chapters:
             latitude: 33.8439408
             longitude: 9.400138
 
+    - name: Vale do Paraíba, Brazil
+      website: http://vale.pyladies.com
+      external_website: true
+      image: pyladies_vale.jpg
+      email: vale@pyladies.com
+      facebook: pyladiesvale
+      github: pyladiesvale
+      twitter: pyladiesvale
+      location:
+            latitude: -23.2237
+            longitude: -45.9009
+
     - name: Vancouver, Canada
       meetup_id: 18607403
       website: vancouver
