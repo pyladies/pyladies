@@ -10,7 +10,7 @@ category: [resources]
 * [How to Think Like a Computer Scientist][compscientist]
 * [Intermediate Python][IntermediatePython]
 * [Introduction to Twisted][twisted]: A thorough introduction to Twisted and Asynchronous programming in Python.
-* [tryGit][trygit]: Learn Git with GitHub&amp; Codeschool&#39;s new tutorial.
+* [tryGit][trygit]: Learn Git with GitHub&amp; Code School&#39;s new tutorial.
 * Model, View, Controller [explained][MVC].
 * Basic Python Syntax [Tutorial][syntax]. (Helpful for both new to programming in general, and new to Python with prior programming experience).
 * [Online Python Tutor][tutor]: Learn & Practice programming in your browser.
