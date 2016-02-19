@@ -81,5 +81,5 @@ If you're new to contributing to open source, or just new to contributing to the
 
 Just fork the project, make your changes, and submit a pull request! Follow the setup instructions in the [README.md](https://github.com/pyladies/pyladies) to get the site running locally on your machine. 
 
-New to Git? Check out the [tutorial on tryGit](https://try.github.io/levels/1/challenges/1), a tutorial by GitHub and Codeschool. 
+New to Git? Check out the [tutorial on tryGit](https://try.github.io/levels/1/challenges/1), a tutorial by GitHub and Code School. 
 
