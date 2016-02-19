@@ -642,7 +642,7 @@ chapters:
     - name: Vale do Paraíba, Brazil
       website: http://vale.pyladies.com
       external_website: true
-      image: pyladies_valeP.jpg
+      image: pyladies_vale.jpg
       email: vale@pyladies.com
       facebook: pyladiesvale
       github: pyladiesvale
