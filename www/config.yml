@@ -41,12 +41,10 @@ chapters:
     #   meetup_id: 10841992
 
     - name:      Antananarivo, MDG
-      meetup_id: 16281272
       website: tnr
-      image: pytnrlogo.jpeg
-      email: tnr.mdg.pyladies@gmail.com
-      twitter: Pyladies_tnr
-      meetup: pyladies_tnr
+      image: pyladies_tnr.png
+      email: tnr@pyladies.com
+      twitter: PyladiesMDG
       location:
             latitude: -18.9333
             longitude: 47.5167
