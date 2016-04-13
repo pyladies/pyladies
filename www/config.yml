@@ -269,6 +269,15 @@ chapters:
             latitude: 55.9531
             longitude: -3.1889
 
+    - name: Gujarat, India
+      website: gtu.ac.in
+      image: pyladies-sq-logo.png
+      email: gtu@pyladies.com
+      twitter: PyladiesGTU
+      location:
+            latitude: 23.253627
+            longitude: 72.6338228
+
     - name:      Helsinki, Finland
       meetup_id: 13995752
       website: helsinki
