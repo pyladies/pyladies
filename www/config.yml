@@ -107,7 +107,7 @@ chapters:
       meetup: PyLadies-BH-Meetup
       location:
             latitude: -19.912998
-            longitude: -43.940933 
+            longitude: -43.940933
 
     - name:      Berlin, Germany
       meetup_id: 9206152
@@ -405,6 +405,17 @@ chapters:
             latitude: 40.7305991
             longitude: -73.9865812
 
+    - name: Nigeria
+      meetup_id: 201759643
+      website: dc
+      image: pyladies_dc_atl_sea_tor.png
+      email: nigeria@pyladies.com
+      twitter: PyladiesNigeria
+      meetup: PyLadies Nigeria
+      location:
+            latitude: 6.465422
+            longitude: 3.406448
+
     - name: Paris, France
       meetup_id: 18600594
       website: paris
@@ -683,14 +694,3 @@ chapters:
       location:
             latitude: 38.8949549
             longitude: -77.0366456
-            
-     - name: Nigeria
-      meetup_id: 201759643
-      website: dc
-      image: pyladies_dc_atl_sea_tor.png
-      email: nigeria@pyladies.com
-      twitter: PyladiesNigeria
-      meetup: PyLadies Nigeria
-      location:
-            latitude: 6.465422
-            longitude: 3.406448
