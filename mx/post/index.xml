@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Pyladies</title>
+    <link>https://yourdomain.com/post/</link>
+    <description>Recent content in Posts on Pyladies</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 May 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yourdomain.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Aprender a programar, ¿por dónde empezar?</title>
+      <link>https://yourdomain.com/post/resources/</link>
+      <pubDate>Thu, 05 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://yourdomain.com/post/resources/</guid>
+      <description>
+
+&lt;p&gt;Es muy común que cuando finalmente decidiste que quieres entrar al mundo de la programación te encuentres en una posición de no saber por dónde empezar. La
+recomendación de Pyladies es por supuesto empezar a programar con Python. Así que en este post te explicaremos por qué usar Python y también te mostraremos
+algunos materiales de interés en la programación.&lt;/p&gt;
+
+&lt;h3 id=&#34;por-qué-python:74f7fb04a75e766307d398251c369a21&#34;&gt;¿Por qué Python?&lt;/h3&gt;
+
+&lt;p&gt;Pues Python resulta ser un &lt;a href=&#34;http://culturacion.com/que-es-un-lenguaje-de-programacion-interpretado/&#34;&gt;lenguaje de programación interpretado&lt;/a&gt; que se caracteriza
+por tener una sintaxis bastante entendible, lo cual facilita el aprendizaje y te deja enfocarte en los conceptos o programas que quieras desarrollar sin tener
+preocuparte tanto. Esto resulta de la estructura ya que es muy similar a la del lenguaje cotidiano (inglés por supuesto).&lt;/p&gt;
+
+&lt;p&gt;Otra de las ventajes de aprender Python es que es abierto, así podemos involucrarnos en el desarrollo de paquetes e incluso en el mismo Python si es que
+detectamos algo que se necesite cambiar.&lt;/p&gt;
+
+&lt;p&gt;Finalmente, al ser Python un lenguaje muy popular, podemos encontrar un sin fin de materiales en la web que van desde los conceptos más básicos de Python
+hasta las cosas más complicadas o especializadas de su uso.&lt;/p&gt;
+
+&lt;h3 id=&#34;lista-de-materiales-interesantes:74f7fb04a75e766307d398251c369a21&#34;&gt;Lista de materiales interesantes&lt;/h3&gt;
+
+&lt;p&gt;Cómo les dije anteriormente hay muchísimos recursos en línea para aprender a programar. Aquí les dejo una lista de direcciones de páginas con contenido interesante&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Cursos formales de python:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-6&#34;&gt;https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-6&lt;/a&gt;  (Este curso es muy bueno aunque está en inglés, no sólo te enseña a programar, sino te da las                         bases de ciencias de la computación)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.codecademy.com/es/learn/python&#34;&gt;https://www.codecademy.com/es/learn/python&lt;/a&gt; (Este es otro curso que también es bueno y está en español)&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Tutoriales rápidos de python:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.python-course.eu/python3_course.php&#34;&gt;http://www.python-course.eu/python3_course.php&lt;/a&gt; (este tutorial está en inglés)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.python.org.ar/tutorial/pdfs/TutorialPython3.pdf&#34;&gt;http://docs.python.org.ar/tutorial/pdfs/TutorialPython3.pdf&lt;/a&gt; (este tutorial es en español)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://learnxinyminutes.com/docs/python3/&#34;&gt;https://learnxinyminutes.com/docs/python3/&lt;/a&gt; (este es una vista muy rápida de python, pero está en inglés)&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;3) Apps (android):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1. Learn python (Es como un curso breve con ejercicios)
+2. Programming Hub (Son ejemplos de código en diferentes lenguajes de programación -incluyendo python2-)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Si ustedes saben de alguna página, app o curso que les guste compártanla para que cada día hagamos más grande la lista de cosas que podemos aprender.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Evento de Bienvenida</title>
+      <link>https://yourdomain.com/post/bienvenida/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://yourdomain.com/post/bienvenida/</guid>
+      <description>&lt;p&gt;La primera edición de reuniones mensuales resultó ser todo un ¡éxito!. Logramos reunirnos más de 40 entusiastas de python (hombres y mujeres)
+para escuchar las pláticas y el taller impartido.&lt;/p&gt;
+
+&lt;p&gt;Las pláticas que escuchamos fueron interesantes y de diferentes rubros. La primera fue impartida por la Dra. Erin Mckiernan quien expuso un modelo
+del potencial de acción de neuronas que dependiento de los parámetros, podían explicar el comportamiento de una neurona jóven y una que ya ha
+envejecido. La segunda plática estuvo a cargo del Dr. Christian Diener que nos explicó como él y su &lt;a href=&#34;http://187.188.60.147:2877/&#34;&gt;&lt;strong&gt;grupo&lt;/strong&gt;&lt;/a&gt; estudian la relación
+entre los flujos del metabolismo y el cáncer para en un futuro poder aplicar medicina personalizada. Finalmente Ricardo Corral nos mostró herramientas muy útilies
+para poder construir tus propios servicios y manejar la información de tus usuarios. Obviamente todos estos modelos y paquetes de servicios son creados con Python.&lt;/p&gt;
+
+&lt;p&gt;Después de las pláticas hubo la opción de tomar un taller de instalación de python y uso de las libretas de jupyter para aquellos que están empezando su camino
+en la programación con Python.&lt;/p&gt;
+
+&lt;p&gt;Aquí les dejo unas fotos del evento.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://yourdomain.com/img/20160428_142434.jpg&#34; alt=&#34;Python en la industria&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ricardo Corral resp&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://yourdomain.com/img/20160428_145603.jpg&#34; alt=&#34;Instalación de Python&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Taller Instalación de Python.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://yourdomain.com/img/20160428_145634.jpg&#34; alt=&#34;Cuadernos de jupyter&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cuadernos de jupyter.&lt;/p&gt;
+
+&lt;p&gt;Los que estén interesados en las diapositivas de las presentaciones, así como la libreta de jupyter que se usó para el taller, se encuentran en nuestro repositorio
+de github en &lt;a href=&#34;https://github.com/PyladiesMx/Empezando-con-Python/tree/master/UsoJupyter&#34;&gt;esta liga.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Al final hubo una convivencia con pizzas y refresco para nuestros pythonistas hambrientos.&lt;/p&gt;
+
+&lt;p&gt;Esperamos que la siguiente reunión sea aún más exitosa y que si no asististe a la anterior, puedas llegar a la siguiente!!!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

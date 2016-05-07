@@ -328,6 +328,16 @@ chapters:
       location:
             latitude: 34.053717
             longitude: -118.2427266
+    
+    - name:      Mexico City, Mexico
+      website: mx
+      image: pyfrida.png
+      email: mx@pyladies.com
+      twitter: MxPyladies
+      meetup: Mexico-City-Pyladies-Meetup
+      location:
+            latitude: 19.42705
+            longitude: -99.127571
 
     - name:      Milan, Italy
       meetup_id: 186995752

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://yourdomain.com/</loc>
+    <lastmod>2016-05-04T19:04:53-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yourdomain.com/about/info/</loc>
+    <lastmod>2016-05-04T19:04:53-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yourdomain.com/post/resources/</loc>
+    <lastmod>2016-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yourdomain.com/post/bienvenida/</loc>
+    <lastmod>2016-04-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yourdomain.com/about/Acerca/</loc>
+    <lastmod>2016-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yourdomain.com/about/welcome/</loc>
+    <lastmod>2016-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+</urlset>
