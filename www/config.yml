@@ -373,6 +373,7 @@ chapters:
             longitude: 37.618423
 
     - name:      Mumbai, India
+      image: amchi_pyladies.png
       email: mum@pyladies.com
       location:
             latitude: 18.9523804
