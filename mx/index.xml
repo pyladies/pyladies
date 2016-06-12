@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pyladies</title>
-    <link>https://yourdomain.com/</link>
+    <link>https://mx.pyladies.com/</link>
     <description>Recent content on Pyladies</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 04 May 2016 19:04:53 -0500</lastBuildDate>
-    <atom:link href="https://yourdomain.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mx.pyladies.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Organizers</title>
-      <link>https://yourdomain.com/about/info/</link>
+      <link>https://mx.pyladies.com/about/info/</link>
       <pubDate>Wed, 04 May 2016 19:04:53 -0500</pubDate>
       
-      <guid>https://yourdomain.com/about/info/</guid>
+      <guid>https://mx.pyladies.com/about/info/</guid>
       <description>
 
-&lt;h2 id=&#34;organizer:6287b96b2ebce4bb09e860d1e6de8b04&#34;&gt;Organizer&lt;/h2&gt;
+&lt;h2 id=&#34;organizer&#34;&gt;Organizer&lt;/h2&gt;
 
 &lt;p&gt;Erika Alejandra Peláez Coyotl.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Instituto de Fisiología Celular, UNAM&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;co-organizer:6287b96b2ebce4bb09e860d1e6de8b04&#34;&gt;Co-organizer&lt;/h2&gt;
+&lt;h2 id=&#34;co-organizer&#34;&gt;Co-organizer&lt;/h2&gt;
 
 &lt;p&gt;Dr. Erin Mckiernan.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Facultad de Ciencias, UNAM&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;email:6287b96b2ebce4bb09e860d1e6de8b04&#34;&gt;Email&lt;/h2&gt;
+&lt;h2 id=&#34;email&#34;&gt;Email&lt;/h2&gt;
 
 &lt;p&gt;mx@pyladies.com&lt;/p&gt;
 </description>
@@ -37,17 +37,17 @@
     
     <item>
       <title>Aprender a programar, ¿por dónde empezar?</title>
-      <link>https://yourdomain.com/post/resources/</link>
+      <link>https://mx.pyladies.com/post/resources/</link>
       <pubDate>Thu, 05 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://yourdomain.com/post/resources/</guid>
+      <guid>https://mx.pyladies.com/post/resources/</guid>
       <description>
 
 &lt;p&gt;Es muy común que cuando finalmente decidiste que quieres entrar al mundo de la programación te encuentres en una posición de no saber por dónde empezar. La
 recomendación de Pyladies es por supuesto empezar a programar con Python. Así que en este post te explicaremos por qué usar Python y también te mostraremos
 algunos materiales de interés en la programación.&lt;/p&gt;
 
-&lt;h3 id=&#34;por-qué-python:74f7fb04a75e766307d398251c369a21&#34;&gt;¿Por qué Python?&lt;/h3&gt;
+&lt;h3 id=&#34;por-qué-python&#34;&gt;¿Por qué Python?&lt;/h3&gt;
 
 &lt;p&gt;Pues Python resulta ser un &lt;a href=&#34;http://culturacion.com/que-es-un-lenguaje-de-programacion-interpretado/&#34;&gt;lenguaje de programación interpretado&lt;/a&gt; que se caracteriza
 por tener una sintaxis bastante entendible, lo cual facilita el aprendizaje y te deja enfocarte en los conceptos o programas que quieras desarrollar sin tener
@@ -59,7 +59,7 @@ detectamos algo que se necesite cambiar.&lt;/p&gt;
 &lt;p&gt;Finalmente, al ser Python un lenguaje muy popular, podemos encontrar un sin fin de materiales en la web que van desde los conceptos más básicos de Python
 hasta las cosas más complicadas o especializadas de su uso.&lt;/p&gt;
 
-&lt;h3 id=&#34;lista-de-materiales-interesantes:74f7fb04a75e766307d398251c369a21&#34;&gt;Lista de materiales interesantes&lt;/h3&gt;
+&lt;h3 id=&#34;lista-de-materiales-interesantes&#34;&gt;Lista de materiales interesantes&lt;/h3&gt;
 
 &lt;p&gt;Cómo les dije anteriormente hay muchísimos recursos en línea para aprender a programar. Aquí les dejo una lista de direcciones de páginas con contenido interesante&lt;/p&gt;
 
@@ -92,10 +92,10 @@ hasta las cosas más complicadas o especializadas de su uso.&lt;/p&gt;
     
     <item>
       <title>Evento de Bienvenida</title>
-      <link>https://yourdomain.com/post/bienvenida/</link>
+      <link>https://mx.pyladies.com/post/bienvenida/</link>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://yourdomain.com/post/bienvenida/</guid>
+      <guid>https://mx.pyladies.com/post/bienvenida/</guid>
       <description>&lt;p&gt;La primera edición de reuniones mensuales resultó ser todo un ¡éxito!. Logramos reunirnos más de 40 entusiastas de python (hombres y mujeres)
 para escuchar las pláticas y el taller impartido.&lt;/p&gt;
 
@@ -110,15 +110,15 @@ en la programación con Python.&lt;/p&gt;
 
 &lt;p&gt;Aquí les dejo unas fotos del evento.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://yourdomain.com/img/20160428_142434.jpg&#34; alt=&#34;Python en la industria&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mx.pyladies.com/img/20160428_142434.jpg&#34; alt=&#34;Python en la industria&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Ricardo Corral resp&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://yourdomain.com/img/20160428_145603.jpg&#34; alt=&#34;Instalación de Python&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mx.pyladies.com/img/20160428_145603.jpg&#34; alt=&#34;Instalación de Python&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Taller Instalación de Python.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://yourdomain.com/img/20160428_145634.jpg&#34; alt=&#34;Cuadernos de jupyter&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mx.pyladies.com/img/20160428_145634.jpg&#34; alt=&#34;Cuadernos de jupyter&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Cuadernos de jupyter.&lt;/p&gt;
 
@@ -133,19 +133,19 @@ de github en &lt;a href=&#34;https://github.com/PyladiesMx/Empezando-con-Python/
     
     <item>
       <title>Bienvenida a Pyladies Ciudad de México!</title>
-      <link>https://yourdomain.com/about/Acerca/</link>
+      <link>https://mx.pyladies.com/about/Acerca/</link>
       <pubDate>Wed, 13 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://yourdomain.com/about/Acerca/</guid>
+      <guid>https://mx.pyladies.com/about/Acerca/</guid>
       <description>
 
-&lt;h2 id=&#34;acerca-de-pyladies:7b830d8374de0d70ff2e832b83b77699&#34;&gt;Acerca de Pyladies&amp;hellip;&lt;/h2&gt;
+&lt;h2 id=&#34;acerca-de-pyladies&#34;&gt;Acerca de Pyladies&amp;hellip;&lt;/h2&gt;
 
 &lt;p&gt;La idea de este proyecto es construir una comunidad de mujeres dedicadas a aprender y enseñar código en Python. El objetivo principal es ayudarte a desarrollar
 tus habilidades en la programación y la tecnología. Para nosotras el mundo tecnológico también puede y debería estar lleno de mujeres en todos los niveles.
 ¡Python es divertido! así que ¡¡ven a divertirte con nosotras!!&lt;/p&gt;
 
-&lt;h2 id=&#34;reuniones:7b830d8374de0d70ff2e832b83b77699&#34;&gt;Reuniones&lt;/h2&gt;
+&lt;h2 id=&#34;reuniones&#34;&gt;Reuniones&lt;/h2&gt;
 
 &lt;p&gt;Nuestras reuniones se llevan a cabo cada Jueves (excepto en días feriados) y hay un evento especial cada mes. Si quieres más información al respecto únente a
 nosotras a través de &lt;a href=&#34;http://www.meetup.com/Mexico-City-Pyladies-Meetup/&#34;&gt;&lt;strong&gt;meetup&lt;/strong&gt;&lt;/a&gt;. ¡¡Te esperamos!!&lt;/p&gt;
@@ -154,18 +154,18 @@ nosotras a través de &lt;a href=&#34;http://www.meetup.com/Mexico-City-Pyladies
     
     <item>
       <title>Welcome to Pyladies Mexico City!</title>
-      <link>https://yourdomain.com/about/welcome/</link>
+      <link>https://mx.pyladies.com/about/welcome/</link>
       <pubDate>Wed, 13 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://yourdomain.com/about/welcome/</guid>
+      <guid>https://mx.pyladies.com/about/welcome/</guid>
       <description>
 
-&lt;h2 id=&#34;about-pyladies:2cc7dc244eed4480e8b46c91e911e96b&#34;&gt;About Pyladies&amp;hellip;&lt;/h2&gt;
+&lt;h2 id=&#34;about-pyladies&#34;&gt;About Pyladies&amp;hellip;&lt;/h2&gt;
 
 &lt;p&gt;This is a community constructed with the idea that all women not only can, but should code. Here we will help you develope your coding skills using the
 popular programming language Python. Python is fun! so come have fun with us!!&lt;/p&gt;
 
-&lt;h2 id=&#34;meetings:2cc7dc244eed4480e8b46c91e911e96b&#34;&gt;Meetings&lt;/h2&gt;
+&lt;h2 id=&#34;meetings&#34;&gt;Meetings&lt;/h2&gt;
 
 &lt;p&gt;We have meetings every Thursday (except for holidays) and a monthly event. To keep up with our meetings and events become a member in &lt;a href=&#34;http://www.meetup.com/Mexico-City-Pyladies-Meetup/&#34;&gt;&lt;strong&gt;meetup&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
