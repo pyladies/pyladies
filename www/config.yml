@@ -514,7 +514,7 @@ chapters:
             latitude: 41.6449294
             longitude: -112.2535647
 
-- name:      Salvador, Brazil
+    - name:      Salvador, Brazil
       website: http://salvador.pyladies.com/
       external_website: true
       image: pyladies_salvador_logo.png
