@@ -340,6 +340,20 @@ chapters:
             latitude: 45.4667971
             longitude: 9.1904984
 
+    - name:      Melbourne, Australia
+      website: http://melbourne.pyladies.com/
+      external_website: true
+      meetup_id: 19669577
+      image: pyladies_melbourne.jpeg
+      email: melbourne@pyladies.com
+      twitter: PyLadiesMEL
+      github: pyladiesmelbourne
+      meetup: PyLadies-Melbourne
+      facebook: pyladiesau
+      location:
+            latitude: -37.813611
+            longitude: 144.963056
+
     - name:      Montreal, Canada
       meetup_id: 14872062
       website: mtl
