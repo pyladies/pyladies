@@ -642,6 +642,16 @@ chapters:
             latitude: 59.3251172
             longitude: 18.0710935
 
+    - name:      Sydney, Australia
+      meetup_id: 18987204
+      email: sydney@pyladies.com
+      facebook: pyladiesau
+      twitter:  sydneypyladies
+      meetup: Sydney-PyLadies
+      location:
+            latitude: -33.865
+            longitude: 151.209444
+
     - name:      Taiwan
       meetup_id: 14748112
       website: http://tw.pyladies.com
