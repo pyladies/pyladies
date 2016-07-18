@@ -515,6 +515,18 @@ chapters:
             latitude: 41.6449294
             longitude: -112.2535647
 
+    - name:      Salvador, Brazil
+      website: http://salvador.pyladies.com/
+      external_website: true
+      image: pyladies_salvador_logo.png
+      email: salvador@pyladies.com
+      facebook: PyLadiesSalvador
+      github: PyLadiesSalvador
+      meetup: PyLadies-Bahia
+      location:
+            latitude: -12.9704
+            longitude: -38.5124
+
     # - name:      San Antonio
     #   meetup_id: 12994802
 
