@@ -329,6 +329,17 @@ chapters:
             latitude: 34.053717
             longitude: -118.2427266
 
+    - name: Maceio, Brazil
+      meetup_id: 203416475
+      image: pyladies_maceio.png
+      email: maceio@pyladies.com
+      twitter: "@maceiopyladies"
+      facebook: www.facebook.com/profile.php?id=100011766016329
+      meetup: Maceio PyLadies
+      location:
+            latitude: -9.6498487
+            longitude: -35.708949200000006
+
     - name:      Milan, Italy
       meetup_id: 186995752
       image: pyladies_dc_atl_sea_tor.png
@@ -702,14 +713,3 @@ chapters:
       location:
             latitude: 38.8949549
             longitude: -77.0366456
-
-    - name: Maceio, Brazil
-      meetup_id: 203416475
-      image: pyladies_maceio.png
-      email: maceio@pyladies.com
-      twitter: "@maceiopyladies"
-      facebook: www.facebook.com/profile.php?id=100011766016329
-      meetup: Maceio PyLadies
-      location:
-            latitude: -9.6498487
-            longitude: -35.708949200000006
