@@ -12,7 +12,7 @@ machine:
 ## Customize dependencies
 dependencies:
   pre:
-    - pip install mynt==0.2.3 Fabric==1.10.2
+    - pip install mynt==0.3.1 Fabric==1.10.2
 
 ## Customize database setup
 
