@@ -36,6 +36,8 @@ If you wish to include images, they must be 500 pixels wide or less. You must ow
 
 A cheatsheet for Markdown commands is at [http://daringfireball.net/projects/markdown/syntax][1].
 
+For a list of special character encodings you can reference this [Wiki article](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references). Example `&#233;` would include a lower case e with an accute accent.
+
 2. The very top of the blog post needs the following (including the three dashes before and after the layout/title/tags):
 
 ```
