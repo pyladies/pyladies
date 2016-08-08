@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Pyladies</title>
-    <link>https://mx.pyladies.com/tags/python/</link>
+    <link>/tags/python/</link>
     <description>Recent content in Python on Pyladies</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 May 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mx.pyladies.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Aprender a programar, ¿por dónde empezar?</title>
-      <link>https://mx.pyladies.com/post/resources/</link>
+      <link>/post/resources/</link>
       <pubDate>Thu, 05 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://mx.pyladies.com/post/resources/</guid>
+      <guid>/post/resources/</guid>
       <description>
 
 &lt;p&gt;Es muy común que cuando finalmente decidiste que quieres entrar al mundo de la programación te encuentres en una posición de no saber por dónde empezar. La
@@ -66,10 +66,10 @@ hasta las cosas más complicadas o especializadas de su uso.&lt;/p&gt;
     
     <item>
       <title>Evento de Bienvenida</title>
-      <link>https://mx.pyladies.com/post/bienvenida/</link>
+      <link>/post/bienvenida/</link>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://mx.pyladies.com/post/bienvenida/</guid>
+      <guid>/post/bienvenida/</guid>
       <description>&lt;p&gt;La primera edición de reuniones mensuales resultó ser todo un ¡éxito!. Logramos reunirnos más de 40 entusiastas de python (hombres y mujeres)
 para escuchar las pláticas y el taller impartido.&lt;/p&gt;
 
@@ -84,15 +84,15 @@ en la programación con Python.&lt;/p&gt;
 
 &lt;p&gt;Aquí les dejo unas fotos del evento.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://mx.pyladies.com/img/20160428_142434.jpg&#34; alt=&#34;Python en la industria&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../img/20160428_142434.jpg&#34; alt=&#34;Python en la industria&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Ricardo Corral resp&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://mx.pyladies.com/img/20160428_145603.jpg&#34; alt=&#34;Instalación de Python&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../img/20160428_145603.jpg&#34; alt=&#34;Instalación de Python&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Taller Instalación de Python.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://mx.pyladies.com/img/20160428_145634.jpg&#34; alt=&#34;Cuadernos de jupyter&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../img/20160428_145634.jpg&#34; alt=&#34;Cuadernos de jupyter&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Cuadernos de jupyter.&lt;/p&gt;
 
@@ -107,10 +107,10 @@ de github en &lt;a href=&#34;https://github.com/PyladiesMx/Empezando-con-Python/
     
     <item>
       <title>Bienvenida a Pyladies Ciudad de México!</title>
-      <link>https://mx.pyladies.com/about/Acerca/</link>
+      <link>/about/Acerca/</link>
       <pubDate>Wed, 13 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://mx.pyladies.com/about/Acerca/</guid>
+      <guid>/about/Acerca/</guid>
       <description>
 
 &lt;h2 id=&#34;acerca-de-pyladies&#34;&gt;Acerca de Pyladies&amp;hellip;&lt;/h2&gt;
@@ -128,10 +128,10 @@ nosotras a través de &lt;a href=&#34;http://www.meetup.com/Mexico-City-Pyladies
     
     <item>
       <title>Welcome to Pyladies Mexico City!</title>
-      <link>https://mx.pyladies.com/about/welcome/</link>
+      <link>/about/welcome/</link>
       <pubDate>Wed, 13 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://mx.pyladies.com/about/welcome/</guid>
+      <guid>/about/welcome/</guid>
       <description>
 
 &lt;h2 id=&#34;about-pyladies&#34;&gt;About Pyladies&amp;hellip;&lt;/h2&gt;

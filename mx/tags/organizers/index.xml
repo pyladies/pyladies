@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Organizers on Pyladies</title>
-    <link>https://mx.pyladies.com/tags/organizers/</link>
+    <link>/tags/organizers/</link>
     <description>Recent content in Organizers on Pyladies</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 04 May 2016 19:04:53 -0500</lastBuildDate>
-    <atom:link href="https://mx.pyladies.com/tags/organizers/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/organizers/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Organizers</title>
-      <link>https://mx.pyladies.com/about/info/</link>
+      <link>/about/info/</link>
       <pubDate>Wed, 04 May 2016 19:04:53 -0500</pubDate>
       
-      <guid>https://mx.pyladies.com/about/info/</guid>
+      <guid>/about/info/</guid>
       <description>
 
 &lt;h2 id=&#34;organizer&#34;&gt;Organizer&lt;/h2&gt;

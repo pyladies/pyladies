@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://mx.pyladies.com/</loc>
+    <loc>/</loc>
     <lastmod>2016-05-04T19:04:53-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mx.pyladies.com/about/info/</loc>
+    <loc>/about/info/</loc>
     <lastmod>2016-05-04T19:04:53-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mx.pyladies.com/post/resources/</loc>
+    <loc>/post/resources/</loc>
     <lastmod>2016-05-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mx.pyladies.com/post/bienvenida/</loc>
+    <loc>/post/bienvenida/</loc>
     <lastmod>2016-04-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mx.pyladies.com/about/Acerca/</loc>
+    <loc>/about/Acerca/</loc>
     <lastmod>2016-04-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mx.pyladies.com/about/welcome/</loc>
+    <loc>/about/welcome/</loc>
     <lastmod>2016-04-13T00:00:00+00:00</lastmod>
   </url>
   
