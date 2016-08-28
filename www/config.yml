@@ -474,6 +474,20 @@ chapters:
             latitude: 45.5202471
             longitude: -122.6741949
 
+    - name:   PUC-Rio, Rio de Janeiro, Brazil
+      website: http://pucrio.pyladies.com
+      external_website: true
+      image: pyladies_pucrio.jpg
+      email: puc@pyladies.org
+      facebook: PyLadiesPUCRio
+      github: PyLadiesPUCRio
+      twitter: PyLadiesPUCRio
+      meetup: PyLadies-PUC-Rio
+      meetup_id: 20361097
+      location:
+            latitude: -22.9082998
+            longitude: -43.1970773
+
     - name:      Pune, India
       website: http://pune.pyladies.com/
       external_website: true
