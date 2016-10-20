@@ -739,3 +739,11 @@ chapters:
       location:
             latitude: 38.8949549
             longitude: -77.0366456
+            
+    - name: Budapest, HU
+      website: budapest.pyladies.com
+      image: pyladies_budapest.jpg
+      email: budapest@pyladies.com 
+      location:
+          latitude: 47.498417
+          longitude: 19.040601
