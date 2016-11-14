@@ -1,0 +1,69 @@
+.pyladies-image img {height: 250px;
+	width: 250px;
+	display: block;
+    margin-left: auto;
+    padding-top: 20px;
+    margin-right: auto;
+}
+ .links{padding-top: 20px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+    
+    
+}
+.links ul li{
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.images{
+    height:60px;
+    width:60px;
+}
+h2{
+    color:rgb(255,165,0);
+    font-family:sans-serif;
+}
+p{font-size: 18px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Lucida Sans  Unicode,sans-serif;}
+    .link{
+        color:#00FFFF;
+        text-decoration: none;
+        
+    }
+.heading_images{
+    height:80px;
+    width: 80px;
+}
+.about_us{
+    float:left;
+}
+
+.sponsors{
+    float:left;
+
+}
+#cryptogirls_logo{
+    height:150px;
+    width:150px;
+    padding-left: 20px;
+}
+#organisers_box {
+	float: left;
+}
+
+#organisers_box ul li {
+	display: inline-block;
+	padding-left: 50px;
+}
+
+#organisers_box ul li a{
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+}
