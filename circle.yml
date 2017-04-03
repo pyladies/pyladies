@@ -5,14 +5,15 @@
 machine:
 
   python:
-    version: 2.7.6
+    version: 2.7.11
 
 ## Customize checkout (needed if using git submodules)
 
 ## Customize dependencies
 dependencies:
-  pre:
-    - pip install mynt==0.3.1 Fabric==1.10.2
+  override:
+    - python2 -m pip install -U pip
+    - python2 -m pip install -r requirements.txt
 
 ## Customize database setup
 
@@ -27,7 +28,6 @@ test:
 deployment:
   production:
     branch: master
-    commands:
-      - fab deploy_www
+    commands: fab deploy_www
 
 ## Custom notifications
