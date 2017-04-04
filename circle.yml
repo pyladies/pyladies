@@ -25,11 +25,11 @@ test:
 ## Customize deployment commands
 ## https://circleci.com/docs/language-python
 ## TODO: check env variables being set correctly, directories, permissions
-# deployment:
-#   production:
-#     branch: master
-#     commands:
-#         - fab prep_www_deploy
-#         - fab rsync_www
+deployment:
+  production:
+    branch: master
+    commands:
+        - fab prep_www_deploy
+        - fab rsync_www
 
 ## Custom notifications
