@@ -4,7 +4,7 @@
 <head>
   {% include 'page.header.html' %}
 
-  {% if site.title %}<title>{% if title %}{{ title }} &ndash; {% endif %}{{ site.title }}{% if not title and site.subtitle %} &ndash; {{ site.subtitle }}{% endif %}</title>{% endif %}
+  {% if site.slug %}<title>{% if title %}{{ title }} &ndash; {% endif %}{{ site.slug }}{% if not title and site.subtitle %} &ndash; {{ site.subtitle }}{% endif %}</title>{% endif %}
 </head>
 
 <body>
@@ -18,7 +18,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ get_url() }}">{{ site.title }}</a>
+            <a class="navbar-brand" href="{{ get_url() }}">{{ site.slug }}</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
