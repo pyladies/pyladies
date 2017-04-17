@@ -223,7 +223,15 @@ chapters:
             latitude: -25.4167
             longitude: -49.2500
 
-
+ name: India,Ahmedabad
+      meetup_id: 2292132
+      website: www.gtu.ac.in
+      email: gtu@pyladies.com
+      twitter: -
+      meetup: admingtu@#
+      location:
+            latitude:23.253627
+            longitude: 72.6338228
     - name: Dallas, TX
       meetup_id: 2292131
       website: dallas
