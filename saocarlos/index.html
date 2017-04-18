@@ -31,14 +31,16 @@
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
   -->
-  <link rel="stylesheet" href="css/bootstrap.css">
 
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/slick.css">
-  <link rel="stylesheet" href="js/rs-plugin/css/settings.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 
-  <link rel="stylesheet" href="css/berry.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="js/rs-plugin/css/settings.css">
+
+    <link rel="stylesheet" href="css/berry.css">
+    <link rel="stylesheet" href="css/modal.css"/>
 
 
   <script type="text/javascript" src="js/modernizr.custom.32033.js"></script>
@@ -124,7 +126,7 @@
                 Python
               </div>
               <div class="tp-caption large_white_light sfr" data-x="770" data-y="center" data-hoffset="0" data-voffset="-80" data-speed="500" data-start="1400" data-easing="Power4.easeOut">
-                Por que?
+                Por quê?
               </div>
               <div class="tp-caption medium_light_white sfb sfb visible-xs" data-x="center" data-y="center" data-hoffset="0" data-voffset="80" data-speed="1000" data-start="1600" data-easing="Power4.easeOut">
                 <p>"Python é uma linguagem muito versátil, usada não só <br>no desenvolvimento Web mas em muitos outros tipos de aplicação."<br>- python Brasil</p> 
@@ -208,6 +210,66 @@
           
     </div>
 </div>
+            <!-- Modal Example -->
+            <div class="modal fade" id="about-ana" tabindex="-1" role="dialog" aria-labelledby="sendMessagelLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <img class="pyladies img img-responsive" src="img/berry/logo.png" alt=""/>
+                            <!--<p class="pyladies text-center">PyLadies</p><p class="sanca text-center">São Carlos</p>-->
+                            <!--<h4 class="modal-title" id="sendMessagelLabel">Modal Teste</h4>-->
+                        </div>
+                        <div class="modal-body">
+                            <img id="img" class="img img-responsive img-rounded" src="http://placehold.it/80x80" alt="Responsive imagem"/>
+                            <h2 class="name">Ana Dulce</h2>
+                            <div class="about-members">
+                                <h4><i class="fa fa-graduation-cap"></i> Cursando Bacharelado em Ciência da Computação</h4>
+                                <ul class="info list-unstyled ">
+                                    <li class="universidade"><i class="fa fa-university"></i><a href="#"> Universidade Federal de São Carlos - (UFSCar)</a></li>
+                                </ul>
+
+
+
+                                <ul class="info list-unstyled">
+                                    <li><i class="fa fa-envelope-o"></i><a href="#"> anadulce@email.com</a></li>
+                                    <li><i class="fa fa-link"></i><a href="#"> anadulce.com</a></li>
+                                    <li><i class="fa fa-flask"></i><a href="#"> Curriculum Lattes</a></li>
+                                </ul>
+                            </div><!--//about-->
+
+                            <div class="information">
+                                <h4><i class="fa fa-info-circle"></i> Informações Adicionais</h4>
+                                <span>Mussum ipsum cacilds, vidis litro abertis. <br/>Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. </span>
+                            </div><!--//information-->
+
+                            <div class="social-midia">
+                                <ul class="list-inline">
+                                    <h4 class="list-group-item-heading">Social mídia</h4>
+                                    <li><a href="#"><span class="sr-only">Facebook</span><i class="fa fa-facebook-square fa-2x"></i></a></li>
+                                    <li><a href="#"><span class="sr-only">Google+</span><i class="fa fa-google-plus-square fa-2x"></i></a></li>
+                                    <li><a href="#"><span class="sr-only">Twitter</span><i class="fa fa-twitter-square fa-2x"></i></a></li>
+                                    <li><a href="#"><span class="sr-only">Linkedin</span><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+                                    <li><a href="#"><span class="sr-only">Github</span><i class="fa fa-github-square fa-2x"></i></a></li>
+                                </ul>
+                            </div><!--//social-->
+                        </div><!--//modal-body-->
+
+                        <div class="modal-footer">
+                            <div class="text-left">
+                                <h6>Citação Favorita</h6>
+                                <blockoute>
+                                    <i class="fa fa-quote-left"><span class="sr-only">Citação Favorita</span> frase de um grande pensador <i class="fa fa-quote-right"></i></i>
+                                </blockoute>
+                                <sup class="text-left">fulano de tal</sup>
+                            </div>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Fechar</button>
+                        </div><!--//footer-->
+                    </div><!--//modal-content-->
+                </div><!--//modal-dialog-->
+            </div><!--//modal-->
+
+
 </header>
 
 <div class="wrapper">
@@ -267,16 +329,17 @@
         <div class="row">
           <div class="col-md-4 col-sm-4 scrollpoint sp-effect1">
             <div class="media media-left feature">
-              <a class="pull-right" href="#">
+              <a class="pull-right" href="#" data-toggle="modal" data-target="#about-ana">
                 <img src="img/berry/members/ana.png"alt=""/>
               </a>
               <div class="media-body">
                 <h3 class="media-heading">Ana Dulce</h3>
                 Estudante CComputação UFSCar
+                  <p><a class="more-info" href="#" data-toggle="modal" data-target="#about-ana">Sobre mim</a></p>
               </div>
             </div>
             <div class="media media-left feature">
-              <a class="pull-right" href="#">
+              <a class="pull-right" href="test.html" data-toggle="modal" data-target="#about-barbara">
                 <img src="img/berry/members/barbara.png"alt=""/>
               </a>
               <div class="media-body">
@@ -530,7 +593,7 @@
               <div class="container">
 
                 <div class="section-heading scrollpoint sp-effect3">
-                  <h1>Nosso projetos e eventos!</h1>
+                  <h1>Nossos projetos e eventos!</h1>
                   <div class="divider"></div>
                   <p>Em construção...</p>
                 </div>
@@ -657,6 +720,7 @@
               </footer>
 
             </div>
+
             <script src="js/jquery-1.11.1.min.js"></script>
             <script src="js/bootstrap.min.js"></script>
             <script src="js/slick.min.js"></script>
@@ -665,6 +729,7 @@
             <script src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
             <script src="js/waypoints.min.js"></script>
             <script src="js/scripts.js"></script>
+            <script type="text/javascript" src="js/custom.js"></script>
             <script>
             $(document).ready(function() {
               appMaster.preLoader();
