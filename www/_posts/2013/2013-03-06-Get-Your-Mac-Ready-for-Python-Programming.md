@@ -99,7 +99,7 @@ You have a lot of powerful tools on your machine, now and it may be a little ove
  [2]: http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything
  [3]: http://cli.learncodethehardway.org/book/
  [4]: http://mxcl.github.com/homebrew/
- [5]: http://www.pip-installer.org/en/1.3.X/
+ [5]: https://pip.pypa.io/en/stable/
  [6]: http://www.virtualenv.org/en/1.9.X/
  [7]: http://www.github.com
  [8]: http://lifehacker.com/5983680/how-the-heck-do-i-use-github
