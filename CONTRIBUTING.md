@@ -32,11 +32,12 @@ If you wish to include images, they must be 500 pixels wide or less. You must ow
 
 ## Formatting
 
-1. Write your guest post in Markdown (Suggestion: Mou.app for mac is created for Markdown - gives you a preview while you write) (Suggestion #2: http://dillinger.io/ is a web app that provides a live preview when you're writing in Markdown).
+* **Write your guest post in Markdown**. Here are tools to help:
+  * Mou.app for mac is created for Markdown - gives you a preview while you write
+  * http://dillinger.io/ is a web app that provides a live preview when you're writing in Markdown
+  * A cheatsheet for Markdown commands is at [http://daringfireball.net/projects/markdown/syntax][1].
 
-A cheatsheet for Markdown commands is at [http://daringfireball.net/projects/markdown/syntax][1].
-
-2. The very top of the blog post needs the following (including the three dashes before and after the layout/title/tags):
+* **Include the following at the top** (including the three dashes before and after):
 
 ```
 ---
@@ -81,5 +82,5 @@ If you're new to contributing to open source, or just new to contributing to the
 
 Just fork the project, make your changes, and submit a pull request! Follow the setup instructions in the [README.md](https://github.com/pyladies/pyladies) to get the site running locally on your machine. 
 
-New to Git? Check out the [tutorial on tryGit](https://try.github.io/levels/1/challenges/1), a tutorial by GitHub and Codeschool. 
+New to Git? Check out the [tutorial on tryGit](https://try.github.io/levels/1/challenges/1), a tutorial by GitHub and Code School. 
 
