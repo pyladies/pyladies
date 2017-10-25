@@ -10,24 +10,22 @@ This document is curated by PyLadies and shared with the entire Python community
 
 ### PyCon Talk Proposals and CFP
 
-[PyCon 2015 Call for Proposals (CFP)](https://us.pycon.org/2015/speaking/cfp/)
+[PyCon 2018 Call for Proposals (CFP)](https://us.pycon.org/2018/speaking/talks/)
 
-[PyCon blog post about CFP](http://pycon.blogspot.com/2014/08/pycon-2015-call-for-proposals-is-open.html)
+[PyCon blog post about CFP](https://pycon.blogspot.com/2017/09/pycon-2018-call-for-proposals-is-open.html)
 
-[PyLadies CfP Brainstorm Workshops](https://pyladies-pycon-2015.eventbrite.com)
+### PyCon 2018 Important Dates
 
-### PyCon 2015 Important Dates
+A list of [important dates](https://us.pycon.org/2018/speaking/), including financial aid, can be found on the PyCon website.
 
-A list of [important dates](https://us.pycon.org/2015/speaking/cfp/), including financial aid, can be found on the PyCon website.
-
-
-* CFP Talks Close: September 15, 2014
+* Tutorials CFP deadline: November 24, 2017
+* Talk, Poster, and Education Summit CFP deadline: January 3, 2014
 * CFP Poster Close: November 1, 2014
 
 *Financial Aid*
 
-* Financial aid application opens: September 1, 2014
-* Financial aid application closes: January 1, 2015
+* [Financial aid application](https://us.pycon.org/2018/financial-assistance/) opens: October 23, 2017
+* Financial aid application closes: February 15, 2018.
 
 
 ### Choose your own speaking adventure
@@ -50,44 +48,39 @@ Whatever you choose, remember "your" Python experiences, whether beginner, advan
 
 ### Official resources and links from PyCon
 
-* [Proposal Resources](https://us.pycon.org/2015/speaking/proposal-resources/)
-* [Advice](https://us.pycon.org/2015/speaking/proposal_advice/)
-* [Sample Proposal](https://us.pycon.org/2015/speaking/proposal_advice/samples/SpacePug/)
+* [Topics and Advice](https://us.pycon.org/2018/speaking/talks/)
+* Speaker Mentors are available! Indicate your interest on your Speaker Profile when you submit your proposal. 
+* PyCon links to Brandon Rhodes's [example proposals](http://rhodesmill.org/brandon/2013/example-pycon-proposals/)
 
-
-### Cultivated Resources
-
-Need help brainstorming?  PyLadies is hosting Google Hangout sessions!  Checkout our [event](https://pyladies-pycon-2015.eventbrite.com) for more details!
 
 #### Speaking
 
-- [Speaker support of awesomeness](http://juliepagano.com/blog/2014/06/30/speaker-support-of-awesomeness/)
-- [Speak Up! Welcome and mission](http://speakup.io/)
-- [Speaking Resources from Speak Up!](http://speakup.io/resources.html)
-- [CR@P I'M SPEAKING AT [insert conference here]! How do I prepare?](http://www.roguelynn.com/words/crap-im-speaking/)
-- [Pro tips for conference talks](http://www.craigkerstiens.com/2012/06/19/pro-tips-for-conference-talks/)
-- [25 minutes is a ...](http://nedbatchelder.com/blog/201002/25_minutes_is_a_bitch.html)
-- [Presentation tips: entertain, educate, practice](http://nedbatchelder.com/text/presentationtips.html)
-- [PyCon 2014 Proposal Brainstorming Sessions (the video clips say it all)](http://www.pyladies.com/blog/pycon-2014-cfp-brainstorm/)
-- [You would make an awesome speaker](http://weareallaweso.me/)
+- [Speaker support of awesomeness](http://juliepagano.com/blog/2014/06/30/speaker-support-of-awesomeness/), Julie Pagano
+- [CR@P I'M SPEAKING AT [insert conference here]! How do I prepare?](http://www.roguelynn.com/words/crap-im-speaking/), Lynn Root
+- [Pro tips for conference talks](http://www.craigkerstiens.com/2012/06/19/pro-tips-for-conference-talks/), Craig Kerstiens
+- [25 minutes is a ...](http://nedbatchelder.com/blog/201002/25_minutes_is_a_bitch.html), Ned Batchelder
+- [Presentation tips: entertain, educate, practice](http://nedbatchelder.com/text/presentationtips.html), Ned Batchelder
+- [You would make an awesome speaker](http://weareallaweso.me/), We Are All Awesome
+- [How to become a public speaker in 1 year](http://cattsmall.com/advice/2016/06/13/become-public-speaker-introduction.html), Catt Small 
+- [Public Speaking for Nerds](http://www.mechanicalgirl.com/post/public-speaking-nerds/), Barbara Shaurette
 
 
 #### Watching talks for inspiration
 
-["You can be a speaker at PyCon" by Anna Ravenscroft (PyCon 2013)](https://www.youtube.com/watch?v=myzQXKuQjac)
+* ["You can be a speaker at PyCon"](https://www.youtube.com/watch?v=myzQXKuQjac) by Anna Ravenscroft (PyCon 2013)
+* ["PyLadies Remote: Your First Conference Proposal"](https://www.youtube.com/watch?v=OAQAXVU1jIo) by Lacey Williams Henschel (PyLadies Remote 2016)
 
 Past PyCon talks can be found at <http://pyvideo.org>.
 
 
 #### Crafting a good talk proposal
 
-- ["What your conference proposal is missing"](http://www.sarahmei.com/blog/2014/04/07/what-your-conference-proposal-is-missing/)
-- ["Conference prompts or how to submit proposals and influence people"](http://www.noelrappin.com/railsrx/2014/1/18/conference-prompts-or-how-to-submit-proposals-and-influence-people)
-- ["What I learned from reading 429 conference proposals"](http://www.noelrappin.com/railsrx/2014/3/17/what-i-learned-from-reading-429-conference-proposals)
-- ["Example PyCon talk proposals"](http://rhodesmill.org/brandon/2013/example-pycon-proposals/)
+- ["What your conference proposal is missing"](http://www.sarahmei.com/blog/2014/04/07/what-your-conference-proposal-is-missing/), Sarah Mei
+- ["Conference prompts or how to submit proposals and influence people"](http://www.noelrappin.com/railsrx/2014/1/18/conference-prompts-or-how-to-submit-proposals-and-influence-people), Noel Rappin
+- ["What I learned from reading 429 conference proposals"](http://www.noelrappin.com/railsrx/2014/3/17/what-i-learned-from-reading-429-conference-proposals), Noel Rappin
 
 
 #### Encouraging talk submissions
 
-- [How to encourage new speakers](http://weareallaweso.me/for_curators/)
-- [Getting more women to submit talk proposals - PyLadies blog post](http://www.pyladies.com/blog/getting-more-women-to-submit-talk-proposals/)
+- [How to encourage new speakers](http://weareallaweso.me/for_curators/), We Are All Awesome
+- [Getting more women to submit talk proposals](http://www.pyladies.com/blog/getting-more-women-to-submit-talk-proposals/), PyLadies blog post
