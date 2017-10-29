@@ -6,7 +6,7 @@ category: [resources]
 ---
 
 
-[Django][django] is one of the most popular web frameworks. It's a great option if you want to use Python to build web apps.  Start with [the official Django poll tutorial][tutorial] or the [Django Girls blog tutorial][djangogirls].  [Two Scoops of Django: Best Practices For Django 1.8][twoscoops] was co-written by one of the co-founders of PyLadies! 
+[Django][django] is one of the most popular web frameworks. It's a great option if you want to use Python to build web apps.  Start with [the official Django polls tutorial][tutorial] or the [Django Girls blog tutorial][djangogirls].  [Two Scoops of Django: Best Practices For Django 1.11][twoscoops] was co-written by one of the co-founders of PyLadies! 
 
 Some popular Django hosting options:
 
@@ -25,12 +25,12 @@ Experiment with all of them! Here are a few links to get you started.
 
 
 [django]: http://www.djangoproject.com/
-[tutorial]: https://docs.djangoproject.com/en/1.4/intro/tutorial01/
+[tutorial]: https://docs.djangoproject.com/en/stable/intro/tutorial01/
 [webfaction]: http://www.webfaction.com/
 [heroku]: https://heroku.com/
 [djangoheroku]: https://devcenter.heroku.com/articles/django
 [openshift]: http://openshift.redhat.com
-[twoscoops]: http://twoscoopspress.com/products/two-scoops-of-django-1-8
+[twoscoops]: https://www.twoscoopspress.com/collections/django/products/two-scoops-of-django-1-11
 [pyramid]: http://docs.pylonsproject.org/projects/pyramid/dev/
 [flask]: http://flask.pocoo.org/
 [appengine]: http://code.google.com/appengine/
