@@ -96,6 +96,15 @@ chapters:
     # - name:      Barcelona
     #   meetup_id: 10496402
 
+    - name: Belem, Brazil
+      external_website: true
+      image: pyladies_belem.jpg
+      email: belem@pyladies.com
+      facebook: pyladiesbelem
+      location:
+            latitude: -1.3410047
+            longitude: -48.5904714
+
     - name:      Belo Horizonte, Brazil
       website: http://bh.pyladies.com
       external_website: false
@@ -673,6 +682,16 @@ chapters:
             latitude: 23.9739374
             longitude: 120.9820179
 
+    - name: Teresina, Brazil
+      external_website: true
+      image: pyladies_teresina.png
+      email: teresina@pyladies.com
+      facebook: PyLadiesTeresina
+      twitter: pyladiesthe
+      location:
+            latitude: -5.1816948
+            longitude: -43.0212865
+
     - name:      Tokyo
       website: http://tokyo.pyladies.com/
       external_website: true
@@ -703,7 +722,7 @@ chapters:
             latitude: 33.8439408
             longitude: 9.400138
 
-    - name: Vale do Paraíba, Brazil
+    - name: Vale do Paraiba, Brazil
       website: http://vale.pyladies.com
       external_website: true
       image: pyladies_vale.jpg
