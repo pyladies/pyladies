@@ -19,7 +19,7 @@ def prep_www_deploy():
 
 def rsync_www():
     with lcd("www"):
-        rsync_project(local_dir="_site",
+        rsync_project(local_dir="_site/",
                       remote_dir="www/",
                       extra_opts="-ua")
 
