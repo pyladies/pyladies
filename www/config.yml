@@ -115,6 +115,17 @@ chapters:
       location:
             latitude: -19.912998
             longitude: -43.940933
+            
+    - name:      Aracati, Brazil
+      website: http://aracati.pyladies.com
+      external_website: false
+      image: pyladies-aracati.png
+      email: aracati@pyladies.com
+      twitter: PyladiesAracati
+      meetup:PyladeisAracati 
+      location:
+            latitude: -4.5611543
+            longitude: -37.7689913
 
     - name:      Berlin, Germany
       meetup_id: 9206152
