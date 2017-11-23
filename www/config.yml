@@ -277,6 +277,17 @@ chapters:
       location:
             latitude: 55.9531
             longitude: -3.1889
+            
+    
+    - name: Ghana
+      website: ghana.pyladies.com
+      image: pyladies_ghana.jpg
+      email: ghana@pyladies.com
+      twitter: PyladiesGhana
+      facebook: PyLadiesGhana
+      location:
+            latitude: 5.637852
+            longitude: -0.175781
 
     - name: Gujarat, India
       website: gtu.ac.in
