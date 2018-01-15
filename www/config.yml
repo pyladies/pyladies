@@ -299,6 +299,17 @@ chapters:
             latitude: 55.9531
             longitude: -3.1889
 
+    - name: Grand Rapids, MI
+      meetup_id: 22260794
+      image: pyladies_grandrapids.png
+      email: grandrapids@pyladies.com
+      twitter: PyladiesGR
+      facebook: pyladiesgrandrapids
+      meetup: PyLadiesGrandRapids
+      location:
+            latitude: 42.9634
+            longitude: -85.6681
+
     - name: Gujarat, India
       website: gtu.ac.in
       image: pyladies-sq-logo.png
