@@ -808,3 +808,14 @@ chapters:
       location:
             latitude: 38.8949549
             longitude: -77.0366456
+
+    - name: Mavs PyLadies
+      meetup_id: 95771702
+      website: mavs
+      image: pyladies-geek-grey-blue.png
+      email: mavs.pyladies.com
+      facebook: pyladiesmavs
+      meetup: PyLadies-Arlington
+      location:
+            latitude: 32.7302385
+            longitude: -97.1140594
