@@ -774,7 +774,7 @@ chapters:
       email: hcmc@pyladies.com
       facebook: PyladiesHCM
       twitter: pyladies1
-      meetup: tba
-      location: hcmc-pyladies
+      meetup: hcmc-pyladies
+      location:
             latitude: 10.776889
             longitude: 106.700806
