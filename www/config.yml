@@ -339,6 +339,16 @@ chapters:
             latitude: 60.1666277
             longitude: 24.9435079
 
+    - name: Ho Chi Minh, Vietnam
+      meetup_id: 248903240
+      email: hcmc@pyladies.com
+      facebook: PyladiesHCM
+      twitter: pyladies1
+      meetup: hcmc-pyladies
+      location:
+            latitude: 10.776889
+            longitude: 106.700806
+
     - name:      India
       meetup_id: 9042722
       image: pyladies_in.png
