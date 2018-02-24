@@ -49,6 +49,16 @@ chapters:
             latitude: -18.9333
             longitude: 47.5167
 
+    - name:      Aracati, Brazil
+      external_website: false
+      image: pyladies-aracati.png
+      email: aracati@pyladies.com
+      twitter: PyladiesAracati
+      meetup: PyladeisAracati
+      location:
+            latitude: -4.5611543
+            longitude: -37.7689913
+
     - name:      Atlanta, GA
       meetup_id: 4507652
       website: atl
