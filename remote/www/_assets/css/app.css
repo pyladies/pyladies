@@ -46,3 +46,7 @@ body {
 .jumbotron h1 {
   color: #DE0538;
 }
+
+.meetup .meetup_date {
+  margin: 0;
+}
