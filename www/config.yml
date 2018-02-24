@@ -359,6 +359,17 @@ chapters:
             latitude: 22.3511148
             longitude: 78.6677428
 
+    - name: Kampala, Uganda
+      meetup_id: 244079349
+      website: kampala
+      image: pyladies_kampala.png
+      email: kampala@pyladies.com
+      twitter: pyladieskla
+      meetup: pyladies-kampala
+      location:
+            latitude: 0.347596
+            longitude: 32.582520
+
     - name:      Kyoto
       website: http://pyladies-kyoto.connpass.com
       external_website: true
@@ -829,4 +840,3 @@ chapters:
       location:
             latitude: 38.8949549
             longitude: -77.0366456
-
