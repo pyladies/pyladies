@@ -768,12 +768,12 @@ chapters:
             longitude: -77.0366456
 
     - name: Ho Chi Minh, Vietnam
-      meetup_id: tba
+      meetup_id: 248903240
       website: hcmc
       image: tba
       email: hcmc@pyladies.com
       twitter: pyladies1
       meetup: tba
-      location:
+      location: hcmc-pyladies
             latitude: 10.776889
             longitude: 106.700806
