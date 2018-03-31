@@ -320,6 +320,8 @@ chapters:
             longitude: -3.1889
 
     - name: Grand Rapids, MI
+      website: http://grandrapids.pyladies.com
+      external_website: true
       meetup_id: 22260794
       image: pyladies_grandrapids.png
       email: grandrapids@pyladies.com
