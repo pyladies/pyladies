@@ -1,0 +1,519 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  vertical-align: baseline;
+  margin: 0px;
+  padding: 0px;
+  border-width: 0px;
+  font: inherit;
+  font-size: 100%;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+body {
+  background-color: #272727;
+  background-image: url("../images/bg.png");
+  background-position: left top;
+  background-repeat: repeat;
+  color: #d9d9d9;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+blockquote, dl, ol, p, pre, table, ul {
+  margin: 18px 0px;
+}
+
+blockquote {
+  overflow: hidden;
+  padding: 0px 18px;
+  background-color: #1f1f1f;
+}
+
+dl.horizontal > dd, .archives > dd, .archives-records > dd {
+  margin-left: 65px;
+}
+dl.horizontal > dd + dt, .archives > dd + dt, .archives-records > dd + dt {
+  margin-top: 18px;
+}
+dl.horizontal > dd + dt + dd, .archives > dd + dt + dd, .archives-records > dd + dt + dd {
+  margin-top: 18px;
+}
+dl.horizontal > dt, .archives > dt, .archives-records > dt {
+  float: left;
+  width: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h1, h2 {
+  line-height: 36px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+li {
+  position: relative;
+}
+ol > li:before, ul > li:before {
+  position: absolute;
+  color: #e6db74;
+}
+ol > li {
+  left: 22px;
+  margin-right: 22px;
+  counter-increment: item;
+}
+ol > li:before {
+  left: -22px;
+  width: 17px;
+  text-align: right;
+  content: counter(item,decimal) ".";
+}
+ul > li {
+  left: 12px;
+  margin-right: 12px;
+}
+ul > li:before {
+  left: -12px;
+  content: "\2022";
+}
+ul.unstyled > li, #nav > li, #breadcrumbs > li {
+  position: static;
+  left: auto;
+  margin-right: 0px;
+}
+ul.unstyled > li:before, #nav > li:before, #breadcrumbs > li:before {
+  position: static;
+  left: auto;
+  content: none;
+}
+
+ol, ul {
+  list-style-image: none;
+  list-style-position: inside;
+  list-style-type: none;
+}
+ol ol, ol ul, ul ol, ul ul {
+  margin: 0px;
+  margin-left: 20px;
+}
+
+ol {
+  counter-reset: item;
+}
+
+p {
+  text-align: justify;
+}
+
+pre {
+  padding: 0px 3px;
+  background-color: #1f1f1f;
+  font-family: "Envy Code R", "Ubuntu Mono", monospace;
+}
+
+table {
+  background-color: #1f1f1f;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 9px;
+}
+
+td > :first-child {
+  margin-top: 0px;
+}
+td > :last-child {
+  margin-bottom: 0px;
+}
+tr:nth-child(2n) > td {
+  background-color: #222222;
+}
+
+th {
+  background-color: #1a1a1a;
+  color: #e6db74;
+  font-style: italic;
+  font-weight: normal;
+  text-align: left;
+}
+
+a {
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -ms-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  transition: color 0.2s;
+  color: #a6ca48;
+  text-decoration: none;
+}
+a:hover {
+  color: #e6db74;
+}
+
+code {
+  padding: 0px 3px;
+  background-color: #1f1f1f;
+  color: #a6a6a6;
+  font-family: "Envy Code R", "Ubuntu Mono", monospace;
+  line-height: 17px;
+  white-space: pre;
+}
+pre code {
+  padding: 0px;
+  background-color: transparent;
+  color: #f8f8f2;
+  line-height: 18px;
+}
+table code {
+  background-color: #1a1a1a;
+}
+
+em {
+  font-style: italic;
+}
+
+img {
+  vertical-align: bottom;
+}
+a > img {
+  padding: 5px;
+  background-color: #1f1f1f;
+}
+
+strong {
+  font-weight: bold;
+}
+
+sub, sup {
+  font-size: 11px;
+  line-height: 0px;
+}
+
+sub {
+  vertical-align: sub;
+}
+
+sup {
+  vertical-align: super;
+}
+
+#container {
+  margin-top: 18px;
+  width: 960px;
+}
+
+#sidebar {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  padding: 0px 18px;
+  width: 255px;
+}
+
+#title {
+  margin-top: 18px;
+}
+
+#subtitle {
+  line-height: 18px;
+}
+
+#nav {
+  margin-top: 18px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding: 0px 18px;
+  width: 255px;
+}
+
+#breadcrumbs {
+  position: fixed;
+  top: 18px;
+  left: 309px;
+  margin: 0px;
+  padding: 9px;
+  width: 633px;
+}
+
+#content {
+  margin: 18px 0px;
+  margin-left: 309px;
+  width: 651px;
+}
+#content > :first-child {
+  margin-top: 0px;
+}
+#content > :last-child {
+  margin-bottom: 0px;
+}
+#breadcrumbs + #content {
+  margin-top: 72px;
+}
+
+.post-list > .post-title, .post-list > .post-meta {
+  padding: 9px;
+}
+.post-list > .post-title {
+  padding-bottom: 0px;
+  line-height: 18px;
+}
+.post-list > .post-meta {
+  padding-top: 0px;
+}
+
+.post-title, .post-meta {
+  padding: 12px;
+}
+
+.post-title {
+  padding-bottom: 0px;
+  line-height: 30px;
+}
+
+.post-meta {
+  margin-bottom: 18px;
+  padding-top: 0px;
+  line-height: 18px;
+}
+
+div.code {
+  margin: 18px 0px;
+}
+div.code > div {
+  overflow: auto;
+  max-height: 486px;
+}
+
+.highlighttable {
+  margin: 0px;
+}
+
+.linenodiv > pre, .highlight > pre {
+  margin: 0px;
+}
+
+.archives {
+  padding: 9px;
+}
+
+.archives-records {
+  margin: 0px;
+  padding: 0px;
+}
+
+#sidebar {
+  background-color: #1a1a1a;
+  background-image: url("../images/sbg.png");
+  background-position: left top;
+  background-repeat: repeat;
+  font-style: italic;
+}
+
+#title {
+  font-family: "Ubuntu Mono", sans-serif;
+  font-size: 36px;
+}
+#title > a {
+  color: white;
+}
+#title > a:hover {
+  color: #a6ca48;
+}
+
+#subtitle {
+  color: #a6a6a6;
+  font-size: 16px;
+}
+
+#nav {
+  font-family: "Ubuntu Mono", sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+#footer {
+  font-size: 11px;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+#breadcrumbs {
+  background-color: #1a1a1a;
+  color: #a6a6a6;
+  font-family: "Ubuntu Mono", sans-serif;
+  font-style: italic;
+}
+#breadcrumbs > li {
+  float: left;
+}
+#breadcrumbs > li:after {
+  padding: 0px 6px;
+  color: #d9d9d9;
+  font-style: normal;
+  content: "\203A";
+}
+#breadcrumbs > li:last-child:after {
+  padding: 0px;
+  content: none;
+}
+
+.post-list > .post-title {
+  font-size: 16px;
+}
+.post-list > .post-meta {
+  font-size: 10px;
+}
+.post-list > .post-meta > a {
+  color: white;
+}
+.post-list > .post-meta > a:hover {
+  color: #a6ca48;
+}
+
+.post-title, .post-meta {
+  background-color: #1f1f1f;
+}
+
+.post-title {
+  font-size: 24px;
+}
+
+.post-meta {
+  color: #a6a6a6;
+  font-style: normal;
+  text-transform: uppercase;
+  word-spacing: 2px;
+  font-size: 11px;
+}
+.post-meta > span {
+  position: relative;
+  top: -1px;
+}
+
+div.code > div {
+  background-color: #1f1f1f;
+}
+
+.highlighttable {
+  background-color: transparent;
+}
+
+.linenos {
+  background-color: #1a1a1a;
+  color: #a6a6a6;
+}
+
+.linenodiv > pre, .highlight > pre {
+  padding: 0px;
+  background-color: transparent;
+}
+
+.archives {
+  background-color: #1f1f1f;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.archives-year {
+  font-size: 18px;
+}
+.archives-year > a {
+  color: white;
+}
+.archives-year > a:hover {
+  color: #a6ca48;
+}
+
+.archives-post-date {
+  color: #a6a6a6;
+  font-size: 12px;
+}
+
+.archives-post-title {
+  text-transform: none;
+}
+
+.archives-post-tags {
+  color: #a6a6a6;
+  font-style: normal;
+  text-transform: uppercase;
+  word-spacing: 2px;
+  font-size: 10px;
+}
+.archives-post-tags > a {
+  color: white;
+}
+.archives-post-tags > a:hover {
+  color: #a6ca48;
+}
+.archives-post-tags > span {
+  position: relative;
+  top: -1px;
+}

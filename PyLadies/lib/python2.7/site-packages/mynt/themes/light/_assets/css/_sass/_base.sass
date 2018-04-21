@@ -1,0 +1,87 @@
+//
+// IMPORTS
+//
+@import compass/css3/shared
+
+
+//
+// VARIABLES
+//
+
+// COLORS
+$bg-d: #EBEBEB
+$bg: #F2F2F2
+$sbg: #DEDEDE
+$sbg-l: #E6E6E6
+$fg-d: #262626
+$fg: #333333
+$fg-l: #808080
+$hlt: #CC171D
+$hlt-l: #99171C
+$pygments: #272727
+$pygments-fg: #F8F8F2
+
+// DIMENSIONS
+$baseline: 18px
+$container: 960px
+$sidebar: 255px
+
+$offset: $sidebar + ($baseline * 3)
+$content: $container - $offset
+
+
+//
+// MIXINS
+//
+@mixin compact-children
+    & > :first-child
+        margin-top: 0px
+    
+    & > :last-child
+        margin-bottom: 0px
+
+@mixin borderless-links
+    & > a
+        border-bottom-width: 0px
+
+@mixin inverted-links($borderless: false)
+    & > a
+        color: $fg-d
+        
+        &:hover
+            color: $hlt
+        
+        @if $borderless
+            border-bottom-width: 0px
+
+@mixin post-meta
+    color: $fg-l
+    font-style: normal
+    text-transform: uppercase
+    word-spacing: 2px
+    
+    & > span
+        position: relative
+        top: -1px
+
+// VENDOR PREFIXES
+@mixin border-radius($radius, $corner: false)
+    @if $corner
+        @include experimental(border-#{$corner}-radius, $radius, not -moz, -webkit, not -o, not -ms, not -khtml, official)
+    @else
+        @include experimental(border-radius, $radius, not -moz, -webkit, not -o, not -ms, not -khtml, official)
+
+@mixin box-shadow($one, $two: false, $three: false, $four: false, $five: false)
+    $shadows: compact($one, $two, $three, $four, $five)
+    
+    @include experimental(box-shadow, $shadows, not -moz, -webkit, not -o, not -ms, not -khtml, official)
+
+@mixin opacity($opacity)
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=#{$opacity} * 100)'
+    filter: alpha(opacity=#{$opacity} * 100)
+    opacity: $opacity
+
+@mixin transition($one, $two: false, $three: false, $four: false, $five: false)
+    $transitions: compact($one, $two, $three, $four, $five)
+    
+    @include experimental(transition, $transitions, -moz, -webkit, -o, -ms, not -khtml, official)

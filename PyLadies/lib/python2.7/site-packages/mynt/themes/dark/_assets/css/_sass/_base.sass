@@ -1,0 +1,79 @@
+//
+// IMPORTS
+//
+@import compass/css3/shared
+
+
+//
+// VARIABLES
+//
+
+// COLORS
+$bg-d: #222222
+$bg: #272727
+$sbg: #1A1A1A
+$sbg-l: #1F1F1F
+$fg-d: #A6A6A6
+$fg: #D9D9D9
+$fg-l: #FFFFFF
+$hlt: #A6CA48
+$hlt-l: #E6DB74
+$pygments-fg: #F8F8F2
+
+// DIMENSIONS
+$baseline: 18px
+$container: 960px
+$sidebar: 255px
+
+$offset: $sidebar + ($baseline * 3)
+$content: $container - $offset
+
+
+//
+// MIXINS
+//
+@mixin compact-children
+    & > :first-child
+        margin-top: 0px
+    
+    & > :last-child
+        margin-bottom: 0px
+
+@mixin inverted-links
+    & > a
+        color: $fg-l
+        
+        &:hover
+            color: $hlt
+
+@mixin post-meta
+    color: $fg-d
+    font-style: normal
+    text-transform: uppercase
+    word-spacing: 2px
+    
+    & > span
+        position: relative
+        top: -1px
+
+// VENDOR PREFIXES
+@mixin border-radius($radius, $corner: false)
+    @if $corner
+        @include experimental(border-#{$corner}-radius, $radius, not -moz, -webkit, not -o, not -ms, not -khtml, official)
+    @else
+        @include experimental(border-radius, $radius, not -moz, -webkit, not -o, not -ms, not -khtml, official)
+
+@mixin box-shadow($one, $two: false, $three: false, $four: false, $five: false)
+    $shadows: compact($one, $two, $three, $four, $five)
+    
+    @include experimental(box-shadow, $shadows, not -moz, -webkit, not -o, not -ms, not -khtml, official)
+
+@mixin opacity($opacity)
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=#{$opacity} * 100)'
+    filter: alpha(opacity=#{$opacity} * 100)
+    opacity: $opacity
+
+@mixin transition($one, $two: false, $three: false, $four: false, $five: false)
+    $transitions: compact($one, $two, $three, $four, $five)
+    
+    @include experimental(transition, $transitions, -moz, -webkit, -o, -ms, not -khtml, official)

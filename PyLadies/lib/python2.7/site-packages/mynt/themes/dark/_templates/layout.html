@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    {% include 'page.header.html' %}
+    
+    {% if site.title %}<title>{% if title %}{{ title }} – {% endif %}{{ site.title }}{% if not title and site.subtitle %} – {{ site.subtitle }}{% endif %}</title>{% endif %}
+</head>
+
+<body>
+    <div id="container">
+        <div id="sidebar">
+            <h1 id="title"><a href="{{ get_url() }}">{{ site.title }}</a></h1>
+            {% if site.subtitle %}<h2 id="subtitle">{{ site.subtitle }}</h2>{% endif %}
+            
+            <ul id="nav">
+                <li><a href="{{ get_url() }}">Blog</a></li>
+                <li><a href="{{ get_url('archives/') }}">Archives</a></li>
+                <li><a href="{{ get_url('feed.xml') }}">Feed</a></li>
+            </ul>
+            
+            <p>This is a convenient place to put a quick blurb about yourself and the purpose of this site.</p>
+            <p>This is also a good place to list any other sites you are on like <a href="https://github.com/">GitHub</a> and <a href="https://twitter.com/">Twitter</a>.</p>
+            <p><code>/_templates/layout.html#L22-24</code></p>
+            
+            <div id="footer">
+                <p>{% if site.author %}© {{ none|date('%Y') }} {{ site.author }} – {% endif %}powered by <a href="http://mynt.uhnomoli.com/">mynt</a></p>
+            </div>
+        </div>
+        
+        {% block breadcrumbs %}{% endblock %}
+        
+        <div id="content">
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+</body>
+</html>

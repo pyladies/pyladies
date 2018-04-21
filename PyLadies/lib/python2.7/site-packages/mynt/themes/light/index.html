@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+
+
+{% block breadcrumbs %}
+    <ul id="breadcrumbs">
+        <li>Blog</li>
+    </ul>
+{% endblock %}
+
+{% block content %}
+    <div class="post-list">
+        {% for post in posts %}
+            <h1 class="post-title"><a href="{{ get_url(post.url) }}">{{ post.title }}</a></h1>
+            <h2 class="post-meta">{{ post.date }}{% if post.tags %} <span>»</span> {% for tag in post.tags %}<a href="{{ get_url(posts.tags[tag].url) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}</h2>
+        {% endfor %}
+    </div>
+{% endblock %}

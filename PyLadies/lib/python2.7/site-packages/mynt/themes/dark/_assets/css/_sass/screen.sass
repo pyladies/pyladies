@@ -1,0 +1,494 @@
+@import base
+
+
+//
+// RESET
+//
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+    vertical-align: baseline
+    
+    margin: 0px
+    padding: 0px
+    
+    border-width: 0px
+    
+    font: inherit
+    font-size: 100%
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section
+    display: block
+
+blockquote, q
+    quotes: none
+
+blockquote:before, blockquote:after,
+q:before, q:after
+    content: ''
+    content: none
+
+ol, ul
+    list-style: none
+
+table
+    border-collapse: collapse
+
+
+//
+// BASE
+//
+body
+    background:
+        color: $bg
+        image: url('../images/bg.png')
+        position: left top
+        repeat: repeat
+    
+    color: $fg
+    font:
+        family: 'Ubuntu', sans-serif
+        size: 13px
+    line-height: $baseline
+
+blockquote, dl, ol, p, pre, table, ul
+    margin: $baseline 0px
+
+blockquote
+    overflow: hidden
+    
+    padding: 0px $baseline
+    
+    background-color: $sbg-l
+
+dl.horizontal
+    & > dd
+        margin-left: 65px
+        
+        & + dt
+            margin-top: $baseline
+            
+            & + dd
+                margin-top: $baseline
+    
+    & > dt
+        float: left
+        
+        width: 50px
+
+h1, h2, h3, h4, h5, h6
+    color: $fg-l
+    font:
+        style: italic
+        weight: normal
+
+h1, h2
+    line-height: $baseline * 2
+
+h1
+    font-size: 28px
+
+h2
+    font-size: 22px
+
+h3
+    font-size: 18px
+
+h4
+    font-size: 16px
+
+h5
+    font-size: 14px
+
+h6
+    font-size: 12px
+
+li
+    position: relative
+    
+    ol > &:before, ul > &:before
+        position: absolute
+        
+        color: $hlt-l
+    
+    ol > &
+        left: 22px
+        
+        margin-right: 22px
+        
+        counter-increment: item
+        
+        &:before
+            left: -22px
+            
+            width: 17px
+            
+            text-align: right
+            
+            content: counter(item, decimal) '.'
+    
+    ul > &
+        left: 12px
+        
+        margin-right: 12px
+        
+        &:before
+            left: -12px
+            
+            content: '\2022'
+    
+    ul.unstyled > &
+        position: static
+        left: auto
+        
+        margin-right: 0px
+        
+        &:before
+            position: static
+            left: auto
+            
+            content: none
+
+ol, ul
+    list-style:
+        image: none
+        position: inside
+        type: none
+    
+    ol, ul
+        margin: 0px
+        margin-left: 20px
+
+ol
+    counter-reset: item
+
+p
+    text-align: justify
+
+pre
+    padding: 0px 3px
+    
+    background-color: $sbg-l
+    
+    font-family: 'Envy Code R', 'Ubuntu Mono', monospace
+
+table
+    background-color: $sbg-l
+    border-collapse: collapse
+
+td, th
+    padding: $baseline / 2
+
+td
+    +compact-children
+    
+    tr:nth-child(2n) > &
+        background-color: $bg-d
+
+th
+    background-color: $sbg
+    
+    color: $hlt-l
+    font:
+        style: italic
+        weight: normal
+    text-align: left
+
+a
+    +transition(color 0.2s)
+    
+    color: $hlt
+    text-decoration: none
+    
+    &:hover
+        color: $hlt-l
+
+code
+    padding: 0px 3px
+    
+    background-color: $sbg-l
+    
+    color: $fg-d
+    font-family: 'Envy Code R', 'Ubuntu Mono', monospace
+    line-height: 17px
+    white-space: pre
+    
+    pre &
+        padding: 0px
+        
+        background-color: transparent
+        
+        color: $pygments-fg
+        line-height: $baseline
+    
+    table &
+        background-color: $sbg
+
+em
+    font-style: italic
+
+img
+    vertical-align: bottom
+    
+    a > &
+        padding: 5px
+        
+        background-color: $sbg-l
+
+strong
+    font-weight: bold
+
+sub, sup
+    font-size: 11px
+    line-height: 0px
+
+sub
+    vertical-align: sub
+
+sup
+    vertical-align: super
+
+
+//
+// LAYOUT
+//
+#container
+    margin-top: $baseline
+    
+    width: $container
+
+#sidebar
+    position: fixed
+    top: 0px
+    bottom: 0px
+    left: 0px
+    
+    padding: 0px $baseline
+    
+    width: $sidebar
+
+#title
+    margin-top: $baseline
+
+#subtitle
+    line-height: $baseline
+
+#nav
+    margin-top: $baseline
+
+#footer
+    position: absolute
+    bottom: 0px
+    left: 0px
+    
+    padding: 0px $baseline
+    
+    width: $sidebar
+
+#breadcrumbs
+    position: fixed
+    top: $baseline
+    left: $offset
+    
+    margin: 0px
+    padding: $baseline / 2
+    
+    width: $content - $baseline
+
+#content
+    +compact-children
+    
+    margin: $baseline 0px
+    margin-left: $offset
+    
+    width: $content
+    
+    #breadcrumbs + &
+        margin-top: $baseline * 4
+
+.post-list
+    & > .post-title, & > .post-meta
+        padding: $baseline / 2
+    
+    & > .post-title
+        padding-bottom: 0px
+        
+        line-height: $baseline
+    
+    & > .post-meta
+        padding-top: 0px
+
+.post-title, .post-meta
+    padding: 12px
+
+.post-title
+    padding-bottom: 0px
+    
+    line-height: 30px
+
+.post-meta
+    margin-bottom: $baseline
+    padding-top: 0px
+    
+    line-height: $baseline
+
+div.code
+    margin: $baseline 0px
+    
+    & > div
+        overflow: auto
+        
+        max-height: $baseline * 27
+
+.highlighttable
+    margin: 0px
+
+.linenodiv, .highlight
+    & > pre
+        margin: 0px
+
+.archives, .archives-records
+    @extend dl.horizontal
+
+.archives
+    padding: $baseline / 2
+
+.archives-records
+    margin: 0px
+    padding: 0px
+
+
+//
+// STYLE
+//
+#sidebar
+    background:
+        color: $sbg
+        image: url('../images/sbg.png')
+        position: left top
+        repeat: repeat
+    
+    font-style: italic
+
+#title
+    +inverted-links
+    
+    font:
+        family: 'Ubuntu Mono', sans-serif
+        size: 36px
+    
+#subtitle
+    color: $fg-d
+    font-size: 16px
+
+#nav
+    @extend ul.unstyled
+    
+    font:
+        family: 'Ubuntu Mono', sans-serif
+        style: normal
+    text-transform: uppercase
+
+#footer
+    font:
+        size: 11px
+        style: normal
+    text-transform: uppercase
+
+#breadcrumbs
+    @extend ul.unstyled
+    
+    background-color: $sbg
+    
+    color: $fg-d
+    font-family: 'Ubuntu Mono', sans-serif
+    font-style: italic
+    
+    & > li
+        float: left
+        
+        &:after
+            padding: 0px 6px
+            
+            color: $fg
+            font-style: normal
+            
+            content: '\203A'
+        
+        &:last-child:after
+            padding: 0px
+            
+            content: none
+
+.post-list
+    & > .post-title
+        font-size: 16px
+    
+    & > .post-meta
+        +inverted-links
+        
+        font-size: 10px
+
+.post-title, .post-meta
+    background-color: $sbg-l
+
+.post-title
+    font-size: 24px
+
+.post-meta
+    +post-meta
+    
+    font-size: 11px
+
+div.code
+    & > div
+        background-color: $sbg-l
+
+.highlighttable
+    background-color: transparent
+
+.linenos
+    background-color: $sbg
+    
+    color: $fg-d
+
+.linenodiv, .highlight
+    & > pre
+        padding: 0px
+        
+        background-color: transparent
+
+.archives
+    background-color: $sbg-l
+    
+    font-style: italic
+    text-transform: uppercase
+
+.archives-year
+    +inverted-links
+    
+    font-size: 18px
+
+.archives-post-date
+    color: $fg-d
+    font-size: 12px
+
+.archives-post-title
+    text-transform: none
+
+.archives-post-tags
+    +inverted-links
+    +post-meta
+    
+    font-size: 10px
