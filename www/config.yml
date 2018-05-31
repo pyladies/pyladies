@@ -157,6 +157,14 @@ chapters:
             latitude: 20.2961
             longitude: 85.8245
 
+    - name:     Boulder, CO
+      image: pyladies_colorado.png
+      email: boulder@pyladies.com
+      twitter: PyLadiesCO
+      location:
+          latitude: 40.0150
+          longitude: -105.2705
+
     - name:      Boston, MA
       meetup_id: 8623152
       website: http://boston.pyladies.com
@@ -284,6 +292,14 @@ chapters:
       location:
             latitude: 32.7776162
             longitude: -96.7970585
+
+    - name:     Denver, CO
+      image: pyladies_colorado.png
+      email: denver@pyladies.com
+      twitter: PyLadiesDEN
+      location:
+          latitude: 39.7392
+          longitude: -104.9903
 
     - name:      Dublin, Ireland
       meetup_id: 13320732
