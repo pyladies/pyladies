@@ -340,7 +340,7 @@ chapters:
       location:
             latitude: 23.253627
             longitude: 72.6338228
-    
+
     - name:   Hamburg, Germany
       website: http://hamburg.pyladies.com
       external_website: true
@@ -562,6 +562,15 @@ chapters:
       location:
             latitude: 6.465422
             longitude: 3.406448
+
+    - name: Ojere, NG
+      image: pyladies_dc_atl_sea_tor.png
+      email: ojere@pyladies.com
+      twitter: pyladiesojere
+      meetup: ojere pyladies
+      location:
+            latitude: 7.1557102
+            longitude: 3.3450899
 
     - name: Paris, France
       meetup_id: 18600594
