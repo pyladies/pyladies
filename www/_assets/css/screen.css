@@ -1011,7 +1011,7 @@ footer .social li a.icon:hover {
 	text-decoration: none;
 }
 
-.social .icon.google-plus:before, .icon.facebook:before, .social .icon.twitter:before, .social .icon.tumblr:before, .social .icon.github:before, .social .icon.dribbble:before, .social .icon.instagram:before, .social .icon.pinterest:before, .social .icon.vkontakte:before  {
+.social .icon.google-plus:before, .icon.facebook:before, .social .icon.twitter:before, .social .icon.tumblr:before, .social .icon.github:before, .social .icon.dribbble:before, .social .icon.instagram:before, .social .icon.pinterest:before {
   font-family: 'entypo-social';
   content: attr(data-icon);
 }

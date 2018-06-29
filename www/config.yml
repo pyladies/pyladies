@@ -633,15 +633,13 @@ chapters:
             latitude: 41.6449294
             longitude: -112.2535647
 
-    - name:   Saint-Petersburg, Russia
+    - name:   Saint Petersburg, Russia
       website: http://spb.pyladies.com
       external_website: true
       image: pyladies_spb.png
-      email: spb@pyladies.org
       facebook: pyladies.spb
-      github: pyladies-spb
+      email: spb@pyladies.com
       twitter: pyladies_spb
-      vk: pyladies_spb
       timepad: pyladies-spb
       location:
             latitude: 59.9343
