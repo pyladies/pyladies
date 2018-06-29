@@ -778,6 +778,15 @@ chapters:
             latitude: -5.1816948
             longitude: -43.0212865
 
+      - name:      Tirana, Albania
+        email: tirana@pyladies.com
+        facebook: PyLadiesTirana
+        github: PyLadiesTirana
+        twitter: PyLadiesTirana
+        location:
+              latitude: 41.327953
+              longitude: 19.819025
+
     - name:      Tokyo
       website: http://tokyo.pyladies.com/
       external_website: true
