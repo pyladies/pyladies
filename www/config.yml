@@ -49,6 +49,16 @@ chapters:
             latitude: -18.9333
             longitude: 47.5167
 
+    - name:      Aracati, Brazil
+      external_website: false
+      image: pyladies-aracati.png
+      email: aracati@pyladies.com
+      twitter: PyladiesAracati
+      meetup: PyladeisAracati
+      location:
+            latitude: -4.5611543
+            longitude: -37.7689913
+
     - name:      Atlanta, GA
       meetup_id: 4507652
       website: atl
@@ -96,6 +106,16 @@ chapters:
     # - name:      Barcelona
     #   meetup_id: 10496402
 
+    - name: Bauchi, NG
+      meetup_id: 243646248
+      website: NG
+      image: pyladies_dc_atl_sea_tor.png
+      email: bauchi@pyladies.com
+      twitter: pyladiesbauchi
+      location:
+            latitude: 10.3010
+            longitude: 9.8237
+
     - name: Belem, Brazil
       external_website: true
       image: pyladies_belem.jpg
@@ -127,6 +147,15 @@ chapters:
       location:
             latitude: 52.5170365
             longitude: 13.3888599
+
+    - name:      Bhubaneswar, India
+      website: bbsr
+      image: pyladies_logo.png
+      email: bbsr@pyladies.com
+      twitter: PyladiesBbsr
+      location:
+            latitude: 20.2961
+            longitude: 85.8245
 
     - name:      Boston, MA
       meetup_id: 8623152
@@ -196,6 +225,18 @@ chapters:
       location:
             latitude: 39.9167
             longitude: 32.8333
+
+    - name: Caxias do Sul, Brazil
+      website: http://caxiasdosul.pyladies.com
+      external_website: true
+      image: pyladies_caxiasdosul.jpg
+      email: caxiasdosul@pyladies.com
+      meetup: PyLadiesCaxiasdoSul
+      facebook: pyladiescaxias
+      github: PyladiesCaxias
+      location:
+          latitude: -29.1680600
+          longitude: -51.1794400
 
     - name:      Charleston, SC
       meetup_id: 8401402
@@ -278,6 +319,19 @@ chapters:
             latitude: 55.9531
             longitude: -3.1889
 
+    - name: Grand Rapids, MI
+      website: http://grandrapids.pyladies.com
+      external_website: true
+      meetup_id: 22260794
+      image: pyladies_grandrapids.png
+      email: grandrapids@pyladies.com
+      twitter: PyladiesGR
+      facebook: pyladiesgrandrapids
+      meetup: PyLadiesGrandRapids
+      location:
+            latitude: 42.9634
+            longitude: -85.6681
+
     - name: Gujarat, India
       website: gtu.ac.in
       image: pyladies-sq-logo.png
@@ -297,6 +351,16 @@ chapters:
             latitude: 60.1666277
             longitude: 24.9435079
 
+    - name: Ho Chi Minh, Vietnam
+      meetup_id: 248903240
+      email: hcmc@pyladies.com
+      facebook: PyladiesHCM
+      twitter: pyladies1
+      meetup: hcmc-pyladies
+      location:
+            latitude: 10.776889
+            longitude: 106.700806
+
     - name:      India
       meetup_id: 9042722
       image: pyladies_in.png
@@ -307,6 +371,17 @@ chapters:
             latitude: 22.3511148
             longitude: 78.6677428
 
+    - name: Kampala, Uganda
+      meetup_id: 244079349
+      website: kampala
+      image: pyladies_kampala.png
+      email: kampala@pyladies.com
+      twitter: pyladieskla
+      meetup: pyladies-kampala
+      location:
+            latitude: 0.347596
+            longitude: 32.582520
+
     - name:      Kyoto
       website: http://pyladies-kyoto.connpass.com
       external_website: true
@@ -316,7 +391,7 @@ chapters:
       location:
             latitude: 35.0117
             longitude: 135.7683
-    
+
     - name:      Lisbon, Portugal
       image: pyladies_dc_atl_sea_tor.png
       email: lisboa@pyladies.com
@@ -345,6 +420,17 @@ chapters:
       location:
             latitude: 34.053717
             longitude: -118.2427266
+
+    - name: Mavs PyLadies
+      meetup_id: 95771702
+      website: mavs
+      image: pyladies-geek-grey-blue.png
+      email: mavs@pyladies.com
+      facebook: pyladiesmavs
+      meetup: PyLadies-Arlington
+      location:
+            latitude: 32.7302385
+            longitude: -97.1140594
 
     - name: Maceio, Brazil
       meetup_id: 203416475
