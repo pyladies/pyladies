@@ -342,8 +342,8 @@ chapters:
             longitude: 72.6338228
     
     - name:   Hamburg, Germany
-      website: hamburg #http://hamburg.pyladies.com
-      external_website: false
+      website: http://hamburg.pyladies.com
+      external_website: true
       image: pyladies_hamburg.png
       email: hamburg@pyladies.com
       twitter: PyLadiesHH
