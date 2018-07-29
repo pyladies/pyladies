@@ -361,16 +361,6 @@ chapters:
             latitude: 10.776889
             longitude: 106.700806
 
-    - name: Houston, TX
-      meetup_id: 253185498
-      image: pylady_geek.png
-      email: Houston.pyladies@gmail.com
-      twitter: HPyladies
-      meetup: Houston_PyLadies
-      location:
-            latitude: 29.7604
-            longitude: 95.3698
-
     - name:      India
       meetup_id: 9042722
       image: pyladies_in.png
