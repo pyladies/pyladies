@@ -59,6 +59,9 @@
                             {% if chapter.google_plus %}
                             <a class="social icon google-plus" data-icon="&#62223;" href="{{chapter.google_plus}}" title"Google+"></a>
                             {% endif %}
+                            {% if chapter.timepad%}
+                            <a class="social icon location" data-icon="&#59172;" title="Timepad Link" href="https://{{chapter.timepad}}.timepad.ru"></a>
+                            {% endif %}
                         </h3>
                     </div>
                     {% endfor %}
