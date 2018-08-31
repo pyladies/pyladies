@@ -862,14 +862,14 @@ chapters:
       location:
             latitude: 38.8949549
             longitude: -77.0366456
-            
+
     - name: Zaria, Kaduna
-      meetup_id: 
-      website: 
+      meetup_id:
+      website:
       image: pyladies_dc_atl_sea_tor.png
       email: zaria@pyladies.com
-      twitter: 
-      meetup: 
+      twitter:
+      meetup:
       location:
-            latitude: 7.6559° E
-            longitude: 11.1517° N
+            latitude: 7.6559
+            longitude: 11.1517
