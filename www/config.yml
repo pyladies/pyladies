@@ -623,6 +623,18 @@ chapters:
             latitude: 45.5202471
             longitude: -122.6741949
 
+    - name: Porto Alegre, Brazil
+      website: https://pyladiespoa.pythonanywhere.com
+      external_website: true
+      image: pyladies-poa.png
+      email: pyladiespoa@openmailbox.org
+      facebook: PoaPyladies
+      github: pyladiespoa
+      twitter: Pyladiespoas
+      location:
+            latitude: -30.0333
+            longitude: -51.2
+
     - name:      Pune, India
       website: http://pune.pyladies.com/
       external_website: true
