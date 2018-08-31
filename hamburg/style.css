@@ -1,0 +1,509 @@
+@charset "UTF-8";
+
+
+
+/* ----------------- Reset all styles ----------------- */
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+/* ----------------- Website background and general text colour ----------------- */
+body{
+	background-image:url(""); /*backgroundtexture.png*/
+	background-color:#ffffff; /*#f9f9f9*/
+	color:#2d2d2d;
+}
+
+a, a:visited {
+	color: rgb(243, 128, 148);
+	text-decoration: none;
+}
+
+/* ------------------ keeps all content in the center of page -----------------  */
+.wrapper{
+	margin:auto;
+	width:80%;
+	height:auto;
+}
+
+
+/* The rest is pretty self explanatory - it appears in the order that it occurs on the HTML document */
+#top{
+	height:70px;
+	/*border-bottom: 1px solid #444444;*/
+}
+
+#logo{
+	margin-top:15%;
+	text-decoration:none;
+}
+
+#logoimage{
+	width:27px;
+	padding-right:10px;
+	float:left;
+}
+
+#logotitle{
+	/*float:left;*/
+	font-family:'Josefin Sans', Helvetica, sans-serif;
+	font-weight: bold;
+	font-size:305%;
+}
+
+#logotitle a{
+	color:#2d2d2d;
+	text-decoration:none;
+}
+
+nav{
+	float:right;
+	width:400px;
+}
+
+.about{
+	width: 100%;
+    background: #fefefe;
+    font-family:'Muli', Arial, Helvetica, sans-serif;
+    font-size:12pt;
+    margin-bottom:40px;
+    margin-top:2%;
+    padding: 20px;
+    border:1px solid #ccc;
+}
+
+.about h3{
+	font-family:'Josefin Sans', Arial, Helvetica, sans-serif;
+	font-size:180%;
+	font-weight:normal;
+	margin-bottom:10px;
+}
+blockquote{padding:20px; color:#444444;}
+
+
+
+.left{
+	margin-top:4%;
+	width:48%;
+	float:left;
+	margin-bottom:2%;
+}
+
+.left h3, .left h4 {
+	font-family:'Josefin Sans', Arial, Helvetica, sans-serif;
+	font-size:180%;
+	font-weight:normal;
+	text-align:left;
+	margin-bottom:5%;
+}
+
+.left p, .left ul{
+	font-family:'Josefin Sans', Arial, Helvetica, sans-serif;
+	font-size:12pt;
+	line-height:140%;
+}
+
+.left ul li{
+	padding-bottom:10px;
+}
+
+.left p a, .left ul li a{
+	color:#f38094;
+	text-decoration:none;
+}
+
+.right{
+	margin-top:4%;
+	width:48%;
+	float:right;
+	margin-bottom:2%;
+}
+
+.right h3{
+	font-family:Lato, Arial, Helvetica, sans-serif;
+	font-size:180%;
+	font-weight:normal;
+	text-align:center;
+	margin-bottom:5%;
+	text-shadow: 0 1px 1px #dadada;
+}
+
+.right p{
+	font-family:Lato, Arial, Helvetica, sans-serif;
+	font-size:100%;
+	line-height:140%;
+}
+
+.right p a{
+	color:#f38094;
+	text-decoration:none;
+}
+
+
+/* ----------------------- WORK LINKS START ------------------------- */
+.work{
+	width:1000px;
+	margin:3% auto 3% 14%;
+}
+
+
+#events li {
+list-style-type: none;
+}
+
+
+.item{
+	border-radius:15px;
+	width:180px;
+	height:235px;
+	background-color:#FFF;
+	margin:10px;
+	float:left;
+	-webkit-box-shadow: 0 1px 3px #c3c3c3;
+    -moz-box-shadow: 0 1px 3px #c3c3c3;
+    box-shadow: 0 1px 3px #c3c3c3;
+	overflow:hidden;
+	-webkit-transition: box-shadow 0.2s ease-in-out;
+	-moz-transition: box-shadow 0.2s ease-in-out;
+	-o-transition: box-shadow 0.2s ease-in-out;
+	-ms-transition: box-shadow 0.2s ease-in-out;
+	transition: box-shadow 0.2s ease-in-out;
+}
+
+.item:hover{
+	-webkit-box-shadow: 0 0 8px #f38094, 0 0 8px #f38094;
+    -moz-box-shadow: 0 0 8px #f38094,  0 0 8px #f38094;
+    box-shadow: 0 0 8px #f38094,  0 0 8px #f38094;
+}
+
+
+.item img{
+	display:block;
+	width:100%;
+	-webkit-box-shadow: 0 2px 1px #c3c3c3;
+    -moz-box-shadow: 0 2px 1px #c3c3c3;
+    box-shadow: 0 2px 1px #c3c3c3;
+	border-radius:15px 15px 0 0;
+	opacity:0.8;
+	-webkit-transition: opacity 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out;
+	-o-transition: opacity 0.2s ease-in-out;
+	-ms-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
+
+}
+
+.item img:hover{
+	opacity:1;
+}
+
+
+.item h3{
+	font-family:Lato, Arial, Helvetica, sans-serif;
+	font-size:1.2em;
+	font-weight:normal;
+	line-height: 1.2em;
+	padding:5px 0 0 8px;
+	margin:0;
+	color:#2d2d2d;
+	text-decoration:none;
+}
+
+.item h3 a{
+	text-decoration:none;
+	color:#2d2d2d;
+}
+
+.item p{
+	font-family:'Josefin Sans', Arial, Helvetica, sans-serif;
+	font-size:1em;
+	padding:0 0 0 8px;
+	margin:0;
+	line-height: 1em;
+	color:#2d2d2d;
+	text-decoration:none;
+}
+/* ----------------------- WORK LINKS END ------------------------- */
+
+
+#bottom h3{
+	margin:4% 0 3% 0;
+	font-family:'Josefin Sans', Arial, Helvetica, sans-serif;
+	font-size:190%;
+	font-weight:normal;
+	text-align:center;
+	color:#f38094;
+	text-shadow: 0 1px 1px #c1c1c1;
+}
+
+
+footer{
+	width:100%;
+	padding:10px 0;
+	background-color:#ffffff;
+	text-align: center;
+}
+
+.icon{
+	float:right;
+	width: 65px;
+	margin:5px 0 2px 4%;
+	opacity:1;
+}
+
+.icon:hover{
+	opacity:1;
+}
+
+.social h4{
+	text-align: right;
+}
+
+
+/* ----------------------------- FORM ----------------------------------- */
+
+.right h4{
+	font-family:'Josefin Sans', Arial, Helvetica, sans-serif;
+	font-size:180%;
+	font-weight:normal;
+	margin-bottom:0px;
+}
+
+#formwrap{
+	width:100%;
+}
+
+.formstyle {
+	border: 1px solid #ccc;
+	color: #000;
+	font-family:Lato, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	width: 95%;
+	background-color:rgba(255,255,255,1);
+	margin-bottom:10px;
+	opacity:0.9;
+	padding:3px;
+	-webkit-transition: all 0.4s ease-in-out;
+   -moz-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out;
+   -ms-transition: all 0.4s ease-in-out;
+   transition: all 0.4s ease-in-out;
+   border-radius:2px;
+}
+
+.formstyletwo {
+	color: #FFF;
+	font-family:Lato, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	text-align:left;
+	width:20%;
+	background-color:#2d2d2d;
+	border:0px;
+
+}
+
+.formstyletwo:hover {
+	color:#f38094;
+	cursor:pointer;
+
+}
+
+textarea{
+	border: 1px solid #ccc;
+	color: #000;
+	font-family:Lato, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	width:95%;
+	height:80px;
+	background-color:rgba(255,255,255,1);
+	background-image:url(../images/backgroundtexture.png);
+	margin-bottom:10px;
+	border-radius:2px;
+	padding:3px;
+	opacity:0.9;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+
+input:focus, input.focused, textarea:focus, textarea.focused {  color: #3e3e3e; opacity:1;}
+
+#error{
+	color:#FF7471;
+	float:left;
+	font-family:Regular, Arial, Helvetica, sans-serif, "Helvetica Neue Light";
+	font-size:15px;
+}
+
+#error ul{
+	list-style-type: none;
+	padding-top:5px;
+}
+
+
+/* -- Make the highlight colours pretty -- */
+::selection      { background:#f38094; color:#FFF;}
+::-moz-selection  { background:#f38094; color:#FFF;}
+
+
+
+
+/* ---------------------- RESPONSIVE STUFF - ONLY TOUCH IF YOUR'E CONFIDENT WITH CSS ---------------------- */
+
+
+@media only screen and (max-width: 1279px) {
+	.wrapper{
+		width:90%;
+	}
+
+}
+
+@media only screen and (max-width: 1105px) {
+
+	.work{
+		width:900px;
+}
+
+	.item{
+		width:164px;
+		height:170px;
+		margin:8px;
+	}
+}
+
+@media only screen and (max-width: 999px) {
+
+	.work{
+		width:750px;
+}
+
+	.item{
+		width:136px;
+		height:144px;
+		margin:7px;
+	}
+
+	.item h3{
+		font-size:90%;
+	}
+
+	.item p{
+		font-size:60%;
+	}
+}
+
+@media only screen and (max-width: 835px) {
+
+	.work{
+		width:650px;
+}
+
+	.item{
+		width:116px;
+		height:121px;
+		margin:7px;
+	}
+
+	.item h3{
+		font-size:75%;
+	}
+
+	.item p{
+		font-size:40%;
+	}
+}
+
+@media only screen and (max-width: 860px) {
+	header h1{
+		font-size:110%;
+	}
+
+	header h2{
+		font-size:80%;
+	}
+}
+
+@media only screen and (max-width: 720px) {
+
+	#logo{
+		width:150px;
+		display:block;
+		margin:auto;
+		margin-bottom:5%;
+	}
+
+	nav{
+		width:100%;
+	}
+
+	header h1{
+		font-size:100%;
+		margin-bottom:5%;
+	}
+
+	header h2{
+		font-size:60%;
+	}
+
+	.left{
+		width:100%;
+	}
+
+	.right{
+		width:100%;
+
+	}
+
+	.work{
+		width:460px;
+}
+
+	.item{
+		width:210px;
+		height:215px;
+		margin:10px;
+	}
+
+	.item h3{
+		font-size:130%;
+	}
+
+	.item p{
+		font-size:90%;
+	}
+}
+
+@media only screen and (max-width: 510px) {
+
+	.work{
+		width:300px;
+	}
+
+	.item{
+		width:136px;
+		height:140px;
+		margin:7px;
+	}
+
+	.item h3{
+		font-size:75%;
+	}
+
+	.item p{
+		font-size:40%;
+	}
+}
+
+#upcomingMeetupsList ul li {
+	margin-bottom: 20px;
+}
+
+.meetup_group_icon {
+	float:left;
+	margin-right: 20px;
+}

@@ -340,6 +340,17 @@ chapters:
       location:
             latitude: 23.253627
             longitude: 72.6338228
+    
+    - name:   Hamburg, Germany
+      website: http://hamburg.pyladies.com
+      external_website: true
+      image: pyladies_hamburg.png
+      email: hamburg@pyladies.com
+      twitter: PyLadiesHH
+      meetup: PyLadies-Hamburg
+      location:
+            latitude: 53.5511
+            longitude: 9.9937
 
     - name:      Helsinki, Finland
       meetup_id: 13995752
