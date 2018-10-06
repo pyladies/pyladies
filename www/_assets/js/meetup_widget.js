@@ -15,11 +15,11 @@ var PyladiesMeetupWidget = (function() {
     // creates <a href> links from urls for event clickthroughs
     return url
       .replace(/(ftp|http|https|file):\/\/[\S]+(\b|$)/gim, '"$&" target="_blank"')
-      .replace(/([^\/])(www[\S]+(\b|$))/gim, '"http://$2" target="_blank"');
+      .replace(/([^\/])(www[\S]+(\b|$))/gim, '"https://$2" target="_blank"');
   };
 
   _createGroupUrl = function(group) {
-    return 'http://meetup.com/' + group.urlname;
+    return 'https://meetup.com/' + group.urlname;
   };
 
   _convertMilisecondsToDate = function(ms) {
@@ -31,7 +31,7 @@ var PyladiesMeetupWidget = (function() {
   _makeAjaxRequest = function(ids) {
     // fetch data
     $.ajax({
-      url: 'http://api.meetup.com/2/events.json?key=' + key + '&group_id=' + ids +
+      url: 'https://api.meetup.com/2/events.json?key=' + key + '&group_id=' + ids +
         '&fields=group_photo&time=0m,1m&status=upcoming&sign=true&limited_events=true',
       dataType: 'jsonp',
       success: function(data) {
