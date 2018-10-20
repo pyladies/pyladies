@@ -8,6 +8,75 @@ author_link: https://twitter.com/juliuliana
 summary: "For a beginner, by a beginner: I'll explain what each line of code is doing so you can learn a little bit about working with a command line interface in the process."
 ---
 
+### 2018 Update
+
+This has been one of our most popular posts. Here is a quick update followed by the original post.
+
+#### Step 1. Install Xcode or command line tools
+
+Install Xcode from App Store or Apple website.
+
+**OR**
+
+Install Xcode command line tools (an alternative to the larger Xcode):
+
+```
+xcode-select --install
+```
+
+#### Step 2. Open Terminal. Get comfy.
+
+Refer to original post below.
+
+#### Step 3. Install Homebrew
+
+From the instructions on the [Homebrew site](https://brew.sh):
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+#### Step 4. Install Python
+
+We recommend using Python 3 for all new projects.
+
+**Python 3**
+
+`brew install python`
+
+**Python 2**
+
+`brew install python@2`
+
+#### Step 5. Install pip
+
+`pip` is included in Python installs now. There is no need to separately install `pip`.
+
+You may wish to update the installed versions of `pip` and `setuptools`:
+
+```
+pip install --upgrade setuptools
+pip install --upgrade pip
+```
+
+#### Step 6. Install virtualenv
+
+There is no need to install `virtualenv` for Python 3. With Python 3,
+you can create and activate a virtual environment using:
+
+```
+python3 -m venv myenv
+source myenv/bin/activate
+```
+
+Steps 7 and 8: Refer to the original post below.
+
+#### Additional Information
+
+See this [helpful resource about configuring a Mac](https://sourabhbajaj.com/mac-setup/Python/).
+
+## Original post
+
 As an absolute beginner to programming, you can very quickly learn to do lots of cool things using just your Python interpreter and simple Python scripts. However, you're going to want a few more tools eventually to help you expand to more complex projects. Why not start getting familiar with them now?
 
 For me, the hardest thing about branching out was figuring out what tools I really needed and how to interpret their install instructions. Here's a list of tools you will need and a list of easy steps to follow to get set up on a Mac. I'll explain what each line of code is doing so you can learn a little bit about working with a command line interface in the process. All of this should work on Mac OS X 10.7 and 10.8.
