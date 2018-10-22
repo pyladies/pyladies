@@ -85,11 +85,11 @@ For me, the hardest thing about branching out was figuring out what tools I real
 
 Xcode is Apple's Integrated Development Environment (IDE), and there are some tools that come with it that we'll need later. You can get Xcode in the Apple appstore. It's a pretty big download, but this is the easiest way to get these tools on your machine. If you get bored while you're waiting, you could skip ahead and do steps 2, 5, and 6 now. If you want an alternative way to just get the tools you need, without the whole IDE, [look here][1].
 
-Once Xcode is installed, **you still need to install the Apple command line tools**! They're easy to get, though. Under the Xcode menu, click preferences. On the window that pops up, go to the Downloads tab. Find "command lines tools" and click the install button. 
+Once Xcode is installed, **you still need to install the Apple command line tools**! They're easy to get, though. Under the Xcode menu, click preferences. On the window that pops up, go to the Downloads tab. Find "command lines tools" and click the install button.
 
-	
+
 #### 2. Open Terminal. Get Comfy.
-	
+
 If you've never used Terminal or some kind of command line interface before, it's a good idea to take a minute to familiarize yourself with how they work. [Here's a quick intro][2]. Later you you can learn a bit more with the free online book, [Learn Command Line Interface the Hard Way][3].
 
 I like to have a central place to store all of my programming projects, so I have a folder in my home directory called Code. To make a new folder called Code, open up Terminal. You should be in your home directory. Just to make sure you could type the following in your Terminal window. Don't type the $, though.
@@ -104,42 +104,41 @@ The `mkdir` part means 'make directory'. A directory is analogous to what Finder
 
     $ mkdir
     usage: mkdir [-pv] [-m mode] directory ...
-               
+
 
 #### 3. Install Homebrew
-	
+
 Homebrew is a package manager for OS X. A package is a collection of code files that work together. Installing them usually means running a script (a bit of code) that puts certain files in the various directories. A lot of the packages you will want are going to have dependencies. That means they require you to have other packages already installed on your computer. Homebrew will find and install dependencies for you AND it will keep them organized in one location AND it can tell you when updates are available for them.  On top of all of that it gives super helpful instructions when everything doesn't go smoothly. You can read more about it at Homebrew's [website][4]. For now, install Homebrew using the following line of code:
-	
+
      $ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
-	
+
 So what's going on here? The last bit is obviously a URL. If you were to open this URL in your browser, you would just see code. This is a Ruby script that tells your computer what to do to install Homebrew. The `curl` part is a command line tool that transfers files using URLs. The `-fsSL` part is a combination of four option flags for `curl` that specify how to handle the file at the url. If you want to know more about what these flags do, type `man curl` at your command prompt. (You can use `man` in front of most commands to open up a manual page for that command.) We also need to actually execute this Ruby script, so we used the command `ruby` at the beginning. The `-e` is an option flag for ruby that executes a string as one line of code, in this case, the `"$(curl … /go)"` part. You may need to follow a few more instructions to finish the install, but Homebrew will help you do so.
 
 #### 4. Install Python
-	
+
 Python comes with OS X, so you can probably don't need to do this step. You can check this by typing `python --version` into Terminal. If you get an error message, you need to install Python. If Terminal prints something like `Python 2.7.3` where the exact numbers you see may be different, you're all set to move on to step #5.
 
 If for some reason you don't have Python or if you want to get the current version, you can now do this easily with Homebrew! Anytime you use Homebrew, you will start your command with `brew` followed by the Homebrew command you want to use. To install the latest version of python 2, simply type:
-	
+
     $ brew install python
-	
+
 If you'd rather install the latest version of python 3, replace `python` with `python3`.
-	
+
 
 #### 5. Install pip
-	
-There are a few package managers that are specific to Python, and pip is the preferred one. The name pip stands for "pip installs packages". pip has one dependeny--distribute, but Homebrew doesn't know how to install either one. Luckily, both distribute and pip can be easily installed with python scripts that are available on the web. We can use `curl`, just like we did to get Homebrew. 
 
-	$ curl -O http://python-distribute.org/distribute_setup.py
-    $ python distribute_setup.py
-    $ curl -O https://raw.github.com/pypa/pip/master/contrib/get-pip.py
+There are a few package managers that are specific to Python, and pip is the preferred one. The name pip stands for "pip installs packages". pip has one dependeny--distribute, but Homebrew doesn't know how to install either one. Luckily, both distribute and pip can be easily installed with python scripts that are available on the web. We can use `curl`, just like we did to get Homebrew.
+
+	$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
     $ python get-pip.py
-	    
+
+
 This time we are getting and executing each script in two commands, where we did it all in one command before. Remember that you can look up what `-O` does with `$ man curl`, if you're curious.
 
 It's possible that you will run into a permission issue here. Every file on your computer stores information about who can access and modify it. The get-pip.py script is going to try to write files to some of your system directories and it's possible that your user account doesn't have the right permissions. You can get around that though. If you get an error for one of these Python commands about permissions, type `sudo` before the rest of the command. Sudo stands for "superuser do". The superuser does have permission to modify system files and when you say sudo, you are acting as the superuser. You will need the admin password to do this.
 
 For more information about using pip, you can go [here][5].
-	
+
 #### 6. Install virtualenv
 
 A virtual environment is useful when you start to get invovled with projects that have different or conflicting dependencies that you dont want to install globally on your machine. For example, you might use a library that requires Python 3 and have another project that is only compatible with Python 2.
@@ -147,9 +146,9 @@ A virtual environment is useful when you start to get invovled with projects tha
 To install virtualenv, simply:
 
     $ pip install virtualenv
-        
+
 [Here][6] is virtualenv's documentation.
-	
+
 #### 7. Install Git and make a Github account
 
 Git is a version control system. It keeps track of the revisions you make to your code and other files associated with a project, without storing multiple copies of each file. It will also help you merge your work with that of other programmers if you're working on a collaborative project. To install Git, type the following at your command prompt.
