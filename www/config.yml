@@ -59,6 +59,15 @@ chapters:
             latitude: -4.5611543
             longitude: -37.7689913
 
+    - name: Arequipa, Peru
+      image: pyladies_arequipa.png
+      email: aqp@pyladies.com
+      facebook: @aqp.pyladies
+      github: PyladiesAqp
+      location:
+          latitude: -16.398776
+          longitude: -71.536870
+
     - name:      Atlanta, GA
       meetup_id: 4507652
       website: atl
