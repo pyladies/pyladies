@@ -943,3 +943,16 @@ chapters:
       location:
             latitude: 7.6559
             longitude: 11.1517
+      
+    - name: Rivers, Rivers State
+      meetup_id:
+      website:
+      image: pyladies_dc_atl_sea_tor.png
+      email: rivers@pyladies.com
+      twitter: https://twitter.com/pyladiesr
+      facebook: https://facebook.com/pyladiesrivers
+      meetup:
+      location:
+            latitude: 4.74974 
+            longitude: 6.82766
+            
