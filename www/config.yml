@@ -418,6 +418,16 @@ chapters:
       location:
             latitude: 0.347596
             longitude: 32.582520
+    
+    - name: Kazan, Russia
+      image: pyladies_kzn.png
+      facebook: pyladieskzn
+      email: kzn@pyladies.com
+      twitter: pyladieskzn
+      timepad: pyladies-kzn
+      location:
+            latitude: 55.798697
+            longitude: 49.1039413
 
     - name:      Kyoto
       website: http://pyladies-kyoto.connpass.com
