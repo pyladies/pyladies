@@ -278,6 +278,19 @@ chapters:
             latitude: 41.8755546
             longitude: -87.6244212
 
+    - name: Cleveland, OH
+      meetup_id: 255599015
+      website: https://clepyladies.github.io/pyladies-official
+      external_website: true
+      email: cle@pyladies.com
+      twitter: CLEPyLadies
+      meetup: CLE-PyLadies
+      facebook: CLEPyLadies
+      instagram: CLEPyLadies
+      location:
+            latitude: 41.528
+            longitude: -81.6937
+      
     - name:      Curitiba, Brazil
       website: http://brasil.pyladies.com/
       external_website: true
