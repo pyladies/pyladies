@@ -872,6 +872,7 @@ chapters:
             longitude: 120.9820179
 
     - name: Teresina, Brazil
+      website: https://pyladiesteresina.github.io/
       external_website: true
       image: pyladies_teresina.png
       email: teresina@pyladies.com
