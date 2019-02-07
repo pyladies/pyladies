@@ -365,6 +365,17 @@ chapters:
             latitude: 55.9531
             longitude: -3.1889
 
+    - name: Ghana
+      website: https://ghana.pyladies.com
+      external_website: true
+      image: pyladies_ghana.jpg
+      email: ghana@pyladies.com
+      twitter: PyladiesGhana
+      github: PyladiesGhana
+      location:
+            latitude: 6.946527
+            longitude: -1.023194
+
     - name: Grand Rapids, MI
       website: http://grandrapids.pyladies.com
       external_website: true
