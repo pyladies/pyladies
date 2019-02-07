@@ -62,7 +62,7 @@ chapters:
     - name: Arequipa, Peru
       image: pyladies_arequipa.jpg
       email: aqp@pyladies.com
-      facebook: @aqp.pyladies
+      facebook: "@aqp.pyladies"
       github: PyladiesAqp
       location:
           latitude: -16.398776
