@@ -198,6 +198,14 @@ chapters:
             latitude: -15.7941454
             longitude: -47.8825479
 
+    - name: Bratislava, Slovakia
+      email: bratislava@pyladies.org
+      facebook: PyLadiesBratislava
+      image: pyladies_logo.png
+      location:
+            latitude: 48.148598
+            longitude: 17.107748
+
     - name:      Brazil
       website: http://brasil.pyladies.com/
       external_website: true
