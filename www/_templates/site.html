@@ -24,7 +24,11 @@
                                  {{ chapter.meetup_id }}
                                  {%- if not loop.last -%},{% endif %}
                             {%- endfor -%}";
-            PyladiesMeetupWidget.addUpcomingMeetups(meetupIds);
+             var timepadPages = "{% for chapter in site.chapters if chapter.timepad_id -%}
+                                 {{ chapter.timepad_id }}
+                                 {%- if not loop.last -%},{% endif %}
+                            {%- endfor -%}";
+            PyladiesMeetupWidget.addUpcomingMeetups(meetupIds, timepadPages);
         });
 	</script>
 	{% endblock %}
