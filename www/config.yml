@@ -290,7 +290,7 @@ chapters:
       location:
             latitude: 41.528
             longitude: -81.6937
-      
+
     - name:      Curitiba, Brazil
       website: http://brasil.pyladies.com/
       external_website: true
@@ -440,7 +440,7 @@ chapters:
       location:
             latitude: 0.347596
             longitude: 32.582520
-    
+
     - name: Kazan, Russia
       image: pyladies_kzn.png
       facebook: pyladieskzn
@@ -678,6 +678,15 @@ chapters:
       location:
             latitude: 18.486467
             longitude: 73.816520
+
+    - name: Quito, Ecuador
+      email: quito@pyladies.com
+      github: pyladies-ecuador
+      twitter: PyladiesEc
+      facebook: pyladiesecq
+      location:
+            latitude: -0.177520
+            longitude: -78.465686
 
     - name:      Raleigh-Durham, NC
       meetup_id: 16760422
@@ -976,12 +985,3 @@ chapters:
       location:
             latitude: 7.6559
             longitude: 11.1517
-            
-    - name: Quito, Ecuador
-      email: quito@pyladies.com
-      github: pyladies-ecuador
-      twitter: PyladiesEc
-      facebook: pyladiesecq
-      location:
-            latitude: -0.177520
-            longitude: -78.465686
