@@ -976,3 +976,12 @@ chapters:
       location:
             latitude: 7.6559
             longitude: 11.1517
+            
+    - name: Quito, Ecuador
+      email: quito@pyladies.com
+      github: pyladies-ecuador
+      twitter: PyladiesEc
+      facebook: pyladiesecq
+      location:
+            latitude: -0.177520
+            longitude: -78.465686
