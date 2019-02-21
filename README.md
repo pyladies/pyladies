@@ -119,4 +119,7 @@ doesn't match w/ the current homepage. Maybe keep it as mynt though
 - but your choice completely.
 
 
--your friendly administrator.
+-your friendly administrator.  
+
+## LICENSE
+![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)(https://opensource.org/licenses/Zlib)
