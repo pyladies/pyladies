@@ -7,11 +7,12 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/python:2.7.15-node-browsers
+      - image: circleci/python:2.7.16-node-browsers
 
-    working_directory: ~/repo
+    working_directory: ~/pyladies
 
     steps:
+      - checkout
 
       # Download and cache dependencies
       - restore_cache:
@@ -23,28 +24,21 @@ jobs:
       - run:
           name: install dependencies and version
           command: |
-            mkdir .venv && cd .venv
             python2 -m pip install --upgrade pip setuptools wheel
             python2 -m pip install virtualenv
             virtualenv venv
             . venv/bin/activate
             cd ..
-        
-      - checkout
-
-      - run: 
-         name: install into virtualenv
-         command: |
             pip install --upgrade pip setuptools wheel
-            pip install -r requirements.txt
-            pip install .
+            pip install -r ~/pyladies/requirements.txt
 
       - run:
           name: python tests
           command: |
             . venv/bin/activate
             ./test_www.py > mytest.log
+            cat mytest.log
       - save_cache:
           paths:
-            - ./venv
+            - venv
           key: v2-dependencies-{{ checksum "requirements.txt" }}
