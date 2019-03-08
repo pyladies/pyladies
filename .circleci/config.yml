@@ -9,10 +9,9 @@ jobs:
     docker:
       - image: circleci/python:2.7.15-node-browsers
 
-    working_directory: ~/pyladies
+    working_directory: ~/repo
 
     steps:
-      - checkout
 
       # Download and cache dependencies
       - restore_cache:
@@ -30,9 +29,16 @@ jobs:
             virtualenv venv
             . venv/bin/activate
             cd ..
+        
+      - checkout
+
+      - run: 
+         name: install into virtualenv
+         command: |
             pip install --upgrade pip setuptools wheel
             pip install -r requirements.txt
             pip install .
+
       - run:
           name: python tests
           command: |
