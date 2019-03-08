@@ -486,6 +486,17 @@ chapters:
       location:
             latitude: 35.0117
             longitude: 135.7683
+            
+    - name:      La Paz, Bolivia
+      website: https://www.meetup.com/La-Paz-PyLadies-Meetup
+      external_website: true
+      image: pyladies_lapaz.png
+      email: lp@pyladies.com
+      twitter: PyLadiesLaPaz
+      facebook: PyLadiesLaPaz
+      location:
+            latitude: -16.52
+            longitude: -68.26
 
     - name:      Lisbon, Portugal
       image: pyladies_dc_atl_sea_tor.png
