@@ -1,0 +1,40 @@
+# Python CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-python/ for more details
+#
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: circleci/python:2.7.16-node-browsers
+
+    working_directory: ~/pyladies
+
+    steps:
+      - checkout
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+            - v2-dependencies-{{ checksum "requirements.txt" }}
+            # fallback to using the latest cache if no exact match is found
+            - v2-dependencies-
+
+      - run:
+          name: install dependencies and version
+          command: |
+            python2 -m venv venv
+            . venv/bin/activate
+            pip install --upgrade pip setuptools wheel
+            pip install -r requirements.txt
+            pip install .
+      - run:
+          name: python tests
+          command: |
+            . venv/bin/activate
+            ./test_www.py > mytest.log
+      - save_cache:
+          paths:
+            - ./venv
+          key: v2-dependencies-{{ checksum "requirements.txt" }}
