@@ -2,12 +2,12 @@
 #
 # Check https://circleci.com/docs/2.0/language-python/ for more details
 #
-version: 2.1
+version: 2
 
 jobs:
   build:
     docker:
-      - image: circleci/python:2.7.16-node-browsers
+      - image: circleci/python:2.7.15-node-browsers
 
     working_directory: ~/pyladies
 
