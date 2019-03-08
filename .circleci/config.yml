@@ -24,7 +24,7 @@ jobs:
       - run:
           name: install dependencies and version
           command: |
-            mkdir .venv && .venv
+            mkdir .venv && cd .venv
             python2 -m pip install --upgrade pip setuptools wheel
             python2 -m pip install virtualenv
             virtualenv venv
