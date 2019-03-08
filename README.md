@@ -1,5 +1,7 @@
 # Overview
 
+[![CircleCI](https://circleci.com/gh/pyladies/pyladies/tree/master.svg?style=svg)](https://circleci.com/gh/pyladies/pyladies/tree/master)
+
 This is the source code for the http://pyladies.com/ website. It uses
 `mynt`, a static site generator.
 
