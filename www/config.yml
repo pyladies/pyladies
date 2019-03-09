@@ -364,14 +364,12 @@ chapters:
       location:
             latitude: 55.9531
             longitude: -3.1889
-            
-            
-            
-   - name:      Ethiopia, Addis Ababa
-     email:     addisa@pyladies.com
-     image:     pyladies-addis.png
-     github:    https://github.com/PyladiesAddis
-     location:
+                      
+    - name:      Ethiopia, Addis Ababa
+      email:     addisa@pyladies.com
+      image:     pyladies-addis.png
+      github:    https://github.com/PyladiesAddis
+      location:
             latitude:  9.005401
             longtiude: 38.763611
 
