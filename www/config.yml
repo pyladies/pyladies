@@ -668,13 +668,6 @@ chapters:
     - name: Okinawa, Japan
       email: okinawa@pyladies.com
       twitter: PyLadiesOkinawa
-      location:
-            latitude: 26.3305244
-            longitude: 127.8767851
-
-    - name: Okinawa, Japan
-      email: okinawa@pyladies.com
-      twitter: PyLadiesOkinawa
       location: 
             latitude: 26.3305244
             longitude: 127.8767851
