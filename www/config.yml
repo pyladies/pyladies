@@ -557,6 +557,17 @@ chapters:
             latitude: -9.6498487
             longitude: -35.708949200000006
 
+    - name: Manaus, Brazil
+      website: pyladiesmanaus.pythonanywhere.com/
+      external_website: true
+      image: pyladies_manaus.png
+      email: manaus@pyladies.com
+      twitter: "@pyladiesmanaus"
+      facebook: www.facebook.com/pyladiesmanaus/
+      location:
+            latitude: -3.10719
+            longitude: -60.0261
+
     - name:      Milan, Italy
       meetup_id: 186995752
       image: pyladies_dc_atl_sea_tor.png
