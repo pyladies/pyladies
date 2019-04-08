@@ -738,8 +738,10 @@ chapters:
     - name: Quito, Ecuador
       email: quito@pyladies.com
       github: pyladies-ecuador
+      image: pyladies_ec.png
       twitter: PyladiesEc
       facebook: pyladiesecq
+      meetup: pyladiesEc
       location:
             latitude: -0.177520
             longitude: -78.465686
