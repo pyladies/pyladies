@@ -364,7 +364,7 @@ chapters:
       location:
             latitude: 55.9531
             longitude: -3.1889
-                      
+
     - name:      Ethiopia, Addis Ababa
       email:     addisa@pyladies.com
       image:     pyladies-addis.png
@@ -494,7 +494,7 @@ chapters:
       location:
             latitude: 35.0117
             longitude: 135.7683
-            
+
     - name:      La Paz, Bolivia
       website: https://www.meetup.com/La-Paz-PyLadies-Meetup
       external_website: true
@@ -526,8 +526,8 @@ chapters:
 
     - name:      Los Angeles, CA
       website: https://pyladiesla.netlify.com/
+      external_website: true
       meetup_id: 2288171
-      website: la
       image: pyladies_la.jpeg
       email: la@pyladies.com
       twitter: pyladiesLA
