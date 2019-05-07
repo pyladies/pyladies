@@ -9,7 +9,7 @@ from fabric.contrib.project import rsync_project
 
 env.user = "u52703"
 env.keyfile_name = "~/.ssh/pyladies.com"
-env.hosts = "pyladies.com"
+env.hosts = "81.28.232.189"
 
 
 def prep_www_deploy():
