@@ -525,6 +525,7 @@ chapters:
             longitude: -0.1275
 
     - name:      Los Angeles, CA
+      website: https://pyladiesla.netlify.com/
       meetup_id: 2288171
       website: la
       image: pyladies_la.jpeg
