@@ -24,8 +24,8 @@ jobs:
       - run:
           name: install dependencies and version
           command: |
-            python2 -m pip install --upgrade pip setuptools wheel
-            python2 -m pip install virtualenv
+            python2 -m pip install --user --upgrade pip setuptools wheel
+            python2 -m pip install --user virtualenv
             virtualenv venv
             . venv/bin/activate
             pip install --upgrade pip setuptools wheel
