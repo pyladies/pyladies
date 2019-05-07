@@ -24,18 +24,12 @@ jobs:
       - run:
           name: install dependencies and version
           command: |
-            python2 -m pip install --upgrade pip setuptools wheel
-            python2 -m pip install virtualenv
-            virtualenv venv
-            . venv/bin/activate
-            cd ..
-            pip install --upgrade pip setuptools wheel
-            pip install -r ~/pyladies/requirements.txt
+            pip install --user --upgrade pip setuptools wheel
+            pip install --user -r requirements.txt
 
       - run:
           name: python tests
           command: |
-            . venv/bin/activate
             ./test_www.py > mytest.log
             cat mytest.log
       - save_cache:
@@ -46,9 +40,14 @@ jobs:
   deploy-prod:
     docker:
       - image: circleci/python:2.7.16-node-browsers
-    working_directory: ~/repo
+    working_directory: ~/pyladies
     steps:
       - checkout
+      - run:
+          name: install dependencies and version
+          command: |
+            pip install --user --upgrade pip setuptools wheel
+            pip install --user -r requirements.txt
       - run:
           name: deploy master
           command: |
@@ -61,6 +60,8 @@ workflows:
     jobs:
       - build
       - deploy-prod:
+          requires:
+            - build
           filters:
             branches:
               only: master
