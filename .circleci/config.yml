@@ -24,18 +24,24 @@ jobs:
       - run:
           name: install dependencies and version
           command: |
-            pip install --user --upgrade pip setuptools wheel
-            pip install --user -r requirements.txt
+            python2 -m pip install --upgrade pip setuptools wheel
+            python2 -m pip install virtualenv
+            virtualenv venv
+            . venv/bin/activate
+            pip install --upgrade pip setuptools wheel
+            pip install -r requirements.txt
 
-      - run:
-          name: python tests
-          command: |
-            ./test_www.py > mytest.log
-            cat mytest.log
       - save_cache:
           paths:
             - venv
           key: v2-dependencies-{{ checksum "requirements.txt" }}
+
+      - run:
+          name: python tests
+          command: |
+            . venv/bin/activate
+            ./test_www.py > mytest.log
+            cat mytest.log
 
   deploy-prod:
     docker:
@@ -44,13 +50,9 @@ jobs:
     steps:
       - checkout
       - run:
-          name: install dependencies and version
-          command: |
-            pip install --user --upgrade pip setuptools wheel
-            pip install --user -r requirements.txt
-      - run:
           name: deploy master
           command: |
+            . venv/bin/activate
             fab prep_www_deploy
             fab rsync_www
 
