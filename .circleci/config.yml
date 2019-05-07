@@ -46,9 +46,15 @@ jobs:
   deploy-prod:
     docker:
       - image: circleci/python:2.7.16-node-browsers
-    working_directory: ~/repo
+    working_directory: ~/pyladies
     steps:
       - checkout
+      - run:
+          name: install dependencies and version
+          command: |
+            . venv/bin/activate
+            pip install --upgrade pip setuptools wheel
+            pip install -r requirements.txt
       - run:
           name: deploy master
           command: |
@@ -61,6 +67,8 @@ workflows:
     jobs:
       - build
       - deploy-prod:
+          requires:
+            - build
           filters:
             branches:
               only: master
