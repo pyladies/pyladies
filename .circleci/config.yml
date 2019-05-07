@@ -73,7 +73,7 @@ jobs:
           name: install rsync
           command: |
             sudo apt-get update && sudo apt-get install rsync -y --no-install-recommends
-      - add_ssh_keys
+      - add_ssh_keys:
           fingerprints:
             - 93:f3:72:8f:05:e9:2f:78:bf:8a:22:32:55:56:6d:86
       - run:
