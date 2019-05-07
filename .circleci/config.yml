@@ -69,7 +69,10 @@ jobs:
           paths:
             - venv
           key: v2-dependencies-{{ checksum "requirements.txt" }}
-
+      - run:
+          name: install rsync
+          command: |
+            sudo apt-get update && sudo apt-get install rsync -y --no-install-recommends
       - run:
           name: deploy master
           command: |
