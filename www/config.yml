@@ -1043,3 +1043,14 @@ chapters:
       location:
             latitude: 7.6559
             longitude: 11.1517
+
+    - name: Doboj, BiH
+        meetup_id: 281140334
+        website: 
+        image: pyladies_logo.png
+        email: doboj@pyladies.com
+        twitter: PyLadiesDoboj
+        meetup: Doboj PyLadies
+        location:
+              latitude: 44.727631
+              longitude: 18.096489
