@@ -569,6 +569,17 @@ chapters:
             latitude: -3.10719
             longitude: -60.0261
 
+    - name: Miami, Florida
+      website:
+      external_website:
+      image: pyladies_miami.png
+      email: miami@pyladies.com
+      twitter: "@MiamiPyLadies"
+      facebook:
+      location:
+            latitude:
+            longitude:
+
     - name:      Milan, Italy
       meetup_id: 186995752
       image: pyladies_dc_atl_sea_tor.png
