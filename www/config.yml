@@ -577,8 +577,8 @@ chapters:
       twitter: "@MiamiPyLadies"
       facebook:
       location:
-            latitude:
-            longitude:
+            latitude: 25.7617
+            longitude: -80.1918
 
     - name:      Milan, Italy
       meetup_id: 186995752
