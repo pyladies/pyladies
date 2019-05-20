@@ -806,7 +806,7 @@ chapters:
 
 
     - name:      Salvador, Brazil
-      website: http://salvador.pyladies.com/
+      website: https://pyladiessalvador.github.io/
       external_website: true
       image: pyladies_salvador_logo.png
       email: salvador@pyladies.com
