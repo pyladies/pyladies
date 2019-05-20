@@ -676,6 +676,13 @@ chapters:
       location:
             latitude: 7.1557102
             longitude: 3.3450899
+    
+    - name: Okinawa, Japan
+      email: okinawa@pyladies.com
+      twitter: PyLadiesOkinawa
+      location: 
+            latitude: 26.3305244
+            longitude: 127.8767851
 
     - name: Paris, France
       meetup_id: 18600594
