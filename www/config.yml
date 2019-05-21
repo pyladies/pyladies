@@ -264,7 +264,7 @@ chapters:
           longitude: -51.1794400
 
     - name: CDMX, México
-      meetup_id:
+      meetup_id: 19719503
       website: mx
       image: pyladies_cdmx.png
       email: mx@pyladies.com
