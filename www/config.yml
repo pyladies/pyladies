@@ -263,6 +263,17 @@ chapters:
           latitude: -29.1680600
           longitude: -51.1794400
 
+    - name: CDMX, México
+      meetup_id:
+      website: mx
+      image: pyladies_cdmx.png
+      email: mx@pyladies.com
+      twitter: MxPyladies
+      meetup: Mexico-City-Pyladies-Meetup
+      location:
+        latitude: 19.432868
+        longitude: -99.133211
+
     - name:      Charleston, SC
       meetup_id: 8401402
       website: http://charleston.pyladies.com
