@@ -263,7 +263,7 @@ chapters:
           latitude: -29.1680600
           longitude: -51.1794400
 
-    - name: CDMX, México
+    - name: CDMX, M&eacute;xico
       meetup_id: 19719503
       website: mx
       image: pyladies_cdmx.png
