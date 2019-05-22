@@ -7,12 +7,13 @@ This is the source code for the http://pyladies.com/ website. It uses
 supported).
 
 **Contents**
-- [Understanding the repo's directory layout]()
-- [Setting up a development system]()
-- [To add a new PyLadies location]()
-- [To write a blog post]()
-- [To contribute source code to the repository]()
-- [For Organizers]()
+- [Understanding the repo's directory layout](#understanding-the-repos-directory-layout)
+- [Setting up a development system](#setting-up-a-development-system)
+- [To add a new PyLadies location](#to-add-a-new-pyladies-location)
+- [To write a blog post](#to-write-a-blog-post)
+- [To contribute source code to the repository](#to-contribute-to-the-repository)
+- [To write a resource](#to-write-a-resource-more-sticky-than-a-blog-post)
+- [For Organizers](#for-organizers)
 
 ## Understanding the repo's directory layout
 
@@ -242,7 +243,7 @@ To use a Unicode accent in a YAML file, it's important to use the
 HTML entity character for the accent. The
 [HTML entity](https://developer.mozilla.org/en-US/docs/Glossary/Entity)
 can found be found in
-[a table of characters](https://dev.w3.org/html5/html-author/charref)
+[a table of characters](https://dev.w3.org/html5/html-author/charref).
 
 For example, México will have the HTML entity `M&eacute;xico`.
 
