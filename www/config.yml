@@ -1063,3 +1063,15 @@ chapters:
       location:
             latitude: 7.6559
             longitude: 11.1517
+            
+    - name: Nova Iguacu, RJ
+      meetup_id:
+      website:
+      image: pyladies-rural.jpg
+      email: rural@pyladies.com
+      twitter: 
+      facebook: pyladiesrural
+      github: PyladiesRural
+      location:
+            latitude: -22.742238
+            longitude: -43.458664
