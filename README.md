@@ -49,10 +49,10 @@ www                # directory which contains the content of the website
 If you wish to add a location, new chapter, or make code changes, please
 review the next few sections. There are a few tasks to set up a development
 system:
-- [Set up Python2 and a project directory]()
-- [Create and activate a virtual environment]()
-- [Fork and clone your pyladies repo]()
-- [Run the site locally]()
+- [Set up Python2 and a project directory](#set-up-python2-and-a-project-directory)
+- [Create and activate a virtual environment](#create-and-activate-a-virtual-environment)
+- [Fork and clone your pyladies repo](#fork-and-clone-your-pyladies-repo)
+- [Run the site locally](#run-the-site-locally)
 
 ### Set up Python2 and a project directory
 
