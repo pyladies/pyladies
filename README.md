@@ -91,7 +91,7 @@ Great!
 
 **Windows**
 
-The process will be similar though the commands will vary slightly.
+The process will be similar though the commands will vary slightly. Reference: [Table of basic Powershell commands](https://devblogs.microsoft.com/scripting/table-of-basic-powershell-commands/).
 
 ### Create and activate a virtual environment
 
