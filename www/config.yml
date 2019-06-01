@@ -382,7 +382,7 @@ chapters:
       github:    https://github.com/PyladiesAddis
       location:
             latitude:  9.005401
-            longtiude: 38.763611
+            longitude: 38.763611
 
     - name: Ghana
       website: https://ghana.pyladies.com
@@ -580,16 +580,16 @@ chapters:
             latitude: -3.10719
             longitude: -60.0261
 
-    - name:      Milan, Italy
+    - name: Milan, Italy
       meetup_id: 186995752
       image: pyladies_dc_atl_sea_tor.png
       email: milan@pyladies.com
-      twitter: PyLadiesMilan
-      meetup: PyLadies-Milano
-      facebook: PyLadies-Milano
+      twitter: "@MilanoPyladies"
+      meetup: meetup-group-AmxqeOPN/
+      facebook: pg/pyladiesmilan
       location:
-            latitude: 45.4667971
-            longitude: 9.1904984
+            latitude: 45.46421
+            longitude: 9.19138
 
     - name:      Melbourne, Australia
       website: http://melbourne.pyladies.com/
