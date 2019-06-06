@@ -1,0 +1,23 @@
+{% extends 'site.html' %}
+
+
+{% set title = 'Tag  &rsaquo; ' ~ tag.name %}
+
+{% block content %}
+    <h2>Tag &rsaquo; {{ tag.name }}</h2>
+    {% for year, archive in tag.archives.iteritems() %}
+        <dl class="archives">
+            <dt><a href="{{ get_url(archive.url) }}">{{ year }}</a></dt>
+            <dd>
+                <dl>
+                    {% for month, archive_posts in archive.months.iteritems() %}
+                        {% for post in archive_posts %}
+                            <dt>{{ post.timestamp|date('%b %d') }}</dt>
+                            <dd><a href="{{ get_url(post.url) }}">{{ post.title }}</a>{% if post.tags %}<small>Tagged <span>&raquo;</span> {% for tag in post.tags %}<a href="{{ get_url(posts.tags[tag].url) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</small>{% endif %}</dd>
+                        {% endfor %}
+                    {% endfor %}
+                </dl>
+            </dd>
+        </dl>
+    {% endfor %}
+{% endblock %}

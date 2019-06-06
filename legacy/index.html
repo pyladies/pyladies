@@ -1,0 +1,27 @@
+{% extends 'site.html' %}
+
+{% block content %}
+    <h1 id="homepage_h1">Welcome!</h1>
+    <section id="archive">
+        <article class="welcome">
+            <div id="welcome_message">
+                    <h2>Welcome!</h2>
+                    <img src="{{ get_asset('images/pylady_geek.png') }}" alt="Pyladies lady graphic" />
+                    <p>We are an international mentorship group with a focus on helping more women become active participants and leaders in the Python open-source community. Our mission is to promote, educate and advance a diverse Python community through outreach, education, conferences, events and social gatherings.</p>
+                    <p>PyLadies also aims to provide a friendly support network for women and a bridge to the larger Python world. Anyone with an interest in Python is encouraged to participate!</p>
+            </div>
+        </article>
+
+        <article class="latest">
+            <h3 class="latest-master">Latest Blog Posts</h3>
+                <div id="latestBlog">
+                    {% for post in posts.items[:2] %}
+                        <h3><a href="{{ get_url(post.url) }}">{{ post.title }}</a></h3>
+                        <time pubdate datetime="{{ post.timestamp|date('%Y-%m-%d') }}">{{ post.date }}</time>
+                        <p>{{ post.excerpt }}  <a href="{{ get_url(post.url) }}" class='more-link'>Read more &rarr;</a></p>
+                    {% endfor %}
+                </div>
+        </article>
+    </section>
+
+{% endblock %}

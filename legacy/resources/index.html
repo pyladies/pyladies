@@ -1,0 +1,29 @@
+{% extends "site.html" %}
+{% block title %}Resources{% endblock %}
+{% block content %}
+    <section id="archive">
+        <h1>Resources</h1>
+            <article>
+                <h2>Resources we've written</h2>
+                {% for post in posts %}
+                    {% if 'resources' in post.category and 'pyladies' in post.category %}
+                        <h3><a href="{{ get_url(post.url) }}">{{ post.title }}</a></h3>
+                        <h4>{{ post.author }}</h4>
+                        <p>{{ post.summary }}  <a href="{{ get_url(post.url) }}" class='more-link'>Read more &rarr;</a></p>
+                    {% endif %}
+                {% endfor %}
+                <hr >
+                <h2>Other Resources we like</h2>
+
+                Have a recommendation? <a href="http://goo.gl/forms/U66Yweodrw">Suggest it!</a>
+
+                {% for post in posts %}
+                    {% if 'resources' in post.category and not 'pyladies' in post.category %}
+                        <h3>{{ post.title }}</h3>
+                        <p>{{ post.content }}</p>
+                    {% endif %}
+                {% endfor %}
+
+            </article>
+    </section>
+{% endblock %}

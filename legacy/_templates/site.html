@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    {% if site.title %}
+    <title>{% block title %}{% if title %}{{ title }} &ndash; {% endif %}{{ site.title }}{% if not title and site.subtitle %} &ndash; {{ site.subtitle }}{% endif %}{% endblock %}</title>{% endif %}
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <link rel="stylesheet" href="{{ get_asset('css/pygments.css') }}" media="screen" title="screen"/>
+    <link rel="stylesheet" href="{{ get_asset('css/screen.css') }}" media="screen" title="screen"/>
+    <link rel="stylesheet" href="{{ get_asset('css/mailchimp.css') }}" media="screen" title="screen"/>
+    <link href='https://fonts.googleapis.com/css?family=Glegoo|Bitter|Droid+Serif:400,700,400italic,700italic|Raleway:400,200,300,500,600,700' rel='stylesheet' type='text/css'/>
+    <link rel="shortcut icon" href="{{ get_asset('images/favicon.ico') }}" type="image/ico" />
+    <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="{{ get_url('feed.xml', true) }}" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script>if (window.location.protocol != "https:" && window.location.host.indexOf('pyladies.com') > -1) {
+      window.location.protocol = "https";
+    }</script>
+	{% block headjs %}
+    <script src="https://platform.twitter.com/widgets.js" type="text/javascript"></script>
+    <script type="text/javascript" src="{{ get_asset('js/meetup_widget.js') }}"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var meetupIds = "{% for chapter in site.chapters if chapter.meetup_id -%}
+                                 {{ chapter.meetup_id }}
+                                 {%- if not loop.last -%},{% endif %}
+                            {%- endfor -%}";
+             var timepadPages = "{% for chapter in site.chapters if chapter.timepad_id -%}
+                                 {{ chapter.timepad_id }}
+                                 {%- if not loop.last -%},{% endif %}
+                            {%- endfor -%}";
+            PyladiesMeetupWidget.addUpcomingMeetups(meetupIds, timepadPages);
+        });
+	</script>
+	{% endblock %}
+	{% block style %}
+	{% endblock %}
+</head>
+
+<body>
+    <a href="https://github.com/pyladies/pyladies" class="github-corner"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:rgb(255, 100, 100); color:#fff; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1);"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+    <div class="header">
+        <div id="pyladies_header_logo">
+            <a href="/"><img src="{{ get_asset('images/pyladies_logo.png') }}" width="260" height="120" alt="PyLadies Logo"/></a>
+        </div>
+        <nav>
+            <ul class="nav-wrapper">
+                <li><a href="{{ get_url('/') }}">Home</a></li>
+                <li><a href="{{ get_url('about/') }}">About</a></li>
+                <li><a href="https://discuss.pyladies.com">Forum</a></li>
+                <li><a href="{{ get_url('locations/') }}">Locations</a></li>
+                <li><a href="https://blog.pyladies.com">Blog</a></li>
+                <li><a href="{{ get_url('CodeOfConduct/') }}">Code of Conduct</a></li>
+                <li><a href="{{ get_url('resources/') }}">Resources</a></li>
+                <li><a href="mailto:info@pyladies.com?subject=Hello" id="contact-link">Contact</a></li>
+                {% if site.feed %}<li><a href="{{ get_url('feed.xml', true)}}" title="RSS">RSS</a></li>{% endif %}
+            </ul>
+        </nav>
+    </div>
+    <div class="page">
+        {% block content %}{% endblock %}
+    </div>
+
+	<div class="sidebar">
+		{% block sidebar %}
+        <div id="mc_embed_signup">
+            <form action="https://pyladies.us2.list-manage1.com/subscribe/post?u=9d20e0bc6bc0e88a076738c6f&amp;id=23e4f35e45" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <label for="mce-EMAIL">Keep up with what's going in the PyLadies community on our low-volume announcement list.  Men and women from everywhere are welcome.  Unsubscribe anytime. </label>
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            </form>
+        </div>
+
+        <div id="sponsor_us_btn"><a href="{{ get_url('sponsor/') }}">Sponsor Us</a></div>
+
+        <div id="shirts_btn" style="display:flex;justify-content:center;align-items:center;font-size:14px;"><a href="https://pyladies.spreadshirt.com/">Get Swag</a></div>
+
+        <div id="stickers_btn" style="display:flex;justify-content:center;align-items:center;font-size:14px;"><a href="https://www.stickermule.com/user/1070441144/stickers">Buy Stickers</a></div>
+
+        <h3>Upcoming Meetups</h3>
+        <div id="upcomingMeetupsList">
+        </div>
+
+        <div id="twitter_feed">
+            <h3>Recent Tweets</h3>
+            <div id="chapter_tweets">
+                <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/pyladies/lists/pyladies-locations" data-widget-id="635861904234258433">Tweets from https://twitter.com/pyladies/lists/pyladies-locations</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
+		</div>
+		{% endblock %}
+    </div>
+
+    <div class="footer-wrapper">
+            <footer id="bottom">
+			{% block footer %}
+                <ul class="social">
+                    <li><a class="icon google-plus" data-icon="&#62223;" href="https://plus.google.com/communities/108807002736066163985" title="Google+"></a></li>
+                    <li><a class="icon github" data-icon="&#62208;" href="http://github.com/pyladies" title="GitHub"></a></li>
+                    <li><a class="icon rss" data-icon="&#59194;" href="{{ get_url('feed.xml', true)}}" title="RSS"></a></li>
+                    <li><a class="icon creative-commons" data-icon="&#128325;" href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons"></a></li>
+                    <ul class="footer-notice">
+                        <li>2007 - {{ None|date('%Y') }} PyLadies. All Rights Reserved.</li>
+                        <li>Disclaimer - PyLadies and the PyLadies logo are trademarks of the Python Software Foundation</li>
+                    </ul>
+                </ul>
+            {% endblock %}
+            </footer>
+    </div>
+
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-36930002-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+</body>
+</html>

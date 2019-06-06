@@ -1,0 +1,29 @@
+{% extends 'site.html' %}
+
+
+{% set title = item.title %}
+
+{% block content %}
+
+    <section id="archive">
+        <article>
+            <h2>{{ item.title }}</h2>
+            {% if item.author %}
+            	{% if item.author_link %}
+            	<h4><a href="{{ item.author_link }}">{{ item.author}}</a></h4>
+            	{% else %}
+            	<h4>{{ item.author }}</h4>
+            	{% endif %}
+            {% endif %}
+            <h3>{{ item.date }}{% if item.tags %} | Tag: <span>&raquo;</span> {% for tag in item.tags %}<a href="{{ get_url(posts.tags[tag].url) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}</h3>
+
+            <div>
+                <a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="pyladies">Tweet</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </div>
+
+            {{ item.content }}
+        </article>
+    </section>
+
+{% endblock %}

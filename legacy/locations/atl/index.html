@@ -1,0 +1,50 @@
+{% extends "site.html" %}
+{% block title %}PyLadies ATL{% endblock %}
+{% block headjs %}
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ get_asset('js/meetup_widget.js') }}"></script>
+	<script type="text/javascript">
+        $(document).ready(function() {
+			var chapter_id = '4507652'; //ATX meetup group ID
+            addUpcomingMeetups(chapter_id);
+        });//end doc.ready
+	</script>
+	<link rel="stylesheet" href="{{ get_asset('css/atl.css') }}" media="screen" title="screen">
+{% endblock %}
+{% block style %}
+{% endblock %}
+
+{% block content %}
+<h3>Upcoming Events</h3>
+<div id="upcomingMeetupsList">
+</div>
+{% endblock %}
+
+{% block sidebar%}
+    <div class="button">
+		<a href="http://meetup.com/PyLadiesATL/join">Join PyLadies ATL Meetup</a>
+	</div>
+	<div id="sponsors">
+		<h3>Sponsors</h3>
+		<a href="http://bignerdranch.com"><img src="/assets/images/atl_bnr_logo.png" width="300" style="width:300px;"/></a>
+		<div id="sponsor_us_btn" class="button">
+			<a href="http://www.meetup.com/PyLadiesATL/sponsor/">Sponsor PyLadiesATL</a>
+		</div>
+	</div>
+	
+    <div id="twitter_feed">
+		<h3>Recent Tweets</h3>
+		
+		<div id="chapter_tweets"><a class="twitter-timeline" href="https://twitter.com/PyLadiesATL" data-widget-id="336176105218256898" data-chrome="nofooter" height="400">Tweets by @PyLadiesATL</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+	</div>
+{% endblock %}
+
+{% block footer %}
+	<ul class="social">
+		<li><a class="icon twitter" data-icon="&#62217;" href="https://twitter.com/pyladiesatl" title="Twitter"></a></li>
+		<li><a class="icon rss" data-icon="&#59194;" href="{{ get_url('feed.xml', true)}}" title="RSS"></a></li>
+		<li><a class="icon creative-commons" data-icon="&#128325;" href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons"></a>2012 - {{ None|date('%Y') }} PyLadies ATL. All Rights Reserved.</li>
+	</ul>
+{% endblock %}

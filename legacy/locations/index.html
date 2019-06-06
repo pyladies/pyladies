@@ -1,0 +1,100 @@
+{% extends "site.html" %}
+{% block title %}Locations{% endblock %}
+
+{% block style %}
+    <link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
+{% endblock %}
+
+{% block headjs %}
+    {{ super() }}
+    <script src='https://api.tiles.mapbox.com/mapbox.js/v2.2.1/mapbox.js'></script>
+{% endblock %}
+
+{% block content %}
+    <h1>PyLadies Locations</h1>
+    <h2>PyLadies Locations</h2>
+    <div id="map">
+    </div>
+
+    <section id="archive">
+            <article class="chapters">
+                <div class="social">
+
+                    {% for chapter in site.chapters %}
+                    <div class="chapter_location" data-meetup-id="{{chapter.meetup_id}}" data-chapter-name="{{ chapter.name }}" >
+                        <div class="logo-container">
+                          {% if chapter.image %}
+                            <img src="../assets/images/{{chapter.image}}" alt="{{chapter.name}}" />
+                          {% else %}
+                            <img src="../assets/images/pyladies-sq-logo.png" alt="{{chapter.name}}" />
+                          {% endif %}
+                        </div>
+                        <h3 class="chpts chapter-name">
+                            {% if chapter.external_website %}
+                                <a href="{{chapter.website}}">
+                            {% else %}
+                                <a href="/locations/{{chapter.website}}">
+                            {% endif %}
+                            {{chapter.name}}</a>
+                        </h3>
+                        <h3 class="chpts social-icons">
+                            {% if chapter.website %}
+                            <a class="social icon link" data-icon="&#128279;" href="{{chapter.website}}" title="Website"></a>
+                            {% endif %}
+                            {% if chapter.email %}
+                            <a class="social icon vcard" data-icon="&#59170;" href="mailto:{{chapter.email}}" title="Contact"></a>
+                            {% endif %}
+                            {% if chapter.facebook %}
+                            <a class="social icon facebook" data-icon="&#62221;" href="https://www.facebook.com/{{chapter.facebook}}" title="Facebook"></a>
+                            {% endif %}
+                            {% if chapter.github %}
+                            <a class="social icon github" data-icon="&#62208;" href="https://github.com/{{chapter.github}}" title="GitHub"></a>
+                            {% endif %}
+                            {% if chapter.twitter %}
+                            <a class="social icon twitter" data-icon="&#62217;" href="https://twitter.com/{{chapter.twitter}}" title="Twitter"></a>
+                            {% endif %}
+                            {% if chapter.meetup %}
+                            <a class="social icon location" data-icon="&#59172;" title="Meetup Link" href="http://www.meetup.com/{{chapter.meetup}}/"></a>
+                            {% endif %}
+                            {% if chapter.google_plus %}
+                            <a class="social icon google-plus" data-icon="&#62223;" href="{{chapter.google_plus}}" title="Google+"></a>
+                            {% endif %}
+                            {% if chapter.timepad%}
+                            <a class="social icon location" data-icon="&#59172;" title="Timepad Link" href="https://{{chapter.timepad}}.timepad.ru"></a>
+                            {% endif %}
+                        </h3>
+                    </div>
+                    {% endfor %}
+              </div>
+            </article>
+    </section>
+
+    <script>
+      // Provide your access token
+      L.mapbox.accessToken = '{{ site.mapbox.api_key }}'
+      // Create a map in the div #map
+      var map = L.mapbox.map('map', 'mapbox.dark').setView([30, 0], 2);
+      var geekIcon = L.icon({
+          iconUrl: '../assets/images/mapmarker.png',
+          iconSize:     [36, 36],
+          iconAnchor:   [18, 36],
+          popupAnchor:  [0, -36]
+      });
+      {% for chapter in site.chapters %}
+      {% if chapter.location %}
+          L.marker([{{ chapter.location.latitude }}, {{ chapter.location.longitude }}], {
+            icon: geekIcon,
+          }).addTo(map).bindPopup(
+            '<div class="social">' +
+            $('[data-chapter-name="{{chapter.name}}"]').html() +
+            '</div>', {
+              maxWidth: 375,
+              minWidth: 375
+            }
+          );
+        {% endif %}
+      {% endfor %}
+
+    </script>
+
+{% endblock %}
