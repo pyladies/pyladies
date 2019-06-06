@@ -3,8 +3,7 @@
 [![CircleCI](https://circleci.com/gh/pyladies/pyladies/tree/master.svg?style=svg)](https://circleci.com/gh/pyladies/pyladies/tree/master)
 
 This is the source code for the http://pyladies.com/ website. It uses
-`mynt`, a static site generator (available for Python2; Python3 is not
-supported).
+`todo - Revise`, a static site generator, and Python 3.
 
 **Contents**
 - [Understanding the repo's directory layout](#understanding-the-repos-directory-layout)
@@ -21,27 +20,23 @@ Before adding a new location or contributing to the pyladies website, it's
 helpful to understand a bit about the repo and its contents.
 
 This is a general overview of the repo's root directory structure.
-`requirements.txt`, `fabfile.py` and `.circleci` directory contain code for
+`requirements.txt` and `.circleci` directory contain code for
 installing dependencies, configuring the CircleCI service, and instructions for
 testing and deployment. The repo's root directory also contains
-the `www` folder. Most of the time, contributors will edit or add files in
-the `www` folder.
+the `content` folder. Most of the time, contributors will edit or add files in
+the `content` folder.
 
 ```bash
 requirements.txt   # file with dependencies used by pip
 .circleci          # directory containing the continuous integration configuration settings
-fabfile.py         # file which is used by continuous integration for testing and deployment
-www                # directory which contains the content of the website
-├── CodeOfConduct
-├── _assets        # javascript, CSS stuff, and images go here
-├── _posts         # contains blog posts written in markdown
-├── _templates     # contains the base templates (html and Jinja2) used by the site
-├── about
-├── archives
-├── blog
-├── locations      # Use the config.yml file to add new locations or update location info
-├── resources
-└── sponsor
+content            # directory which contains the content of the website
+├── 2019                # markdown files with a post's content and metadata
+├── 2018
+└── ...
+locations          # directory containing config file for location info for chapters
+├── config.yml          # Use the config.yml file to add new locations or update location info
+assets             # directory containing javascript, CSS stuff, and images
+legacy             # files from prior site which uses mynt
 ```
 
 ## Setting Up a Development System
@@ -49,12 +44,14 @@ www                # directory which contains the content of the website
 If you wish to add a location, new chapter, or make code changes, please
 review the next few sections. There are a few tasks to set up a development
 system:
-- [Set up Python2 and a project directory](#set-up-python2-and-a-project-directory)
+- [Set up Python and a project directory](#set-up-python-and-a-project-directory)
 - [Create and activate a virtual environment](#create-and-activate-a-virtual-environment)
 - [Fork and clone your pyladies repo](#fork-and-clone-your-pyladies-repo)
 - [Run the site locally](#run-the-site-locally)
 
-### Set up Python2 and a project directory
+### Set up Python and a project directory
+
+TODO - Revise
 
 **Linux, macOS**
 
@@ -94,6 +91,8 @@ Great!
 The process will be similar though the commands will vary slightly. Reference: [Table of basic Powershell commands](https://devblogs.microsoft.com/scripting/table-of-basic-powershell-commands/).
 
 ### Create and activate a virtual environment
+
+TODO - Revise
 
 1. From the `pyladies-dev` directory, install the `virtualenv` package:
 
@@ -216,7 +215,7 @@ it will find your virtualenv folder and error out).
 Follow the instructions for [setting up a development environment]().
 
 To add or edit a location, you will make changes to the `config.yaml`
-file found in the `pyladies\www\locations` directory.
+file found in the `pyladies\locations` directory.
 
 YAML files are often used for configuration information. They can be
 fussy about spacing, indentations, and punctuation. It can be helpful
@@ -256,6 +255,8 @@ See [CONTRIBUTING.md](https://github.com/pyladies/pyladies/blob/master/CONTRIBUT
 See [CONTRIBUTING.md](https://github.com/pyladies/pyladies/blob/master/CONTRIBUTING.md) for instructions and guidelines.
 
 ## To write a resource (more "sticky" than a blog post)
+
+TODO -Revise
 
 ### Collection of outside resources
 
