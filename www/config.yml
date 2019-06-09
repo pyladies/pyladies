@@ -1047,6 +1047,7 @@ chapters:
     - name: Doboj, Bosnia and Herzegovina
       meetup_id: 281140334
       website: http://doboj.pyladies.com/
+      external_website: true
       image: pyladies_doboj.png
       email: doboj@pyladies.com
       facebook: pyladiesdobojbih
