@@ -570,12 +570,11 @@ chapters:
             longitude: -60.0261
 
     - name: Miami, Florida
-      website:
-      external_website:
+      meetup: Miami-PyLadies
+      meetup_id: 282890453
       image: pyladies_miami.png
       email: miami@pyladies.com
       twitter: "@MiamiPyLadies"
-      facebook:
       location:
             latitude: 25.7617
             longitude: -80.1918
