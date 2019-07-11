@@ -711,8 +711,8 @@ chapters:
       github: pyladiespb
       twitter: pyladiesPB
       location:
-            latitude: 7.2400
-            longitude: 36.7820
+            latitude: -7.2400
+            longitude: -36.7820
 
     - name: Paris, France
       meetup_id: 18600594
