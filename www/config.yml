@@ -341,6 +341,19 @@ chapters:
       location:
           latitude: 39.7392
           longitude: -104.9903
+    
+    - name: Doboj, BiH
+      meetup_id: 281140334
+      website: http://doboj.pyladies.com/
+      external_website: true
+      image: pyladies_doboj.png
+      email: doboj@pyladies.com
+      facebook: pyladiesdobojbih
+      twitter: PyLadiesDoboj
+      meetup: Doboj PyLadies
+      location:
+            latitude: 44.731389
+            longitude: 18.084444
 
     - name:      Dublin, Ireland
       meetup_id: 13320732
@@ -1082,3 +1095,14 @@ chapters:
       location:
             latitude: 7.6559
             longitude: 11.1517
+            
+    - name: Monrovia, Liberia
+      meetup_id: 
+      website: 
+      image: pyladies_dc_atl_sea_tor.png
+      email: monrovia@pyladies.com
+      twitter: 
+      meetup: 
+      location:
+            latitude: 6.313333
+            longitude:  -10.801389
