@@ -656,7 +656,16 @@ chapters:
       location:
             latitude: 18.9523804
             longitude: 72.8327112
-
+  
+    - name:      SWFL
+      website: swfl
+      image: pyladies.png
+      email: swflorida@pyladies.com
+      twitter: PyLadiesSWFL
+      location:
+            latitude: 26.14234
+            longitude: -81.79596
+        
     - name:      Nashville, TN
       website: nash
       image: pyladies_nashville.jpeg
