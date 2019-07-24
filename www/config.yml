@@ -680,9 +680,8 @@ chapters:
             longitude: -35.200916
 
     - name:      Newark, DE
-      meetup_id: 8160762
       email: newarkde@pyladies.com
-      meetup: PyLadiesAMS
+      meetup: PyLadies Newark DE
       location:
             latitude: 39.6832884
             longitude: -75.7497231
