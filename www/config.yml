@@ -217,7 +217,15 @@ chapters:
       location:
             latitude: -10.3333333
             longitude: -53.2
-
+            
+    - name:       Brisbane, Australia
+      image: BPLlogo.jpg
+      email: brisbane@pyladies.com
+      twitter: PyLadiesBNE
+      github: BrisbanePyLadies
+      location: 
+            latitude: -27.470125
+            longitude: 153.021072
 
     - name:      Brno, Czech Republic
       meetup_id: 5160912
