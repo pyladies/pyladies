@@ -219,6 +219,7 @@ chapters:
             longitude: -53.2
     
     - name:      Brisbane, Australia
+      image: BPLlogo.jpg
       github: BrisbanePyLadies
       twitter: PyLadiesBNE
       email: brisbane@pyladies.com
