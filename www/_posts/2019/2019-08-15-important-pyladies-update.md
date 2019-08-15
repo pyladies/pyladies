@@ -27,7 +27,7 @@ When you sign up introduce yourself in the #introductions channel and if you are
 
 ###New GitHub repository for PyLadies resources!
 
-PyLadies has created a [repository](https://github.com/pyladies/pyladies-chapter-resources) where you can submit your chapter resources from talks and workshops you’ve ran! All submitted materials will be free to reuse for your chapter to use and draw inspiration for. When using material created by others, remember to attribute the creator as outlined in the resource materials.
+PyLadies has created a [repository](https://github.com/pyladies/pyladies-chapter-resources) where you can submit your chapter resources from talks and workshops you've ran! All submitted materials will be free to reuse for your chapter to use and draw inspiration for. When using material created by others, remember to attribute the creator as outlined in the resource materials.
 
 Have more questions? Consult the repository `README` or open an issue! We also have a `#chapter-resources` Slack channel.
 
