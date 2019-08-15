@@ -41,7 +41,7 @@ This proposal only captures the structure for the global governance model. Who w
 
 Every month an interim working group focusing on the global PyLadies community meets every second Wednesday of the month. All notes can be found on the [PyLadies global repo in the monthly issues](https://github.com/pyladies/global-organizing/) and will be posted in `#feed-global-minutes `in Slack. Have something you want to add to the next meeting? We invite you to add your notes to [next month's](https://github.com/pyladies/global-organizing/issues/14) (and all future months) agenda!
 
-Thank you PyLadies! We’re thrilled to continue PyLadies work into the future and welcome all feedback!
+Thank you PyLadies! We're thrilled to continue PyLadies work into the future and welcome all feedback!
 
 PyLadies Interim Global Team:
 
