@@ -10,7 +10,8 @@ author_link: https://twitter.com/loooorenanicole
 Important PyLadies Update
 =====================
 
-As PyLadies enters its ninth year, we’re taking steps to refresh PyLadies’ online presence and introduce a new approach to how PyLadies will manage itself globally.
+As PyLadies enters its ninth year, we're taking steps to refresh PyLadies'
+online presence and introduce a new approach to how PyLadies will manage itself globally.
 
 To help us get the ball rolling, we have some news below to share and some action items we need you to complete. Please also share this email with your co-organizers.
 
