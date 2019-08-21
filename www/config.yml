@@ -666,7 +666,18 @@ chapters:
       location:
             latitude: 18.9523804
             longitude: 72.8327112
-  
+
+    - name:      Munich, Germany
+      website: https://github.com/pyladiesmunich
+      external_website: true
+      image: pyladiesmu_logo.png
+      email: munich@pyladies.com
+      twitter: pyladiesmunich
+      meetup: PyLadiesMunich
+      location:
+            latitude: 48.139127
+            longitude: 11.580186
+
     - name:      SWFL
       website: swfl
       image: pyladies.png
