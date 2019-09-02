@@ -186,18 +186,6 @@ chapters:
             latitude: 42.3604823
             longitude: -71.0595678
 
-    - name:      Brasilia, Brazil
-      website: http://brasil.pyladies.com
-      external_website: true
-      image: pyladies_brasilia.png
-      email: brasil@pyladies.org
-      facebook: PyLadiesbsb
-      github: pyladies-brazil
-      twitter: pyladiesbrazil
-      location:
-            latitude: -15.7941454
-            longitude: -47.8825479
-
     - name: Bratislava, Slovakia
       email: bratislava@pyladies.org
       facebook: PyLadiesBratislava
@@ -351,6 +339,18 @@ chapters:
       location:
           latitude: 39.7392
           longitude: -104.9903
+
+    - name: DF - Brasilia, Brazil
+      website: http://df.pyladies.com
+      external_website: true
+      image: pyladies_df.png
+      email: brasilia@pyladies.org
+      facebook: pyladiesdf
+      github: pyladiesdf
+      twitter: pyladiesdf
+      location:
+            latitude: -15.7941454
+            longitude: -47.8825479
 
     - name: Doboj, BiH
       meetup_id: 281140334
