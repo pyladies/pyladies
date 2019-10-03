@@ -186,18 +186,6 @@ chapters:
             latitude: 42.3604823
             longitude: -71.0595678
 
-    - name:      Brasilia, Brazil
-      website: http://brasil.pyladies.com
-      external_website: true
-      image: pyladies_brasilia.png
-      email: brasil@pyladies.org
-      facebook: PyLadiesbsb
-      github: pyladies-brazil
-      twitter: pyladiesbrazil
-      location:
-            latitude: -15.7941454
-            longitude: -47.8825479
-
     - name: Bratislava, Slovakia
       email: bratislava@pyladies.org
       facebook: PyLadiesBratislava
@@ -218,6 +206,16 @@ chapters:
             latitude: -10.3333333
             longitude: -53.2
 
+    - name:      Brisbane, Australia
+      image: BPLlogo.png
+      github: BrisbanePyLadies
+      meetup: BrisbanePyLadies
+      twitter: PyLadiesBNE
+      Linkedin: PyLadies Brisbane
+      email: brisbane@pyladies.com
+      location:
+            latitude: -27.470125
+            longitude: 153.021072
 
     - name:      Brno, Czech Republic
       meetup_id: 5160912
@@ -341,6 +339,31 @@ chapters:
       location:
           latitude: 39.7392
           longitude: -104.9903
+
+    - name: DF - Brasilia, Brazil
+      website: http://df.pyladies.com
+      external_website: true
+      image: pyladies_df.png
+      email: brasilia@pyladies.org
+      facebook: pyladiesdf
+      github: pyladiesdf
+      twitter: pyladiesdf
+      location:
+            latitude: -15.7941454
+            longitude: -47.8825479
+
+    - name: Doboj, BiH
+      meetup_id: 281140334
+      website: http://doboj.pyladies.com/
+      external_website: true
+      image: pyladies_doboj.png
+      email: doboj@pyladies.com
+      facebook: pyladiesdobojbih
+      twitter: PyLadiesDoboj
+      meetup: Doboj PyLadies
+      location:
+            latitude: 44.731389
+            longitude: 18.084444
 
     - name:      Dublin, Ireland
       meetup_id: 13320732
@@ -580,6 +603,16 @@ chapters:
             latitude: -3.10719
             longitude: -60.0261
 
+    - name: Miami, Florida
+      meetup: Miami-PyLadies
+      meetup_id: 282890453
+      image: pyladies_miami.png
+      email: miami@pyladies.com
+      twitter: "@MiamiPyLadies"
+      location:
+            latitude: 25.7617
+            longitude: -80.1918
+
     - name: Milan, Italy
       meetup_id: 186995752
       image: pyladies_dc_atl_sea_tor.png
@@ -634,6 +667,26 @@ chapters:
             latitude: 18.9523804
             longitude: 72.8327112
 
+    - name:      Munich, Germany
+      website: https://github.com/pyladiesmunich
+      external_website: true
+      image: pyladiesmu_logo.png
+      email: munich@pyladies.com
+      twitter: pyladiesmunich
+      meetup: PyLadiesMunich
+      location:
+            latitude: 48.139127
+            longitude: 11.580186
+
+    - name:      SWFL
+      website: swfl
+      image: pyladies.png
+      email: swflorida@pyladies.com
+      twitter: PyLadiesSWFL
+      location:
+            latitude: 26.14234
+            longitude: -81.79596
+
     - name:      Nashville, TN
       website: nash
       image: pyladies_nashville.jpeg
@@ -655,6 +708,14 @@ chapters:
       location:
             latitude: -5.7792569
             longitude: -35.200916
+
+    - name:      Newark, DE
+      email: newarkde@pyladies.com
+      meetup: PyLadies-Newark-DE
+      location:
+            latitude: 39.6832884
+            longitude: -75.7497231
+
 
     - name:      New York, NY
       meetup_id: 4576312
@@ -687,22 +748,22 @@ chapters:
       location:
             latitude: 7.1557102
             longitude: 3.3450899
-    
+
     - name: Okinawa, Japan
       email: okinawa@pyladies.com
       twitter: PyLadiesOkinawa
-      location: 
+      location:
             latitude: 26.3305244
             longitude: 127.8767851
-            
+
     - name: Paraiba, Brazil
       email: pb@pyladies.com
       facebook: pyladiespb
       github: pyladiespb
       twitter: pyladiesPB
       location:
-            latitude: 7.2400
-            longitude: 36.7820
+            latitude: -7.2400
+            longitude: -36.7820
 
     - name: Paris, France
       meetup_id: 18600594
@@ -867,6 +928,16 @@ chapters:
       location:
             latitude: 37.7792768
             longitude: -122.4192704
+
+    - name:      Santa Cruz, CA
+      meetup: PyLadiesSC
+      meetup_id: 251524694
+      image: pyladies_santa_cruz.png
+      email: santacruz@pyladies.com
+      twitter: PyLadiesSC
+      location:
+            latitude: 36.97538
+            longitude: -122.028286
 
     - name:      Sao Carlos, Brazil
       website: http://brasil.pyladies.com
@@ -1072,7 +1143,7 @@ chapters:
       location:
             latitude: 7.6559
             longitude: 11.1517
-            
+
     - name: Nova Iguacu, RJ
       meetup_id:
       website:
@@ -1086,13 +1157,13 @@ chapters:
             longitude: -43.458664
 
     - name: Monrovia, Liberia
-      meetup_id: 
-      website: 
+      meetup_id:
+      website:
       image: pyladies_dc_atl_sea_tor.png
       email: monrovia@pyladies.com
-      twitter: 
-      meetup: 
+      twitter:
+      meetup:
       location:
             latitude: 6.313333
             longitude:  -10.801389    
-            
+ 
