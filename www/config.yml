@@ -1144,6 +1144,18 @@ chapters:
             latitude: 7.6559
             longitude: 11.1517
 
+    - name: Nova Iguacu, RJ
+      meetup_id:
+      website:
+      image: pyladies-rural.jpg
+      email: rural@pyladies.com
+      twitter: 
+      facebook: pyladiesrural
+      github: PyladiesRural
+      location:
+            latitude: -22.742238
+            longitude: -43.458664
+
     - name: Monrovia, Liberia
       meetup_id:
       website:
@@ -1153,4 +1165,5 @@ chapters:
       meetup:
       location:
             latitude: 6.313333
-            longitude:  -10.801389
+            longitude:  -10.801389    
+ 
