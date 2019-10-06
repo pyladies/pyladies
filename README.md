@@ -14,6 +14,7 @@ supported).
 - [To contribute source code to the repository](#to-contribute-to-the-repository)
 - [To write a resource](#to-write-a-resource-more-sticky-than-a-blog-post)
 - [For Organizers](#for-organizers)
+- [License](#license)
 
 ## Understanding the repo's directory layout
 
