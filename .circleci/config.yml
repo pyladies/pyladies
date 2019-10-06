@@ -1,0 +1,100 @@
+# Python CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-python/ for more details
+#
+version: 2
+
+jobs:
+  build:
+    docker:
+      - image: circleci/python:2.7.16-node-browsers
+
+    working_directory: ~/pyladies
+
+    steps:
+      - checkout
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+            - v2-dependencies-{{ checksum "requirements.txt" }}
+            # fallback to using the latest cache if no exact match is found
+            - v2-dependencies-
+
+      - run:
+          name: install dependencies and version
+          command: |
+            python2 -m pip install --user --upgrade pip setuptools wheel
+            python2 -m pip install --user virtualenv
+            virtualenv venv
+            . venv/bin/activate
+            pip install --upgrade pip setuptools wheel
+            pip install -r requirements.txt
+
+      - save_cache:
+          paths:
+            - venv
+          key: v2-dependencies-{{ checksum "requirements.txt" }}
+
+      - run:
+          name: python tests
+          command: |
+            . venv/bin/activate
+            ./test_www.py > mytest.log
+            cat mytest.log
+
+  deploy-prod:
+    docker:
+      - image: circleci/python:2.7.16-node-browsers
+    working_directory: ~/pyladies
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v2-dependencies-{{ checksum "requirements.txt" }}
+            # fallback to using the latest cache if no exact match is found
+            - v2-dependencies-
+
+      - run:
+          name: install dependencies and version
+          command: |
+            python2 -m pip install --user --upgrade pip setuptools wheel
+            python2 -m pip install --user virtualenv
+            virtualenv venv
+            . venv/bin/activate
+            pip install --upgrade pip setuptools wheel
+            pip install -r requirements.txt
+
+      - save_cache:
+          paths:
+            - venv
+          key: v2-dependencies-{{ checksum "requirements.txt" }}
+      - run:
+          name: install rsync
+          command: |
+            sudo apt-get update && sudo apt-get install rsync -y --no-install-recommends
+      - add_ssh_keys:
+          fingerprints:
+            - 93:f3:72:8f:05:e9:2f:78:bf:8a:22:32:55:56:6d:86
+      - run:
+          name: add known host keys
+          command: |
+            echo 'pyladies.com,81.28.232.189 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDF5AHo4UHw8v5p9yKE1q3Twt5tFW1zx5M1cBUotZlHwxpMTI3JiGpvz9FjDVgWNtU/7i0F7CFVKtmUiYiI67CZJtH+QKa60iHyFWq60WmrcuRAwfWENdKJU6ruB5LSFVowzCi9GuCGcSBl6RBmNaZWtbnBTvWVMUxDRV4XVb/M3Co0zaGEH724OZwCEYvBSPm3LzWW+m4ZDWAb2a1dnpYeurTreLGgAx8exs6GWrHVCkoIxXJUM+FDyhF5ffO0jej+HzXS3TOnnxOVFMZmryF4Ofk+8lNJM4lMOZeA8bXzFxvqpIGn0cOz++4K5mdrieN+8k6LgTnj9cQGg/B/e6AX' >> ~/.ssh/known_hosts
+      - run:
+          name: deploy master
+          command: |
+            . venv/bin/activate
+            fab prep_www_deploy
+            fab rsync_www
+
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - build
+      - deploy-prod:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
