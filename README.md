@@ -322,4 +322,4 @@ doesn't match w/ the current homepage. Maybe keep it as mynt though
 
 ## LICENSE
 
-![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)
+[![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://github.com/pyladies/pyladies/blob/master/LICENSE)
