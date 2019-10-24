@@ -14,6 +14,7 @@ supported).
 - [To contribute source code to the repository](#to-contribute-to-the-repository)
 - [To write a resource](#to-write-a-resource-more-sticky-than-a-blog-post)
 - [For Organizers](#for-organizers)
+- [License](#license)
 
 ## Understanding the repo's directory layout
 
@@ -317,4 +318,8 @@ doesn't match w/ the current homepage. Maybe keep it as mynt though
 - but your choice completely.
 
 
--your friendly administrator.
+-your friendly administrator.  
+
+## LICENSE
+
+![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)
