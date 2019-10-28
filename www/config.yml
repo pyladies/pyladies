@@ -986,6 +986,14 @@ chapters:
             latitude: 37.415236
             longitude: -122.0254301
 
+    - name: Sorocaba, SP 
+      website: sorocaba
+      image: pyladies_sorocaba_logo.jpg
+      email: sorocaba@pyladies.com
+      facebook: PyLadiesSorocaba
+      location:
+            latitude: -23.50167
+            longitude: -47.45806
 
     - name: Singapore
       meetup_id: 14910222
@@ -998,6 +1006,7 @@ chapters:
             latitude: 1.2904527
             longitude: 103.852038
 
+     
     - name: Spain
       image: pyladies_es.png
       email: spain@pyladies.com
@@ -1179,4 +1188,3 @@ chapters:
       location:
             latitude: 5.476310
             longitude: 7.025853
- 
