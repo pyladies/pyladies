@@ -857,6 +857,14 @@ chapters:
       location:
             latitude: -8.0475458
             longitude: -34.8769621
+        
+    - name:   Remote, Everywhere
+      website: http://remote.pyladies.com
+      external_website: true
+      image: pyladies-remote.png
+      email: remote@pyladies.com
+      github: pyladies-remote
+      twitter: pyladiesremote
 
     - name:   Rio de Janeiro, Brazil
       website: http://brasil.pyladies.com
