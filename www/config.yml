@@ -1196,3 +1196,11 @@ chapters:
       location:
             latitude: 5.476310
             longitude: 7.025853
+
+    - name: Sul de Minas, Brazil
+      image: pyladies_sulmg.png
+      email: suldeminasgerais@pyladies.com
+      facebook: Pyladies Sul de Minas Gerais
+      location:
+            latitude: -20.718889
+            longitude: -46.609722
