@@ -790,6 +790,11 @@ chapters:
   organizer: Eleonore Mayola
   pro_network: Python Software Foundation Meetup Pro Network
   website: stockholm
+- email: suldeminasgerais@pyladies.com
+  facebook: Pyladies Sul de Minas Gerais
+  image: pyladies_sulmg.png
+  location: {latitude: -20.718889, longitude: -46.609722}
+  name: Sul de Minas, Brazil
 - email: sydney@pyladies.com
   facebook: pyladiesau
   location: {latitude: -33.87, longitude: 151.21}
