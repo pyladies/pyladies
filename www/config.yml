@@ -285,8 +285,8 @@ chapters:
             longitude: -79.9402728
 
     - name: Chicago, IL
-      meetup_id: 18320041
-      website: chicago
+      website: http://chicago.pyladies.com
+      external_website: true
       image: pyladies_chicago.png
       email: chicago@pyladies.com
       twitter: PyLadiesChicago
