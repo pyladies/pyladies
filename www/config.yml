@@ -202,6 +202,7 @@ chapters:
   twitter: PyLadiesCHS
   website: http://charleston.pyladies.com
 - email: chicago@pyladies.com
+  external_website: true
   image: pyladies_chicago.png
   location: {latitude: 41.88, longitude: -87.63}
   meetup: Chicago-PyLadies
@@ -211,7 +212,7 @@ chapters:
   organizer: Lorena Mesa
   pro_network: Python Software Foundation Meetup Pro Network
   twitter: PyLadiesChicago
-  website: chicago
+  website: http://chicago.pyladies.com
 - email: cle@pyladies.com
   external_website: true
   facebook: CLEPyLadies
