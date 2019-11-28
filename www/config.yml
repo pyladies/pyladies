@@ -730,6 +730,12 @@ chapters:
   name: Sao Carlos, Brazil
   twitter: pyladiesbrazil
   website: http://brasil.pyladies.com
+- email: saoluis@pyladies.org
+  facebook: PyLadiesSLZ
+  image: pyladies_saoluis.png
+  location: {latitude: -2.53073, longitude: -44.3068}
+  name: São Luís, Brazil
+  twitter: PyladiesSlz
 - email: seattle-pyladies@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
   location: {latitude: 47.68, longitude: -122.29}
