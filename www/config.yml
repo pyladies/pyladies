@@ -844,7 +844,7 @@ chapters:
   name: Tokyo
   twitter: PyLadiesTokyo
   website: http://tokyo.pyladies.com/
-- email: info@pyladies.com
+- email: toronto@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
   location: {latitude: 43.65, longitude: -79.44}
   meetup: Pyladies-Toronto
