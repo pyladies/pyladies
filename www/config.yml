@@ -4,6 +4,12 @@ archives_url: /archives/
 author: A PyLady
 base_url: /
 chapters:
+- email: congo@pyladies.com
+  image: PyLadiesCongo.png
+  name: Congo-Brazzaville
+  location: {latitude: -4.26613, longitude: 15.2831802}
+  github: congopyladies
+  twitter: PyladiesCongo
 - email: amsterdam@pyladies.com
   image: pyladies_amsterdam.jpeg
   location: {latitude: 52.37, longitude: 4.89}
