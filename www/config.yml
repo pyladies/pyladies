@@ -933,6 +933,18 @@ chapters:
   twitter: Pyladiesowerri
   website: IN
   whatsapp: bit.ly/pyladiesimo
+- email: pyladies-bcn@googlegroups.com
+  external_website: true
+  image: pyladies-bcn.jpeg
+  location: {latitude: 41.3851, longitude: 2.1734}
+  meetup: PyLadies-BCN
+  meetup_id: null
+  meetup_image: https://secure.meetupstatic.com/photos/event/7/9/a/6/600_336991142.jpeg
+  name: Barcelona, BCN
+  organizer: BCN PyLadies
+  pro_network: Python Software Foundation Meetup Pro Network
+  twitter: PyLadiesBCN
+  website: https://pybcn.org/pyladies-bcn/
 date_format: '%B %d, %Y'
 domain: pyladies.com
 feed: true
