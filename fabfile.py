@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
-# Copyright (c) 2015 PyLadies, Lynn Root
+# Copyright (c) 2015 PyMen, Lynn Root
 
 
 from fabric.api import env, lcd, local
