@@ -933,6 +933,14 @@ chapters:
   twitter: Pyladiesowerri
   website: IN
   whatsapp: bit.ly/pyladiesimo
+- email: blumenau@pyladies.com
+  external_website: true
+  facebook: pyladiesbnu
+  image: pyladies-blumenau.png
+  location: {latitude: -26.915415, longitude: -49.072152}
+  name: Blumenau, Brazil
+  twitter: pyladiesbnu
+  website: http://brasil.pyladies.com
 date_format: '%B %d, %Y'
 domain: pyladies.com
 feed: true
