@@ -26,4 +26,4 @@ Name | GitHub Handle | PyLadies Chapter | Team Role |
 
 # Contributing
 
-If you would like to join, open an issue requesting to join using the [contributor template](https://github.com/pyladies/pyladies/issues/new).
+If you would like to join, open an issue requesting to join using the [contributor template](https://github.com/pyladies/pyladies/issues/new). Please also join our discussions in our Slack, `#project-tech-infra` channel.
