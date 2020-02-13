@@ -21,7 +21,7 @@ Name | GitHub Handle | PyLadies Chapter | Team Role |
 | Carol Willing | @willingc   | PyLadies Core | Member |
 | Jackie Kazil | @jackiekazil   | PyLadies DC | Member |
 | Flávia Cardoso | @fcardoso0917  | PyLadies Uruguay | Member |
-Amadikwa Joy N | @treasurechristain | Pyladies IMO | Member |
+| Amadikwa Joy N | @treasurechristain | Pyladies IMO | Member |
 * @lorenanicole is a PyLadies admin that can help support the co-leads as needed.
 
 # Contributing
