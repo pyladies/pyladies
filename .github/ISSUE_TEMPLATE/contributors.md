@@ -12,7 +12,7 @@ _This template should be used (edited) for PyLadies members that wish to join th
 **Proposed Team Member Details**
 
 Name | GitHub Handle | Slack Handle | PyLadies Chapter | Team Role 
-| --| --| --|
+| --| --| --| --|
 
 **Why do you want to join the Project Tech & Infra team?**
 
