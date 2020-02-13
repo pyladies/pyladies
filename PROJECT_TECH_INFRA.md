@@ -12,16 +12,17 @@ Administer and maintain PyLadies tech and infrastructure. As such, Project lead(
 
 ### Team
 
-Name | GitHub Handle | PyLadies Chapter | Team Role |
-| --| --| --| --|
-| Mariatta | @Mariatta  | PyLadies Vancouver | Co-Lead |
-| Bethany G | @BethanyG   | PyLadies Oakland | Co-Lead |
-| Tania Allard | @trallard  | PyLadies Northwestern UK | Co-Lead |
-| Lorena Mesa* | @lorenanicole | PyLadies Chicago | Member |
-| Carol Willing | @willingc   | PyLadies Core | Member |
-| Jackie Kazil | @jackiekazil   | PyLadies DC | Member |
-| Flávia Cardoso | @fcardoso0917  | PyLadies Uruguay | Member |
-| Amadikwa Joy N | @treasurechristain | Pyladies IMO | Member |
+Name | GitHub Handle | Slack Handle | PyLadies Chapter | Team Role |
+| --| --| --| --| --|
+| Mariatta | @Mariatta  | @Mariatta | PyLadies Vancouver | Co-Lead |
+| Bethany G | @BethanyG   | @BethanyG | PyLadies Oakland | Co-Lead |
+| Tania Allard | @trallard  | @Tania | PyLadies Northwestern UK | Co-Lead |
+| Lorena Mesa* | @lorenanicole | @Lorena | PyLadies Chicago | Member |
+| Carol Willing | @willingc   | @willingc | PyLadies Core | Member |
+| Jackie Kazil | @jackiekazil   | @jackie | PyLadies DC | Member |
+| Flávia Cardoso | @fcardoso0917  | @Flávia | PyLadies Uruguay | Member |
+| Amadikwa Joy N | @treasurechristain | @Amadikwa Joy N | Pyladies IMO | Member |
+
 * @lorenanicole is a PyLadies admin that can help support the co-leads as needed.
 
 # Contributing
