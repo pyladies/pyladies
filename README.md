@@ -1,4 +1,8 @@
-# Overview
+# PyLadies 
+
+This website is managed by the [PyLadies Tech and Infra team](PROJECT_TECH_INFRA.md). If you would like to join as an official member, read more here! This website welcomes pull requests from anyone in the community. 
+
+## Overview
 
 [![CircleCI](https://circleci.com/gh/pyladies/pyladies/tree/master.svg?style=shield)](https://circleci.com/gh/pyladies/pyladies/tree/master)
 
@@ -16,7 +20,7 @@ supported).
 - [For Organizers](#for-organizers)
 - [License](#license)
 
-## Understanding the repo's directory layout
+### Understanding the repo's directory layout
 
 Before adding a new location or contributing to the pyladies website, it's
 helpful to understand a bit about the repo and its contents.
@@ -45,7 +49,7 @@ www                # directory which contains the content of the website
 └── sponsor
 ```
 
-## Setting Up a Development System
+### Setting Up a Development System
 
 If you wish to add a location, new chapter, or make code changes, please
 review the next few sections. There are a few tasks to set up a development
@@ -55,7 +59,7 @@ system:
 - [Fork and clone your pyladies repo](#fork-and-clone-your-pyladies-repo)
 - [Run the site locally](#run-the-site-locally)
 
-### Set up Python2 and a project directory
+#### Set up Python2 and a project directory
 
 **Linux, macOS**
 
