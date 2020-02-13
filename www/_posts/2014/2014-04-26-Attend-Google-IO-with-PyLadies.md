@@ -39,6 +39,6 @@ Timeline:
 * Award recipients must register within 2 weeks of receiving award letter and signup process
 
 
-All information here will not be made public, and will be reviewed by PyLadies leadership only.  Please email [info@pyladies.com](mailto:info@pyladies.com) regarding any questions you have.
+All information here will not be made public, and will be reviewed by PyLadies leadership only.  Please [open a issue](https://github.com/pyladies/info/issues/new) regarding any questions you have.
 
 [**APPLY HERE**](https://docs.google.com/forms/d/1lK9gOqSZKpFu9ZZ_DSDHzYiOQRAgqUYGnBIqcD2vJL0/viewform)
