@@ -4,7 +4,6 @@ about: This template should be used for those wishing to join the Project Tech &
 title: 'Request to Join Project Tech & Infra: <GitHub Handle>'
 labels: contributor
 assignees: @pyladies/pyladies-global-admin, @pyladies/tech-and-infra-admins
-
 ---
 
 _This template should be used (edited) for PyLadies members that wish to join the Project Tech & Infra team.
