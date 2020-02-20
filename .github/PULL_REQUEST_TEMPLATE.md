@@ -25,7 +25,7 @@ Mark which one is correct.
 - [ ] Yes
 - [ ] No
 
-### If you marked no, please register your chapter using the following form [here](https://forms.gle/LYT6TzjgJ437Y4mr8). Note, can only access the PyLadies Chapter Directory by being logged into your official PyLadies email account. Were you able to complete the registration?
+### If you marked no, please register your chapter using the following form [here](https://forms.gle/LYT6TzjgJ437Y4mr8). The form can only be accessed by being logged into your official PyLadies email account. Were you able to complete the registration?
 <!--
 Example of response:
 
