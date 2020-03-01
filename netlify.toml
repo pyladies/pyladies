@@ -1,3 +1,4 @@
 [build]
-  publish = "_site"
-  command = "cd www & mynt gen -f _site"
+  base = "www"
+  publish = "www/_site"
+  command = "mynt gen -f _site"
