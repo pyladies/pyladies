@@ -1,0 +1,3 @@
+[build]
+  publish = "./docs/_build/html"
+  command = "cd www & mynt gen -f _site"
