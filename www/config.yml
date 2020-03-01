@@ -945,6 +945,17 @@ chapters:
   pro_network: Python Software Foundation Meetup Pro Network
   twitter: PyLadiesBCN
   website: https://pybcn.org/pyladies-bcn/
+- name: Asaba, Nigeria
+  meetup_id: null
+  website: null
+  whatsapp: null
+  image: pyladies-asaba.png
+  email: asaba@pyladies.com
+  twitter: Pyladiesasaba
+  meetup: null
+  github: Pyladiesasaba
+  facebook: asabapyladies
+  location: {latitude: 6.19824, longitude: 6.73187}
 date_format: '%B %d, %Y'
 domain: pyladies.com
 feed: true
