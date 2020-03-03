@@ -844,7 +844,7 @@ chapters:
   name: Tokyo
   twitter: PyLadiesTokyo
   website: http://tokyo.pyladies.com/
-- email: info@pyladies.com
+- email: toronto@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
   location: {latitude: 43.65, longitude: -79.44}
   meetup: Pyladies-Toronto
@@ -933,7 +933,30 @@ chapters:
   twitter: Pyladiesowerri
   website: IN
   whatsapp: bit.ly/pyladiesimo
-- email: blumenau@pyladies.com
+- email: bcn@pyladies.com
+  external_website: true
+  image: pyladies-bcn.jpeg
+  location: {latitude: 41.3851, longitude: 2.1734}
+  meetup: PyLadies-BCN
+  meetup_id: null
+  meetup_image: https://secure.meetupstatic.com/photos/event/7/9/a/6/600_336991142.jpeg
+  name: Barcelona, BCN
+  organizer: BCN PyLadies
+  pro_network: Python Software Foundation Meetup Pro Network
+  twitter: PyLadiesBCN
+  website: https://pybcn.org/pyladies-bcn/
+- name: Asaba, Nigeria
+  meetup_id: null
+  website: null
+  whatsapp: null
+  image: pyladies-asaba.png
+  email: asaba@pyladies.com
+  twitter: Pyladiesasaba
+  meetup: null
+  github: Pyladiesasaba
+  facebook: asabapyladies
+  location: {latitude: 6.19824, longitude: 6.73187}
+- email: pyladiesbnu@gmail.com
   external_website: true
   facebook: pyladiesbnu
   image: pyladies-blumenau.png

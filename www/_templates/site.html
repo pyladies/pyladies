@@ -51,7 +51,7 @@
                 <li><a href="https://blog.pyladies.com">Blog</a></li>
                 <li><a href="{{ get_url('CodeOfConduct/') }}">Code of Conduct</a></li>
                 <li><a href="{{ get_url('resources/') }}">Resources</a></li>
-                <li><a href="mailto:info@pyladies.com?subject=Hello" id="contact-link">Contact</a></li>
+                <li><a href="https://github.com/pyladies/info/" id="contact-link">Contact</a></li>
                 {% if site.feed %}<li><a href="{{ get_url('feed.xml', true)}}" title="RSS">RSS</a></li>{% endif %}
             </ul>
         </nav>
@@ -62,20 +62,11 @@
 
 	<div class="sidebar">
 		{% block sidebar %}
-        <div id="mc_embed_signup">
-            <form action="https://pyladies.us2.list-manage1.com/subscribe/post?u=9d20e0bc6bc0e88a076738c6f&amp;id=23e4f35e45" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <label for="mce-EMAIL">Keep up with what's going in the PyLadies community on our low-volume announcement list.  Men and women from everywhere are welcome.  Unsubscribe anytime. </label>
-                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-            </form>
-        </div>
 
         <div id="sponsor_us_btn"><a href="{{ get_url('sponsor/') }}">Sponsor Us</a></div>
 
         <div id="shirts_btn" style="display:flex;justify-content:center;align-items:center;font-size:14px;"><a href="https://pyladies.spreadshirt.com/">Get Swag</a></div>
-
-        <div id="stickers_btn" style="display:flex;justify-content:center;align-items:center;font-size:14px;"><a href="https://www.stickermule.com/user/1070441144/stickers">Buy Stickers</a></div>
-
+            
         <h3>Upcoming Meetups</h3>
         <div id="upcomingMeetupsList">
         </div>
