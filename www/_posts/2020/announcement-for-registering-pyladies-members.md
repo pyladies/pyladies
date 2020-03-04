@@ -21,6 +21,7 @@ As  of today we have registration available in:
 - [English](https://forms.gle/f3M4JUzA7JH48Swo8)
 - [Spanish / Español](https://forms.gle/CaDhPsjLgEmrqV7RA)
 - [Portuguese / Português](https://forms.gle/9AdTdBr67ikiAFXSA) 
+- [Russian / Русский язык](https://docs.google.com/forms/d/e/1FAIpQLScs5W-ujSTs4tkd_85LJ0Nr5UTgpsyJv0kBUaadk7fKbVSUrA/viewform?usp=sf_link)
 
 We’re currently in the process of translating our registration documentation into Mandarin (Chinese), Arabic, and French. If you’d like to help with translation, let us know by adding your voice to the GitHub issue [here](https://github.com/pyladies/global-organizing/issues/54).
 
