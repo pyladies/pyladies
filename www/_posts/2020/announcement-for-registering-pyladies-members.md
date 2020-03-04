@@ -20,9 +20,19 @@ As  of today we have registration available in:
 
 - [English](https://forms.gle/f3M4JUzA7JH48Swo8)
 - [Spanish / Español](https://forms.gle/CaDhPsjLgEmrqV7RA)
-- Portuguese / Português](https://forms.gle/9AdTdBr67ikiAFXSA) 
+- [Portuguese / Português](https://forms.gle/9AdTdBr67ikiAFXSA) 
 
-We’re currently in the process of translating our registration documentation into Spanish, Portuguese, Mandarin (Chinese), Arabic, and French. If you’d like to help with translation, let us know by adding your voice to the GitHub issue [here](https://github.com/pyladies/global-organizing/issues/54).
+We’re currently in the process of translating our registration documentation into Mandarin (Chinese), Arabic, and French. If you’d like to help with translation, let us know by adding your voice to the GitHub issue [here](https://github.com/pyladies/global-organizing/issues/54).
 
 
 Questions? You can open an issue on the PyLadies Info repo [here](https://github.com/pyladies/info/blob/master/README.md). Or else join us in [PyLadies Slack](https://slackin.pyladies.com/)! As always, you can keep up to date with the work for PyLadies Global through the PyLadies Global repo where monthly meeting minutes are posted, such as [Feb 2020 minutes]( https://github.com/pyladies/global-organizing/blob/master/notes/2020/13_02_2020.md).
+
+Thank you to the volunteers for their translation efforts:
+
+- Portuguese: Débora Azevedo
+- Spanish: Diana Rodriguez
+- Russian: Volodymyr Kirichinets
+- Chinese: Georgi Ker
+- French: Georgi Ker
+
+As well as a thank you to the [PyLadies Global Interim](https://github.com/orgs/pyladies/teams/pyladies-global-admin) Admins and [broader team](https://github.com/orgs/pyladies/teams/pyladies-global-contributors)!
