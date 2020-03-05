@@ -19,11 +19,13 @@ To do this, however, we need your help! We want to engage with our PyLadies memb
 As  of today we have registration available in:
 
 - [English](https://forms.gle/f3M4JUzA7JH48Swo8)
-- [Spanish / Español](https://forms.gle/CaDhPsjLgEmrqV7RA)
+- [Chinese - Mandarin](https://docs.google.com/forms/d/e/1FAIpQLSfUMzknSnq55KRpDYuJh2dWUt5r3hjvete-2jHgqSgSWWTo-w/viewform?usp=sf_link)
+- [French / Francés](https://docs.google.com/forms/d/e/1FAIpQLSciDGjrh0m66Oa-o-qZH5jYdXFKcpEOjeSoC4IaebY22ofOXA/viewform?usp=sf_link)
 - [Portuguese / Português](https://forms.gle/9AdTdBr67ikiAFXSA) 
+- [Spanish / Español](https://forms.gle/CaDhPsjLgEmrqV7RA)
 - [Russian / Русский язык](https://docs.google.com/forms/d/e/1FAIpQLScs5W-ujSTs4tkd_85LJ0Nr5UTgpsyJv0kBUaadk7fKbVSUrA/viewform?usp=sf_link)
 
-We’re currently in the process of translating our registration documentation into Mandarin (Chinese), Arabic, and French. If you’d like to help with translation, let us know by adding your voice to the GitHub issue [here](https://github.com/pyladies/global-organizing/issues/54).
+We’re currently in the process of translating our registration documentation into Arabic. If you’d like to help with translation, let us know by adding your voice to the GitHub issue [here](https://github.com/pyladies/global-organizing/issues/54).
 
 
 Questions? You can open an issue on the PyLadies Info repo [here](https://github.com/pyladies/info/blob/master/README.md). Or else join us in [PyLadies Slack](https://slackin.pyladies.com/)! As always, you can keep up to date with the work for PyLadies Global through the PyLadies Global repo where monthly meeting minutes are posted, such as [Feb 2020 minutes]( https://github.com/pyladies/global-organizing/blob/master/notes/2020/13_02_2020.md).
