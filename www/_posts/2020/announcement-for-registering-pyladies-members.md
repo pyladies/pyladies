@@ -11,12 +11,13 @@ Announcement for Registering PyLadies Members
 
 This has been a busy past many months for PyLadies! 
 
-As we shared on our blog in [August 2019]( https://www.pyladies.com/blog/Important-PyLadies-Update/important-pyladies-update/), PyLadies  has been hard at work, revamping our PyLadies presence as well as our global leadership. Why? To enable us to better run our chapters ,   not only locally but globally. 
-The intent is to bring together all of our local chapters, to help us collaborate, to share ideas and also start a [PyLadies GlobalCouncil]( https://www.pyladies.com/blog/Help-us-decide-our-PyLadies-Projects-and-PyLadies-Global-Council-Selection-Process/help-us-with-pyladies-project-and-council-selection/) , which will be responsible for overseeing the Global PyLadies Community.
+As we shared on our blog in [August 2019](https://www.pyladies.com/blog/Important-PyLadies-Update/important-pyladies-update/), PyLadies  has been hard at work, revamping our PyLadies presence as well as our global leadership. Why?
+To enable us to better run our chapters, not only locally but globally. 
+The intent is to bring together all of our local chapters, to help us collaborate, to share ideas and also start a [PyLadies Global Council](https://www.pyladies.com/blog/Help-us-decide-our-PyLadies-Projects-and-PyLadies-Global-Council-Selection-Process/help-us-with-pyladies-project-and-council-selection/) , which will be responsible for overseeing the Global PyLadies Community.
 
 To do this, however, we need your help! We want to engage with our PyLadies members!  Starting today, PyLadies members can register to become a basic member or a voting member.
  
-As  of today we have registration available in:
+As of today we have registration available in:
 
 - [English](https://forms.gle/f3M4JUzA7JH48Swo8)
 - [Chinese - Mandarin](https://docs.google.com/forms/d/e/1FAIpQLSfUMzknSnq55KRpDYuJh2dWUt5r3hjvete-2jHgqSgSWWTo-w/viewform?usp=sf_link)
