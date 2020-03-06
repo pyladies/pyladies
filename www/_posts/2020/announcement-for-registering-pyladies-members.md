@@ -9,7 +9,7 @@ author_link: https://twitter.com/MesrenyameDogbe
 Announcement for Registering PyLadies Members
 =====================
 
-This has been a busy past many months for PyLadies! 
+The last few months have been extremely busy here at PyLadies! 
 
 As we shared on our blog in [August 2019]( https://www.pyladies.com/blog/Important-PyLadies-Update/important-pyladies-update/), PyLadies  has been hard at work, revamping our PyLadies presence as well as our global leadership. Why? To enable us to better run our chapters ,   not only locally but globally. 
 The intent is to bring together all of our local chapters, to help us collaborate, to share ideas and also start a [PyLadies GlobalCouncil]( https://www.pyladies.com/blog/Help-us-decide-our-PyLadies-Projects-and-PyLadies-Global-Council-Selection-Process/help-us-with-pyladies-project-and-council-selection/) , which will be responsible for overseeing the Global PyLadies Community.
@@ -20,10 +20,10 @@ As  of today we have registration available in:
 
 - [English](https://forms.gle/f3M4JUzA7JH48Swo8)
 - [Chinese - Mandarin](https://docs.google.com/forms/d/e/1FAIpQLSfUMzknSnq55KRpDYuJh2dWUt5r3hjvete-2jHgqSgSWWTo-w/viewform?usp=sf_link)
-- [French / Francés](https://docs.google.com/forms/d/e/1FAIpQLSciDGjrh0m66Oa-o-qZH5jYdXFKcpEOjeSoC4IaebY22ofOXA/viewform?usp=sf_link)
-- [Portuguese / Português](https://forms.gle/9AdTdBr67ikiAFXSA) 
-- [Spanish / Español](https://forms.gle/CaDhPsjLgEmrqV7RA)
-- [Russian / Русский язык](https://docs.google.com/forms/d/e/1FAIpQLScs5W-ujSTs4tkd_85LJ0Nr5UTgpsyJv0kBUaadk7fKbVSUrA/viewform?usp=sf_link)
+- [French / Frances](https://docs.google.com/forms/d/e/1FAIpQLSciDGjrh0m66Oa-o-qZH5jYdXFKcpEOjeSoC4IaebY22ofOXA/viewform?usp=sf_link)
+- [Portuguese / Portugues](https://forms.gle/9AdTdBr67ikiAFXSA) 
+- [Spanish / Espanol](https://forms.gle/CaDhPsjLgEmrqV7RA)
+- [Russian / Russky Yazyk](https://docs.google.com/forms/d/e/1FAIpQLScs5W-ujSTs4tkd_85LJ0Nr5UTgpsyJv0kBUaadk7fKbVSUrA/viewform?usp=sf_link)
 
 We’re currently in the process of translating our registration documentation into Arabic. If you’d like to help with translation, let us know by adding your voice to the GitHub issue [here](https://github.com/pyladies/global-organizing/issues/54).
 
@@ -32,7 +32,7 @@ Questions? You can open an issue on the PyLadies Info repo [here](https://github
 
 Thank you to the volunteers for their translation efforts:
 
-- Portuguese: Débora Azevedo
+- Portuguese: Debora Azevedo
 - Spanish: Diana Rodriguez
 - Russian: Volodymyr Kirichinets
 - Chinese: Georgi Ker
