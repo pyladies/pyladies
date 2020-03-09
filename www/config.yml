@@ -859,6 +859,18 @@ chapters:
   location: {latitude: 33.8439408, longitude: 9.400138}
   name: Tunisia
   website: tunisia
+- email: uy@pyladies.com
+  external_website: true
+  image: pyladies-uy.jpeg
+  location: {latitude: -34.90328, longitude: -56.18816}
+  meetup: PyLadiesUy
+  meetup_id: pyladiesuy
+  meetup_image: https://www.meetup.com/es-ES/Grupo-de-Meetup-en-Montevideo-de-Python/photos/30254037/#488184726
+  name: PyLadies Uruguay
+  organizer: PyLadies Uruguay 
+  pro_network: Python Software Foundation Meetup Pro Network
+  twitter: PyLadiesUy
+  website: http://uy.pyladies.com
 - email: vale@pyladies.com
   external_website: true
   facebook: pyladiesvale
@@ -948,27 +960,3 @@ subtitle: Women Who Love Coding in Python
 tag_layout: tag.html
 tags_url: /tags/
 title: PyLadies
-- email: uy@pyladies.com
-  
-external_website: true
-  
-image: PyLadies UY_logo.png
-  
-location: {latitude: -34.90328, longitude: -56.18816}
-  
-meetup: PyLadies Uruguay
-  
-meetup_id: pyladiesuy
-  
-meetup_image: https://www.meetup.com/es-ES/Grupo-de-Meetup-en-Montevideo-de-Python/photos/30254037/#488184726
-  
-name: PyLadies Uruguay
-  
-organizer: PyLadies Uruguay
-  
-pro_network: Python Software Foundation Meetup Pro Network
-  
-twitter: PyLadiesUy
-  
-website: http://uy.pyladies.com
--
