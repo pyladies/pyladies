@@ -1178,13 +1178,13 @@ chapters:
     
     - name: Imo, Nigeria
       meetup_id: 201759643
-      website: IN
+      website: pyladiesimo
       whatsapp: bit.ly/pyladiesimo
       image: pyladiesimologo.png
       email: owerri@pyladies.com
-      twitter: Pyladiesowerri
+      twitter: pyladiesimo
       meetup: PyLadies Imo
-      facebook: Pyladies Imo
+      facebook: pyladies.imo.5
       location:
             latitude: 5.476310
             longitude: 7.025853
