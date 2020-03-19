@@ -5,7 +5,7 @@ tags: [community, education]
 category: [pyladies, resources]
 ---
 
-There are a number of excellent resources on creating healthy, inclusive steps for communities. These are just a few of them. If you think another PyLady would find a resource useful that is not on this list, please [submit a pull request](https://github.com/pyladies/pyladies) or [email the link to us](mailto:info@pyladies.com). Thank you!
+There are a number of excellent resources on creating healthy, inclusive steps for communities. These are just a few of them. If you think another PyLady would find a resource useful that is not on this list, please [submit a pull request](https://github.com/pyladies/pyladies) or [open an issue with the link](https://github.com/pyladies/info/issues/new). Thank you!
 
 [The PSF] (https://www.python.org/community/diversity/)
 
