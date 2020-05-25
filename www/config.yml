@@ -407,6 +407,12 @@ chapters:
   name: La Paz, Bolivia
   twitter: PyLadiesLaPaz
   website: https://www.meetup.com/La-Paz-PyLadies-Meetup
+- email: elalto@pyladies.com
+  image: pyladies_elalto.jpg
+  location: {latitude: -16.50, longitude: -68.21}
+  name: El Alto, Bolivia
+  twitter: PyLadiesElAlto
+  website: elalto
 - email: lisboa@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
   location: {latitude: 38.736946, longitude: -9.142685}
