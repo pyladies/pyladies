@@ -495,6 +495,10 @@ chapters:
   pro_network: Python Software Foundation Meetup Pro Network
   twitter: PyLadiesMEL
   website: http://melbourne.pyladies.com/
+- email: Mohali@pyladies.com
+  image: mapmarker.png
+  location: {latitude: 30.704649, longitude: 76.717873}
+  name: Mohali
 - email: montreal@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
   location: {latitude: 45.52, longitude: -73.58}
