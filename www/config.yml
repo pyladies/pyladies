@@ -192,6 +192,17 @@ chapters:
   organizer: Erika
   twitter: MxPyladies
   website: mx
+- email: chn@pyladies.com
+  image: pyladies_chennai.png
+  location: {latitude: 13.067439, longitude: 80.237617}
+  meetup: pyladieschennai
+  meetup_id: 270758730
+  pro_network: Python Software Foundation Meetup Pro Network
+  name: Chennai, India
+  organizer: Niharika Krishnan
+  twitter: pyladieschennai
+  facebook: pyladiesofchennai
+  github: pyladieschennai
 - email: charleston@pyladies.com
   external_website: true
   image: pyladies_charleston.png
