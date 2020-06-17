@@ -808,6 +808,13 @@ chapters:
   location: {latitude: 40.0028028, longitude: -4.003104}
   name: Spain
   twitter: PyLadies_ES
+- email: madrid@pyladies.com
+  name: Madrid, Spain
+  image: pyladies_madrid.png
+  location: {latitude: 40.4165001, longitude: -3.7025599}
+  twitter: PyLadiesMadrid
+  meetup: PyLadiesMadrid
+  github: PyLadiesMadrid
 - email: stockholm@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
   location: {latitude: 59.33, longitude: 18.07}
