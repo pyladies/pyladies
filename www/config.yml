@@ -679,8 +679,13 @@ chapters:
   name: Recife, Brazil
   twitter: pyladiesrecife
   website: http://brasil.pyladies.com
-- {email: remote@pyladies.com, external_website: true, github: pyladies-remote, image: pyladies-remote.png,
-  name: 'Remote, Everywhere', twitter: pyladiesremote, website: 'http://remote.pyladies.com'}
+- email: remote@pyladies.com
+  external_website: true
+  github: pyladies-remote
+  image: pyladies-remote.png
+  name: Remote, Everywhere
+  twitter: pyladiesremote
+  website: http://remote.pyladies.com
 - email: brasil@pyladies.org
   external_website: true
   facebook: PyLadiesRio
