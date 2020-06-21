@@ -84,7 +84,8 @@ jobs:
           name: deploy main
           command: |
             . venv/bin/activate
-            pip freeze | grep "mynt"
+            pip install --upgrade pip setuptools wheel
+            pip install -r requirements.txt
             fab deploy
 
 workflows:
