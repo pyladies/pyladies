@@ -84,6 +84,7 @@ jobs:
           name: deploy main
           command: |
             . venv/bin/activate
+            cd www
             mynt gen -f www/_site
             fab deploy
 
