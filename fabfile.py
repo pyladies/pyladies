@@ -15,7 +15,5 @@ def setup_context(ctx):
 def deploy(ctx):
     ctx = setup_context(ctx)
     with Connection(host=ctx.host, user=ctx.user, connect_kwargs=ctx.connect_kwargs) as connection:
-        # Prep WWW Deploy
-        connection.local('cd www && mynt gen -f _site')
         # Rsync WWW
         patchwork.transfers.rsync(connection, 'www/_site/', 'www/', exclude='.git', rsync_opts='-ua')
