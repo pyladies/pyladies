@@ -325,6 +325,10 @@ doesn't match w/ the current homepage. Maybe keep it as mynt though
 
 -your friendly administrator.  
 
+## Netlify Deploy Status 
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5b4a3b67-b753-45c2-aa90-2db0c38e8de4/deploy-status)](https://app.netlify.com/sites/pyladies/deploys)
+
 ## LICENSE
 
-[![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://github.com/pyladies/pyladies/blob/master/LICENSE)
+[License: MIT License](https://github.com/pyladies/pyladies/blob/master/LICENSE)
