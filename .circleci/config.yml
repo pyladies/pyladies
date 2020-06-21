@@ -81,7 +81,7 @@ jobs:
           command: |
             echo 'pyladies.com,81.28.232.189 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDF5AHo4UHw8v5p9yKE1q3Twt5tFW1zx5M1cBUotZlHwxpMTI3JiGpvz9FjDVgWNtU/7i0F7CFVKtmUiYiI67CZJtH+QKa60iHyFWq60WmrcuRAwfWENdKJU6ruB5LSFVowzCi9GuCGcSBl6RBmNaZWtbnBTvWVMUxDRV4XVb/M3Co0zaGEH724OZwCEYvBSPm3LzWW+m4ZDWAb2a1dnpYeurTreLGgAx8exs6GWrHVCkoIxXJUM+FDyhF5ffO0jej+HzXS3TOnnxOVFMZmryF4Ofk+8lNJM4lMOZeA8bXzFxvqpIGn0cOz++4K5mdrieN+8k6LgTnj9cQGg/B/e6AX' >> ~/.ssh/known_hosts
       - run:
-          name: deploy master
+          name: deploy main
           command: |
             . venv/bin/activate
             fab prep_www_deploy
@@ -97,4 +97,4 @@ workflows:
             - build
           filters:
             branches:
-              only: master
+              only: main
