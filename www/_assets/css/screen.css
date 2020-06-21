@@ -1011,6 +1011,11 @@ footer .social li a.icon:hover {
 	text-decoration: none;
 }
 
+footer .footer-netlify li a img {
+  height: 30px;
+  width: 100px;
+}
+
 .social .icon.facebook:before, .social .icon.twitter:before, .social .icon.tumblr:before, .social .icon.github:before, .social .icon.dribbble:before, .social .icon.instagram:before, .social .icon.pinterest:before {
   font-family: 'entypo-social';
   content: attr(data-icon);
