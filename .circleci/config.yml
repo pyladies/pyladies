@@ -76,6 +76,7 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             - 93:f3:72:8f:05:e9:2f:78:bf:8a:22:32:55:56:6d:86
+            - 22:c7:a9:e7:ea:48:12:69:e9:cb:59:d1:ec:40:7d:65
       - run:
           name: add known host keys
           command: |
