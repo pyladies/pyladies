@@ -18,4 +18,4 @@ def deploy(ctx):
         # Prep WWW Deploy
         connection.local('cd www && mynt gen -f _site')
         # Rsync WWW
-        patchwork.transfers.rsync(connection, '_site/', 'www/', exclude='.git', rsync_opts='-ua')
+        patchwork.transfers.rsync(connection, 'www/_site/', 'www/', exclude='.git', rsync_opts='-ua')

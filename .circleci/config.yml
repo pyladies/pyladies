@@ -84,6 +84,7 @@ jobs:
           name: deploy main
           command: |
             . venv/bin/activate
+            pip freeze | grep "mynt"
             fab deploy
 
 workflows:
