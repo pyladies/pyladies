@@ -19,6 +19,6 @@ pyasn1==0.3.2
 pycparser==2.18
 Pygments==2.2.0
 PyNaCl==1.1.2
-PyYAML==3.12
+PyYAML==5.1
 six==1.10.0
 watchdog==0.8.3
