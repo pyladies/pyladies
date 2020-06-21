@@ -7,7 +7,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/python:2.7.16-node-browsers
+      - image: circleci/python:3.6.10-node-browsers
 
     working_directory: ~/pyladies
 
@@ -24,8 +24,8 @@ jobs:
       - run:
           name: install dependencies and version
           command: |
-            python2 -m pip install --user --upgrade pip setuptools wheel
-            python2 -m pip install --user virtualenv
+            python -m pip install --user --upgrade pip setuptools wheel
+            python -m pip install --user virtualenv
             virtualenv venv
             . venv/bin/activate
             pip install --upgrade pip setuptools wheel
@@ -45,7 +45,7 @@ jobs:
 
   deploy-prod:
     docker:
-      - image: circleci/python:2.7.16-node-browsers
+      - image: circleci/python:3.6.10-node-browsers
     working_directory: ~/pyladies
     steps:
       - checkout
@@ -58,8 +58,8 @@ jobs:
       - run:
           name: install dependencies and version
           command: |
-            python2 -m pip install --user --upgrade pip setuptools wheel
-            python2 -m pip install --user virtualenv
+            python -m pip install --user --upgrade pip setuptools wheel
+            python -m pip install --user virtualenv
             virtualenv venv
             . venv/bin/activate
             pip install --upgrade pip setuptools wheel
