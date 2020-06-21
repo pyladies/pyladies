@@ -2,6 +2,7 @@
 *.db
 *.log
 local_settings.py
+.idea/
 _site/
 .DS_Store
 

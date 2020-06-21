@@ -84,7 +84,7 @@ jobs:
           name: deploy main
           command: |
             . venv/bin/activate
-            fab deploy_www
+            fab deploy
 
 workflows:
   version: 2
