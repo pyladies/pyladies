@@ -12,13 +12,13 @@ idna==2.6
 ipaddress==1.0.18
 Jinja2==2.9.6
 MarkupSafe==1.0
-mynt==0.3.1
+mynt==0.4.0
 paramiko==2.2.1
 pathtools==0.1.2
 pyasn1==0.3.2
 pycparser==2.18
 Pygments==2.2.0
 PyNaCl==1.1.2
-PyYAML==3.12
-six==1.10.0
+PyYAML==5.3.1
+six==1.11.0
 watchdog==0.8.3
