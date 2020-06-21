@@ -8,8 +8,7 @@ This website welcomes pull requests from anyone in the community.
 [![CircleCI](https://circleci.com/gh/pyladies/pyladies/tree/master.svg?style=shield)](https://circleci.com/gh/pyladies/pyladies/tree/master)
 
 This is the source code for the http://pyladies.com/ website. It uses
-`mynt`, a static site generator (available for Python2; Python3 is not
-supported).
+`mynt`, a static site generaton, and is powered by 🐍 Python 3.6 🐍!
 
 **Contents**
 - [Understanding the repo's directory layout](#understanding-the-repos-directory-layout)
@@ -55,26 +54,26 @@ www                # directory which contains the content of the website
 If you wish to add a location, new chapter, or make code changes, please
 review the next few sections. There are a few tasks to set up a development
 system:
-- [Set up Python2 and a project directory](#set-up-python2-and-a-project-directory)
+- [Set up Python and a project directory](#set-up-python-and-a-project-directory)
 - [Create and activate a virtual environment](#create-and-activate-a-virtual-environment)
 - [Fork and clone your pyladies repo](#fork-and-clone-your-pyladies-repo)
 - [Run the site locally](#run-the-site-locally)
 
-#### Set up Python2 and a project directory
+#### Set up Python and a project directory
 
 **Linux, macOS**
 
-1. Check that Python2 is installed with `python2 --version`. If it is not
-   installed, it can be downloaded at https://python.org:
+1. Check that Python 3.6 is installed with `python --version`. If it is not
+   installed, it can be downloaded at [https://python.org](https://www.python.org/downloads/release/python-3610/):
    ```bash
-   $ python2 --version
-   Python 2.7.16
+   $ python --version
+   Python 3.6.10
    ```
 
-2. (Optional) Learn the directory which this Python 2 version is installed `which python2`:
+2. (Optional) Learn the directory which this Python version is installed `which python`:
    ```bash
-   $ which python2
-   /usr/local/bin/python2
+   $ which python
+   /usr/local/bin/python
    ```
    You may see a different directory name which is fine.
 
@@ -105,20 +104,12 @@ The process will be similar though the commands will vary slightly. Reference: [
 
    ```bash
    $ pip install virtualenv
-   Collecting virtualenv
-   Using cached https://files.pythonhosted.org/packages/ca/ee/8375c01412abe6ff462ec80970e6bb1c4308724d4366d7519627c98691ab/virtualenv-16.6.0-py2.py3-none-any.whl
-   Installing collected packages: virtualenv
-   Successfully installed virtualenv-16.6.0
    ```
 
 2. Create a virtual environment named `pyladyenv`:
 
    ```bash
    $ virtualenv pyladyenv
-   Running virtualenv with interpreter /usr/bin/python2.7
-   New python executable in /Users/willingc/projects/pyladies-dev/pyladyenv/bin/python
-   Installing setuptools, pip, wheel...
-   done.
    ```
 
 3. Activate the virtual environment:
