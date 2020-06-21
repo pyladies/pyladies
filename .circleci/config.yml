@@ -84,8 +84,7 @@ jobs:
           name: deploy main
           command: |
             . venv/bin/activate
-            fab prep_www_deploy
-            fab rsync_www
+            fab deploy_www
 
 workflows:
   version: 2
