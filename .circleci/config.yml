@@ -87,7 +87,7 @@ jobs:
             . venv/bin/activate
             cd www
             mynt gen -f www/_site
-            fab deploy
+            rsync -rupaz www/_site ${DEPLOY_USER}@${PYLADIES_PROD_HOST}:www/
 
 workflows:
   version: 2
