@@ -297,7 +297,7 @@ e.g. seattle.pyladies.com or sea.pyladies.com, or even
 www.pyladies.com/seattle etc. If you want your own URL, tell me:
 
 1. what you want your URL to be.
-2. make a pull request for your site, adding your website as a submodule to the repository
+2. make a pull request for your site, adding your website as a submodule to the repository in the `chapter_websites` directory
 3. when you want it to go live.
 
 Some ideas of content to include on your page:
