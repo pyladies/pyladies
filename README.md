@@ -313,7 +313,7 @@ If you have a template you'd like to create [here's how](https://docs.github.com
 
 -your friendly administrator.  
 
-## Moving your existing website to a submodule 
+### Moving your existing website to a submodule 
 
 If your website code lives in the pyladies repo already, you'll want to copy your contents into a new repository. Then in this repository you'll need to:
 
@@ -325,7 +325,7 @@ $ git rm --cached -rf {you_chapter_directory}
 
 You can now complete the steps in `Adding your website as a submodule`.
 
-## Adding your website to a submodule 
+### Adding your website to a submodule 
 
 The workflow for adding [your website as a submodule](https://www.vogella.com/tutorials/GitSubmodules/article.html#submodules_adding) is as follows:
 
