@@ -1,0 +1,4 @@
+[submodule "chicago"]
+	path = chicago
+	url = https://github.com/PyLadiesChicago/pyladieschicago.github.io
+	branch = main
