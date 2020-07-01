@@ -319,8 +319,8 @@ If your website code lives in the pyladies repo already, you'll want to copy you
 
 ```bash
 $ cd pyladies  # PyLadies repo root
-$ rm -rf {you_chapter_directory}
-$ git rm --cached -rf {you_chapter_directory}
+$ rm -rf <YOUR_CHAPTER_NAME>
+$ git rm --cached -rf <YOUR_CHAPTER_NAME>
 ```
 
 You can now complete the steps in `Adding your website as a submodule`.
@@ -331,17 +331,17 @@ The workflow for adding [your website as a submodule](https://www.vogella.com/tu
 
 ```bash
 $ cd pyladies  # PyLadies repo root
-$ git submodule add https://github.com/<YOUR_GITHUB_USER_NAME>/<YOUR_PYLADIES_WEBSITE_REPO>.git -b main <YOUR_CHAPTER_NAME> # e.g. git submodule add https://github.com/pyladieschicago/pyladieschicago.github.io -b main chicago
+$ git submodule add https://github.com/<YOUR_GITHUB_USER_NAME>/<YOUR_PYLADIES_WEBSITE_REPO>.git -b main chapter_websites/<YOUR_CHAPTER_NAME> # e.g. git submodule add https://github.com/pyladieschicago/pyladieschicago.github.io -b main chapter_websites/chicago
 $ git submodule init # Adds to .gitmodules 
 ```
 If you ever want the PyLadies repo to be fixed at [the most recent commit of your website](https://www.vogella.com/tutorials/GitSubmodules/article.html#submodules_track) you'll need to:
 
 ```bash
-$ cd pyladies/<YOUR_CHAPTER_NAME>  # Your PyLadies website submodule directory
+$ cd pyladies/chapter_websites/<YOUR_CHAPTER_NAME>  # Your PyLadies website submodule directory
 $ git checkout main 
 $ git pull 
-$ cd ../
-$ git add pyladies/<YOUR_CHAPTER_NAME> # Your PyLadies website submodule directory
+$ cd ../../
+$ git add pyladies/chapter_websites/<YOUR_CHAPTER_NAME> # Your PyLadies website submodule directory
 $ git commit -m "Update submodule for chapter <YOUR_CHAPTER_NAME> to latest commit on main"
 $ git push
 ```

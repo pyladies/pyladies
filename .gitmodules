@@ -1,4 +1,4 @@
-[submodule "chicago"]
-	path = chicago
-	url = https://github.com/PyLadiesChicago/pyladieschicago.github.io
+[submodule "chapter_websites/chicago"]
+	path = chapter_websites/chicago
+	url = https://github.com/pyladieschicago/pyladieschicago.github.io
 	branch = main
