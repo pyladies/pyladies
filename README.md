@@ -130,12 +130,12 @@ The process will be similar though the commands will vary slightly. Reference: [
 1. On GitHub, fork http://github.com/pyladies/pyladies to your own GitHub account
    `<YOUR_GITHUB_USER_NAME>` by pressing the green Fork button on the upper right of
    the screen.
-2. From the `pyladies-dev` directory, clone your fork to your machine using
+2. From the `pyladies-dev` directory, clone your fork recursively (the repo has [submodules for individual chapters](https://www.vogella.com/tutorials/GitSubmodules/article.html)) to your machine using
   `git clone`:
 
   ```bash
   (pyladyenv)
-  $ git clone https://github.com/<YOUR_GITHUB_USER_NAME>/pyladies.git
+  $ git clone --recursive https://github.com/<YOUR_GITHUB_USER_NAME>/pyladies.git
   Cloning into 'pyladies'...
   remote: Enumerating objects: 47, done.
   remote: Counting objects: 100% (47/47), done.
@@ -208,7 +208,7 @@ that mynt will search the current directory for files to build and it
 looks for all folders that don't start with an underscore (which means
 it will find your virtualenv folder and error out).
 
-## To add a new PyLadies location
+## To add a new PyLadies location to the PyLadies Website
 
 Follow the instructions for [setting up a development environment]().
 
@@ -297,24 +297,54 @@ e.g. seattle.pyladies.com or sea.pyladies.com, or even
 www.pyladies.com/seattle etc. If you want your own URL, tell me:
 
 1. what you want your URL to be.
-2. make a pull request for your site.
+2. make a pull request for your site, adding your website as a submodule to the repository
 3. when you want it to go live.
 
-If you just tell me your URL I can put dummy data - e.g. your location
-info etc, if you want to take your time to work on your own site.
-
-Suggestions:
+Some ideas of content to include on your page:
 * Play with the Meetup API to show your upcoming events, number of members, etc
 * Play with the Twitter API to show your group's latest tweets
 * A chapter blog
 * anything!
 
-I _really_ don't mind if you want to do a whole different design that
-doesn't match w/ the current homepage. Maybe keep it as mynt though
-- but your choice completely.
+We've started adding templates into the pyladies organization you can use by clicking the `Use this template` button. Existing templates include:
+* [A simple HTML & CSS PyLadies Netlify template](https://github.com/pyladies/netlify-website-template)
 
+If you have a template you'd like to create [here's how](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-template-repository).
 
 -your friendly administrator.  
+
+## Moving your existing website to a submodule 
+
+If your website code lives in the pyladies repo already, you'll want to copy your contents into a new repository. Then in this repository you'll need to:
+
+```bash
+$ cd pyladies  # PyLadies repo root
+$ rm -rf {you_chapter_directory}
+$ git rm --cached -rf {you_chapter_directory}
+```
+
+You can now complete the steps in `Adding your website as a submodule`.
+
+## Adding your website to a submodule 
+
+The workflow for adding [your website as a submodule](https://www.vogella.com/tutorials/GitSubmodules/article.html#submodules_adding) is as follows:
+
+```bash
+$ cd pyladies  # PyLadies repo root
+$ git submodule add https://github.com/<YOUR_GITHUB_USER_NAME>/<YOUR_PYLADIES_WEBSITE_REPO>.git -b main <YOUR_CHAPTER_NAME> # e.g. git submodule add https://github.com/pyladieschicago/pyladieschicago.github.io -b main chicago
+$ git submodule init # Adds to .gitmodules 
+```
+If you ever want the PyLadies repo to be fixed at [the most recent commit of your website](https://www.vogella.com/tutorials/GitSubmodules/article.html#submodules_track) you'll need to:
+
+```bash
+$ cd pyladies/<YOUR_CHAPTER_NAME>  # Your PyLadies website submodule directory
+$ git checkout main 
+$ git pull 
+$ cd ../
+$ git add pyladies/<YOUR_CHAPTER_NAME> # Your PyLadies website submodule directory
+$ git commit -m "Update submodule for chapter <YOUR_CHAPTER_NAME> to latest commit on main"
+$ git push
+```
 
 ## Netlify Deploy Status 
 
