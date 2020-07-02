@@ -1,4 +1,0 @@
-[submodule "chapter_websites/chicago"]
-	path = chapter_websites/chicago
-	url = https://github.com/pyladies/pyladies-chicago-website.git
-	branch = gh-pages
