@@ -30,7 +30,7 @@ Mark which one is correct. Include a screen shot confirming the website builds w
 - [ ] Yes
 - [ ] No
 
-## Does your pull request pass the `ci/circleci: build` check? See [this example pull request, in the `All checks have passed` section](https://github.com/pyladies/pyladies/pull/461).
+##  Does your pull request pass the `netlify/pyladies/deploy-preview` check?
 <!--
 Example of response:
 
