@@ -86,16 +86,20 @@
             <footer id="bottom">
 			{% block footer %}
                 <ul class="social">
-                    <li><a class="icon github" data-icon="&#62208;" href="http://github.com/pyladies" title="GitHub"></a></li>
-                    <li><a class="icon rss" data-icon="&#59194;" href="{{ get_url('feed.xml', true)}}" title="RSS"></a></li>
-                    <li><a class="icon creative-commons" data-icon="&#128325;" href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons"></a></li>
+                    <li><a class="icon-github" data-icon="&#xeab0;" href="http://github.com/pyladies" title="GitHub"></a></li>
+                    <li><a class="icon-facebook" data-icon="&#xea90;" href="https://facebook.com/pyladies" title="Facebook"></a></li>
+                    <li><a class="icon-instagram" data-icon="&#xea92;" href="https://instagram.com/pyladies_global" title="Instagram"></a></li>
+                    <li><a class="icon-linkedin2" data-icon="&#xeaca;" href="https://www.linkedin.com/groups/3984711/" title="LinkedIn"></a></li>
+                    <li><a class="icon-slack" data-icon="&#xe900;" href="https://slackin.pyladies.com" title="Slack"></a></li>
+                    <li><a class="icon-twitter" data-icon="&#xea96;" href="https://twitter.com/pyladies" title="Twitter"></a></li>
+                    <li><a class="icon-youtube" data-icon="&#xea9d;" href="https://youtube.com/pyladies" title="YouTube"></a></li>
                     <ul class="footer-netlify">
-                        <li><a href="https://www.netlify.com"><img src="{{ get_asset('images/netlify_logo.svg') }}" alt="Deploys by Netlify"/></a><li>
+                        <li><a href="https://www.netlify.com"><img src="{{ get_asset('images/netlify_logo.svg') }}" alt="Deploys by Netlify"/ width=70 height=40></a></li>
                     </ul>
-                    <ul class="footer-notice">
+                <ul class="footer-notice">
                         <li>2007 - {{ None|date('%Y') }} PyLadies. All Rights Reserved.</li>
                         <li>Disclaimer - PyLadies and the PyLadies logo are trademarks of the Python Software Foundation</li>
-                    </ul>
+                </ul>
                 </ul>
             {% endblock %}
             </footer>
