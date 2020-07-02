@@ -1,11 +1,12 @@
 # PyLadies 
 
 This website is managed by the [PyLadies Tech and Infra team](PROJECT_TECH_INFRA.md). If you would like to join as an official member, read more here! You can also join us in Slack, `#project-tech-infra` channel.
+
 This website welcomes pull requests from anyone in the community. 
 
 ## Overview
 
-[![CircleCI](https://circleci.com/gh/pyladies/pyladies/tree/master.svg?style=shield)](https://circleci.com/gh/pyladies/pyladies/tree/master)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5b4a3b67-b753-45c2-aa90-2db0c38e8de4/deploy-status)](https://app.netlify.com/sites/pyladies/deploys)
 
 This is the source code for the http://pyladies.com/ website. It uses
 `mynt`, a static site generaton, and is powered by 🐍 Python 3.6 🐍!
@@ -34,8 +35,7 @@ the `www` folder.
 
 ```bash
 requirements.txt   # file with dependencies used by pip
-.circleci          # directory containing the continuous integration configuration settings
-fabfile.py         # file which is used by continuous integration for testing and deployment
+netlify.toml       # file setting up netlify build commands
 www                # directory which contains the content of the website
 ├── CodeOfConduct
 ├── _assets        # javascript, CSS stuff, and images go here
@@ -291,11 +291,9 @@ To find this resource online, you would navigate to http://pyladies.com/blog/[yo
 
 # For Organizers
 
+## Creating a PyLadies Chapter Website
+
 To get started on building your PyLadies website, read the directions on the [PyLadies Chapter Website repo](https://github.com/pyladies/chapter-websites#pyladies-chapter-websites).
-
-## Netlify Deploy Status 
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5b4a3b67-b753-45c2-aa90-2db0c38e8de4/deploy-status)](https://app.netlify.com/sites/pyladies/deploys)
 
 ## LICENSE
 
