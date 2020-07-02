@@ -130,12 +130,12 @@ The process will be similar though the commands will vary slightly. Reference: [
 1. On GitHub, fork http://github.com/pyladies/pyladies to your own GitHub account
    `<YOUR_GITHUB_USER_NAME>` by pressing the green Fork button on the upper right of
    the screen.
-2. From the `pyladies-dev` directory, clone your fork recursively (the repo has [submodules for individual chapters](https://www.vogella.com/tutorials/GitSubmodules/article.html)) to your machine using
+2. From the `pyladies-dev` directory, clone your fork to your machine using
   `git clone`:
 
   ```bash
   (pyladyenv)
-  $ git clone --recursive https://github.com/<YOUR_GITHUB_USER_NAME>/pyladies.git
+  $ git clone https://github.com/<YOUR_GITHUB_USER_NAME>/pyladies.git
   Cloning into 'pyladies'...
   remote: Enumerating objects: 47, done.
   remote: Counting objects: 100% (47/47), done.
