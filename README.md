@@ -289,62 +289,9 @@ Once done, save it in `www/_posts/` with the date and title in the name of the f
 
 To find this resource online, you would navigate to http://pyladies.com/blog/[your_post_name]
 
-## For Organizers
-### Your own domain/site:
+# For Organizers
 
-You are welcome to create your own location's webspace,
-e.g. seattle.pyladies.com or sea.pyladies.com, or even
-www.pyladies.com/seattle etc. If you want your own URL, tell me:
-
-1. what you want your URL to be.
-2. make a pull request for your site, adding your website as a submodule to the repository in the `chapter_websites` directory
-3. when you want it to go live.
-
-Some ideas of content to include on your page:
-* Play with the Meetup API to show your upcoming events, number of members, etc
-* Play with the Twitter API to show your group's latest tweets
-* A chapter blog
-* anything!
-
-We've started adding templates into the pyladies organization you can use by clicking the `Use this template` button. Existing templates include:
-* [A simple HTML & CSS PyLadies Netlify template](https://github.com/pyladies/netlify-website-template)
-
-If you have a template you'd like to create [here's how](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-template-repository).
-
--your friendly administrator.  
-
-### Moving your existing website to a submodule 
-
-If your website code lives in the pyladies repo already, you'll want to copy your contents into a new repository. Then in this repository you'll need to:
-
-```bash
-$ cd pyladies  # PyLadies repo root
-$ rm -rf <YOUR_CHAPTER_NAME>
-$ git rm --cached -rf <YOUR_CHAPTER_NAME>
-```
-
-You can now complete the steps in `Adding your website as a submodule`.
-
-### Adding your website to a submodule 
-
-The workflow for adding [your website as a submodule](https://www.vogella.com/tutorials/GitSubmodules/article.html#submodules_adding) is as follows:
-
-```bash
-$ cd pyladies  # PyLadies repo root
-$ git submodule add https://github.com/<YOUR_GITHUB_USER_NAME>/<YOUR_PYLADIES_WEBSITE_REPO>.git -b main chapter_websites/<YOUR_CHAPTER_NAME> # e.g. git submodule add https://github.com/pyladieschicago/pyladieschicago.github.io -b main chapter_websites/chicago
-$ git submodule init # Adds to .gitmodules 
-```
-If you ever want the PyLadies repo to be fixed at [the most recent commit of your website](https://www.vogella.com/tutorials/GitSubmodules/article.html#submodules_track) you'll need to:
-
-```bash
-$ cd pyladies/chapter_websites/<YOUR_CHAPTER_NAME>  # Your PyLadies website submodule directory
-$ git checkout main 
-$ git pull 
-$ cd ../../
-$ git add pyladies/chapter_websites/<YOUR_CHAPTER_NAME> # Your PyLadies website submodule directory
-$ git commit -m "Update submodule for chapter <YOUR_CHAPTER_NAME> to latest commit on main"
-$ git push
-```
+To get started on building your PyLadies website, read the directions on the [PyLadies Chapter Website repo](https://github.com/pyladies/chapter-websites#pyladies-chapter-websites).
 
 ## Netlify Deploy Status 
 
