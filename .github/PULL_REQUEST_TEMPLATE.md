@@ -15,28 +15,12 @@ Mark which one is correct.
 - [ ] Yes
 - [ ] No
 
-### If you marked yes, is this chapter registered in the PyLadies Chapter Directory?
+### :warning::warning: If you marked yes, please close this pull request and head over to the [PyLadies Chapter Websites repo](github.com/pyladies/chapter-websites#README.md) to add your website. Additionally, you should remove your website code from this repository! :warning::warning:
 <!--
-Example of response:
-
-Mark which one is correct.
+This repository no longer hosts the chapter website code and should be getting migrated to the [PyLadies Chapter Websites repo](github.com/pyladies/chapter-websites#README.md)
 -->
 
-- [ ] Yes
-- [ ] No
-
-### If you marked no, please register your chapter using the following form [here](https://forms.gle/LYT6TzjgJ437Y4mr8). The form can only be accessed by being logged into your official PyLadies email account. Were you able to complete the registration?
-<!--
-Example of response:
-
-Mark which one is correct. If `No` please detail why you cannot complete the registration.
--->
-
-- [ ] Yes
-- [ ] No, I could not because [add response below]:
-
-
-## Have you confirmed the website builds locally with your chapters? See [here](https://github.com/pyladies/pyladies#run-the-site-locally).
+## Have you confirmed the website builds locally? See [here](https://github.com/pyladies/pyladies#run-the-site-locally).
 <!--
 Example of response:
 
