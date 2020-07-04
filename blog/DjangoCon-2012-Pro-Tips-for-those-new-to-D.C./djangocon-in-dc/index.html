@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    
+    <title>DjangoCon 2012: Pro Tips for those new to D.C. &ndash; PyLadies</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <link rel="stylesheet" href="/assets/css/pygments.css" media="screen" title="screen"/>
+    <link rel="stylesheet" href="/assets/css/screen.css" media="screen" title="screen"/>
+    <link rel="stylesheet" href="/assets/css/mailchimp.css" media="screen" title="screen"/>
+    <link href='https://fonts.googleapis.com/css?family=Glegoo|Bitter|Droid+Serif:400,700,400italic,700italic|Raleway:400,200,300,500,600,700' rel='stylesheet' type='text/css'/>
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/ico" />
+    <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="https://pyladies.com/feed.xml" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script>if (window.location.protocol != "https:" && window.location.host.indexOf('pyladies.com') > -1) {
+      window.location.protocol = "https";
+    }</script>
+	
+    <script src="https://platform.twitter.com/widgets.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/assets/js/meetup_widget.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var meetupIds = "4634378672,4507652,4634379664,9301202,243646248,4634378736,4634378832,4634380880,4634380048,4634378672,4634379248,270758730,8401402,4634379088,4634380592,2292131,281140334,4634378544,4634378800,4634379856,4634381328,4634379760,248903240,4634380944,4634379664,244079349,4634378320,4634379056,4634379088,203416475,4634379376,4634379632,4634379376,4634378992,193620926,4634380080,4634380880,201759643,4634378480,185065560,4634378576,4634381104,4634380272,8161032,4634380976,4634378384,4634380976,4634378352,10708842,4634379184,14910222,4634379280,4634380400,4634378864,4634378800,pyladiesuy,4634378320,4634378672,4634378480,201759643";
+             var timepadPages = "135287";
+            PyladiesMeetupWidget.addUpcomingMeetups(meetupIds, timepadPages);
+        });
+	</script>
+	
+	
+	
+</head>
+
+<body>
+    <a href="https://github.com/pyladies/pyladies" class="github-corner"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:rgb(255, 100, 100); color:#fff; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1);"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+    <div class="header">
+        <div id="pyladies_header_logo">
+            <a href="/"><img src="/assets/images/pyladies_logo.png" width="260" height="120" alt="PyLadies Logo"/></a>
+        </div>
+        <nav>
+            <ul class="nav-wrapper">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about/">About</a></li>
+                <li><a href="https://members.pyladies.com">Members</a></li>
+                <li><a href="/locations/">Locations</a></li>
+                <li><a href="https://blog.pyladies.com">Blog</a></li>
+                <li><a href="/CodeOfConduct/">Code of Conduct</a></li>
+                <li><a href="/resources/">Resources</a></li>
+                <li><a href="https://github.com/pyladies/info/" id="contact-link">Contact</a></li>
+                <li><a href="https://pyladies.com/feed.xml" title="RSS">RSS</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="page">
+        
+
+    <section id="archive">
+        <article>
+            <h2>DjangoCon 2012: Pro Tips for those new to D.C.</h2>
+            
+            <h3>August 09, 2012 | Tag: <span>&raquo;</span> <a href="/tags/Events/">Events</a></h3>
+
+            <div>
+                <a href="https://twitter.com/share" class="twitter-share-button" data-hashtags="pyladies">Tweet</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </div>
+
+            <p>[_This guest post is lifted straight from D.C. PyLady Katie&rsquo;s <a href="http://therealkatie.net/blog/2012/aug/7/djangocon-dc-tips/">wonderful blog</a>! She will be writing a <a href="http://therealkatie.net/blog/">series of posts</a> to help Djangonauts from all over feel at home in the U.S. capital come early September!_]</p>
+<h2>Coming to DjangoCon in September? Let&rsquo;s have a chat about DC.</h2>
+<p>by <a href="https://twitter.com/kcunning">Katie Cunningham</a> (with mad props to <a href="https://twitter.com/jackiekazil">Jackie Kazil</a>, who helped write this post!)</p>
+<h3>The location</h3>
+<p><a href="http://djangocon.us/">DjangoCon DC</a> is actually in Northern Virginia, not in the heart of the Capitol. Specifically, it&rsquo;s being held in Crystal City at the Hyatt Regency, which is close to the Crystal City Metro Station (the yellow and blue metro lines) and one stop away from Reagan National Airport (DCA).</p>
+
+<p>I worked in the area for many years, and while it doesn&rsquo;t have as much of the DC grit and history, it makes up for in being a great nexus between convenience and cost. As someone who&rsquo;s been to several conferences in DC, I can tell you this is a good thing. It is a safe, clean, affordable, and transportation-accessible part of the DC metro area that is littered with Django developers.</p>
+
+<p>If, for some reason, you aren&rsquo;t going to be staying at the conference&rsquo;s hotel, you&rsquo;re in luck. DC has a LOT of hotels. In general, the closer they are to a metro stop, the more expensive they are, but it&rsquo;s still possible to find no-frills hotels very close to a metro stop. If you want to remain close to the main action, I would get a hotel at L&#39;Enfant (which is close to the Mall), Crystal City, or National Airport. Franconia/Springfield may look convenient, but it&rsquo;s actually not close to anything.</p>
+<h3>Getting to DC</h3><h4>Flying</h4>
+<p><a href="http://maps.google.com/maps/ms?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;aq=0&amp;vpsrc=6&amp;ie=UTF8&amp;hq=Ronald+Reagan+Washington+National+Airport,+1+Aviation+Circle,+Arlington,+Virginia&amp;msa=0&amp;msid=211095113154214193828.0004af190da676086d76b&amp;sll=38.849312,-77.041175&amp;sspn=0.01738,0.032015&amp;t=m&amp;ll=39.155622,-77.025146&amp;spn=0.745426,1.167297&amp;z=9">View DC airports in a larger map</a></p>
+
+<p>There are three airports in the D.C. region. Travel sites like Hipmunk and Kayak try to make all our local airports equivalent, as if it&rsquo;s just a short jaunt from each to DC. This is a dirty, nasty lie.</p>
+
+<p>The airport visible from the hotel is Reagan National. It is only one metro stop from the hotel (or just under a mile walk if you are crazy). The other airports, Dulles and BWI, are inconvenient but usually cheaper if you are on a budget and willing to spend an extra hour to two hours using a combination of shuttle services, Amtrak, buses, metro. If you choose to stomach one of the other options, then add about $15 to your trip. If you take a taxi, you could end up spending more than the cost of your savings.</p>
+
+<p>If you&rsquo;re coming in on an international flight, it may be worth looking for a flight that lands at some other international airport like Atlanta or New York, then catch a flight into Reagan. Trust me, you will not regret this.</p>
+<h4>Train</h4>
+<p>The train station is located at Union Station. It can be nice way to travel if you are on the Eastern Seaboard. The commute from Union Station to the conference isn&rsquo;t bad, since Union Station is also a metro stop.</p>
+
+<p>Chinatown buses and other bus services
+For those on a budget or looking for adventure and located on the Eastern Seaboard you might check look into the Chinatown buses. Various companies in Chinatown shuttle to Baltimore, Philideplia, New York, and Boston. D.C. to New York is between three and five hours (depending on your driver aherance to the speed limit) and costs around $20 each way. They will drop you off in Chinatown near the metro, which is the same metro line that you would need to get to the conference. Sometimes you can find a service that offers wifi and plugs and sometimes there are live animals and sketchy late night stops. Adventure!</p>
+
+<p>Other buses services will drop you off in other parts, but they are usually close to a metro stop. Bolt Bus is probably one of the nicest.</p>
+<h4>Driving</h4>
+<p>Don&rsquo;t. It&rsquo;s not worth it unless you are car pooling. You won&rsquo;t need your car while visiting. If you do though, you can park you car at the Hotel (expect to pay a pretty hefty amount per night, though). If you want to bring your car, bring a GPS and some antacids. I&rsquo;ve been told we&rsquo;re pretty bad drivers around here.</p>
+<h3>Transportation</h3>
+<p>DC&rsquo;s metro is stupidly simple and is probably going to all the places you want to go. DC metro area cabs are priced pretty well as a back up. I wouldn&rsquo;t bother to rent a car.</p>
+
+<p>However, if you want to rent a bike, I have good news! There&rsquo;s a <a href="http://revolutioncycles.com/about/city-hub-central-pg602.htm">Revolution Cycles</a> in Crystal City that rents bikes by the week. I spoke with the owners, and they have about 100 bikes available. Given how many people are going to be in town, they recommended reserving one ahead of time.</p>
+
+<p>I&rsquo;m no bike enthusiast (I still think my green Huffy was pretty rad), but I have been informed by bike geeks that these are good bikes.</p>
+
+<p>There is also <a href="http://www.capitalbikeshare.com/">BikeShare</a>, which is like Zipcars for bikes, through DC and in the conference hotel neighbor. Bring your own helmet, though. Don&rsquo;t be one of those guys. But there are only 10 spots at the hotel, so don&rsquo;t count on easily finding a bike at the conference. This is a better option used to tool around D.C. for a couple hours.</p>
+
+<p>At the moment, I don&rsquo;t have much information regarding bike parking at the hotel. Hotels in the region are starting to have bike parking sections available, but if you&rsquo;re renting a bike for the week, keep in mind that you might be keeping it in your room (I hope I&rsquo;m wrong).</p>
+
+<p>More soon!
+I&rsquo;m going to post something about our tourist scene, if anyone is interested in seeing the sites while you&rsquo;re here.</p>
+
+<p>By <a href="https://twitter.com/estherbester" title="Estherbester | Twitter">Esther Nam</a></p>
+
+<p><a href="https://twitter.com/share">Tweet</a></p>
+
+        </article>
+    </section>
+
+
+    </div>
+
+	<div class="sidebar">
+		
+
+        <div id="sponsor_us_btn"><a href="/sponsor/">Sponsor Us</a></div>
+
+        <div id="shirts_btn" style="display:flex;justify-content:center;align-items:center;font-size:14px;"><a href="https://pyladies.spreadshirt.com/">Get Swag</a></div>
+            
+        <h3>Upcoming Meetups</h3>
+        <div id="upcomingMeetupsList">
+        </div>
+
+        <div id="twitter_feed">
+            <h3>Recent Tweets</h3>
+            <div id="chapter_tweets">
+                <a width="400" height="400" class="twitter-timeline" href="https://twitter.com/pyladies/lists/pyladies-locations" data-widget-id="635861904234258433">Tweets from https://twitter.com/pyladies/lists/pyladies-locations</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
+		</div>
+		
+    </div>
+
+    <div class="footer-wrapper">
+            <footer id="bottom">
+			
+                <ul class="social">
+                    <li><a class="icon-github" data-icon="&#xeab0;" href="http://github.com/pyladies" title="GitHub"></a></li>
+                    <li><a class="icon-facebook" data-icon="&#xea90;" href="https://facebook.com/pyladies" title="Facebook"></a></li>
+                    <li><a class="icon-instagram" data-icon="&#xea92;" href="https://instagram.com/pyladies_global" title="Instagram"></a></li>
+                    <li><a class="icon-linkedin2" data-icon="&#xeaca;" href="https://www.linkedin.com/groups/3984711/" title="LinkedIn"></a></li>
+                    <li><a class="icon-slack" data-icon="&#xe900;" href="https://slackin.pyladies.com" title="Slack"></a></li>
+                    <li><a class="icon-twitter" data-icon="&#xea96;" href="https://twitter.com/pyladies" title="Twitter"></a></li>
+                    <li><a class="icon-youtube" data-icon="&#xea9d;" href="https://youtube.com/pyladies" title="YouTube"></a></li>
+                    <ul class="footer-netlify">
+                        <li><a href="https://www.netlify.com"><img src="/assets/images/netlify_logo.svg" alt="Deploys by Netlify"/ width=70 height=40></a></li>
+                    </ul>
+                <ul class="footer-notice">
+                        <li>2007 - 2020 PyLadies. All Rights Reserved.</li>
+                        <li>Disclaimer - PyLadies and the PyLadies logo are trademarks of the Python Software Foundation</li>
+                </ul>
+                </ul>
+            
+            </footer>
+    </div>
+
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-36930002-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+</body>
+</html>
