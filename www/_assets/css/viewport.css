@@ -172,16 +172,6 @@ em {
   font-style: italic;
 }
 
-@font-face {
-  font-family: "entypo";
-  src: url('/assets/fonts/entypo.eot') format('embedded-opentype'), url('/assets/fonts/entypo.woff') format('woff'), url('/assets/fonts/entypo.ttf') format('truetype'), url('/assets/fonts/entypo.svg') format('svg');
-}
-
-@font-face {
-  font-family: "entypo-social";
-  src: url('/assets/fonts/entypo-social.eot') format('embedded-opentype'), url('/assets/fonts/entypo-social.woff') format('woff'), url('/assets/fonts/entypo-social.ttf') format('truetype'), url('/assets/fonts/entypo-social.svg') format('svg');
-}
-
 h1, h2, h3, h4, h5, h6 {
   margin: 15px 0;
   color: #444444;
@@ -959,7 +949,7 @@ footer ul.footer-notice li{
 }
 
 .icon:before {
-    font-family: 'entypo';
+    font-family: 'icomoon';
     font-size: 58px;
     content: attr(data-icon);
 }
@@ -1018,11 +1008,11 @@ footer .footer-netlify li a img {
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon/icomoon.eot?hmzfdf');
-  src:  url('fonts/icomoon/icomoon.eot?hmzfdf#iefix') format('embedded-opentype'),
-    url('fonts/icomoon/icomoon.ttf?hmzfdf') format('truetype'),
-    url('fonts/icomoon/icomoon.woff?hmzfdf') format('woff'),
-    url('fonts/icomoon/icomoon.svg?hmzfdf#icomoon') format('svg');
+  src:  url('fonts/icomoon-v2/icomoonv2.eot?hmzfdf');
+  src:  url('fonts/icomoon-v2/icomoonv2.eot?hmzfdf#iefix') format('embedded-opentype'),
+    url('fonts/icomoon-v2/icomoonv2.ttf?hmzfdf') format('truetype'),
+    url('fonts/icomoon-v2/icomoonv2.woff?hmzfdf') format('woff'),
+    url('fonts/icomoon-v2/icomoonv2.svg?hmzfdf#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -1043,9 +1033,22 @@ footer .footer-netlify li a img {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-meetup:before {
+  content: "\e901";
+  color: #808080;
+  font-size: 1.8em;
+}
 .icon-slack:before {
   content: "\e900";
   color: #ff4040;
+  font-size: 1.8em;
+}
+.icon-earth:before {
+  content: "\e9ca";
+  font-size: 1.8em;
+}
+.icon-mail4:before {
+  content: "\ea86";
   font-size: 1.8em;
 }
 .icon-facebook:before {
@@ -1072,16 +1075,6 @@ footer .footer-netlify li a img {
   content: "\eaca";
   font-size: 1.8em;
 }
-
-/*.icon-creative-commons {
-  border-bottom: 1px dashed #f2f2f3;
-  float: right;
-}
-
-.icon-creative-commons:hover {
-  border-bottom: 1px dashed #f2f2f3;
-}*/
-
 
 .ribbon {
   background-color: #fa023c;
