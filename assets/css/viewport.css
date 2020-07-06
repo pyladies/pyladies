@@ -1008,11 +1008,11 @@ footer .footer-netlify li a img {
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon-v2/icomoon.eot?hmzfdf');
-  src:  url('fonts/icomoon-v2/icomoon.eot?hmzfdf#iefix') format('embedded-opentype'),
-    url('fonts/icomoon-v2/icomoon.ttf?hmzfdf') format('truetype'),
-    url('fonts/icomoon-v2/icomoon.woff?hmzfdf') format('woff'),
-    url('fonts/icomoon-v2/icomoon.svg?hmzfdf#icomoon') format('svg');
+  src:  url('fonts/icomoon-v2/icomoonv2.eot?hmzfdf');
+  src:  url('fonts/icomoon-v2/icomoonv2.eot?hmzfdf#iefix') format('embedded-opentype'),
+    url('fonts/icomoon-v2/icomoonv2.ttf?hmzfdf') format('truetype'),
+    url('fonts/icomoon-v2/icomoonv2.woff?hmzfdf') format('woff'),
+    url('fonts/icomoon-v2/icomoonv2.svg?hmzfdf#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
