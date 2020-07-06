@@ -6,9 +6,11 @@ base_url: /
 chapters:
 - email: amsterdam@pyladies.com
   image: pyladies_amsterdam.jpeg
-  location: {latitude: 52.37, longitude: 4.89}
+  location:
+    latitude: 52.37
+    longitude: 4.89
   meetup: PyLadiesAMS
-  meetup_id: 4634378672
+  meetup_id: 4736537872
   meetup_image: https://secure.meetupstatic.com/photos/event/2/3/8/8/highres_483969096.jpeg
   name: Amsterdam, the Netherlands
   organizer: Alyona Galyeva
@@ -17,34 +19,44 @@ chapters:
   website: amsterdam
 - email: tnr@pyladies.com
   image: pyladies_tnr.png
-  location: {latitude: -18.9333, longitude: 47.5167}
+  location:
+    latitude: -18.9333
+    longitude: 47.5167
   name: Antananarivo, MDG
   twitter: PyladiesMDG
   website: tnr
 - email: aracati@pyladies.com
   external_website: false
   image: pyladies-aracati.png
-  location: {latitude: -4.5611543, longitude: -37.7689913}
+  location:
+    latitude: -4.5611543
+    longitude: -37.7689913
   name: Aracati, Brazil
   twitter: PyladiesAracati
 - email: aqp@pyladies.com
   facebook: '@aqp.pyladies'
   github: PyladiesAqp
   image: pyladies_arequipa.jpg
-  location: {latitude: -16.398776, longitude: -71.53687}
+  location:
+    latitude: -16.398776
+    longitude: -71.53687
   name: Arequipa, Peru
 - email: atl@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
-  location: {latitude: 33.7490987, longitude: -84.3901849}
+  location:
+    latitude: 33.7490987
+    longitude: -84.3901849
   meetup_id: 4507652
   name: Atlanta, GA
   twitter: pyladiesATL
   website: atl
 - email: atx@pyladies.com
   image: pyladies_atx.jpeg
-  location: {latitude: 30.27, longitude: -97.74}
+  location:
+    latitude: 30.27
+    longitude: -97.74
   meetup: pyladies-atx
-  meetup_id: 4634379664
+  meetup_id: 4736537040
   meetup_image: https://secure.meetupstatic.com/photos/event/5/4/f/6/highres_437421750.jpeg
   name: Austin, TX
   organizer: PyLadiesATX
@@ -56,20 +68,26 @@ chapters:
   facebook: pyladiesau
   github: PyLadiesAU
   image: pyladies_australia.png
-  location: {latitude: -24.7761086, longitude: 134.755}
+  location:
+    latitude: -24.7761086
+    longitude: 134.755
   name: Australia
   twitter: pyladiesau
   website: http://australia.pyladies.com/
 - email: bangalore@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
-  location: {latitude: 12.9791703, longitude: 77.5912429}
+  location:
+    latitude: 12.9791703
+    longitude: 77.5912429
   meetup_id: 9301202
   name: Bangalore, India
   twitter: pyladiesblore
   website: blr
 - email: bauchi@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
-  location: {latitude: 10.301, longitude: 9.8237}
+  location:
+    latitude: 10.301
+    longitude: 9.8237
   meetup_id: 243646248
   name: Bauchi, NG
   twitter: pyladiesbauchi
@@ -78,14 +96,18 @@ chapters:
   external_website: true
   facebook: pyladiesbelem
   image: pyladies_belem.jpg
-  location: {latitude: -1.3410047, longitude: -48.5904714}
+  location:
+    latitude: -1.3410047
+    longitude: -48.5904714
   name: Belem, Brazil
 - email: bh@pyladies.com
   external_website: false
   image: pyladies-bh.png
-  location: {latitude: -19.92, longitude: -43.94}
+  location:
+    latitude: -19.92
+    longitude: -43.94
   meetup: PyLadies-BH-Meetup
-  meetup_id: 4634378736
+  meetup_id: 4736538064
   name: Belo Horizonte, Brazil
   organizer: Roberto Novaes
   twitter: pyladiesbh
@@ -93,32 +115,40 @@ chapters:
 - email: berlin@pyladies.com
   external_website: true
   image: pyladies_berlin.png
-  location: {latitude: 52.52, longitude: 13.38}
+  location:
+    latitude: 52.52
+    longitude: 13.38
   meetup: PyLadies-Berlin
-  meetup_id: 4634378832
+  meetup_id: 4736538160
   meetup_image: https://secure.meetupstatic.com/photos/event/6/b/8/6/highres_454587526.jpeg
   name: Berlin, Germany
-  organizer: 'Mei Li '
+  organizer: Anett G.
   pro_network: Python Software Foundation Meetup Pro Network
   twitter: PyLadiesBer
   website: http://berlin.pyladies.com
 - email: bbsr@pyladies.com
   image: pyladies_logo.png
-  location: {latitude: 20.2961, longitude: 85.8245}
+  location:
+    latitude: 20.2961
+    longitude: 85.8245
   name: Bhubaneswar, India
   twitter: PyladiesBbsr
   website: bbsr
 - email: boulder@pyladies.com
   image: pyladies_colorado.png
-  location: {latitude: 40.015, longitude: -105.2705}
+  location:
+    latitude: 40.015
+    longitude: -105.2705
   name: Boulder, CO
   twitter: PyLadiesCO
 - email: boston@pyladies.com
   external_website: true
   image: pyladies_boston_logo_2_white.png
-  location: {latitude: 42.36, longitude: -71.06}
+  location:
+    latitude: 42.36
+    longitude: -71.06
   meetup: PyLadies-Boston
-  meetup_id: 4634380880
+  meetup_id: 4736540304
   meetup_image: https://secure.meetupstatic.com/photos/event/5/f/b/6/highres_246984502.jpeg
   name: Boston, MA
   organizer: Laura Stone
@@ -127,14 +157,18 @@ chapters:
 - email: bratislava@pyladies.org
   facebook: PyLadiesBratislava
   image: pyladies_logo.png
-  location: {latitude: 48.148598, longitude: 17.107748}
+  location:
+    latitude: 48.148598
+    longitude: 17.107748
   name: Bratislava, Slovakia
 - email: brazil@pyladies.com
   external_website: true
   facebook: PyLadiesBrazil
   github: pyladies-brazil
   image: pyladies_brasil.png
-  location: {latitude: -10.3333333, longitude: -53.2}
+  location:
+    latitude: -10.3333333
+    longitude: -53.2
   name: Brazil
   twitter: PyLadiesBrazil
   website: http://brasil.pyladies.com/
@@ -142,19 +176,23 @@ chapters:
   email: brisbane@pyladies.com
   github: BrisbanePyLadies
   image: BPLlogo.png
-  location: {latitude: -27.46, longitude: 153.02}
+  location:
+    latitude: -27.46
+    longitude: 153.02
   meetup: BrisbanePyLadies
-  meetup_id: 4634380048
+  meetup_id: 4736538160
   meetup_image: https://secure.meetupstatic.com/photos/event/5/6/e/f/highres_483622255.jpeg
   name: Brisbane, Australia
-  organizer: Giorgia
+  organizer: Brisbane PyLadies
   pro_network: Python Software Foundation Meetup Pro Network
   twitter: PyLadiesBNE
 - email: brno@pyladies.com
   image: pyladies_sd_brno.png
-  location: {latitude: 50.08, longitude: 14.43}
+  location:
+    latitude: 50.08
+    longitude: 14.43
   meetup: pyladiescz
-  meetup_id: 4634378672
+  meetup_id: 4736540304
   meetup_image: https://secure.meetupstatic.com/photos/event/5/7/4/4/highres_470902340.jpeg
   name: Brno, Czech Republic
   twitter: pyladiesCZ
@@ -164,13 +202,17 @@ chapters:
   facebook: pyladiescps
   github: pyladiescps
   image: pyladies_campinas.png
-  location: {latitude: -22.909992, longitude: -47.063006}
+  location:
+    latitude: -22.909992
+    longitude: -47.063006
   name: Campinas, Brazil
   twitter: pyladiescps
   website: http://brasil.pyladies.com
 - email: tr@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
-  location: {latitude: 39.9167, longitude: 32.8333}
+  location:
+    latitude: 39.9167
+    longitude: 32.8333
   name: Canakkale, Turkey
   twitter: PyladiesTurkey
   website: tr
@@ -179,34 +221,43 @@ chapters:
   facebook: pyladiescaxias
   github: PyladiesCaxias
   image: pyladies_caxiasdosul.jpg
-  location: {latitude: -29.16806, longitude: -51.17944}
+  location:
+    latitude: -29.16806
+    longitude: -51.17944
   meetup: PyLadiesCaxiasdoSul
   name: Caxias do Sul, Brazil
   website: http://caxiasdosul.pyladies.com
 - email: mx@pyladies.com
   image: pyladies_cdmx.png
-  location: {latitude: 19.43, longitude: -99.14}
+  location:
+    latitude: 19.43
+    longitude: -99.14
   meetup: Mexico-City-Pyladies-Meetup
-  meetup_id: 4634379248
+  meetup_id: 4736537968
   name: CDMX, M&eacute;xico
   organizer: Erika
   twitter: MxPyladies
   website: mx
 - email: chn@pyladies.com
-  image: pyladies_chennai.png
-  location: {latitude: 13.067439, longitude: 80.237617}
-  meetup: pyladieschennai
-  meetup_id: 270758730
-  pro_network: Python Software Foundation Meetup Pro Network
-  name: Chennai, India
-  organizer: Niharika Krishnan
-  twitter: pyladieschennai
   facebook: pyladiesofchennai
   github: pyladieschennai
+  image: pyladies_chennai.png
+  location:
+    latitude: 13.09
+    longitude: 80.27
+  meetup: pyladieschennai
+  meetup_id: 4736536816
+  meetup_image: https://secure.meetupstatic.com/photos/event/9/9/9/1/highres_478479313.jpeg
+  name: Chennai, India
+  organizer: PyLadies Chennai
+  pro_network: Python Software Foundation Meetup Pro Network
+  twitter: pyladieschennai
 - email: charleston@pyladies.com
   external_website: true
   image: pyladies_charleston.png
-  location: {latitude: 32.7876012, longitude: -79.9402728}
+  location:
+    latitude: 32.7876012
+    longitude: -79.9402728
   meetup: PyLadies-Charleston
   meetup_id: 8401402
   name: Charleston, SC
@@ -215,9 +266,11 @@ chapters:
 - email: chicago@pyladies.com
   external_website: true
   image: pyladies_chicago.png
-  location: {latitude: 41.88, longitude: -87.63}
+  location:
+    latitude: 41.88
+    longitude: -87.63
   meetup: Chicago-PyLadies
-  meetup_id: 4634379088
+  meetup_id: 4736537104
   meetup_image: https://secure.meetupstatic.com/photos/event/2/a/a/3/highres_452110915.jpeg
   name: Chicago, IL
   organizer: Lorena Mesa
@@ -228,9 +281,11 @@ chapters:
   external_website: true
   facebook: CLEPyLadies
   instagram: CLEPyLadies
-  location: {latitude: 41.49, longitude: -81.67}
+  location:
+    latitude: 41.49
+    longitude: -81.67
   meetup: CLE-PyLadies
-  meetup_id: 4634380592
+  meetup_id: 4736537872
   meetup_image: https://secure.meetupstatic.com/photos/event/e/2/9/5/highres_471598005.jpeg
   name: Cleveland, OH
   organizer: Cleveland PyLadies
@@ -242,20 +297,26 @@ chapters:
   facebook: PyLadiesCuritiba
   github: pyladies-curitiba
   image: pyladies-curitiba.png
-  location: {latitude: -25.4167, longitude: -49.25}
+  location:
+    latitude: -25.4167
+    longitude: -49.25
   name: Curitiba, Brazil
   twitter: pyladiescuritib
   website: http://brasil.pyladies.com/
 - email: dfw@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
-  location: {latitude: 32.7776162, longitude: -96.7970585}
+  location:
+    latitude: 32.7776162
+    longitude: -96.7970585
   meetup_id: 2292131
   name: Dallas, TX
   twitter: pyladiesdallas
   website: dallas
 - email: denver@pyladies.com
   image: pyladies_colorado.png
-  location: {latitude: 39.7392, longitude: -104.9903}
+  location:
+    latitude: 39.7392
+    longitude: -104.9903
   name: Denver, CO
   twitter: PyLadiesDEN
 - email: brasilia@pyladies.org
@@ -263,7 +324,9 @@ chapters:
   facebook: pyladiesdf
   github: pyladiesdf
   image: pyladies_df.png
-  location: {latitude: -15.7941454, longitude: -47.8825479}
+  location:
+    latitude: -15.7941454
+    longitude: -47.8825479
   name: DF - Brasilia, Brazil
   twitter: pyladiesdf
   website: http://df.pyladies.com
@@ -271,19 +334,23 @@ chapters:
   external_website: true
   facebook: pyladiesdobojbih
   image: pyladies_doboj.png
-  location: {latitude: 44.731389, longitude: 18.084444}
+  location:
+    latitude: 44.731389
+    longitude: 18.084444
   meetup_id: 281140334
   name: Doboj, BiH
   twitter: PyLadiesDoboj
   website: http://doboj.pyladies.com/
 - email: dublin@pyladies.com
   image: pyladies-dublin.png
-  location: {latitude: 53.33, longitude: -6.25}
+  location:
+    latitude: 53.33
+    longitude: -6.25
   meetup: PyLadiesDublin
-  meetup_id: 4634378544
-  meetup_image: https://secure.meetupstatic.com/photos/event/4/2/5/6/highres_298636982.jpeg
+  meetup_id: 4736538512
+  meetup_image: https://secure.meetupstatic.com/photos/event/3/6/3/9/highres_488953881.jpeg
   name: Dublin, Ireland
-  organizer: Vicky Lee
+  organizer: Vicky Twomey-Lee
   pro_network: Python Software Foundation Meetup Pro Network
   twitter: pyladiesdub
   website: dublin
@@ -292,15 +359,19 @@ chapters:
   facebook: PyLadiesDuqueDeCaxias
   github: pyladies-dcaxias
   image: pyladies_dc_atl_sea_tor.png
-  location: {latitude: -22.6433502, longitude: -43.4457786}
+  location:
+    latitude: -22.6433502
+    longitude: -43.4457786
   name: Duque de Caxias, RJ
   twitter: PyLadiesCaxias
   website: http://duquedecaxias.pyladies.com/
 - email: edinburgh@pyladies.com
   image: pyladies_edinburgh_logo2.png
-  location: {latitude: 55.95, longitude: -3.2}
+  location:
+    latitude: 55.95
+    longitude: -3.2
   meetup: PyLadiesEdinburgh
-  meetup_id: 4634378800
+  meetup_id: 4736536816
   meetup_image: https://secure.meetupstatic.com/photos/event/8/3/2/4/highres_392493572.jpeg
   name: Edinburgh, Scotland
   organizer: Becky Smith
@@ -310,13 +381,17 @@ chapters:
 - email: addisa@pyladies.com
   github: https://github.com/PyladiesAddis
   image: pyladies-addis.png
-  location: {latitude: 9.005401, longitude: 38.763611}
+  location:
+    latitude: 9.005401
+    longitude: 38.763611
   name: Ethiopia, Addis Ababa
 - email: ghana@pyladies.com
   external_website: true
   github: PyladiesGhana
   image: pyladies_ghana.jpg
-  location: {latitude: 6.946527, longitude: -1.023194}
+  location:
+    latitude: 6.946527
+    longitude: -1.023194
   name: Ghana
   twitter: PyladiesGhana
   website: https://ghana.pyladies.com
@@ -324,9 +399,11 @@ chapters:
   external_website: true
   facebook: pyladiesgrandrapids
   image: pyladies_grandrapids.png
-  location: {latitude: 42.96, longitude: -85.66}
+  location:
+    latitude: 42.96
+    longitude: -85.66
   meetup: PyLadiesGrandRapids
-  meetup_id: 4634379856
+  meetup_id: 4736539248
   meetup_image: https://secure.meetupstatic.com/photos/event/3/b/7/highres_466800951.jpeg
   name: Grand Rapids, MI
   organizer: Rachell
@@ -335,16 +412,20 @@ chapters:
   website: http://grandrapids.pyladies.com
 - email: gtu@pyladies.com
   image: pyladies-sq-logo.png
-  location: {latitude: 23.253627, longitude: 72.6338228}
+  location:
+    latitude: 23.253627
+    longitude: 72.6338228
   name: Gujarat, India
   twitter: PyladiesGTU
   website: gtu.ac.in
 - email: hamburg@pyladies.com
   external_website: true
   image: pyladies_hamburg.png
-  location: {latitude: 53.55, longitude: 10.0}
+  location:
+    latitude: 53.55
+    longitude: 10.0
   meetup: PyLadies-Hamburg
-  meetup_id: 4634381328
+  meetup_id: 4736538192
   meetup_image: https://secure.meetupstatic.com/photos/event/8/f/a/9/highres_471636777.jpeg
   name: Hamburg, Germany
   organizer: Hamburg PyLadies
@@ -353,9 +434,11 @@ chapters:
   website: http://hamburg.pyladies.com
 - email: helsinki@pyladies.com
   image: pyladies_helsinki.png
-  location: {latitude: 60.17, longitude: 24.94}
+  location:
+    latitude: 60.17
+    longitude: 24.94
   meetup: Helsinki-Pyladies
-  meetup_id: 4634379760
+  meetup_id: 4736538064
   meetup_image: https://secure.meetupstatic.com/photos/event/7/9/0/6/highres_252930982.jpeg
   name: Helsinki, Finland
   organizer: Elena Oat
@@ -363,35 +446,45 @@ chapters:
   website: helsinki
 - email: hcmc@pyladies.com
   facebook: PyladiesHCM
-  location: {latitude: 10.776889, longitude: 106.700806}
+  location:
+    latitude: 10.776889
+    longitude: 106.700806
   meetup_id: 248903240
   name: Ho Chi Minh, Vietnam
   twitter: pyladies1
 - email: Houston.pyladies@gmail.com
   image: pylady_geek.png
-  location: {latitude: 29.77, longitude: -95.4}
+  location:
+    latitude: 29.77
+    longitude: -95.4
   meetup: Houston_PyLadies
-  meetup_id: 4634380944
+  meetup_id: 4736537872
   name: Houston, TX
   organizer: Lesly
   pro_network: Python Software Foundation Meetup Pro Network
   twitter: HPyladies
 - email: pyladies@openlabs.co.in
   image: pyladies_in.png
-  location: {latitude: 28.67, longitude: 77.21}
+  location:
+    latitude: 28.67
+    longitude: 77.21
   meetup: PyladiesIndia
-  meetup_id: 4634379664
+  meetup_id: 4736540304
   meetup_image: https://secure.meetupstatic.com/photos/event/1/8/6/2/highres_371586242.jpeg
   name: India
   organizer: Rituparna
   twitter: PyladiesIndia
 - email: plateau@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
-  location: {latitude: 9.2446, longitude: 9.3673}
+  location:
+    latitude: 9.2446
+    longitude: 9.3673
   name: Jos, plateau
 - email: kampala@pyladies.com
   image: pyladies_kampala.png
-  location: {latitude: 0.347596, longitude: 32.58252}
+  location:
+    latitude: 0.347596
+    longitude: 32.58252
   meetup_id: 244079349
   name: Kampala, Uganda
   twitter: pyladieskla
@@ -399,7 +492,9 @@ chapters:
 - email: kzn@pyladies.com
   facebook: pyladieskzn
   image: pyladies_kzn.png
-  location: {latitude: 55.798697, longitude: 49.1039413}
+  location:
+    latitude: 55.798697
+    longitude: 49.1039413
   name: Kazan, Russia
   timepad: pyladies-kzn
   twitter: pyladieskzn
@@ -407,33 +502,43 @@ chapters:
   facebook: PyLadiesKyoto
   google_plus: https://plus.google.com/u/0/communities/113677670074162908256
   image: pyladies-sq-logo.png
-  location: {latitude: 35.0117, longitude: 135.7683}
+  location:
+    latitude: 35.0117
+    longitude: 135.7683
   name: Kyoto
   website: http://pyladies-kyoto.connpass.com
 - email: lp@pyladies.com
   external_website: true
   facebook: PyLadiesLaPaz
   image: pyladies_lapaz.png
-  location: {latitude: -16.52, longitude: -68.10}
+  location:
+    latitude: -16.52
+    longitude: -68.1
   name: La Paz, Bolivia
   twitter: PyLadiesLaPaz
   website: https://www.meetup.com/La-Paz-PyLadies-Meetup
 - email: elalto@pyladies.com
   image: pyladies_elalto.jpg
-  location: {latitude: -16.50, longitude: -68.21}
+  location:
+    latitude: -16.5
+    longitude: -68.21
   name: El Alto, Bolivia
   twitter: PyLadiesElAlto
   website: elalto
 - email: lisboa@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
-  location: {latitude: 38.736946, longitude: -9.142685}
+  location:
+    latitude: 38.736946
+    longitude: -9.142685
   name: Lisbon, Portugal
   twitter: PyLadiesLisboa
 - email: london@pyladies.com
   image: pyladies_london.png
-  location: {latitude: 51.51, longitude: -0.13}
+  location:
+    latitude: 51.51
+    longitude: -0.13
   meetup: pyladieslondon
-  meetup_id: 4634378320
+  meetup_id: 4736536752
   name: London, UK
   organizer: Anna
   pro_network: Python Software Foundation Meetup Pro Network
@@ -441,9 +546,11 @@ chapters:
 - email: la@pyladies.com
   external_website: true
   image: pyladies_la.jpeg
-  location: {latitude: 34.04, longitude: -118.25}
+  location:
+    latitude: 34.04
+    longitude: -118.25
   meetup: Pyladies-LA
-  meetup_id: 4634379056
+  meetup_id: 4736537776
   meetup_image: https://secure.meetupstatic.com/photos/event/c/6/3/8/highres_476870744.jpeg
   name: Los Angeles, CA
   organizer: Sylvia Tran
@@ -453,15 +560,19 @@ chapters:
 - email: mavs@pyladies.com
   facebook: pyladiesmavs
   image: pyladies-geek-grey-blue.png
-  location: {latitude: 32.62, longitude: -97.15}
+  location:
+    latitude: 32.62
+    longitude: -97.15
   meetup: PyLadies-Arlington
-  meetup_id: 4634379088
+  meetup_id: 4736540432
   name: Mavs PyLadies
   website: mavs
 - email: maceio@pyladies.com
   facebook: www.facebook.com/profile.php?id=100011766016329
   image: pyladies_maceio.png
-  location: {latitude: -9.6498487, longitude: -35.708949200000006}
+  location:
+    latitude: -9.6498487
+    longitude: -35.708949200000006
   meetup_id: 203416475
   name: Maceio, Brazil
   twitter: '@maceiopyladies'
@@ -469,15 +580,19 @@ chapters:
   external_website: true
   facebook: www.facebook.com/pyladiesmanaus/
   image: pyladies_manaus.png
-  location: {latitude: -3.10719, longitude: -60.0261}
+  location:
+    latitude: -3.10719
+    longitude: -60.0261
   name: Manaus, Brazil
   twitter: '@pyladiesmanaus'
   website: pyladiesmanaus.pythonanywhere.com/
 - email: miami@pyladies.com
   image: pyladies_miami.png
-  location: {latitude: 25.75, longitude: -80.24}
+  location:
+    latitude: 25.75
+    longitude: -80.24
   meetup: Miami-PyLadies
-  meetup_id: 4634379376
+  meetup_id: 4736538352
   name: Miami, Florida
   organizer: Miami PyLadies
   pro_network: Python Software Foundation Meetup Pro Network
@@ -485,9 +600,11 @@ chapters:
 - email: milan@pyladies.com
   facebook: pg/pyladiesmilan
   image: pyladies_dc_atl_sea_tor.png
-  location: {latitude: 45.46, longitude: 9.19}
+  location:
+    latitude: 45.46
+    longitude: 9.19
   meetup: meetup-group-AmxqeOPN/
-  meetup_id: 4634379632
+  meetup_id: 4736540592
   name: Milan, Italy
   organizer: PyLadies Milano
   pro_network: Python Software Foundation Meetup Pro Network
@@ -497,9 +614,11 @@ chapters:
   facebook: pyladiesau
   github: pyladiesmelbourne
   image: pyladies_melbourne.jpeg
-  location: {latitude: -37.81, longitude: 144.96}
+  location:
+    latitude: -37.81
+    longitude: 144.96
   meetup: PyLadies-Melbourne
-  meetup_id: 4634379376
+  meetup_id: 4736538352
   meetup_image: https://secure.meetupstatic.com/photos/event/4/1/d/7/highres_463036855.jpeg
   name: Melbourne, Australia
   organizer: Brianna Laugher (PyLadiesMEL)
@@ -508,13 +627,17 @@ chapters:
   website: http://melbourne.pyladies.com/
 - email: Mohali@pyladies.com
   image: mapmarker.png
-  location: {latitude: 30.704649, longitude: 76.717873}
+  location:
+    latitude: 30.704649
+    longitude: 76.717873
   name: Mohali
 - email: montreal@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
-  location: {latitude: 45.52, longitude: -73.58}
+  location:
+    latitude: 45.52
+    longitude: -73.58
   meetup: PyLadiesMTL
-  meetup_id: 4634378992
+  meetup_id: 4736540112
   meetup_image: https://secure.meetupstatic.com/photos/event/1/8/4/e/highres_227526222.jpeg
   name: Montreal, Canada
   organizer: Julie Lewis
@@ -522,21 +645,27 @@ chapters:
   website: mtl
 - email: MA@pyladies.com
   image: pyladies_ma.png
-  location: {latitude: 33.97159, longitude: -6.849813}
+  location:
+    latitude: 33.97159
+    longitude: -6.849813
   meetup_id: 193620926
   name: Morocco
   twitter: PyLadiesMa
   website: MA
 - email: mum@pyladies.com
   image: amchi_pyladies.png
-  location: {latitude: 18.9523804, longitude: 72.8327112}
+  location:
+    latitude: 18.9523804
+    longitude: 72.8327112
   name: Mumbai, India
 - email: munich@pyladies.com
   external_website: true
   image: pyladiesmu_logo.png
-  location: {latitude: 48.14, longitude: 11.58}
+  location:
+    latitude: 48.14
+    longitude: 11.58
   meetup: PyLadiesMunich
-  meetup_id: 4634380080
+  meetup_id: 4736536752
   meetup_image: https://secure.meetupstatic.com/photos/event/1/e/1/f/highres_485407711.jpeg
   name: Munich, Germany
   organizer: Laysa Uchoa
@@ -545,13 +674,17 @@ chapters:
   website: https://github.com/pyladiesmunich
 - email: swflorida@pyladies.com
   image: pyladies.png
-  location: {latitude: 26.14234, longitude: -81.79596}
+  location:
+    latitude: 26.14234
+    longitude: -81.79596
   name: SWFL
   twitter: PyLadiesSWFL
   website: swfl
 - email: info@pyladies.com
   image: pyladies_nashville.jpeg
-  location: {latitude: 36.1622296, longitude: -86.7743531}
+  location:
+    latitude: 36.1622296
+    longitude: -86.7743531
   meetup: Nashville-PyLadies
   name: Nashville, TN
   twitter: PyNashLadies
@@ -561,20 +694,26 @@ chapters:
   facebook: PyLadiesbrazil
   github: pyladies-brazil
   image: pyladies_natal.png
-  location: {latitude: -5.7792569, longitude: -35.200916}
+  location:
+    latitude: -5.7792569
+    longitude: -35.200916
   name: Natal, Brazil
   twitter: pyladiesbrazil
   website: http://pyladiesnatal.github.io/
 - email: newarkde@pyladies.com
-  location: {latitude: 39.6832884, longitude: -75.7497231}
+  location:
+    latitude: 39.6832884
+    longitude: -75.7497231
   meetup: PyLadies-Newark-DE
   name: Newark, DE
 - email: nyc@pyladies.com
   external_website: true
   image: pyladies_ny.png
-  location: {latitude: 40.75, longitude: -73.99}
+  location:
+    latitude: 40.75
+    longitude: -73.99
   meetup: nyc-pyladies
-  meetup_id: 4634380880
+  meetup_id: 4736537232
   meetup_image: https://secure.meetupstatic.com/photos/event/8/3/4/c/highres_479733612.jpeg
   name: New York, NY
   organizer: NYC PyLadies
@@ -583,40 +722,52 @@ chapters:
   website: http://nyc.pyladies.com
 - email: nigeria@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
-  location: {latitude: 6.465422, longitude: 3.406448}
+  location:
+    latitude: 6.465422
+    longitude: 3.406448
   meetup_id: 201759643
   name: Nigeria
   twitter: PyladiesNigeria
   website: dc
 - email: ojere@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
-  location: {latitude: 7.1557102, longitude: 3.3450899}
+  location:
+    latitude: 7.1557102
+    longitude: 3.3450899
   name: Ojere, NG
   twitter: pyladiesojere
 - email: okinawa@pyladies.com
-  location: {latitude: 26.3305244, longitude: 127.8767851}
+  location:
+    latitude: 26.3305244
+    longitude: 127.8767851
   name: Okinawa, Japan
   twitter: PyLadiesOkinawa
 - email: pb@pyladies.com
   facebook: pyladiespb
   github: pyladiespb
-  location: {latitude: -7.24, longitude: -36.782}
+  location:
+    latitude: -7.24
+    longitude: -36.782
   name: Paraiba, Brazil
   twitter: pyladiesPB
 - email: paris@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
-  location: {latitude: 48.86, longitude: 2.34}
+  location:
+    latitude: 48.86
+    longitude: 2.34
   meetup: PyLadies-Paris
-  meetup_id: 4634378480
+  meetup_id: 4736540112
   meetup_image: https://secure.meetupstatic.com/photos/event/e/3/2/7/highres_438478151.jpeg
   name: Paris, France
-  organizer: Anna Livia
+  organizer: 'Lucy '
   twitter: PyLadiesParis
   website: paris
 - email: poland@pyladies.com
   facebook: pyladiespl
   image: pyladies_poland.png
-  location: {latitude: 52.0977181, longitude: 19.0258159}
+  location:
+    latitude: 52.0977181
+    longitude: 19.0258159
   meetup_id: 185065560
   name: Poland
   twitter: PyladiesPL
@@ -624,9 +775,11 @@ chapters:
 - email: pyladies.pdx@gmail.com
   external_website: true
   image: pyladies_pdx.png
-  location: {latitude: 35.77, longitude: -78.64}
+  location:
+    latitude: 35.77
+    longitude: -78.64
   meetup: pyladies-rdu
-  meetup_id: 4634378576
+  meetup_id: 4736538352
   name: Portland, OR
   organizer: Charlotte
   pro_network: Python Software Foundation Meetup Pro Network
@@ -637,7 +790,9 @@ chapters:
   facebook: PoaPyladies
   github: pyladiespoa
   image: pyladies-poa.png
-  location: {latitude: -30.0333, longitude: -51.2}
+  location:
+    latitude: -30.0333
+    longitude: -51.2
   name: Porto Alegre, Brazil
   twitter: Pyladiespoas
   website: https://pyladiespoa.pythonanywhere.com
@@ -645,9 +800,11 @@ chapters:
   external_website: true
   facebook: PyLadiesPune
   image: pyladies_pune.jpeg
-  location: {latitude: 18.53, longitude: 73.84}
+  location:
+    latitude: 18.53
+    longitude: 73.84
   meetup: PyLadies-Pune
-  meetup_id: 4634381104
+  meetup_id: 4736537200
   meetup_image: https://secure.meetupstatic.com/photos/event/9/4/e/b/highres_458618123.jpeg
   name: Pune, India
   organizer: Anwesha Das
@@ -657,14 +814,18 @@ chapters:
   facebook: pyladiesecq
   github: pyladies-ecuador
   image: pyladies_ec.png
-  location: {latitude: -0.17752, longitude: -78.465686}
+  location:
+    latitude: -0.17752
+    longitude: -78.465686
   name: Quito, Ecuador
   twitter: PyladiesEc
 - email: rdu@pyladies.com
   image: pyladies_rdu.png
-  location: {latitude: 35.77, longitude: -78.64}
+  location:
+    latitude: 35.77
+    longitude: -78.64
   meetup: pyladies-rdu
-  meetup_id: 4634380272
+  meetup_id: 4736540592
   name: Raleigh-Durham, NC
   organizer: Charlotte
   pro_network: Python Software Foundation Meetup Pro Network
@@ -675,7 +836,9 @@ chapters:
   facebook: PyLadies-Recife
   github: pyladies-brazil
   image: pyladies_recife.png
-  location: {latitude: -8.0475458, longitude: -34.8769621}
+  location:
+    latitude: -8.0475458
+    longitude: -34.8769621
   name: Recife, Brazil
   twitter: pyladiesrecife
   website: http://brasil.pyladies.com
@@ -691,13 +854,17 @@ chapters:
   facebook: PyLadiesRio
   github: pyladies-brazil
   image: pyladies_rio.png
-  location: {latitude: -22.9082998, longitude: -43.1970773}
+  location:
+    latitude: -22.9082998
+    longitude: -43.1970773
   name: Rio de Janeiro, Brazil
   twitter: rio_pyladies
   website: http://brasil.pyladies.com
 - email: saltlake@pyladies.com
   image: pyladies_sd_brno.png
-  location: {latitude: 41.6449294, longitude: -112.2535647}
+  location:
+    latitude: 41.6449294
+    longitude: -112.2535647
   meetup_id: 8161032
   name: Salt Lake Area, Utah
   website: saltlake
@@ -705,7 +872,9 @@ chapters:
   external_website: true
   facebook: pyladies.spb
   image: pyladies_spb.png
-  location: {latitude: 59.9343, longitude: 30.3351}
+  location:
+    latitude: 59.9343
+    longitude: 30.3351
   name: Saint Petersburg, Russia
   timepad: pyladies-spb
   timepad_id: 135287
@@ -716,23 +885,29 @@ chapters:
   facebook: PyLadiesSalvador
   github: PyLadiesSalvador
   image: pyladies_salvador_logo.png
-  location: {latitude: -12.9704, longitude: -38.5124}
+  location:
+    latitude: -12.9704
+    longitude: -38.5124
   name: Salvador, Brazil
   website: https://pyladiessalvador.github.io/
 - email: juliet.oberding@gmail.com
   image: pyladies_sd_brno.png
-  location: {latitude: 32.76, longitude: -117.2}
+  location:
+    latitude: 32.76
+    longitude: -117.2
   meetup: sd-pyladies
-  meetup_id: 4634380976
+  meetup_id: 4736536752
   meetup_image: https://secure.meetupstatic.com/photos/event/4/0/2/3/highres_433096419.jpeg
   name: San Diego, CA
   organizer: Carol Naslund Willing
   website: sd
 - email: sf@pyladies.com
   image: pyladies_sf_logo.png
-  location: {latitude: 37.77, longitude: -122.4}
+  location:
+    latitude: 37.77
+    longitude: -122.4
   meetup: pyladiessf
-  meetup_id: 4634378384
+  meetup_id: 4736540624
   meetup_image: https://secure.meetupstatic.com/photos/event/6/7/4/0/highres_461906432.jpeg
   name: San Francisco, CA
   organizer: Michelle Glauser
@@ -741,9 +916,11 @@ chapters:
   website: sf
 - email: santacruz@pyladies.com
   image: pyladies_santa_cruz.png
-  location: {latitude: 36.99, longitude: -122.06}
+  location:
+    latitude: 36.99
+    longitude: -122.06
   meetup: PyLadiesSC
-  meetup_id: 4634380976
+  meetup_id: 4736536752
   name: Santa Cruz, CA
   organizer: Santa Cruz PyLadies
   twitter: PyLadiesSC
@@ -752,21 +929,27 @@ chapters:
   facebook: PyLadiesSaoCarlos
   github: pyladies-brazil
   image: pyladies_saocarlos.png
-  location: {latitude: -22.0087175, longitude: -47.8909142}
+  location:
+    latitude: -22.0087175
+    longitude: -47.8909142
   name: Sao Carlos, Brazil
   twitter: pyladiesbrazil
   website: http://brasil.pyladies.com
 - email: saoluis@pyladies.org
   facebook: PyLadiesSLZ
   image: pyladies_saoluis.png
-  location: {latitude: -2.53073, longitude: -44.3068}
-  name: São Luís, Brazil
+  location:
+    latitude: -2.53073
+    longitude: -44.3068
+  name: "S\xE3o Lu\xEDs, Brazil"
   twitter: PyladiesSlz
 - email: seattle-pyladies@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
-  location: {latitude: 47.68, longitude: -122.29}
+  location:
+    latitude: 47.68
+    longitude: -122.29
   meetup: seattle-pyladies
-  meetup_id: 4634378352
+  meetup_id: 4736538352
   meetup_image: https://secure.meetupstatic.com/photos/event/2/a/e/d/highres_432550989.jpeg
   name: Seattle, WA
   organizer: Wendy Grus
@@ -777,7 +960,9 @@ chapters:
   facebook: pyladieseoul
   google_plus: https://plus.google.com/106890062399007175692/posts
   image: pyladies-seoul-logo.png
-  location: {latitude: 37.5666791, longitude: 126.9782914}
+  location:
+    latitude: 37.5666791
+    longitude: 126.9782914
   meetup_id: 10708842
   name: Seoul, Korea
   twitter: PyladiesSeoul
@@ -786,23 +971,29 @@ chapters:
   facebook: svpyladies
   github: SiliconValleyPyLadies
   image: pyladies-silicion-logo.png
-  location: {latitude: 37.37, longitude: -122.03}
+  location:
+    latitude: 37.37
+    longitude: -122.03
   meetup: PyLadies-Silicon-Valley
-  meetup_id: 4634379184
+  meetup_id: 4736537232
   meetup_image: https://secure.meetupstatic.com/photos/event/6/5/2/a/highres_444745898.jpeg
   name: Silicon Valley, CA
-  organizer: Sarah Kuchinsky
+  organizer: Sarah K
   pro_network: Python Software Foundation Meetup Pro Network
   website: http://siliconvalley.pyladies.com
 - email: sorocaba@pyladies.com
   facebook: PyLadiesSorocaba
   image: pyladies_sorocaba_logo.jpg
-  location: {latitude: -23.50167, longitude: -47.45806}
+  location:
+    latitude: -23.50167
+    longitude: -47.45806
   name: Sorocaba, SP
   website: sorocaba
 - email: sg@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
-  location: {latitude: 1.2904527, longitude: 103.852038}
+  location:
+    latitude: 1.2904527
+    longitude: 103.852038
   meetup: PyLadies-SG
   meetup_id: 14910222
   name: Singapore
@@ -810,21 +1001,31 @@ chapters:
   website: sg
 - email: spain@pyladies.com
   image: pyladies_es.png
-  location: {latitude: 40.0028028, longitude: -4.003104}
+  location:
+    latitude: 40.0028028
+    longitude: -4.003104
   name: Spain
   twitter: PyLadies_ES
 - email: madrid@pyladies.com
-  name: Madrid, Spain
-  image: pyladies_madrid.png
-  location: {latitude: 40.4165001, longitude: -3.7025599}
-  twitter: PyLadiesMadrid
-  meetup: PyLadiesMadrid
   github: PyLadiesMadrid
+  image: pyladies_madrid.png
+  location:
+    latitude: 40.42
+    longitude: -3.71
+  meetup: PyLadiesMadrid
+  meetup_id: 4736537040
+  meetup_image: https://secure.meetupstatic.com/photos/event/a/2/7/c/highres_485981596.jpeg
+  name: Madrid, Spain
+  organizer: "Mar\xEDa Medina"
+  pro_network: Python Software Foundation Meetup Pro Network
+  twitter: PyLadiesMadrid
 - email: stockholm@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
-  location: {latitude: 59.33, longitude: 18.07}
+  location:
+    latitude: 59.33
+    longitude: 18.07
   meetup: pyladiesstockholm
-  meetup_id: 4634379280
+  meetup_id: 4736537552
   meetup_image: https://secure.meetupstatic.com/photos/event/b/5/9/c/highres_377086492.jpeg
   name: Stockholm, Sweden
   organizer: Eleonore Mayola
@@ -833,22 +1034,28 @@ chapters:
 - email: suldeminasgerais@pyladies.com
   facebook: Pyladies Sul de Minas Gerais
   image: pyladies_sulmg.png
-  location: {latitude: -20.718889, longitude: -46.609722}
+  location:
+    latitude: -20.718889
+    longitude: -46.609722
   name: Sul de Minas, Brazil
 - email: sydney@pyladies.com
   facebook: pyladiesau
-  location: {latitude: -33.87, longitude: 151.21}
+  location:
+    latitude: -33.87
+    longitude: 151.21
   meetup: Sydney-PyLadies
-  meetup_id: 4634380400
+  meetup_id: 4736537040
   name: Sydney, Australia
   organizer: Rachel Bunder
   twitter: sydneypyladies
 - email: pyladies.tw@gmail.com
   external_website: true
   image: pyladies-tw-logo.png
-  location: {latitude: 25.02, longitude: 121.45}
+  location:
+    latitude: 25.02
+    longitude: 121.45
   meetup: PyLadiesTW
-  meetup_id: 4634378864
+  meetup_id: 4736536752
   meetup_image: https://secure.meetupstatic.com/photos/event/9/f/e/7/highres_433120935.jpeg
   name: Taiwan
   organizer: "\u59FF\u541B (Kelly)"
@@ -858,14 +1065,18 @@ chapters:
   external_website: true
   facebook: PyLadiesTeresina
   image: pyladies_teresina.png
-  location: {latitude: -5.1816948, longitude: -43.0212865}
+  location:
+    latitude: -5.1816948
+    longitude: -43.0212865
   name: Teresina, Brazil
   twitter: pyladiesthe
   website: https://pyladiesteresina.github.io/
 - email: tirana@pyladies.com
   facebook: PyLadiesTirana
   github: PyLadiesTirana
-  location: {latitude: 41.327953, longitude: 19.819025}
+  location:
+    latitude: 41.327953
+    longitude: 19.819025
   name: Tirana, Albania
   twitter: PyLadiesTirana
 - email: pyladies-tokyo@googlegroups.com
@@ -873,15 +1084,19 @@ chapters:
   facebook: PyLadiesTokyo
   github: PyLadiesTokyo
   image: pyladies_tokyo.png
-  location: {latitude: 35.6, longitude: 139.7}
+  location:
+    latitude: 35.6
+    longitude: 139.7
   name: Tokyo
   twitter: PyLadiesTokyo
   website: http://tokyo.pyladies.com/
 - email: toronto@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
-  location: {latitude: 43.65, longitude: -79.44}
+  location:
+    latitude: 43.65
+    longitude: -79.44
   meetup: Pyladies-Toronto
-  meetup_id: 4634378800
+  meetup_id: 4736540624
   meetup_image: https://secure.meetupstatic.com/photos/event/5/e/4/9/highres_446124137.jpeg
   name: Toronto, Canada
   organizer: Jill Cates
@@ -889,18 +1104,22 @@ chapters:
   website: toronto
 - facebook: groups/458792744204403/
   image: pyladies_dc_atl_sea_tor.png
-  location: {latitude: 33.8439408, longitude: 9.400138}
+  location:
+    latitude: 33.8439408
+    longitude: 9.400138
   name: Tunisia
   website: tunisia
 - email: uy@pyladies.com
   external_website: true
   image: pyladies-uy.jpeg
-  location: {latitude: -34.90328, longitude: -56.18816}
+  location:
+    latitude: -34.87
+    longitude: -56.17
   meetup: PyLadiesUy
-  meetup_id: pyladiesuy
+  meetup_id: 4736536752
   meetup_image: https://www.meetup.com/es-ES/Grupo-de-Meetup-en-Montevideo-de-Python/photos/30254037/#488184726
   name: PyLadies Uruguay
-  organizer: PyLadies Uruguay 
+  organizer: PyLadies Uruguay
   pro_network: Python Software Foundation Meetup Pro Network
   twitter: PyLadiesUy
   website: http://uy.pyladies.com
@@ -909,36 +1128,44 @@ chapters:
   facebook: pyladiesvale
   github: pyladiesvale
   image: pyladies_vale.jpg
-  location: {latitude: -23.2237, longitude: -45.9009}
+  location:
+    latitude: -23.2237
+    longitude: -45.9009
   name: Vale do Paraiba, Brazil
   twitter: pyladiesvale
   website: http://vale.pyladies.com
 - email: vancouver@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
-  location: {latitude: 49.28, longitude: -123.04}
+  location:
+    latitude: 49.28
+    longitude: -123.04
   meetup: PyLadies-Vancouver
-  meetup_id: 4634378320
+  meetup_id: 4736540304
   meetup_image: https://secure.meetupstatic.com/photos/event/a/d/d/e/highres_447404510.jpeg
   name: Vancouver, Canada
-  organizer: Caroline Liu
+  organizer: Mariatta
   pro_network: Python Software Foundation Meetup Pro Network
   twitter: pyladiesvan
   website: vancouver
 - email: vienna@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
-  location: {latitude: 48.22, longitude: 16.37}
+  location:
+    latitude: 48.22
+    longitude: 16.37
   meetup: pyladies-vienna
-  meetup_id: 4634378672
+  meetup_id: 4736538160
   meetup_image: https://secure.meetupstatic.com/photos/event/8/b/0/8/highres_212075592.jpeg
   name: Vienna, Austria
-  organizer: Laura
+  organizer: "T\xFDna Dole\u017Ealov\xE1"
   twitter: pyladies_vie
   website: vienna
 - email: jackiekazil@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
-  location: {latitude: 38.95, longitude: -77.02}
+  location:
+    latitude: 38.95
+    longitude: -77.02
   meetup: dc-pyladies
-  meetup_id: 4634378480
+  meetup_id: 4736540112
   meetup_image: https://secure.meetupstatic.com/photos/event/4/6/7/a/highres_170838042.jpeg
   name: Washington, DC
   organizer: Katie Cunningham
@@ -946,7 +1173,9 @@ chapters:
   website: dc
 - email: zaria@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
-  location: {latitude: 7.6559, longitude: 11.1517}
+  location:
+    latitude: 7.6559
+    longitude: 11.1517
   meetup: null
   meetup_id: null
   name: Zaria, Kaduna
@@ -956,14 +1185,18 @@ chapters:
   facebook: pyladiesrural
   github: PyladiesRural
   image: pyladies-rural.jpg
-  location: {latitude: -22.742238, longitude: -43.458664}
+  location:
+    latitude: -22.742238
+    longitude: -43.458664
   meetup_id: null
   name: Nova Iguacu, RJ
   twitter: null
   website: null
 - email: monrovia@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
-  location: {latitude: 6.313333, longitude: -10.801389}
+  location:
+    latitude: 6.313333
+    longitude: -10.801389
   meetup: null
   meetup_id: null
   name: Monrovia, Liberia
@@ -972,7 +1205,9 @@ chapters:
 - email: owerri@pyladies.com
   facebook: Pyladies Imo
   image: pyladiesimologo.png
-  location: {latitude: 5.47631, longitude: 7.025853}
+  location:
+    latitude: 5.47631
+    longitude: 7.025853
   meetup_id: 201759643
   name: Imo, Nigeria
   twitter: Pyladiesowerri
@@ -981,37 +1216,46 @@ chapters:
 - email: bcn@pyladies.com
   external_website: true
   image: pyladies-bcn.jpeg
-  location: {latitude: 41.3851, longitude: 2.1734}
+  location:
+    latitude: 41.4
+    longitude: 2.17
   meetup: PyLadies-BCN
-  meetup_id: null
-  meetup_image: https://secure.meetupstatic.com/photos/event/7/9/a/6/600_336991142.jpeg
+  meetup_id: 4736538064
+  meetup_image: https://secure.meetupstatic.com/photos/event/7/9/a/6/highres_336991142.jpeg
   name: Barcelona, BCN
-  organizer: BCN PyLadies
+  organizer: "N\xFAria Pujol"
   pro_network: Python Software Foundation Meetup Pro Network
   twitter: PyLadiesBCN
   website: https://pybcn.org/pyladies-bcn/
-- name: Asaba, Nigeria
+- email: asaba@pyladies.com
+  facebook: asabapyladies
+  github: Pyladiesasaba
+  image: pyladies-asaba.png
+  location:
+    latitude: 6.19824
+    longitude: 6.73187
+  meetup: null
   meetup_id: null
+  name: Asaba, Nigeria
+  twitter: Pyladiesasaba
   website: null
   whatsapp: null
-  image: pyladies-asaba.png
-  email: asaba@pyladies.com
-  twitter: Pyladiesasaba
-  meetup: null
-  github: Pyladiesasaba
-  facebook: asabapyladies
-  location: {latitude: 6.19824, longitude: 6.73187}
 date_format: '%B %d, %Y'
 domain: pyladies.com
 feed: true
 jinja:
-  extensions: [jinja2.ext.loopcontrols]
-mapbox: {api_key: pk.eyJ1IjoiaGVsZW5zdCIsImEiOiJiZmZhYjYxMzc1ZGMzNmI3MjdlNmNkMTQ0MGJkZDdmNyJ9.6mfnxn0mORV5Gt73x_smtg}
+  extensions:
+  - jinja2.ext.loopcontrols
+mapbox:
+  api_key: pk.eyJ1IjoiaGVsZW5zdCIsImEiOiJiZmZhYjYxMzc1ZGMzNmI3MjdlNmNkMTQ0MGJkZDdmNyJ9.6mfnxn0mORV5Gt73x_smtg
 misaka:
-  render_flags: {toc: true}
+  render_flags:
+    toc: true
 post_limit: 1
 posts_url: /blog/<title>/
-social: {github: 'http://github.com/pyladies', google_plus: 'https://plus.google.com/communities/108807002736066163985'}
+social:
+  github: http://github.com/pyladies
+  google_plus: https://plus.google.com/communities/108807002736066163985
 subtitle: Women Who Love Coding in Python
 tag_layout: tag.html
 tags_url: /tags/
