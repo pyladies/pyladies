@@ -10,7 +10,7 @@ chapters:
     latitude: 52.37
     longitude: 4.89
   meetup: PyLadiesAMS
-  meetup_id: 4736537872
+  meetup_id: 4663509776
   meetup_image: https://secure.meetupstatic.com/photos/event/2/3/8/8/highres_483969096.jpeg
   name: Amsterdam, the Netherlands
   organizer: Alyona Galyeva
@@ -56,7 +56,7 @@ chapters:
     latitude: 30.27
     longitude: -97.74
   meetup: pyladies-atx
-  meetup_id: 4736537040
+  meetup_id: 4663512976
   meetup_image: https://secure.meetupstatic.com/photos/event/5/4/f/6/highres_437421750.jpeg
   name: Austin, TX
   organizer: PyLadiesATX
@@ -107,7 +107,7 @@ chapters:
     latitude: -19.92
     longitude: -43.94
   meetup: PyLadies-BH-Meetup
-  meetup_id: 4736538064
+  meetup_id: 4663509776
   name: Belo Horizonte, Brazil
   organizer: Roberto Novaes
   twitter: pyladiesbh
@@ -119,7 +119,7 @@ chapters:
     latitude: 52.52
     longitude: 13.38
   meetup: PyLadies-Berlin
-  meetup_id: 4736538160
+  meetup_id: 4663512976
   meetup_image: https://secure.meetupstatic.com/photos/event/6/b/8/6/highres_454587526.jpeg
   name: Berlin, Germany
   organizer: Anett G.
@@ -148,7 +148,7 @@ chapters:
     latitude: 42.36
     longitude: -71.06
   meetup: PyLadies-Boston
-  meetup_id: 4736540304
+  meetup_id: 4663509776
   meetup_image: https://secure.meetupstatic.com/photos/event/5/f/b/6/highres_246984502.jpeg
   name: Boston, MA
   organizer: Laura Stone
@@ -180,7 +180,7 @@ chapters:
     latitude: -27.46
     longitude: 153.02
   meetup: BrisbanePyLadies
-  meetup_id: 4736538160
+  meetup_id: 4663512976
   meetup_image: https://secure.meetupstatic.com/photos/event/5/6/e/f/highres_483622255.jpeg
   name: Brisbane, Australia
   organizer: Brisbane PyLadies
@@ -192,7 +192,7 @@ chapters:
     latitude: 50.08
     longitude: 14.43
   meetup: pyladiescz
-  meetup_id: 4736540304
+  meetup_id: 4663509776
   meetup_image: https://secure.meetupstatic.com/photos/event/5/7/4/4/highres_470902340.jpeg
   name: Brno, Czech Republic
   twitter: pyladiesCZ
@@ -233,7 +233,7 @@ chapters:
     latitude: 19.43
     longitude: -99.14
   meetup: Mexico-City-Pyladies-Meetup
-  meetup_id: 4736537968
+  meetup_id: 4663512976
   name: CDMX, M&eacute;xico
   organizer: Erika
   twitter: MxPyladies
@@ -246,7 +246,7 @@ chapters:
     latitude: 13.09
     longitude: 80.27
   meetup: pyladieschennai
-  meetup_id: 4736536816
+  meetup_id: 4663509776
   meetup_image: https://secure.meetupstatic.com/photos/event/9/9/9/1/highres_478479313.jpeg
   name: Chennai, India
   organizer: PyLadies Chennai
@@ -270,7 +270,7 @@ chapters:
     latitude: 41.88
     longitude: -87.63
   meetup: Chicago-PyLadies
-  meetup_id: 4736537104
+  meetup_id: 4663512976
   meetup_image: https://secure.meetupstatic.com/photos/event/2/a/a/3/highres_452110915.jpeg
   name: Chicago, IL
   organizer: Lorena Mesa
@@ -285,7 +285,7 @@ chapters:
     latitude: 41.49
     longitude: -81.67
   meetup: CLE-PyLadies
-  meetup_id: 4736537872
+  meetup_id: 4663509776
   meetup_image: https://secure.meetupstatic.com/photos/event/e/2/9/5/highres_471598005.jpeg
   name: Cleveland, OH
   organizer: Cleveland PyLadies
@@ -347,7 +347,7 @@ chapters:
     latitude: 53.33
     longitude: -6.25
   meetup: PyLadiesDublin
-  meetup_id: 4736538512
+  meetup_id: 4663512976
   meetup_image: https://secure.meetupstatic.com/photos/event/3/6/3/9/highres_488953881.jpeg
   name: Dublin, Ireland
   organizer: Vicky Twomey-Lee
@@ -371,7 +371,7 @@ chapters:
     latitude: 55.95
     longitude: -3.2
   meetup: PyLadiesEdinburgh
-  meetup_id: 4736536816
+  meetup_id: 4663509776
   meetup_image: https://secure.meetupstatic.com/photos/event/8/3/2/4/highres_392493572.jpeg
   name: Edinburgh, Scotland
   organizer: Becky Smith
@@ -403,7 +403,7 @@ chapters:
     latitude: 42.96
     longitude: -85.66
   meetup: PyLadiesGrandRapids
-  meetup_id: 4736539248
+  meetup_id: 4663512976
   meetup_image: https://secure.meetupstatic.com/photos/event/3/b/7/highres_466800951.jpeg
   name: Grand Rapids, MI
   organizer: Rachell
@@ -425,7 +425,7 @@ chapters:
     latitude: 53.55
     longitude: 10.0
   meetup: PyLadies-Hamburg
-  meetup_id: 4736538192
+  meetup_id: 4663509776
   meetup_image: https://secure.meetupstatic.com/photos/event/8/f/a/9/highres_471636777.jpeg
   name: Hamburg, Germany
   organizer: Hamburg PyLadies
@@ -438,7 +438,7 @@ chapters:
     latitude: 60.17
     longitude: 24.94
   meetup: Helsinki-Pyladies
-  meetup_id: 4736538064
+  meetup_id: 4663512976
   meetup_image: https://secure.meetupstatic.com/photos/event/7/9/0/6/highres_252930982.jpeg
   name: Helsinki, Finland
   organizer: Elena Oat
@@ -458,7 +458,7 @@ chapters:
     latitude: 29.77
     longitude: -95.4
   meetup: Houston_PyLadies
-  meetup_id: 4736537872
+  meetup_id: 4663509776
   name: Houston, TX
   organizer: Lesly
   pro_network: Python Software Foundation Meetup Pro Network
@@ -469,7 +469,7 @@ chapters:
     latitude: 28.67
     longitude: 77.21
   meetup: PyladiesIndia
-  meetup_id: 4736540304
+  meetup_id: 4663512976
   meetup_image: https://secure.meetupstatic.com/photos/event/1/8/6/2/highres_371586242.jpeg
   name: India
   organizer: Rituparna
@@ -538,7 +538,7 @@ chapters:
     latitude: 51.51
     longitude: -0.13
   meetup: pyladieslondon
-  meetup_id: 4736536752
+  meetup_id: 4663509776
   name: London, UK
   organizer: Anna
   pro_network: Python Software Foundation Meetup Pro Network
@@ -550,7 +550,7 @@ chapters:
     latitude: 34.04
     longitude: -118.25
   meetup: Pyladies-LA
-  meetup_id: 4736537776
+  meetup_id: 4663512976
   meetup_image: https://secure.meetupstatic.com/photos/event/c/6/3/8/highres_476870744.jpeg
   name: Los Angeles, CA
   organizer: Sylvia Tran
@@ -564,7 +564,7 @@ chapters:
     latitude: 32.62
     longitude: -97.15
   meetup: PyLadies-Arlington
-  meetup_id: 4736540432
+  meetup_id: 4663509776
   name: Mavs PyLadies
   website: mavs
 - email: maceio@pyladies.com
@@ -592,7 +592,7 @@ chapters:
     latitude: 25.75
     longitude: -80.24
   meetup: Miami-PyLadies
-  meetup_id: 4736538352
+  meetup_id: 4663512976
   name: Miami, Florida
   organizer: Miami PyLadies
   pro_network: Python Software Foundation Meetup Pro Network
@@ -604,7 +604,7 @@ chapters:
     latitude: 45.46
     longitude: 9.19
   meetup: meetup-group-AmxqeOPN/
-  meetup_id: 4736540592
+  meetup_id: 4663509776
   name: Milan, Italy
   organizer: PyLadies Milano
   pro_network: Python Software Foundation Meetup Pro Network
@@ -618,7 +618,7 @@ chapters:
     latitude: -37.81
     longitude: 144.96
   meetup: PyLadies-Melbourne
-  meetup_id: 4736538352
+  meetup_id: 4663512976
   meetup_image: https://secure.meetupstatic.com/photos/event/4/1/d/7/highres_463036855.jpeg
   name: Melbourne, Australia
   organizer: Brianna Laugher (PyLadiesMEL)
@@ -637,7 +637,7 @@ chapters:
     latitude: 45.52
     longitude: -73.58
   meetup: PyLadiesMTL
-  meetup_id: 4736540112
+  meetup_id: 4663509776
   meetup_image: https://secure.meetupstatic.com/photos/event/1/8/4/e/highres_227526222.jpeg
   name: Montreal, Canada
   organizer: Julie Lewis
@@ -665,7 +665,7 @@ chapters:
     latitude: 48.14
     longitude: 11.58
   meetup: PyLadiesMunich
-  meetup_id: 4736536752
+  meetup_id: 4663512976
   meetup_image: https://secure.meetupstatic.com/photos/event/1/e/1/f/highres_485407711.jpeg
   name: Munich, Germany
   organizer: Laysa Uchoa
@@ -713,7 +713,7 @@ chapters:
     latitude: 40.75
     longitude: -73.99
   meetup: nyc-pyladies
-  meetup_id: 4736537232
+  meetup_id: 4663509776
   meetup_image: https://secure.meetupstatic.com/photos/event/8/3/4/c/highres_479733612.jpeg
   name: New York, NY
   organizer: NYC PyLadies
@@ -756,7 +756,7 @@ chapters:
     latitude: 48.86
     longitude: 2.34
   meetup: PyLadies-Paris
-  meetup_id: 4736540112
+  meetup_id: 4663512976
   meetup_image: https://secure.meetupstatic.com/photos/event/e/3/2/7/highres_438478151.jpeg
   name: Paris, France
   organizer: 'Lucy '
@@ -779,7 +779,7 @@ chapters:
     latitude: 35.77
     longitude: -78.64
   meetup: pyladies-rdu
-  meetup_id: 4736538352
+  meetup_id: 4663509776
   name: Portland, OR
   organizer: Charlotte
   pro_network: Python Software Foundation Meetup Pro Network
@@ -804,7 +804,7 @@ chapters:
     latitude: 18.53
     longitude: 73.84
   meetup: PyLadies-Pune
-  meetup_id: 4736537200
+  meetup_id: 4663512976
   meetup_image: https://secure.meetupstatic.com/photos/event/9/4/e/b/highres_458618123.jpeg
   name: Pune, India
   organizer: Anwesha Das
@@ -825,7 +825,7 @@ chapters:
     latitude: 35.77
     longitude: -78.64
   meetup: pyladies-rdu
-  meetup_id: 4736540592
+  meetup_id: 4663661776
   name: Raleigh-Durham, NC
   organizer: Charlotte
   pro_network: Python Software Foundation Meetup Pro Network
@@ -896,7 +896,7 @@ chapters:
     latitude: 32.76
     longitude: -117.2
   meetup: sd-pyladies
-  meetup_id: 4736536752
+  meetup_id: 4663509776
   meetup_image: https://secure.meetupstatic.com/photos/event/4/0/2/3/highres_433096419.jpeg
   name: San Diego, CA
   organizer: Carol Naslund Willing
@@ -907,7 +907,7 @@ chapters:
     latitude: 37.77
     longitude: -122.4
   meetup: pyladiessf
-  meetup_id: 4736540624
+  meetup_id: 4663661776
   meetup_image: https://secure.meetupstatic.com/photos/event/6/7/4/0/highres_461906432.jpeg
   name: San Francisco, CA
   organizer: Michelle Glauser
@@ -920,7 +920,7 @@ chapters:
     latitude: 36.99
     longitude: -122.06
   meetup: PyLadiesSC
-  meetup_id: 4736536752
+  meetup_id: 4663509776
   name: Santa Cruz, CA
   organizer: Santa Cruz PyLadies
   twitter: PyLadiesSC
@@ -949,7 +949,7 @@ chapters:
     latitude: 47.68
     longitude: -122.29
   meetup: seattle-pyladies
-  meetup_id: 4736538352
+  meetup_id: 4663660624
   meetup_image: https://secure.meetupstatic.com/photos/event/2/a/e/d/highres_432550989.jpeg
   name: Seattle, WA
   organizer: Wendy Grus
@@ -975,7 +975,7 @@ chapters:
     latitude: 37.37
     longitude: -122.03
   meetup: PyLadies-Silicon-Valley
-  meetup_id: 4736537232
+  meetup_id: 4663509776
   meetup_image: https://secure.meetupstatic.com/photos/event/6/5/2/a/highres_444745898.jpeg
   name: Silicon Valley, CA
   organizer: Sarah K
@@ -1013,7 +1013,7 @@ chapters:
     latitude: 40.42
     longitude: -3.71
   meetup: PyLadiesMadrid
-  meetup_id: 4736537040
+  meetup_id: 4663660624
   meetup_image: https://secure.meetupstatic.com/photos/event/a/2/7/c/highres_485981596.jpeg
   name: Madrid, Spain
   organizer: "Mar\xEDa Medina"
@@ -1025,7 +1025,7 @@ chapters:
     latitude: 59.33
     longitude: 18.07
   meetup: pyladiesstockholm
-  meetup_id: 4736537552
+  meetup_id: 4663660752
   meetup_image: https://secure.meetupstatic.com/photos/event/b/5/9/c/highres_377086492.jpeg
   name: Stockholm, Sweden
   organizer: Eleonore Mayola
@@ -1044,7 +1044,7 @@ chapters:
     latitude: -33.87
     longitude: 151.21
   meetup: Sydney-PyLadies
-  meetup_id: 4736537040
+  meetup_id: 4663660624
   name: Sydney, Australia
   organizer: Rachel Bunder
   twitter: sydneypyladies
@@ -1055,7 +1055,7 @@ chapters:
     latitude: 25.02
     longitude: 121.45
   meetup: PyLadiesTW
-  meetup_id: 4736536752
+  meetup_id: 4663660752
   meetup_image: https://secure.meetupstatic.com/photos/event/9/f/e/7/highres_433120935.jpeg
   name: Taiwan
   organizer: "\u59FF\u541B (Kelly)"
@@ -1096,7 +1096,7 @@ chapters:
     latitude: 43.65
     longitude: -79.44
   meetup: Pyladies-Toronto
-  meetup_id: 4736540624
+  meetup_id: 4663660624
   meetup_image: https://secure.meetupstatic.com/photos/event/5/e/4/9/highres_446124137.jpeg
   name: Toronto, Canada
   organizer: Jill Cates
@@ -1116,7 +1116,7 @@ chapters:
     latitude: -34.87
     longitude: -56.17
   meetup: PyLadiesUy
-  meetup_id: 4736536752
+  meetup_id: 4663660752
   meetup_image: https://www.meetup.com/es-ES/Grupo-de-Meetup-en-Montevideo-de-Python/photos/30254037/#488184726
   name: PyLadies Uruguay
   organizer: PyLadies Uruguay
@@ -1140,7 +1140,7 @@ chapters:
     latitude: 49.28
     longitude: -123.04
   meetup: PyLadies-Vancouver
-  meetup_id: 4736540304
+  meetup_id: 4663660624
   meetup_image: https://secure.meetupstatic.com/photos/event/a/d/d/e/highres_447404510.jpeg
   name: Vancouver, Canada
   organizer: Mariatta
@@ -1153,7 +1153,7 @@ chapters:
     latitude: 48.22
     longitude: 16.37
   meetup: pyladies-vienna
-  meetup_id: 4736538160
+  meetup_id: 4663660752
   meetup_image: https://secure.meetupstatic.com/photos/event/8/b/0/8/highres_212075592.jpeg
   name: Vienna, Austria
   organizer: "T\xFDna Dole\u017Ealov\xE1"
@@ -1165,7 +1165,7 @@ chapters:
     latitude: 38.95
     longitude: -77.02
   meetup: dc-pyladies
-  meetup_id: 4736540112
+  meetup_id: 4663660624
   meetup_image: https://secure.meetupstatic.com/photos/event/4/6/7/a/highres_170838042.jpeg
   name: Washington, DC
   organizer: Katie Cunningham
@@ -1220,7 +1220,7 @@ chapters:
     latitude: 41.4
     longitude: 2.17
   meetup: PyLadies-BCN
-  meetup_id: 4736538064
+  meetup_id: 4663660752
   meetup_image: https://secure.meetupstatic.com/photos/event/7/9/a/6/highres_336991142.jpeg
   name: Barcelona, BCN
   organizer: "N\xFAria Pujol"
@@ -1246,8 +1246,6 @@ feed: true
 jinja:
   extensions:
   - jinja2.ext.loopcontrols
-mapbox:
-  api_key: pk.eyJ1IjoiaGVsZW5zdCIsImEiOiJiZmZhYjYxMzc1ZGMzNmI3MjdlNmNkMTQ0MGJkZDdmNyJ9.6mfnxn0mORV5Gt73x_smtg
 misaka:
   render_flags:
     toc: true
