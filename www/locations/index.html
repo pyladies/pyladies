@@ -13,7 +13,8 @@
 {% block content %}
     <h1>PyLadies Locations</h1>
     <h2>PyLadies Locations</h2>
-    <div id="map">
+    <div id="map" class="leaflet-container leaflet-retina leaflet-fade-anim">
+      <iframe src="https://www.google.com/maps/d/embed?mid=1QINwclDD_RxTtFcaw-wF5vYhdvNFlG-Q" width="750" height="450"></iframe>
     </div>
 
     <section id="archive">
@@ -62,33 +63,5 @@
               </div>
             </article>
     </section>
-
-    <script>
-      // Provide your access token
-      L.mapbox.accessToken = '{{ site.mapbox.api_key }}'
-      // Create a map in the div #map
-      var map = L.mapbox.map('map', 'mapbox.dark').setView([30, 0], 2);
-      var geekIcon = L.icon({
-          iconUrl: '../assets/images/mapmarker.png',
-          iconSize:     [36, 36],
-          iconAnchor:   [18, 36],
-          popupAnchor:  [0, -36]
-      });
-      {% for chapter in site.chapters %}
-      {% if chapter.location %}
-          L.marker([{{ chapter.location.latitude }}, {{ chapter.location.longitude }}], {
-            icon: geekIcon,
-          }).addTo(map).bindPopup(
-            '<div class="social">' +
-            $('[data-chapter-name="{{chapter.name}}"]').html() +
-            '</div>', {
-              maxWidth: 375,
-              minWidth: 375
-            }
-          );
-        {% endif %}
-      {% endfor %}
-
-    </script>
 
 {% endblock %}
