@@ -319,7 +319,7 @@ chapters:
     longitude: -104.9903
   name: Denver, CO
   twitter: PyLadiesDEN
-- email: brasilia@pyladies.org
+- email: df@pyladies.com
   external_website: true
   facebook: pyladiesdf
   github: pyladiesdf
@@ -327,7 +327,7 @@ chapters:
   location:
     latitude: -15.7941454
     longitude: -47.8825479
-  name: DF - Brasilia, Brazil
+  name: DF - Distrito Federal, Brazil
   twitter: pyladiesdf
   website: http://df.pyladies.com
 - email: doboj@pyladies.com
