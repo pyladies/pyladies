@@ -1,0 +1,3 @@
+[build]
+    command = "pip install setuptools==39.1.0 && pip install -r requirements.txt && cd www && mynt gen -f _site"
+    publish = "www/_site"

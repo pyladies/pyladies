@@ -13,7 +13,8 @@
 {% block content %}
     <h1>PyLadies Locations</h1>
     <h2>PyLadies Locations</h2>
-    <div id="map">
+    <div id="map" class="leaflet-container leaflet-retina leaflet-fade-anim">
+      <iframe src="https://www.google.com/maps/d/embed?mid=1QINwclDD_RxTtFcaw-wF5vYhdvNFlG-Q" width="750" height="450"></iframe>
     </div>
 
     <section id="archive">
@@ -39,25 +40,22 @@
                         </h3>
                         <h3 class="chpts social-icons">
                             {% if chapter.website %}
-                            <a class="social icon link" data-icon="&#128279;" href="{{chapter.website}}" title="Website"></a>
+                            <a class="icon-earth" data-icon="&#xe9ca;" href="{{chapter.website}}" title="Website"></a>
                             {% endif %}
                             {% if chapter.email %}
-                            <a class="social icon vcard" data-icon="&#59170;" href="mailto:{{chapter.email}}" title="Contact"></a>
+                            <a class="icon-mail4" data-icon="&#xea86;" href="mailto:{{chapter.email}}" title="Contact"></a>
                             {% endif %}
                             {% if chapter.facebook %}
-                            <a class="social icon facebook" data-icon="&#62221;" href="https://www.facebook.com/{{chapter.facebook}}" title"Facebook"></a>
+                            <a class="icon-facebook" data-icon="&#xea90;" href="https://facebook.com/{{chapter.facebook}}" title="Facebook"></a>
                             {% endif %}
                             {% if chapter.github %}
-                            <a class="social icon github" data-icon="&#62208;" href="https://github.com/{{chapter.github}}" title"GitHub"></a>
+                            <a class="icon-github" data-icon="&#xeab0;" href="http://github.com/{{chapter.github}}" title="GitHub"></a>
                             {% endif %}
                             {% if chapter.twitter %}
-                            <a class="social icon twitter" data-icon="&#62217;" href="https://twitter.com/{{chapter.twitter}}" title="Twitter"></a>
+                            <a class="icon-twitter" data-icon="&#xea96;" href="https://twitter.com/{{chapter.twitter}}" title="Twitter"></a>
                             {% endif %}
                             {% if chapter.meetup %}
-                            <a class="social icon location" data-icon="&#59172;" title="Meetup Link" href="http://www.meetup.com/{{chapter.meetup}}/"></a>
-                            {% endif %}
-                            {% if chapter.google_plus %}
-                            <a class="social icon google-plus" data-icon="&#62223;" href="{{chapter.google_plus}}" title"Google+"></a>
+                            <a class="icon-meetup" data-icon="&#xe901;" title="Meetup Link" href="http://www.meetup.com/{{chapter.meetup}}/"></a>
                             {% endif %}
                         </h3>
                     </div>
@@ -65,33 +63,5 @@
               </div>
             </article>
     </section>
-
-    <script>
-      // Provide your access token
-      L.mapbox.accessToken = '{{ site.mapbox.api_key }}'
-      // Create a map in the div #map
-      var map = L.mapbox.map('map', 'mapbox.dark').setView([30, 0], 2);
-      var geekIcon = L.icon({
-          iconUrl: '../assets/images/mapmarker.png',
-          iconSize:     [36, 36],
-          iconAnchor:   [18, 36],
-          popupAnchor:  [0, -36]
-      });
-      {% for chapter in site.chapters %}
-      {% if chapter.location %}
-          L.marker([{{ chapter.location.latitude }}, {{ chapter.location.longitude }}], {
-            icon: geekIcon,
-          }).addTo(map).bindPopup(
-            '<div class="social">' +
-            $('[data-chapter-name="{{chapter.name}}"]').html() +
-            '</div>', {
-              maxWidth: 375,
-              minWidth: 375
-            }
-          );
-        {% endif %}
-      {% endfor %}
-
-    </script>
 
 {% endblock %}
