@@ -291,9 +291,14 @@ To find this resource online, you would navigate to http://pyladies.com/blog/[yo
 
 # For Organizers
 
-## Creating a PyLadies Chapter Website
+## Registering your PyLadies Chapter and onbtaining a website
 
-To get started on building your PyLadies website, read the directions on the [PyLadies Chapter Website repo](https://github.com/pyladies/chapter-websites#pyladies-chapter-websites).
+Once you have obtained an official PyLadies Google account you should:
+
+1. Register your [PyLadies Chapter to the Chapter Directory](https://docs.google.com/forms/d/e/1FAIpQLSf43R4FbiIE4z76k5z42UU4HKMKJnTr2ldh4KecE4WRTJZLUw/viewform) as active, we use this to populate the chapter options for [members when registering](https://members.pyladies.com) as well as populate the PyLadies chapter map.
+2. Get started on building your PyLadies website, read the directions on the [PyLadies Chapter Website repo](https://github.com/pyladies/chapter-websites#pyladies-chapter-websites).
+
+Questions? *Make sure to join us in Slack at slackin.pyladies.com and ask to join the #organizers channel!*
 
 ## LICENSE
 
