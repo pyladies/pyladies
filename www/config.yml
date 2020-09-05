@@ -1250,6 +1250,24 @@ chapters:
   twitter: Pyladiesasaba
   website: null
   whatsapp: null
+  image: pyladies-asaba.png
+  email: asaba@pyladies.com
+  twitter: Pyladiesasaba
+  meetup: null
+  github: Pyladiesasaba
+  facebook: asabapyladies
+  location: {latitude: 6.19824, longitude: 6.73187}
+- name: Guatemala city, Guatemala
+  email: guatemalacity@pyladies.com
+  organizer: PyladiesGT City
+  image: pyladies-guatemala_city.jpg
+  meetup: null
+  meetup_id: null
+  website: null  
+  twitter: PyLadiesGTCity
+  facebook: PyladiesGTCity
+  instagram: PyLadiesGTCity
+  location: {latitude: 14.62, longitude: -90.52}
 date_format: '%B %d, %Y'
 domain: pyladies.com
 feed: true
