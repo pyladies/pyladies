@@ -673,13 +673,15 @@ chapters:
   twitter: pyladiesmunich
   website: https://github.com/pyladiesmunich
 - email: swflorida@pyladies.com
-  image: pyladies.png
+  image: pyladies_swfl.png
   location:
     latitude: 26.14234
     longitude: -81.79596
-  name: SWFL
+  name: Southwest Florida, USA
   twitter: PyLadiesSWFL
-  website: swfl
+  facebook: PyLadiesSWFL
+  github: PyLadiesSWFL
+  meetup: PyLadies-SWFL
 - email: info@pyladies.com
   image: pyladies_nashville.jpeg
   location:
