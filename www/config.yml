@@ -498,6 +498,14 @@ chapters:
   name: Kazan, Russia
   timepad: pyladies-kzn
   twitter: pyladieskzn
+- email: kosice@pyladies.org
+  facebook: PyLadiesKosice
+  image: pyladies_logo.png
+  location:
+    latitude: 48.716385
+    longitude: 21.261074
+  name: Kosice, Slovakia
+  organizer: Iveta Tonhauserova
 - external_website: true
   facebook: PyLadiesKyoto
   google_plus: https://plus.google.com/u/0/communities/113677670074162908256
