@@ -23,7 +23,7 @@ The inaugural Council members include:
 - Tania Allard (United Kingdom) - 2 year term
 - Sarah Adigwe (Nigeria) - 1 year term
 - Marie-Louise Annan (United Kingdom) - 1 year term
-- Reshama Shaih (United States of America) - 1 year term
+- Reshama Shaikh (United States of America) - 1 year term
 
 ## Election Summary
 
