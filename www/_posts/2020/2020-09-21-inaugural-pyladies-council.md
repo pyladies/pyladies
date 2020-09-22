@@ -89,7 +89,7 @@ Based on the votes provided, the third seat resulted in a tie between two applic
 python break-ties.py -n 1 \
 -c "Name of applicant 1" \
 "Name of application 2" 
-['Reshama Shaih']
+['Reshama Shaikh']
 ```	
 
 ## Contact
