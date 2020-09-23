@@ -647,6 +647,12 @@ chapters:
   meetup: PyLadiesMTL
   meetup_id: 4663509776
   meetup_image: https://secure.meetupstatic.com/photos/event/1/8/4/e/highres_227526222.jpeg
+  name: Monterrey, México
+  organizers: Karina Fernanda Perez / Juana Martínez
+- email: monterrey@pyladies.com 
+  location: 
+    latitude: 25.686613
+    longitude: -100.316116
   name: Montreal, Canada
   organizer: Julie Lewis
   twitter: pyladiesMTL
