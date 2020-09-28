@@ -1,0 +1,38 @@
+{% extends "site.html" %}
+{% block title %}PyLadies Hermosillo{% endblock %}
+{% block headjs %}
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+{% endblock %}
+{% block style %}
+{% endblock %}
+
+{% block content %}
+    <section id="archive">
+        <h1>PyLadies Hermosillo</h1>
+            <article>
+				<h2>Welcome!</h2>
+				PyLadies is an international mentorship group with a focus on helping more women become active participants and leaders in the Python open-source community. Our mission is to promote, educate and advance a diverse Python community through outreach, education, conferences, events and social gatherings.<br>
+				<ul>
+					<li>Twitter: <a href="https://twitter.com/PyladiesHMO">@PyladiesHMO</a>. </li>
+                    <li>Facebook: <a href="https://www.facebook.com/PyladiesHMO">facebook.com/PyladiesHMO</a> </li>
+                    <li>Github: <a href="https://github.com/PyladiesHermosillo">Pyladies Hermosillo</a> </li></ul>
+                    <li>Email: <a href="mailto:hermosillo@pyladies.com">hermosillo@pyladies.com</a> </li></ul>
+            </article>
+    </section>
+{% endblock %}
+
+{% block sidebar%}
+	
+    <div id="twitter_feed">
+		<h3>Recent Tweets</h3>
+		<div id="chapter_tweets"><a class="twitter-timeline" href="https://twitter.com/PyLadiesHMO" data-widget-id="336176105218256898" data-chrome="nofooter" height="400">Tweets by @PyLadiesHMO</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+	</div>
+{% endblock %}
+
+{% block footer %}
+	<ul class="social">
+		<li>2020 - {{ None|date('%Y') }} PyLadies HMO. All Rights Reserved.</li>
+	</ul>
+{% endblock %}
