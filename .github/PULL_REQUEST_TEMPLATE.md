@@ -5,12 +5,12 @@ Please document the following for your pull request.
 # PyLadies Pull Request
 _Please document the following. We will aim to be as timely as possible in processing your pull request, however as this is a volunteer staffed project anticipate at least a week for pull requests to start to be reviewed._ 
 
-## Is this pull requesting adding or updating a [PyLadies chapter information](https://github.com/pyladies/pyladies#to-add-a-new-pyladies-location)? 
+## Is this pull requesting adding or updating a [PyLadies chapter website](https://github.com/pyladies/pyladies#to-add-a-new-pyladies-location)? 
 <!--
 Example of response:
 
-Mark which one is correct.
--->
+Mark which one is correct. Only open pull requests to add your PyLadies chapter information to the [official locations list](https://pyladies.com/locations/). This repository no longer hosts official PyLadies chapter websites.
+--> 
 
 - [ ] Yes
 - [ ] No
