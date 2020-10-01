@@ -222,18 +222,24 @@ is correctly formatted. An example is [YAML Lint](http://www.yamllint.com/)
 though there are many others and some editors provide similar functionality.
 
 An example of a location:
-```yaml
-    - name: CDMX, M&eacute;xico
-      meetup_id: 19719503
-      website: mx
-      image: pyladies_cdmx.png
-      email: mx@pyladies.com
-      twitter: MxPyladies
-      meetup: Mexico-City-Pyladies-Meetup
-      location:
-        latitude: 19.432868
-        longitude: -99.133211
 ```
+- email: berlin@pyladies.com
+  external_website: true
+  image: pyladies_berlin.png
+  location:
+    latitude: 52.52
+    longitude: 13.38
+  meetup: PyLadies-Berlin
+  meetup_id: 4663512976
+  meetup_image: https://secure.meetupstatic.com/photos/event/6/b/8/6/highres_454587526.jpeg
+  name: Berlin, Germany
+  organizer: Anett G.
+  pro_network: Python Software Foundation Meetup Pro Network
+  twitter: PyLadiesBer
+  website: http://berlin.pyladies.com
+```
+
+Please note: if you wish to use the `website` field, you need to create an official website through the [PyLadies Chapter Website repository](https://github.com/pyladies/chapter-websites/issues). Otherwise you can skip that field.
 
 **For Unicode accents in some languages**
 To use a Unicode accent in a YAML file, it's important to use the
