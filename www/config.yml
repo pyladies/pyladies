@@ -108,6 +108,15 @@ chapters:
   name: Bhubaneswar, India
   twitter: PyladiesBbsr
   website: bbsr
+- email: blumenau@pyladies.com
+  external_website: true
+  facebook: pyladiesbnu
+  github: pyladies-blumenau
+  image: pyladies-blumenau.png
+  location: {latitude: -26.915415, longitude: -49.072152}
+  name: Blumenau, Brazil
+  twitter: pyladiesbnu
+  instagram: pyladies_blumenau
 - email: boulder@pyladies.com
   image: pyladies_colorado.png
   location: {latitude: 40.015, longitude: -105.2705}
@@ -956,14 +965,6 @@ chapters:
   github: Pyladiesasaba
   facebook: asabapyladies
   location: {latitude: 6.19824, longitude: 6.73187}
-- email: pyladiesbnu@gmail.com
-  external_website: true
-  facebook: pyladiesbnu
-  image: pyladies-blumenau.png
-  location: {latitude: -26.915415, longitude: -49.072152}
-  name: Blumenau, Brazil
-  twitter: pyladiesbnu
-  website: http://brasil.pyladies.com
 date_format: '%B %d, %Y'
 domain: pyladies.com
 feed: true
