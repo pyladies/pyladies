@@ -1,0 +1,35 @@
+{% extends "site.html" %}
+{% block title %}PyLadies Ankara{% endblock %}
+{% block headjs %}
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+{% endblock %}
+{% block style %}
+	<style type="text/css">
+		.sidebar #sponsor_us_btn span {
+			 margin: 15px -30px 20px -30px;
+		}
+	</style>
+{% endblock %}
+
+{% block content %}
+    <section id="archive">
+        <h1>PyLadies Ankara</h1>
+            <article>
+				<h2>Welcome!</h2>
+				PyLadies Ankara  is a social group for female Python programmers at every experience levelfrom Ankara Area. Our mission is to promote, educate and advance a diverse Python community through outreach, education, conferences, events and social gatherings. Please feel free to join us!<br> <br>
+					<li>On Twitter: <a href="https://twitter.com/pyladiesankara">@pyladiesankara</a>. </li>
+					<li>And on Facebook: <a href="https://www.facebook.com/pyladiesankara">facebook.com/pyladiesankara</a> </li></ul>
+				And if you'd like to get some more information about our parent organization, check out the web site: <a href="http://www.pyladies.com">http://www.pyladies.com</a> <br>
+            </article>
+			<h2>Latest from the Mailing List</h2>
+			<div id ="feed"></div>
+    </section>
+{% endblock %}
+
+{% block footer %}
+	<ul class="social">
+		<li></a>2013 - {{ None|date('%Y') }} Pyladies Ankara. All Rights Reserved.by Backraund&&Bero</li>
+	</ul>
+{% endblock %}
