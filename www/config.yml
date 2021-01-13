@@ -471,6 +471,19 @@ chapters:
   meetup_id: 248903240
   name: Ho Chi Minh, Vietnam
   twitter: pyladies1
+- email: hermosillo@pyladies.com
+  image: pyladies-hermosillo.jpeg
+  location:
+    latitude: 29.09
+    longitude: -110.95
+  meetup: PyLadiesHMO
+  name: Hermosillo, M&eacute;xico
+  organizer: Pyladies Hermosillo
+  pro_network: Python Software Foundation Meetup Pro Network
+  website: https://hermosillo.pyladies.com
+  twitter: PyLadiesHMO
+  facebook: pyladiesHMO
+  github: PyladiesHermosillo
 - email: Houston.pyladies@gmail.com
   image: pylady_geek.png
   location:
