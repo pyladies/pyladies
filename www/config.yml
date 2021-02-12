@@ -1,4 +1,4 @@
-﻿analytics: UA-36930002-1
+analytics: UA-36930002-1
 archive_layout: archive.html
 archives_url: /archives/
 author: A PyLady
@@ -943,6 +943,16 @@ chapters:
   name: San Diego, CA
   organizer: Carol Naslund Willing
   website: sd
+- email: sanantonio@pyladies.com
+  image: pyladies-sa-logo.png
+  location:
+    latitude: 29.42
+    longitude: -98.49
+  name: San Antonio, TX
+  organizer: Katie Brown
+  twitter: pyladies_sa
+  github: PyLadiesSA
+  facebook: pyladiessa
 - email: sf@pyladies.com
   image: pyladies_sf_logo.png
   location:
