@@ -51,6 +51,14 @@ chapters:
     latitude: -16.398776
     longitude: -71.53687
   name: Arequipa, Peru
+- email: athens@pyladies.com
+  location:
+    latitude: 37.983810
+    longitude: 23.727539
+  github: PyLadies-Athens
+  name: Athens, Greece
+  twitter: @AthensPy
+  image: pyladies-geek-grey-blue.png
 - email: atl@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
   location:
