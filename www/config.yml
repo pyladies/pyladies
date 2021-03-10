@@ -484,6 +484,14 @@ chapters:
   twitter: PyLadiesHMO
   facebook: pyladiesHMO
   github: PyladiesHermosillo
+- email: huancayo@pyladies.com
+  image: pyladies_huancayo.png
+  location:
+    latitude: -12.07050
+    longitude: -75.21328
+  name: Huancayo, Peru
+  organizer: PyLadies Huancayo
+  github: PyladiesHuancayo
 - email: Houston.pyladies@gmail.com
   image: pylady_geek.png
   location:
@@ -1300,14 +1308,6 @@ chapters:
   facebook: PyladiesGTCity
   instagram: PyLadiesGTCity
   location: {latitude: 14.62, longitude: -90.52}
-- name: Huancayo, Peru
-  email: huancayo@pyladies.com
-  organizer: PyLadies Huancayo
-  image: pyladies_huancayo.png
-  github: PyladiesHuancayo
-  location:
-    latitude: -12.07050
-    longitude: -75.21328
 date_format: '%B %d, %Y'
 domain: pyladies.com
 feed: true
