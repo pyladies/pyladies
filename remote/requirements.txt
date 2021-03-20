@@ -1,4 +1,4 @@
-Jinja2==2.7
+Jinja2==2.11.3
 MarkupSafe==0.18
 PyYAML==3.10
 Pygments==1.6
