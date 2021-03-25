@@ -1,6 +1,6 @@
 Jinja2==2.7
 MarkupSafe==0.18
-PyYAML==3.10
+PyYAML==5.4
 Pygments==1.6
 argh==0.23.3
 houdini.py==0.1.0
