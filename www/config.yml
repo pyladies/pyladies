@@ -1303,14 +1303,15 @@ chapters:
 - email: santiago@pyladies.com
   facebook: '@pyladiesSCL'
   github: null
+  website: null
   twitter: pyladiesSCL
   instagram: pyladiesSCL
   meetup: pyladies-santiago-de-chile
-  image: pyladies-SCL.png
+  image: pyladies-SantiagoChile.png
   location:
     latitude: -33.45
     longitude: -70.666667
-  name: Santiago, Chile  
+  name: Santiago, Chile
 date_format: '%B %d, %Y'
 domain: pyladies.com
 feed: true
