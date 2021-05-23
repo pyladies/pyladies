@@ -1295,11 +1295,22 @@ chapters:
   image: pyladies-guatemala_city.jpg
   meetup: null
   meetup_id: null
-  website: null  
+  website: null
   twitter: PyLadiesGTCity
   facebook: PyladiesGTCity
   instagram: PyLadiesGTCity
   location: {latitude: 14.62, longitude: -90.52}
+- email: santiago@pyladies.com
+  facebook: '@pyladiesSCL'
+  github: null
+  twitter: pyladiesSCL
+  instagram: pyladiesSCL
+  meetup: pyladies-santiago-de-chile
+  image: pyladies-SCL.png
+  location:
+    latitude: -33.45
+    longitude: -70.666667
+  name: Santiago, Chile  
 date_format: '%B %d, %Y'
 domain: pyladies.com
 feed: true
