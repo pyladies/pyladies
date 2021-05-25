@@ -1144,13 +1144,20 @@ chapters:
   organizer: Jill Cates
   pro_network: Python Software Foundation Meetup Pro Network
   website: toronto
-- facebook: groups/458792744204403/
-  image: pyladies_dc_atl_sea_tor.png
+- email: tunis@pyladies.com
+  image: pyladies-tunis.png
   location:
-    latitude: 33.8439408
-    longitude: 9.400138
-  name: Tunisia
-  website: tunisia
+    latitude:  36.806389
+    longitude: 10.181667
+  name: Tunis, Tunisia
+  organizer: PyLadies Tunis
+  twitter: PyLadiesTunis
+  github: PyLadiesTunis
+  youtube: channel/UCllZITsohBLf1mbACmRQJhw/videos
+  facebook: PyLadiesTunis
+  instagram: pyladiestunis
+  linkedin: company/pyladies-tunis
+  website: tunis
 - email: uy@pyladies.com
   external_website: true
   image: pyladies-uy.jpeg
