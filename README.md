@@ -196,7 +196,7 @@ installed (e.g., on Ubuntu, **python-dev** and **libevent-dev**). Packages in
 
 6. (Optional: After making changes to the source code) To view any changes
    you make to the site code, type ctrl+c in the terminal to stop the local
-   webserver. Then run the command from Step 5 again and refresh the browser
+   webserver. Then, run the command from Step 5 again and refresh the browser
    window.
 
 * How to fork and clone: https://help.github.com/articles/fork-a-repo
@@ -239,7 +239,7 @@ An example of a location:
   website: http://berlin.pyladies.com
 ```
 
-Please note: if you wish to use the `website` field, you need to create an official website through the [PyLadies Chapter Website repository](https://github.com/pyladies/chapter-websites/issues). Otherwise you can skip that field.
+Please note: if you wish to use the `website` field, you need to create an official website through the [PyLadies Chapter Website repository](https://github.com/pyladies/chapter-websites/issues). Otherwise, you can skip that field.
 
 **For Unicode accents in some languages**
 To use a Unicode accent in a YAML file, it's important to use the
@@ -297,14 +297,14 @@ To find this resource online, you would navigate to http://pyladies.com/blog/[yo
 
 # For Organizers
 
-## Registering your PyLadies Chapter and onbtaining a website
+## Registering your PyLadies Chapter and obtaining a website
 
 Once you have obtained an official PyLadies Google account you should:
 
 1. Register your [PyLadies Chapter to the Chapter Directory](https://docs.google.com/forms/d/e/1FAIpQLSf43R4FbiIE4z76k5z42UU4HKMKJnTr2ldh4KecE4WRTJZLUw/viewform) as active, we use this to populate the chapter options for [members when registering](https://members.pyladies.com) as well as populate the PyLadies chapter map.
 2. Get started on building your PyLadies website, read the directions on the [PyLadies Chapter Website repo](https://github.com/pyladies/chapter-websites#pyladies-chapter-websites).
 
-Questions? *Make sure to join us in Slack at slackin.pyladies.com and ask to join the #organizers channel!*
+Questions? *Make sure to join our [Slack](https://slackin.pyladies.com/) and ask to join the #organizers channel!*
 
 ## LICENSE
 
