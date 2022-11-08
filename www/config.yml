@@ -1197,8 +1197,9 @@ chapters:
   pro_network: Python Software Foundation Meetup Pro Network
   twitter: pyladiesvan
   website: vancouver
-- email: vienna@pyladies.com
-  image: pyladies_dc_atl_sea_tor.png
+- email: pyladies.vienna@gmail.com
+  external_website: true
+  image: pyladies_vienna.png
   location:
     latitude: 48.22
     longitude: 16.37
@@ -1208,7 +1209,7 @@ chapters:
   name: Vienna, Austria
   organizer: "T\xFDna Dole\u017Ealov\xE1"
   twitter: pyladies_vie
-  website: vienna
+  website: //pyladies.at
 - email: jackiekazil@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
   location:
