@@ -794,15 +794,15 @@ chapters:
   name: Paraiba, Brazil
   twitter: pyladiesPB
 - email: paris@pyladies.com
-  image: pyladies_dc_atl_sea_tor.png
+  image: pyladies_paris.png
   location:
     latitude: 48.86
     longitude: 2.34
-  meetup: PyLadies-Paris
+  meetup: pyladiesparis
   meetup_id: 4663512976
-  meetup_image: https://secure.meetupstatic.com/photos/event/e/3/2/7/highres_438478151.jpeg
+  meetup_image: https://secure.meetupstatic.com/photos/event/d/e/8/5/highres_496676965.jpeg
   name: Paris, France
-  organizer: 'Lucy '
+  organizer: 'Maria, Maud, Mojdeh'
   twitter: PyLadiesParis
   website: paris
 - email: poland@pyladies.com
