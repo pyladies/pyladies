@@ -1308,6 +1308,15 @@ chapters:
   facebook: PyladiesGTCity
   instagram: PyLadiesGTCity
   location: {latitude: 14.62, longitude: -90.52}
+- name: Maputo, Mozambique
+  meetup_id: null
+  website: null
+  image: null 
+  email: maputo@pyladies.com
+  twitter: null 
+  instagram: null
+  meetup: pyladies-mpt
+  location: {latitude: 25.9692, longitude: 32.5732}
 - email: santiago@pyladies.com
   facebook: '@pyladiesSCL'
   github: null
