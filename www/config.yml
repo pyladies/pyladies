@@ -627,17 +627,6 @@ chapters:
   name: Manaus, Brazil
   twitter: '@pyladiesmanaus'
   website: pyladiesmanaus.pythonanywhere.com/
-- email: miami@pyladies.com
-  image: pyladies_miami.png
-  location:
-    latitude: 25.75
-    longitude: -80.24
-  meetup: Miami-PyLadies
-  meetup_id: 4663512976
-  name: Miami, Florida
-  organizer: Miami PyLadies
-  pro_network: Python Software Foundation Meetup Pro Network
-  twitter: '@MiamiPyLadies'
 - email: milan@pyladies.com
   facebook: pg/pyladiesmilan
   image: pyladies_dc_atl_sea_tor.png
@@ -713,16 +702,17 @@ chapters:
   pro_network: Python Software Foundation Meetup Pro Network
   twitter: pyladiesmunich
   website: https://github.com/pyladiesmunich
-- email: swflorida@pyladies.com
-  image: pyladies_swfl.png
+- email: southflorida@pyladies.com
+  image: pyladies_soflo.png
   location:
     latitude: 26.14234
     longitude: -81.79596
-  name: Southwest Florida, USA
-  twitter: PyLadiesSWFL
-  facebook: PyLadiesSWFL
-  github: PyLadiesSWFL
-  meetup: PyLadies-SWFL
+  name: South Florida, USA
+  organizer: Inessa Pawson
+  twitter: PyLadiesSoFlo
+  facebook: PyLadiesSoFlo
+  github: PyLadiesSoFlo
+  meetup: PyLadies-SoFlo
 - email: info@pyladies.com
   image: pyladies_nashville.jpeg
   location:
