@@ -6,7 +6,7 @@ author: Denny Perez
 author_link: https://twitter.com/dennyperez18
 ---
 
-## 📢 Announcement: PyLadies Conference - Join Us!
+**📢 Announcement: PyLadies Conference - Join Us!**
 
 Attention all PyLadies community members! We're excited to share that we are in
 the early stages of planning a PyLadies Conference (PyLadiesCon),
@@ -21,12 +21,12 @@ We're reaching out to you, our fantastic community because we believe in the
 power of teamwork. As we embark on this journey, we seek enthusiastic volunteers
 passionate about Python, equality, and fostering a welcoming environment for all.
 
-## 🌟 Volunteer with Us:
+** 🌟 Volunteer with Us:**
 
 By becoming a volunteer, you'll play a crucial role in making PyLadiesCon a
 memorable experience for all attendees.
 
-## 🔗 Apply to Volunteer:
+** 🔗 Apply to Volunteer:**
 
 [Sign up here](https://forms.gle/SYHFjbReEFoLuTE77)
 
