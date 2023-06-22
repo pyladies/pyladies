@@ -39,6 +39,7 @@ strong team of dedicated volunteers ready to help us bring this vision to life.
 
 If you have any questions or need further information, please don't hesitate to
 contact our volunteer coordinator at:
+
 - [enespanol@pyladies.com](mailto:enespanol@pyladies.com)
 
 Thank you for your unwavering support and dedication to the PyLadies community.
