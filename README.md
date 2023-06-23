@@ -9,7 +9,7 @@ This website welcomes pull requests from anyone in the community.
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5b4a3b67-b753-45c2-aa90-2db0c38e8de4/deploy-status)](https://app.netlify.com/sites/pyladies/deploys)
 
 This is the source code for the http://pyladies.com/ website. It uses
-`mynt`, a static site generaton, and is powered by 🐍 Python 3.6 🐍!
+`mynt`, a static site generaton, and is powered by 🐍 Python 3.10 🐍!
 
 **Contents**
 - [Understanding the repo's directory layout](#understanding-the-repos-directory-layout)
@@ -63,11 +63,11 @@ system:
 
 **Linux, macOS**
 
-1. Check that Python 3.6 is installed with `python --version`. If it is not
+1. Check that Python 3.10 is installed with `python --version`. If it is not
    installed, it can be downloaded at [https://python.org](https://www.python.org/downloads/release/python-3610/):
    ```bash
    $ python --version
-   Python 3.6.10
+   Python 3.10
    ```
 
 2. (Optional) Learn the directory which this Python version is installed `which python`:
