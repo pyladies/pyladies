@@ -26,5 +26,5 @@ jobs:
         with:
           languages: javascript, python
 
-    - name: Perform CodeQL Analysis
-      uses: github/codeql-action/analyze@v2
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v2
