@@ -33,7 +33,7 @@ chapters:
     longitude: 7.842609
   name: Freiburg, Germany
   github: PyLadies-Freiburg
-  organizer : Hema
+  organizer: Hema
 - email: tnr@pyladies.com
   image: pyladies_tnr.png
   location:
