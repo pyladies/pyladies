@@ -27,13 +27,6 @@ chapters:
   facebook: pyladiesankara
   github: pyladiesankara
   website: ankara
-- email: freiburg@pyladies.com
-  location:
-    latitude: 47.997791
-    longitude: 7.842609
-  name: Freiburg, Germany
-  github: PyLadies-Freiburg
-  organizer: Hema
 - email: tnr@pyladies.com
   image: pyladies_tnr.png
   location:
@@ -412,6 +405,13 @@ chapters:
     latitude: 9.005401
     longitude: 38.763611
   name: Ethiopia, Addis Ababa
+- email: freiburg@pyladies.com
+  location:
+    latitude: 47.997791
+    longitude: 7.842609
+  name: Freiburg, Germany
+  github: PyLadies-Freiburg
+  organizer: Hema
 - email: ghana@pyladies.com
   external_website: true
   github: PyladiesGhana
