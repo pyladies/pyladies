@@ -889,6 +889,10 @@ chapters:
   name: Remote, Everywhere
   twitter: pyladiesremote
   website: http://remote.pyladies.com
+- email: enespanol@pyladies.com
+  image: pyladies_enespanol.jpg
+  name: en Espa&ntilde;ol, Everywhere
+  twitter: PyladiesEspanol
 - email: brasil@pyladies.org
   external_website: true
   facebook: PyLadiesRio
