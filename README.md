@@ -9,7 +9,7 @@ This website welcomes pull requests from anyone in the community.
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5b4a3b67-b753-45c2-aa90-2db0c38e8de4/deploy-status)](https://app.netlify.com/sites/pyladies/deploys)
 
 This is the source code for the http://pyladies.com/ website. It uses
-`mynt`, a static site generaton, and is powered by 🐍 Python 3.10 🐍!
+`mynt`, a static site generator, and is powered by 🐍 Python 3.10 🐍!
 
 **Contents**
 - [Understanding the repo's directory layout](#understanding-the-repos-directory-layout)
