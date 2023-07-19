@@ -1,5 +1,18 @@
-Overview
---------
+# Brasil Pyladies
+
+See https://github.com/pyladies-brazil for more information about PyLadies Brazil.
+
+---
+
+## **---DEPRECATED---**
+
+This directory is deprecated.
+
+**Please do not** use the information below.
+
+---
+
+## Overview
 
 This is the source code for the http://brasil.pyladies.com/. It uses [jekyll][j], a simple, blog-aware, static site generator.
 
@@ -9,7 +22,6 @@ This is the source code for the http://brasil.pyladies.com/. It uses [jekyll][j]
 
 This is a general overview of the top-level directory structure. The
 things that aren't labeled contain content for the website.
-
 
 ```
 .
@@ -31,10 +43,11 @@ things that aren't labeled contain content for the website.
 
 ## To run locally
 
-1. $ gem install jekyll 
-2. Clone http://github.com/pyladies/pyladies to your machine. 
+1. $ gem install jekyll
+2. Clone http://github.com/pyladies/pyladies to your machine.
 3. Change into the directory brazil (cd brazil)
 4. $ jekyll serve
+
 # => Now browse to http://localhost:4000
 
 You can use tinypress.co to edit and to create posts.
