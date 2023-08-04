@@ -20,7 +20,7 @@ PyLadiesCon is an extraordinary event designed to promote diversity, learning, a
 
 We invite speakers from all backgrounds and experiences to share their insights, expertise, and stories with our vibrant community. Whether you're a seasoned Python developer, an industry expert, or a first-time speaker, we encourage you to submit your proposals!
 
-As we are a global community, you are welcome to present in any one of the following languages: \*\*English, Spanish, Portuguese, French, and Chinese.\*\*. However, due to the limitation of our proposal review team, we can only review talk proposals in the following languages: “English, Spanish, Portuguese, and French”. Please indicate in your proposal which language you will present in, if it is different than the language of the proposal.
+As we are a global community, we welcome talks in the following languages: **English, Español, Português, Français, and 中文**. 
 
 **🔗 Submit Your Proposal:**
 
