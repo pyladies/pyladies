@@ -24,7 +24,7 @@ As we are a global community, we welcome talks in the following languages: **Eng
 
 **🔗 Submit Your Proposal:**
 
-[Please click here to submit your proposal.](https://pretalx.com/orga/event/pyladiescon-2023/live)
+[Please click here to submit your proposal.](https://pretalx.com/pyladiescon-2023/cfp)
 
 The topics can range from technical talks to best practices, case studies, and more. Every story and perspective is valuable, and your contribution will enrich the conference experience for everyone.
 
