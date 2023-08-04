@@ -30,7 +30,7 @@ The topics can range from technical talks to best practices, case studies, and m
 
 **🗓️ Important Dates:**
 
-Call for Papers Launch: July 27th
+Call for Papers Launch: August 4th
 
 Proposal Submission Deadline: September 10th
 
