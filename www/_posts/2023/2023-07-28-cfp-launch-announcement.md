@@ -24,7 +24,7 @@ As we are a global community, you are welcome to present in any one of the follo
 
 **🔗 Submit Your Proposal:**
 
-Please click here to submit your proposal. \[https://pretalx.com/orga/event/pyladiescon-2023/live\]
+[Please click here to submit your proposal.](https://pretalx.com/orga/event/pyladiescon-2023/live)
 
 The topics can range from technical talks to best practices, case studies, and more. Every story and perspective is valuable, and your contribution will enrich the conference experience for everyone.
 
