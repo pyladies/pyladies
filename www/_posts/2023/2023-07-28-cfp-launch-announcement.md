@@ -16,6 +16,10 @@ As we venture further into the journey of PyLadiesCon, we are thrilled to announ
 
 PyLadiesCon is an extraordinary event designed to promote diversity, learning, and empowerment within the Python community. It celebrates women in Python, aiming to create a welcoming and inclusive environment for all attendees.
 
+**Conference dates**: Dec 1-3, 2023
+**Location**: Online across various timezones
+
+
 **🌟 Share Your Knowledge: Call for Papers**
 
 We invite speakers from all backgrounds and experiences to share their insights, expertise, and stories with our vibrant community. Whether you're a seasoned Python developer, an industry expert, or a first-time speaker, we encourage you to submit your proposals!
