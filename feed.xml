@@ -6,7 +6,7 @@
         <link rel="alternate" href="https://pyladies.com/" />
         <link rel="self" href="https://pyladies.com/feed.xml" type="application/atom+xml" />
         <id>https://pyladies.com/</id>
-        <updated>2023-08-04T18:30:22Z</updated>
+        <updated>2023-08-05T20:43:05Z</updated>
         
         <author>
             <name>A PyLady</name>
@@ -19,7 +19,7 @@
                 <title>Announcement: CFP Launch</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Announcement-CFP-Launch/cfp-launch-announcement/" type="text/html" />
                 <id>https://pyladies.com/blog/Announcement-CFP-Launch/cfp-launch-announcement/</id>
-                <updated>2023-07-28T18:29:00Z</updated>
+                <updated>2023-07-28T20:42:00Z</updated>
                 
                 <summary type="html">&lt;strong&gt;📢 Call for Paper Launch: PyLadiesCon - Share Your Insights with Us!&lt;/strong&gt;</summary>
                 <content type="html">&lt;p&gt;&lt;strong&gt;📢 Call for Paper Launch: PyLadiesCon - Share Your Insights with Us!&lt;/strong&gt;&lt;/p&gt;
@@ -31,6 +31,9 @@
 &lt;p&gt;&lt;strong&gt;🎉 What is PyLadiesCon?&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;PyLadiesCon is an extraordinary event designed to promote diversity, learning, and empowerment within the Python community. It celebrates women in Python, aiming to create a welcoming and inclusive environment for all attendees.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Conference dates&lt;/strong&gt;: Dec 1-3, 2023
+&lt;strong&gt;Location&lt;/strong&gt;: Online across various timezones&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;🌟 Share Your Knowledge: Call for Papers&lt;/strong&gt;&lt;/p&gt;
 
@@ -68,7 +71,7 @@
                 <title>Announcement: PyLadies Conference</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Announcement-PyLadies-Conference/global-conference-announcement/" type="text/html" />
                 <id>https://pyladies.com/blog/Announcement-PyLadies-Conference/global-conference-announcement/</id>
-                <updated>2023-06-22T18:29:00Z</updated>
+                <updated>2023-06-22T20:42:00Z</updated>
                 
                 <summary type="html">&lt;strong&gt;📢 Announcement: PyLadies Conference - Join Us!&lt;/strong&gt;</summary>
                 <content type="html">&lt;p&gt;&lt;strong&gt;📢 Announcement: PyLadies Conference - Join Us!&lt;/strong&gt;&lt;/p&gt;
@@ -118,7 +121,7 @@ Let&amp;rsquo;s make PyLadiesCon an extraordinary celebration of women in Python
                 <title>Global Council Announcement</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Global-Council-Announcement/global-council-announcement/" type="text/html" />
                 <id>https://pyladies.com/blog/Global-Council-Announcement/global-council-announcement/</id>
-                <updated>2021-06-20T18:29:00Z</updated>
+                <updated>2021-06-20T20:42:00Z</updated>
                 
                 <summary type="html">2020 was quite a complicated year due to the COVID-19 pandemic, humanity has faced multiple unforeseen challenges, to tell the truth, in this modern era no one imagined having to experience something like what is happening. But we would also like to highlight that 2020 has given us a new perspective on how we see things, on everything we take for granted. This was the year we rediscovered the spirit of solidarity and community.</summary>
                 <content type="html">&lt;p&gt;2020 was quite a complicated year due to the COVID-19 pandemic, humanity has faced multiple unforeseen challenges, to tell the truth, in this modern era no one imagined having to experience something like what is happening. But we would also like to highlight that 2020 has given us a new perspective on how we see things, on everything we take for granted. This was the year we rediscovered the spirit of solidarity and community.&lt;/p&gt;
@@ -143,7 +146,7 @@ Let&amp;rsquo;s make PyLadiesCon an extraordinary celebration of women in Python
                 <title>Announcing the Inaugural PyLadies Global Council</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Announcing-the-Inaugural-PyLadies-Global-Council/inaugural-pyladies-council/" type="text/html" />
                 <id>https://pyladies.com/blog/Announcing-the-Inaugural-PyLadies-Global-Council/inaugural-pyladies-council/</id>
-                <updated>2020-09-21T18:29:00Z</updated>
+                <updated>2020-09-21T20:42:00Z</updated>
                 
                 
                 <content type="html">&lt;h1&gt;Announcing the Inaugural PyLadies Global Council&lt;/h1&gt;
@@ -333,7 +336,7 @@ Let&amp;rsquo;s make PyLadiesCon an extraordinary celebration of women in Python
                 <title>Announcement for Registering PyLadies Members</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Announcement-for-Registering-PyLadies-Members/announcement-for-registering-pyladies-members/" type="text/html" />
                 <id>https://pyladies.com/blog/Announcement-for-Registering-PyLadies-Members/announcement-for-registering-pyladies-members/</id>
-                <updated>2020-07-01T18:29:00Z</updated>
+                <updated>2020-07-01T20:42:00Z</updated>
                 
                 
                 <content type="html">&lt;h1&gt;Announcement for Registering PyLadies Members&lt;/h1&gt;
@@ -378,7 +381,7 @@ The intent is to bring together all of our local chapters, to help us collaborat
                 <title>PyLadies Global Council Selection Process Voting Now Open!</title>
                 <link rel="alternate" href="https://pyladies.com/blog/PyLadies-Global-Council-Selection-Process-Voting-Now-Open/pyladies-global-council-process-vote/" type="text/html" />
                 <id>https://pyladies.com/blog/PyLadies-Global-Council-Selection-Process-Voting-Now-Open/pyladies-global-council-process-vote/</id>
-                <updated>2019-12-18T18:29:00Z</updated>
+                <updated>2019-12-18T20:42:00Z</updated>
                 
                 
                 <content type="html">&lt;h1&gt;PyLadies Global Council Selection Process Voting Now Open!&lt;/h1&gt;
@@ -395,7 +398,7 @@ The proposals have been translated by volunteer community members to various lan
                 <title>Help us decide our PyLadies Projects and PyLadies Global Council Selection Process!</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Help-us-decide-our-PyLadies-Projects-and-PyLadies-Global-Council-Selection-Process/help-us-with-pyladies-project-and-council-selection/" type="text/html" />
                 <id>https://pyladies.com/blog/Help-us-decide-our-PyLadies-Projects-and-PyLadies-Global-Council-Selection-Process/help-us-with-pyladies-project-and-council-selection/</id>
-                <updated>2019-11-04T18:29:00Z</updated>
+                <updated>2019-11-04T20:42:00Z</updated>
                 
                 
                 <content type="html">&lt;h1&gt;Help us decide our PyLadies Projects and PyLadies Global Council Selection Process!&lt;/h1&gt;
@@ -431,7 +434,7 @@ The proposals have been translated by volunteer community members to various lan
                 <title>Important PyLadies Update</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Important-PyLadies-Update/important-pyladies-update/" type="text/html" />
                 <id>https://pyladies.com/blog/Important-PyLadies-Update/important-pyladies-update/</id>
-                <updated>2019-08-15T18:29:00Z</updated>
+                <updated>2019-08-15T20:42:00Z</updated>
                 
                 
                 <content type="html">&lt;h1&gt;Important PyLadies Update&lt;/h1&gt;
@@ -475,7 +478,7 @@ online presence and introduce a new approach to how PyLadies will manage itself 
                 <title>EuroPython 2016, a first time participant&#39;s thoughts!</title>
                 <link rel="alternate" href="https://pyladies.com/blog/EuroPython-2016-a-first-time-participants-thoughts/europython-recap/" type="text/html" />
                 <id>https://pyladies.com/blog/EuroPython-2016-a-first-time-participants-thoughts/europython-recap/</id>
-                <updated>2016-08-01T18:29:00Z</updated>
+                <updated>2016-08-01T20:42:00Z</updated>
                 
                 <summary type="html">EuroPython wrapped up July 24th in Bilbao, Spain. As a first time &lt;a href=&#34;https://twitter.com/loooorenanicole/status/755056966360326144&#34;&gt;participant&lt;/a&gt; I was thrilled to attend, speak, and represent the PSF as a member of the Board of Directors!</summary>
                 <content type="html">&lt;p&gt;EuroPython wrapped up July 24th in Bilbao, Spain. As a first time &lt;a href=&#34;https://twitter.com/loooorenanicole/status/755056966360326144&#34;&gt;participant&lt;/a&gt; I was thrilled to attend, speak, and represent the PSF as a member of the Board of Directors!&lt;/p&gt;
@@ -507,7 +510,7 @@ online presence and introduce a new approach to how PyLadies will manage itself 
                 <title>Web Development</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Web-Development/django-resources/" type="text/html" />
                 <id>https://pyladies.com/blog/Web-Development/django-resources/</id>
-                <updated>2015-05-03T18:29:00Z</updated>
+                <updated>2015-05-03T20:42:00Z</updated>
                 
                 <summary type="html">&lt;a href=&#34;http://www.djangoproject.com/&#34;&gt;Django&lt;/a&gt; is one of the most popular web frameworks. It&amp;rsquo;s a great option if you want to use Python to build web apps.  Start with &lt;a href=&#34;https://docs.djangoproject.com/en/stable/intro/tutorial01/&#34;&gt;the official Django polls tutorial&lt;/a&gt; or the &lt;a href=&#34;http://tutorial.djangogirls.org/&#34;&gt;Django Girls blog tutorial&lt;/a&gt;.  &lt;a href=&#34;https://www.twoscoopspress.com/collections/django/products/two-scoops-of-django-1-11&#34;&gt;Two Scoops of Django: Best Practices For Django 1.11&lt;/a&gt; was co-written by one of the co-founders of PyLadies! </summary>
                 <content type="html">&lt;p&gt;&lt;a href=&#34;http://www.djangoproject.com/&#34;&gt;Django&lt;/a&gt; is one of the most popular web frameworks. It&amp;rsquo;s a great option if you want to use Python to build web apps.  Start with &lt;a href=&#34;https://docs.djangoproject.com/en/stable/intro/tutorial01/&#34;&gt;the official Django polls tutorial&lt;/a&gt; or the &lt;a href=&#34;http://tutorial.djangogirls.org/&#34;&gt;Django Girls blog tutorial&lt;/a&gt;.  &lt;a href=&#34;https://www.twoscoopspress.com/collections/django/products/two-scoops-of-django-1-11&#34;&gt;Two Scoops of Django: Best Practices For Django 1.11&lt;/a&gt; was co-written by one of the co-founders of PyLadies! &lt;/p&gt;
@@ -535,7 +538,7 @@ online presence and introduce a new approach to how PyLadies will manage itself 
                 <title>A PyLadies-packed PyCon 2015</title>
                 <link rel="alternate" href="https://pyladies.com/blog/A-PyLadies-packed-PyCon-2015/pyladies-at-pycon/" type="text/html" />
                 <id>https://pyladies.com/blog/A-PyLadies-packed-PyCon-2015/pyladies-at-pycon/</id>
-                <updated>2015-03-23T18:29:00Z</updated>
+                <updated>2015-03-23T20:42:00Z</updated>
                 
                 <summary type="html">Want to pack your PyCon schedule with PyLadies events?  Here are all the details!</summary>
                 <content type="html">&lt;p&gt;Want to pack your PyCon schedule with PyLadies events?  Here are all the details!&lt;/p&gt;
@@ -612,7 +615,7 @@ online presence and introduce a new approach to how PyLadies will manage itself 
                 <title>PyLadies at PyTennessee</title>
                 <link rel="alternate" href="https://pyladies.com/blog/PyLadies-at-PyTennessee/pyladies-pytn/" type="text/html" />
                 <id>https://pyladies.com/blog/PyLadies-at-PyTennessee/pyladies-pytn/</id>
-                <updated>2015-02-01T18:29:00Z</updated>
+                <updated>2015-02-01T20:42:00Z</updated>
                 
                 
                 <content type="html">&lt;h1&gt;PyLadies at PyTN 2015&lt;/h1&gt;
@@ -659,7 +662,7 @@ are going on in your chapter.&lt;/p&gt;
                 <title>Donate to PyLadies @ PyCon 2015!</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Donate-to-PyLadies--PyCon-2015/Donate-to-PyLadies-at-PyCon/" type="text/html" />
                 <id>https://pyladies.com/blog/Donate-to-PyLadies--PyCon-2015/Donate-to-PyLadies-at-PyCon/</id>
-                <updated>2014-12-01T18:29:00Z</updated>
+                <updated>2014-12-01T20:42:00Z</updated>
                 
                 <summary type="html">&lt;strong&gt;TL;DR&lt;/strong&gt;: &lt;a href=&#34;#ways-to-donate&#34;&gt;Donate&lt;/a&gt; to PyLadies for PyCon!</summary>
                 <content type="html">&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: &lt;a href=&#34;#ways-to-donate&#34;&gt;Donate&lt;/a&gt; to PyLadies for PyCon!&lt;/p&gt;
@@ -707,7 +710,7 @@ are going on in your chapter.&lt;/p&gt;
                 <title>Fundraising for PyLadies for PyCon 2015</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Fundraising-for-PyLadies-for-PyCon-2015/fundraising-for-pycon-2015/" type="text/html" />
                 <id>https://pyladies.com/blog/Fundraising-for-PyLadies-for-PyCon-2015/fundraising-for-pycon-2015/</id>
-                <updated>2014-11-02T18:29:00Z</updated>
+                <updated>2014-11-02T20:42:00Z</updated>
                 
                 <summary type="html">&lt;strong&gt;TL;DR&lt;/strong&gt;: &lt;a href=&#34;#ways-to-donate&#34;&gt;Donate&lt;/a&gt; to PyLadies for PyCon!</summary>
                 <content type="html">&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: &lt;a href=&#34;#ways-to-donate&#34;&gt;Donate&lt;/a&gt; to PyLadies for PyCon!&lt;/p&gt;
@@ -777,7 +780,7 @@ are going on in your chapter.&lt;/p&gt;
                 <title>Community</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Community/community-workshop-resources/" type="text/html" />
                 <id>https://pyladies.com/blog/Community/community-workshop-resources/</id>
-                <updated>2014-09-14T18:29:00Z</updated>
+                <updated>2014-09-14T20:42:00Z</updated>
                 
                 <summary type="html">Are you interested in doing a women&amp;rsquo;s Python workshop of your own in your city? Email any of the organizers and we&amp;rsquo;ll help you get the word out. Here are some resources:</summary>
                 <content type="html">&lt;p&gt;Are you interested in doing a women&amp;rsquo;s Python workshop of your own in your city? Email any of the organizers and we&amp;rsquo;ll help you get the word out. Here are some resources:&lt;/p&gt;
@@ -797,7 +800,7 @@ are going on in your chapter.&lt;/p&gt;
                 <title>Austin Ladies Hack</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Austin-Ladies-Hack/austin-ladies-hack/" type="text/html" />
                 <id>https://pyladies.com/blog/Austin-Ladies-Hack/austin-ladies-hack/</id>
-                <updated>2014-09-01T18:29:00Z</updated>
+                <updated>2014-09-01T20:42:00Z</updated>
                 
                 <summary type="html">&lt;a href=&#34;https://www.facebook.com/PyladiesAustin&#34;&gt;PyLadies Austin&lt;/a&gt; hosted Austin&amp;rsquo;s first ever Ladies-focussed Hackathon - Austin Ladies Hack,  from Aug 15th-17th, 2014.</summary>
                 <content type="html">&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/PyladiesAustin&#34;&gt;PyLadies Austin&lt;/a&gt; hosted Austin&amp;rsquo;s first ever Ladies-focussed Hackathon - Austin Ladies Hack,  from Aug 15th-17th, 2014.&lt;/p&gt;
@@ -844,7 +847,7 @@ are going on in your chapter.&lt;/p&gt;
                 <title>PyLadies, PyCon, and You</title>
                 <link rel="alternate" href="https://pyladies.com/blog/PyLadies-PyCon-and-You/speaking-pycon/" type="text/html" />
                 <id>https://pyladies.com/blog/PyLadies-PyCon-and-You/speaking-pycon/</id>
-                <updated>2014-08-26T18:29:00Z</updated>
+                <updated>2014-08-26T20:42:00Z</updated>
                 
                 <summary type="html">This document is curated by PyLadies and shared with the entire Python community.</summary>
                 <content type="html">&lt;p&gt;This document is curated by PyLadies and shared with the entire Python community.&lt;/p&gt;
@@ -932,7 +935,7 @@ are going on in your chapter.&lt;/p&gt;
                 <title>PyLadies Values People</title>
                 <link rel="alternate" href="https://pyladies.com/blog/PyLadies-Values-People/on-compassion-community-and-caring/" type="text/html" />
                 <id>https://pyladies.com/blog/PyLadies-Values-People/on-compassion-community-and-caring/</id>
-                <updated>2014-08-25T18:29:00Z</updated>
+                <updated>2014-08-25T20:42:00Z</updated>
                 
                 <summary type="html">A caring community matters to us</summary>
                 <content type="html">&lt;p&gt;A caring community matters to us&lt;/p&gt;
@@ -975,7 +978,7 @@ are going on in your chapter.&lt;/p&gt;
                 <title>Educational Resources for Community Conduct/Creating Safe Spaces</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Educational-Resources-for-Community-ConductCreating-Safe-Spaces/community-conduct-and-compassion-resources/" type="text/html" />
                 <id>https://pyladies.com/blog/Educational-Resources-for-Community-ConductCreating-Safe-Spaces/community-conduct-and-compassion-resources/</id>
-                <updated>2014-08-25T18:29:00Z</updated>
+                <updated>2014-08-25T20:42:00Z</updated>
                 
                 <summary type="html">There are a number of excellent resources on creating healthy, inclusive steps for communities. These are just a few of them. If you think another PyLady would find a resource useful that is not on this list, please &lt;a href=&#34;https://github.com/pyladies/pyladies&#34;&gt;submit a pull request&lt;/a&gt; or &lt;a href=&#34;https://github.com/pyladies/info/issues/new&#34;&gt;open an issue with the link&lt;/a&gt;. Thank you!</summary>
                 <content type="html">&lt;p&gt;There are a number of excellent resources on creating healthy, inclusive steps for communities. These are just a few of them. If you think another PyLady would find a resource useful that is not on this list, please &lt;a href=&#34;https://github.com/pyladies/pyladies&#34;&gt;submit a pull request&lt;/a&gt; or &lt;a href=&#34;https://github.com/pyladies/info/issues/new&#34;&gt;open an issue with the link&lt;/a&gt;. Thank you!&lt;/p&gt;
@@ -1000,7 +1003,7 @@ are going on in your chapter.&lt;/p&gt;
                 <title>PyLadiesATX event: What&#39;s a Web Framework? Python, Django, and more</title>
                 <link rel="alternate" href="https://pyladies.com/blog/PyLadiesATX-event-Whats-a-Web-Framework-Python-Django-and-more/austin-django-workshop-recap/" type="text/html" />
                 <id>https://pyladies.com/blog/PyLadiesATX-event-Whats-a-Web-Framework-Python-Django-and-more/austin-django-workshop-recap/</id>
-                <updated>2014-08-24T18:29:00Z</updated>
+                <updated>2014-08-24T20:42:00Z</updated>
                 
                 <summary type="html">From August 9-11, I led a 2-part, all-women workshop series on web frameworks &amp;amp; learning Django for PyLadiesATX. </summary>
                 <content type="html">&lt;p&gt;From August 9-11, I led a 2-part, all-women workshop series on web frameworks &amp;amp; learning Django for PyLadiesATX. &lt;/p&gt;
@@ -1023,7 +1026,7 @@ are going on in your chapter.&lt;/p&gt;
                 <title>Python is for everyone</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Python-is-for-everyone/python-is-for-everyone/" type="text/html" />
                 <id>https://pyladies.com/blog/Python-is-for-everyone/python-is-for-everyone/</id>
-                <updated>2014-08-06T18:29:00Z</updated>
+                <updated>2014-08-06T20:42:00Z</updated>
                 
                 <summary type="html">We started PyLadies as a friendly support network for women and a bridge to the larger Python community.</summary>
                 <content type="html">&lt;p&gt;We started PyLadies as a friendly support network for women and a bridge to the larger Python community.&lt;/p&gt;
@@ -1054,7 +1057,7 @@ are going on in your chapter.&lt;/p&gt;
                 <title>The first Django Girls happened!</title>
                 <link rel="alternate" href="https://pyladies.com/blog/The-first-Django-Girls-happened/the-first-django-girls-happened/" type="text/html" />
                 <id>https://pyladies.com/blog/The-first-Django-Girls-happened/the-first-django-girls-happened/</id>
-                <updated>2014-08-05T18:29:00Z</updated>
+                <updated>2014-08-05T20:42:00Z</updated>
                 
                 <summary type="html">This is a story about turning 45 women into Django developers.</summary>
                 <content type="html">&lt;p&gt;This is a story about turning 45 women into Django developers.&lt;/p&gt;
@@ -1120,7 +1123,7 @@ are going on in your chapter.&lt;/p&gt;
                 <title>CfP: PyCon 2015</title>
                 <link rel="alternate" href="https://pyladies.com/blog/CfP-PyCon-2015/CfP-PyCon-2015/" type="text/html" />
                 <id>https://pyladies.com/blog/CfP-PyCon-2015/CfP-PyCon-2015/</id>
-                <updated>2014-08-04T18:29:00Z</updated>
+                <updated>2014-08-04T20:42:00Z</updated>
                 
                 <summary type="html">ZOMG It&amp;rsquo;s happening! It&amp;rsquo;s back!</summary>
                 <content type="html">&lt;p&gt;ZOMG It&amp;rsquo;s happening! It&amp;rsquo;s back!&lt;/p&gt;
@@ -1141,7 +1144,7 @@ are going on in your chapter.&lt;/p&gt;
                 <title>Tutorials and How-tos</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Tutorials-and-How-tos/tutorial-resources/" type="text/html" />
                 <id>https://pyladies.com/blog/Tutorials-and-How-tos/tutorial-resources/</id>
-                <updated>2014-07-29T18:29:00Z</updated>
+                <updated>2014-07-29T20:42:00Z</updated>
                 
                 
                 <content type="html">&lt;ul&gt;
@@ -1163,7 +1166,7 @@ are going on in your chapter.&lt;/p&gt;
                 <title>Call for Blog Posts: Share Your Inspiring Stories</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Call-for-Blog-Posts-Share-Your-Inspiring-Stories/call-for-blog-posts/" type="text/html" />
                 <id>https://pyladies.com/blog/Call-for-Blog-Posts-Share-Your-Inspiring-Stories/call-for-blog-posts/</id>
-                <updated>2014-07-27T18:29:00Z</updated>
+                <updated>2014-07-27T20:42:00Z</updated>
                 
                 <summary type="html">PyLadies wants to hear your inspiring stories about Python programming and Python community leadership.</summary>
                 <content type="html">&lt;p&gt;PyLadies wants to hear your inspiring stories about Python programming and Python community leadership.&lt;/p&gt;
@@ -1184,7 +1187,7 @@ are going on in your chapter.&lt;/p&gt;
                 <title>Attend Google I/O with PyLadies!</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Attend-Google-IO-with-PyLadies/Attend-Google-IO-with-PyLadies/" type="text/html" />
                 <id>https://pyladies.com/blog/Attend-Google-IO-with-PyLadies/Attend-Google-IO-with-PyLadies/</id>
-                <updated>2014-04-26T18:29:00Z</updated>
+                <updated>2014-04-26T20:42:00Z</updated>
                 
                 <summary type="html">Are you a PyLady who missed the lottery to attend Google I/O?  Well, now is your chance!  As a PyLady, you have an opportunity to buy one of 50 allotted tickets from Google for $300.</summary>
                 <content type="html">&lt;p&gt;Are you a PyLady who missed the lottery to attend Google I/O?  Well, now is your chance!  As a PyLady, you have an opportunity to buy one of 50 allotted tickets from Google for $300.&lt;/p&gt;
@@ -1237,7 +1240,7 @@ are going on in your chapter.&lt;/p&gt;
                 <title>pip install pyladies</title>
                 <link rel="alternate" href="https://pyladies.com/blog/pip-install-pyladies/pip-install-pyladies/" type="text/html" />
                 <id>https://pyladies.com/blog/pip-install-pyladies/pip-install-pyladies/</id>
-                <updated>2014-04-18T18:29:00Z</updated>
+                <updated>2014-04-18T20:42:00Z</updated>
                 
                 <summary type="html">At &lt;a href=&#34;https://us.pycon.org/2014&#34;&gt;PyCon&lt;/a&gt; this year, I had the pleasure of &lt;a href=&#34;http://pyvideo.org/video/2680/lightning-talks-friday-afternoon&#34;&gt;announcing&lt;/a&gt; &lt;code&gt;pip install pyladies&lt;/code&gt;.  </summary>
                 <content type="html">&lt;p&gt;At &lt;a href=&#34;https://us.pycon.org/2014&#34;&gt;PyCon&lt;/a&gt; this year, I had the pleasure of &lt;a href=&#34;http://pyvideo.org/video/2680/lightning-talks-friday-afternoon&#34;&gt;announcing&lt;/a&gt; &lt;code&gt;pip install pyladies&lt;/code&gt;.  &lt;/p&gt;
@@ -1269,7 +1272,7 @@ are going on in your chapter.&lt;/p&gt;
                 <title>PyLadies @ PyCon 2014</title>
                 <link rel="alternate" href="https://pyladies.com/blog/PyLadies--PyCon-2014/pyladies-events-at-pycon2014/" type="text/html" />
                 <id>https://pyladies.com/blog/PyLadies--PyCon-2014/pyladies-events-at-pycon2014/</id>
-                <updated>2014-03-27T18:29:00Z</updated>
+                <updated>2014-03-27T20:42:00Z</updated>
                 
                 
                 <content type="html">&lt;h1&gt;PyLadies Activities at PyCon 2014 in Montréal&lt;/h1&gt;
@@ -1327,7 +1330,7 @@ are going on in your chapter.&lt;/p&gt;
                 <title>At PyCon 2014 - 2nd PyLadies Luncheon</title>
                 <link rel="alternate" href="https://pyladies.com/blog/At-PyCon-2014---2nd-PyLadies-Luncheon/pyladies-pycon-2014-lunch/" type="text/html" />
                 <id>https://pyladies.com/blog/At-PyCon-2014---2nd-PyLadies-Luncheon/pyladies-pycon-2014-lunch/</id>
-                <updated>2014-03-10T18:29:00Z</updated>
+                <updated>2014-03-10T20:42:00Z</updated>
                 
                 <summary type="html">Thanks to the generous support of the PSF, PyLadies will be having a luncheon for attendees who identify as women on the third day of the PyCon 2014 conference!</summary>
                 <content type="html">&lt;p&gt;Thanks to the generous support of the PSF, PyLadies will be having a luncheon for attendees who identify as women on the third day of the PyCon 2014 conference!&lt;/p&gt;
@@ -1353,7 +1356,7 @@ are going on in your chapter.&lt;/p&gt;
                 <title>Contributing your first patch to Python: PyLadies office hours</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Contributing-your-first-patch-to-Python-PyLadies-office-hours/opw-office-hours/" type="text/html" />
                 <id>https://pyladies.com/blog/Contributing-your-first-patch-to-Python-PyLadies-office-hours/opw-office-hours/</id>
-                <updated>2014-03-05T18:29:00Z</updated>
+                <updated>2014-03-05T20:42:00Z</updated>
                 
                 <summary type="html">PyLadies is proud to be working with the Python Software Foundation to support &lt;a href=&#34;http://pyfound.blogspot.com/2014/03/pyladies-announcing-paid-summer.html&#34;&gt;paid Python internships for women this summer&lt;/a&gt; through the GNOME Outreach Program for Women.</summary>
                 <content type="html">&lt;p&gt;PyLadies is proud to be working with the Python Software Foundation to support &lt;a href=&#34;http://pyfound.blogspot.com/2014/03/pyladies-announcing-paid-summer.html&#34;&gt;paid Python internships for women this summer&lt;/a&gt; through the GNOME Outreach Program for Women.&lt;/p&gt;
@@ -1383,7 +1386,7 @@ are going on in your chapter.&lt;/p&gt;
                 <title>Get paid to contribute to Python this summer</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Get-paid-to-contribute-to-Python-this-summer/opw/" type="text/html" />
                 <id>https://pyladies.com/blog/Get-paid-to-contribute-to-Python-this-summer/opw/</id>
-                <updated>2014-03-03T18:29:00Z</updated>
+                <updated>2014-03-03T20:42:00Z</updated>
                 
                 <summary type="html">&lt;img src=&#34;/assets/images/blog/opw.png&#34; alt=&#34;GNOME OPW logo&#34;&gt;</summary>
                 <content type="html">&lt;p&gt;&lt;img src=&#34;/assets/images/blog/opw.png&#34; alt=&#34;GNOME OPW logo&#34;&gt;&lt;/p&gt;
@@ -1413,7 +1416,7 @@ are going on in your chapter.&lt;/p&gt;
                 <title>PyLadies at PyCon 2014: tutorial spotlight</title>
                 <link rel="alternate" href="https://pyladies.com/blog/PyLadies-at-PyCon-2014-tutorial-spotlight/pycon-tutorials/" type="text/html" />
                 <id>https://pyladies.com/blog/PyLadies-at-PyCon-2014-tutorial-spotlight/pycon-tutorials/</id>
-                <updated>2014-01-30T18:29:00Z</updated>
+                <updated>2014-01-30T20:42:00Z</updated>
                 
                 <summary type="html">PyCon 2014 has a &lt;a href=&#34;https://twitter.com/jessicamckellar/status/413009020522221568&#34;&gt;record-setting percentage of women speakers&lt;/a&gt;, at 33%, up from last year&amp;rsquo;s record-setting 20%. The &lt;a href=&#34;https://us.pycon.org/2014/schedule/talks/&#34;&gt;talk schedule&lt;/a&gt; has been announced, and &lt;a href=&#34;https://us.pycon.org/2014/schedule/tutorials/&#34;&gt;tutorial signups&lt;/a&gt; are open.</summary>
                 <content type="html">&lt;p&gt;PyCon 2014 has a &lt;a href=&#34;https://twitter.com/jessicamckellar/status/413009020522221568&#34;&gt;record-setting percentage of women speakers&lt;/a&gt;, at 33%, up from last year&amp;rsquo;s record-setting 20%. The &lt;a href=&#34;https://us.pycon.org/2014/schedule/talks/&#34;&gt;talk schedule&lt;/a&gt; has been announced, and &lt;a href=&#34;https://us.pycon.org/2014/schedule/tutorials/&#34;&gt;tutorial signups&lt;/a&gt; are open.&lt;/p&gt;
@@ -1460,7 +1463,7 @@ are going on in your chapter.&lt;/p&gt;
                 <title>Fundraising for PyLadies for PyCon 2014</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Fundraising-for-PyLadies-for-PyCon-2014/fundraising-for-pycon-2014/" type="text/html" />
                 <id>https://pyladies.com/blog/Fundraising-for-PyLadies-for-PyCon-2014/fundraising-for-pycon-2014/</id>
-                <updated>2013-10-07T18:29:00Z</updated>
+                <updated>2013-10-07T20:42:00Z</updated>
                 
                 <summary type="html">&lt;strong&gt;TL;DR&lt;/strong&gt;: &lt;a href=&#34;#ways-to-donate&#34;&gt;Donate&lt;/a&gt; to PyLadies for PyCon!</summary>
                 <content type="html">&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: &lt;a href=&#34;#ways-to-donate&#34;&gt;Donate&lt;/a&gt; to PyLadies for PyCon!&lt;/p&gt;
@@ -1525,7 +1528,7 @@ are going on in your chapter.&lt;/p&gt;
                 <title>PyCon 2014: Lightning Talks Proposals Due October 15th!</title>
                 <link rel="alternate" href="https://pyladies.com/blog/PyCon-2014-Lightning-Talks-Proposals-Due-October-15th/lightning-talks/" type="text/html" />
                 <id>https://pyladies.com/blog/PyCon-2014-Lightning-Talks-Proposals-Due-October-15th/lightning-talks/</id>
-                <updated>2013-10-04T18:29:00Z</updated>
+                <updated>2013-10-04T20:42:00Z</updated>
                 
                 <summary type="html">For the first time at &lt;a href=&#34;http://us.pycon.org/2014&#34;&gt;PyCon&lt;/a&gt;, you can submit a proposal to give a Lightning Talk!  If you missed the earlier call for proposals for the longer talks, you still have a chance to present your beloved subject in front of a large audience. </summary>
                 <content type="html">&lt;p&gt;For the first time at &lt;a href=&#34;http://us.pycon.org/2014&#34;&gt;PyCon&lt;/a&gt;, you can submit a proposal to give a Lightning Talk!  If you missed the earlier call for proposals for the longer talks, you still have a chance to present your beloved subject in front of a large audience. &lt;/p&gt;
@@ -1542,7 +1545,7 @@ are going on in your chapter.&lt;/p&gt;
                 <title>PyCon 2014 Proposal Brainstorm Sessions!</title>
                 <link rel="alternate" href="https://pyladies.com/blog/PyCon-2014-Proposal-Brainstorm-Sessions/pycon-2014-cfp-brainstorm/" type="text/html" />
                 <id>https://pyladies.com/blog/PyCon-2014-Proposal-Brainstorm-Sessions/pycon-2014-cfp-brainstorm/</id>
-                <updated>2013-08-18T18:29:00Z</updated>
+                <updated>2013-08-18T20:42:00Z</updated>
                 
                 <summary type="html">When someone suggests you to &lt;a href=&#34;http://us.pycon.org/2014/speaking/cfp/&#34;&gt;submit a talk, tutorial, or poster to Pycon&lt;/a&gt;, sometimes, it feels like this:</summary>
                 <content type="html">&lt;p&gt;When someone suggests you to &lt;a href=&#34;http://us.pycon.org/2014/speaking/cfp/&#34;&gt;submit a talk, tutorial, or poster to Pycon&lt;/a&gt;, sometimes, it feels like this:&lt;/p&gt;
@@ -1608,7 +1611,7 @@ are going on in your chapter.&lt;/p&gt;
                 <title>Getting More Women to Submit Talk Proposals</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Getting-More-Women-to-Submit-Talk-Proposals/getting-more-women-to-submit-talk-proposals/" type="text/html" />
                 <id>https://pyladies.com/blog/Getting-More-Women-to-Submit-Talk-Proposals/getting-more-women-to-submit-talk-proposals/</id>
-                <updated>2013-08-17T18:29:00Z</updated>
+                <updated>2013-08-17T20:42:00Z</updated>
                 
                 <summary type="html">Getting More Women to Submit Talk Proposals
 written by &lt;a href=&#34;https://twitter.com/celiala&#34;&gt;Celia La&lt;/a&gt;, for &lt;a href=&#34;https://twitter.com/nycpyladies&#34;&gt;NYC Pyladies&lt;/a&gt;</summary>
@@ -1638,7 +1641,7 @@ written by &lt;a href=&#34;https://twitter.com/celiala&#34;&gt;Celia La&lt;/a&gt
                 <title>PyCon 2014 Call for Proposals is open</title>
                 <link rel="alternate" href="https://pyladies.com/blog/PyCon-2014-Call-for-Proposals-is-open/pycon-call-for-proposals/" type="text/html" />
                 <id>https://pyladies.com/blog/PyCon-2014-Call-for-Proposals-is-open/pycon-call-for-proposals/</id>
-                <updated>2013-07-16T18:29:00Z</updated>
+                <updated>2013-07-16T20:42:00Z</updated>
                 
                 <summary type="html">The PyCon 2014 call for proposals is open, and we want to see talk submissions from you!</summary>
                 <content type="html">&lt;p&gt;The PyCon 2014 call for proposals is open, and we want to see talk submissions from you!&lt;/p&gt;
@@ -1693,7 +1696,7 @@ written by &lt;a href=&#34;https://twitter.com/celiala&#34;&gt;Celia La&lt;/a&gt
                 <title>Introduction to IRC</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Introduction-to-IRC/irc-resources/" type="text/html" />
                 <id>https://pyladies.com/blog/Introduction-to-IRC/irc-resources/</id>
-                <updated>2013-05-07T18:29:00Z</updated>
+                <updated>2013-05-07T20:42:00Z</updated>
                 
                 <summary type="html">Updated March 7, 2019</summary>
                 <content type="html">&lt;p&gt;Updated March 7, 2019&lt;/p&gt;
@@ -1813,7 +1816,7 @@ or privacy information over IRC)&lt;/li&gt;
                 <title>User Groups</title>
                 <link rel="alternate" href="https://pyladies.com/blog/User-Groups/user-group-resources/" type="text/html" />
                 <id>https://pyladies.com/blog/User-Groups/user-group-resources/</id>
-                <updated>2013-05-07T18:29:00Z</updated>
+                <updated>2013-05-07T20:42:00Z</updated>
                 
                 <summary type="html">A great way to continue learning Python is to work on your own, then attend presentations and ask questions at local user groups. Attend as many as you can!</summary>
                 <content type="html">&lt;p&gt;A great way to continue learning Python is to work on your own, then attend presentations and ask questions at local user groups. Attend as many as you can!&lt;/p&gt;
@@ -1837,7 +1840,7 @@ or privacy information over IRC)&lt;/li&gt;
                 <title>Libraries</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Libraries/libraries-resources/" type="text/html" />
                 <id>https://pyladies.com/blog/Libraries/libraries-resources/</id>
-                <updated>2013-04-19T18:29:00Z</updated>
+                <updated>2013-04-19T20:42:00Z</updated>
                 
                 <summary type="html">&lt;a href=&#34;https://crate.io/packages/flake8/&#34;&gt;Code checking using PEP-8 + PyFlakes&lt;/a&gt;: Are you writing code according to the standard Python guidelines?  Have no idea?  Try out this library
 &lt;a href=&#34;https://github.com/BrewerHimself/Logr&#34;&gt;Logr&lt;/a&gt;: Simple Python blogger
@@ -1852,7 +1855,7 @@ or privacy information over IRC)&lt;/li&gt;
                 <title>Speaking at PyCon, DjangoCon, etc</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Speaking-at-PyCon-DjangoCon-etc/speaking-resources/" type="text/html" />
                 <id>https://pyladies.com/blog/Speaking-at-PyCon-DjangoCon-etc/speaking-resources/</id>
-                <updated>2013-04-19T18:29:00Z</updated>
+                <updated>2013-04-19T20:42:00Z</updated>
                 
                 <summary type="html">Speaking at conferences about Python is a great way to give back to the community with your own knowledge.</summary>
                 <content type="html">&lt;p&gt;Speaking at conferences about Python is a great way to give back to the community with your own knowledge.&lt;/p&gt;
@@ -1869,7 +1872,7 @@ or privacy information over IRC)&lt;/li&gt;
                 <title>Tools</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Tools/tools-resources/" type="text/html" />
                 <id>https://pyladies.com/blog/Tools/tools-resources/</id>
-                <updated>2013-04-19T18:29:00Z</updated>
+                <updated>2013-04-19T20:42:00Z</updated>
                 
                 
                 <content type="html">&lt;h4&gt;Text Editors&lt;/h4&gt;
@@ -1900,7 +1903,7 @@ or privacy information over IRC)&lt;/li&gt;
                 <title>Newsletters</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Newsletters/newsletters-resources/" type="text/html" />
                 <id>https://pyladies.com/blog/Newsletters/newsletters-resources/</id>
-                <updated>2013-04-19T18:29:00Z</updated>
+                <updated>2013-04-19T20:42:00Z</updated>
                 
                 
                 <content type="html">&lt;ul&gt;
@@ -1914,7 +1917,7 @@ or privacy information over IRC)&lt;/li&gt;
                 <title>Code of Conduct</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Code-of-Conduct/Code-of-Conduct/" type="text/html" />
                 <id>https://pyladies.com/blog/Code-of-Conduct/Code-of-Conduct/</id>
-                <updated>2013-04-10T18:29:00Z</updated>
+                <updated>2013-04-10T20:42:00Z</updated>
                 
                 <summary type="html">Pyladies is dedicated to providing a respectful, harassment-free community for everyone. We do not tolerate harassment or bullying of any community member in any form. This does not only extend to members to local PyLadies communities, but to anyone who chooses to become involved in the larger PyLadies community of users, developers and integrators through events or interactions.</summary>
                 <content type="html">&lt;p&gt;Pyladies is dedicated to providing a respectful, harassment-free community for everyone. We do not tolerate harassment or bullying of any community member in any form. This does not only extend to members to local PyLadies communities, but to anyone who chooses to become involved in the larger PyLadies community of users, developers and integrators through events or interactions.&lt;/p&gt;
@@ -1933,7 +1936,7 @@ or privacy information over IRC)&lt;/li&gt;
                 <title>Intro to Python, April 6 - Recap</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Intro-to-Python-April-6---Recap/intro-python-april-6-recap/" type="text/html" />
                 <id>https://pyladies.com/blog/Intro-to-Python-April-6---Recap/intro-python-april-6-recap/</id>
-                <updated>2013-04-10T18:29:00Z</updated>
+                <updated>2013-04-10T20:42:00Z</updated>
                 
                 <summary type="html">This past weekend, I helped a bright group of Austin women take their initial steps into the Python world.  Austin PyLadies&amp;#39; first women&amp;rsquo;s &amp;lsquo;Intro to Python&amp;rsquo; class took place on Saturday, April 6th.  Our classroom space was generously donated by by Erica Douglass of &lt;a href=&#34;http://opportunityspace.com/&#34; title=&#34;Opportunity Space&#34;&gt;Opportunity Space&lt;/a&gt;.  We also had the help of several terrific volunteers: Sara Safavi, Cassidy Santaguida and Andrew Dupont.</summary>
                 <content type="html">&lt;p&gt;This past weekend, I helped a bright group of Austin women take their initial steps into the Python world.  Austin PyLadies&amp;#39; first women&amp;rsquo;s &amp;lsquo;Intro to Python&amp;rsquo; class took place on Saturday, April 6th.  Our classroom space was generously donated by by Erica Douglass of &lt;a href=&#34;http://opportunityspace.com/&#34; title=&#34;Opportunity Space&#34;&gt;Opportunity Space&lt;/a&gt;.  We also had the help of several terrific volunteers: Sara Safavi, Cassidy Santaguida and Andrew Dupont.&lt;/p&gt;
@@ -1987,7 +1990,7 @@ or privacy information over IRC)&lt;/li&gt;
                 <title>How to hook people on CS through Magic</title>
                 <link rel="alternate" href="https://pyladies.com/blog/How-to-hook-people-on-CS-through-Magic/computer-science-outreach-magic/" type="text/html" />
                 <id>https://pyladies.com/blog/How-to-hook-people-on-CS-through-Magic/computer-science-outreach-magic/</id>
-                <updated>2013-04-04T18:29:00Z</updated>
+                <updated>2013-04-04T20:42:00Z</updated>
                 
                 
                 <content type="html">&lt;h1&gt;Computer Science Outreach Magic&lt;/h1&gt;
@@ -2090,7 +2093,7 @@ or privacy information over IRC)&lt;/li&gt;
                 <title>PyLadies @ PyCon - Join Us!</title>
                 <link rel="alternate" href="https://pyladies.com/blog/PyLadies--PyCon---Join-Us/PyLadies-at-PyCon-2013/" type="text/html" />
                 <id>https://pyladies.com/blog/PyLadies--PyCon---Join-Us/PyLadies-at-PyCon-2013/</id>
-                <updated>2013-03-07T18:29:00Z</updated>
+                <updated>2013-03-07T20:42:00Z</updated>
                 
                 <summary type="html">PyCon&amp;rsquo;s &lt;a href=&#34;http://pycon2013reception.eventbrite.com/&#34;&gt;Opening Reception&lt;/a&gt; is less than a week away, are you excited?</summary>
                 <content type="html">&lt;p&gt;PyCon&amp;rsquo;s &lt;a href=&#34;http://pycon2013reception.eventbrite.com/&#34;&gt;Opening Reception&lt;/a&gt; is less than a week away, are you excited?&lt;/p&gt;
@@ -2169,7 +2172,7 @@ or privacy information over IRC)&lt;/li&gt;
                 <title>Get Your Mac Ready for Python Programming</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Get-Your-Mac-Ready-for-Python-Programming/Get-Your-Mac-Ready-for-Python-Programming/" type="text/html" />
                 <id>https://pyladies.com/blog/Get-Your-Mac-Ready-for-Python-Programming/Get-Your-Mac-Ready-for-Python-Programming/</id>
-                <updated>2013-03-06T18:29:00Z</updated>
+                <updated>2013-03-06T20:42:00Z</updated>
                 
                 
                 <content type="html">&lt;h3&gt;2018 Update&lt;/h3&gt;
@@ -2276,7 +2279,7 @@ $ python get-pip.py
                 <title>How I Learned to Stop Worrying and Love Rebase</title>
                 <link rel="alternate" href="https://pyladies.com/blog/How-I-Learned-to-Stop-Worrying-and-Love-Rebase/how-I-learned-to-love-rebase/" type="text/html" />
                 <id>https://pyladies.com/blog/How-I-Learned-to-Stop-Worrying-and-Love-Rebase/how-I-learned-to-love-rebase/</id>
-                <updated>2013-02-26T18:29:00Z</updated>
+                <updated>2013-02-26T20:42:00Z</updated>
                 
                 <summary type="html">Rebase is a downright scary concept. When the best way to explain how it works I&amp;rsquo;ve heard starts with thinking that you&amp;rsquo;re time-traveling back to before certain changes were ever introduced to a project, you probably should be afraid. We&amp;rsquo;ve all read enough science fiction to know what happens if you go back to the Age of the Dinosaurs and step on an ugly-looking bug.</summary>
                 <content type="html">&lt;p&gt;Rebase is a downright scary concept. When the best way to explain how it works I&amp;rsquo;ve heard starts with thinking that you&amp;rsquo;re time-traveling back to before certain changes were ever introduced to a project, you probably should be afraid. We&amp;rsquo;ve all read enough science fiction to know what happens if you go back to the Age of the Dinosaurs and step on an ugly-looking bug.&lt;/p&gt;
@@ -2322,7 +2325,7 @@ $ git merge branchname
                 <title>Why PyLadies?</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Why-PyLadies/Why-PyLadies/" type="text/html" />
                 <id>https://pyladies.com/blog/Why-PyLadies/Why-PyLadies/</id>
-                <updated>2013-02-23T18:29:00Z</updated>
+                <updated>2013-02-23T20:42:00Z</updated>
                 
                 <summary type="html">&lt;a href=&#34;http://pyladies.com&#34;&gt;PyLadies&lt;/a&gt; is a group of women working on welcoming, encouraging and directly inviting women to join the Python community and to learn from each other.</summary>
                 <content type="html">&lt;p&gt;&lt;a href=&#34;http://pyladies.com&#34;&gt;PyLadies&lt;/a&gt; is a group of women working on welcoming, encouraging and directly inviting women to join the Python community and to learn from each other.&lt;/p&gt;
@@ -2355,7 +2358,7 @@ $ git merge branchname
                 <title>PyLadies Lunch @ PyCon</title>
                 <link rel="alternate" href="https://pyladies.com/blog/PyLadies-Lunch--PyCon/PyLadies-Lunch-at-PyCon/" type="text/html" />
                 <id>https://pyladies.com/blog/PyLadies-Lunch--PyCon/PyLadies-Lunch-at-PyCon/</id>
-                <updated>2013-01-28T18:29:00Z</updated>
+                <updated>2013-01-28T20:42:00Z</updated>
                 
                 <summary type="html">This year, there is such an amazing line up of talks, tutorials, events, and sponsors at &lt;a href=&#34;http://us.pycon.org&#34;&gt;PyCon&lt;/a&gt; that we&amp;rsquo;re sure you don&amp;rsquo;t have enough planned.  Us PyLadies have organized to host a lunch for women attending the conference who love Python, or who want to learn more about Python or PyLadies.</summary>
                 <content type="html">&lt;p&gt;This year, there is such an amazing line up of talks, tutorials, events, and sponsors at &lt;a href=&#34;http://us.pycon.org&#34;&gt;PyCon&lt;/a&gt; that we&amp;rsquo;re sure you don&amp;rsquo;t have enough planned.  Us PyLadies have organized to host a lunch for women attending the conference who love Python, or who want to learn more about Python or PyLadies.&lt;/p&gt;
@@ -2382,7 +2385,7 @@ $ git merge branchname
                 <title>PyLadies Speak at PyCon!</title>
                 <link rel="alternate" href="https://pyladies.com/blog/PyLadies-Speak-at-PyCon/pyladies-speaking-at-pycon/" type="text/html" />
                 <id>https://pyladies.com/blog/PyLadies-Speak-at-PyCon/pyladies-speaking-at-pycon/</id>
-                <updated>2013-01-13T18:29:00Z</updated>
+                <updated>2013-01-13T20:42:00Z</updated>
                 
                 <summary type="html">&lt;a href=&#34;https://us.pycon.org/2013/schedule/talks/list/&#34;&gt;PyCon talks&lt;/a&gt; were announced last week, and this year a record number of them are being given by women in the Python community, many of whom are PyLadies contributors! Congratulations to all the smart, accomplished women in the Python community who are helping to change the ratio at PyCon!  </summary>
                 <content type="html">&lt;p&gt;&lt;a href=&#34;https://us.pycon.org/2013/schedule/talks/list/&#34;&gt;PyCon talks&lt;/a&gt; were announced last week, and this year a record number of them are being given by women in the Python community, many of whom are PyLadies contributors! Congratulations to all the smart, accomplished women in the Python community who are helping to change the ratio at PyCon!  &lt;/p&gt;
@@ -2412,7 +2415,7 @@ $ git merge branchname
                 <title>PyCon Proposal Brainstorm Session Aug 27th</title>
                 <link rel="alternate" href="https://pyladies.com/blog/PyCon-Proposal-Brainstorm-Session-Aug-27th/pycon-proposal-brainstorm-session-aug-27th/" type="text/html" />
                 <id>https://pyladies.com/blog/PyCon-Proposal-Brainstorm-Session-Aug-27th/pycon-proposal-brainstorm-session-aug-27th/</id>
-                <updated>2012-08-25T18:29:00Z</updated>
+                <updated>2012-08-25T20:42:00Z</updated>
                 
                 <summary type="html">[Thanks &lt;a href=&#34;http://www.roguelynn.com/2012/08/25/pycon-proposal-brainstorming-via-google-hangout/&#34;&gt;Lynn&lt;/a&gt; for putting this together!]</summary>
                 <content type="html">&lt;p&gt;[Thanks &lt;a href=&#34;http://www.roguelynn.com/2012/08/25/pycon-proposal-brainstorming-via-google-hangout/&#34;&gt;Lynn&lt;/a&gt; for putting this together!]&lt;/p&gt;
@@ -2435,7 +2438,7 @@ $ git merge branchname
                 <title>DjangoCon 2012: Pro Tips for those new to D.C.</title>
                 <link rel="alternate" href="https://pyladies.com/blog/DjangoCon-2012-Pro-Tips-for-those-new-to-D.C./djangocon-in-dc/" type="text/html" />
                 <id>https://pyladies.com/blog/DjangoCon-2012-Pro-Tips-for-those-new-to-D.C./djangocon-in-dc/</id>
-                <updated>2012-08-09T18:29:00Z</updated>
+                <updated>2012-08-09T20:42:00Z</updated>
                 
                 <summary type="html">[_This guest post is lifted straight from D.C. PyLady Katie&amp;rsquo;s &lt;a href=&#34;http://therealkatie.net/blog/2012/aug/7/djangocon-dc-tips/&#34;&gt;wonderful blog&lt;/a&gt;! She will be writing a &lt;a href=&#34;http://therealkatie.net/blog/&#34;&gt;series of posts&lt;/a&gt; to help Djangonauts from all over feel at home in the U.S. capital come early September!_]</summary>
                 <content type="html">&lt;p&gt;[_This guest post is lifted straight from D.C. PyLady Katie&amp;rsquo;s &lt;a href=&#34;http://therealkatie.net/blog/2012/aug/7/djangocon-dc-tips/&#34;&gt;wonderful blog&lt;/a&gt;! She will be writing a &lt;a href=&#34;http://therealkatie.net/blog/&#34;&gt;series of posts&lt;/a&gt; to help Djangonauts from all over feel at home in the U.S. capital come early September!_]&lt;/p&gt;
@@ -2488,7 +2491,7 @@ I&amp;rsquo;m going to post something about our tourist scene, if anyone is inte
                 <title>Government Fellowship Opportunity</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Government-Fellowship-Opportunity/government-fellowship-opportunity/" type="text/html" />
                 <id>https://pyladies.com/blog/Government-Fellowship-Opportunity/government-fellowship-opportunity/</id>
-                <updated>2012-07-10T18:29:00Z</updated>
+                <updated>2012-07-10T20:42:00Z</updated>
                 
                 <summary type="html">The new Consumer Financial Protection Bureau is hiring a group of 30 designers and developers (Python- and Wordpress-friendly) to improve internal operations and the way that we interact with the public. The CFPB is a US government agency.</summary>
                 <content type="html">&lt;p&gt;The new Consumer Financial Protection Bureau is hiring a group of 30 designers and developers (Python- and Wordpress-friendly) to improve internal operations and the way that we interact with the public. The CFPB is a US government agency.&lt;/p&gt;
@@ -2511,7 +2514,7 @@ I&amp;rsquo;m going to post something about our tourist scene, if anyone is inte
                 <title>SF PyLadies First Workshop</title>
                 <link rel="alternate" href="https://pyladies.com/blog/SF-PyLadies-First-Workshop/python-it-up-in-rio/" type="text/html" />
                 <id>https://pyladies.com/blog/SF-PyLadies-First-Workshop/python-it-up-in-rio/</id>
-                <updated>2012-06-06T18:29:00Z</updated>
+                <updated>2012-06-06T20:42:00Z</updated>
                 
                 <summary type="html">&lt;em&gt;Ed. note:&lt;/em&gt; This post about the first San Francisco PyLadies chapter&amp;rsquo;s workshop is copied straight from &lt;a href=&#34;http://www.roguelynn.com/2012-05-16-pyladies-first-workshop-build-your-own-blog/&#34;&gt;Lynn&amp;rsquo;s personal blog&lt;/a&gt; (with Lynn&amp;rsquo;s generous permission &amp;ndash; thanks!)]</summary>
                 <content type="html">&lt;p&gt;&lt;em&gt;Ed. note:&lt;/em&gt; This post about the first San Francisco PyLadies chapter&amp;rsquo;s workshop is copied straight from &lt;a href=&#34;http://www.roguelynn.com/2012-05-16-pyladies-first-workshop-build-your-own-blog/&#34;&gt;Lynn&amp;rsquo;s personal blog&lt;/a&gt; (with Lynn&amp;rsquo;s generous permission &amp;ndash; thanks!)]&lt;/p&gt;
@@ -2532,7 +2535,7 @@ I&amp;rsquo;m going to post something about our tourist scene, if anyone is inte
                 <title>SF PyLadies First Workshop</title>
                 <link rel="alternate" href="https://pyladies.com/blog/SF-PyLadies-First-Workshop/sf-pyladies-first-workshop-build-your-own-blog/" type="text/html" />
                 <id>https://pyladies.com/blog/SF-PyLadies-First-Workshop/sf-pyladies-first-workshop-build-your-own-blog/</id>
-                <updated>2012-05-21T18:29:00Z</updated>
+                <updated>2012-05-21T20:42:00Z</updated>
                 
                 <summary type="html">&lt;em&gt;Ed. note:&lt;/em&gt; This post about the first San Francisco PyLadies chapter&amp;rsquo;s workshop is copied straight from &lt;a href=&#34;http://www.roguelynn.com/2012-05-16-pyladies-first-workshop-build-your-own-blog/&#34;&gt;Lynn&amp;rsquo;s personal blog&lt;/a&gt; (with Lynn&amp;rsquo;s generous permission &amp;ndash; thanks!)]</summary>
                 <content type="html">&lt;p&gt;&lt;em&gt;Ed. note:&lt;/em&gt; This post about the first San Francisco PyLadies chapter&amp;rsquo;s workshop is copied straight from &lt;a href=&#34;http://www.roguelynn.com/2012-05-16-pyladies-first-workshop-build-your-own-blog/&#34;&gt;Lynn&amp;rsquo;s personal blog&lt;/a&gt; (with Lynn&amp;rsquo;s generous permission &amp;ndash; thanks!)]&lt;/p&gt;
@@ -2553,7 +2556,7 @@ I&amp;rsquo;m going to post something about our tourist scene, if anyone is inte
                 <title>Jessica McKellar to be Keynte speaker at DjangoCon Europe!</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Jessica-McKellar-to-be-Keynte-speaker-at-DjangoCon-Europe/jessica-mckellar-to-be-keynote-speaker-at-djangocon-europe/" type="text/html" />
                 <id>https://pyladies.com/blog/Jessica-McKellar-to-be-Keynte-speaker-at-DjangoCon-Europe/jessica-mckellar-to-be-keynote-speaker-at-djangocon-europe/</id>
-                <updated>2012-05-17T18:29:00Z</updated>
+                <updated>2012-05-17T20:42:00Z</updated>
                 
                 <summary type="html">&lt;em&gt;[Originally posted on the &lt;a href=&#34;http://2012.djangocon.eu/blog/announcing-our-second-keynote-speaker-jessica-mcke/&#34;&gt;DjangoCon Europe blog&lt;/a&gt;&lt;/em&gt;. Thanks Jonas for letting us repost here! &lt;a href=&#34;http://2012.djangocon.eu/&#34;&gt;DjangoCon Europe 2012&lt;/a&gt; will go from June 4-June 8 in Zurich, Switzerland.]</summary>
                 <content type="html">&lt;p&gt;&lt;em&gt;[Originally posted on the &lt;a href=&#34;http://2012.djangocon.eu/blog/announcing-our-second-keynote-speaker-jessica-mcke/&#34;&gt;DjangoCon Europe blog&lt;/a&gt;&lt;/em&gt;. Thanks Jonas for letting us repost here! &lt;a href=&#34;http://2012.djangocon.eu/&#34;&gt;DjangoCon Europe 2012&lt;/a&gt; will go from June 4-June 8 in Zurich, Switzerland.]&lt;/p&gt;
@@ -2576,7 +2579,7 @@ I&amp;rsquo;m going to post something about our tourist scene, if anyone is inte
                 <title>SF Study Group</title>
                 <link rel="alternate" href="https://pyladies.com/blog/SF-Study-Group/sf-study-group/" type="text/html" />
                 <id>https://pyladies.com/blog/SF-Study-Group/sf-study-group/</id>
-                <updated>2012-05-12T18:29:00Z</updated>
+                <updated>2012-05-12T20:42:00Z</updated>
                 
                 <summary type="html">Udacity is offering a free online intro to programming course starting Monday April 16th. Each week, videos will be posted online at the start of the week and homework will be due on the Tuesday of the following week.</summary>
                 <content type="html">&lt;p&gt;Udacity is offering a free online intro to programming course starting Monday April 16th. Each week, videos will be posted online at the start of the week and homework will be due on the Tuesday of the following week.&lt;/p&gt;
@@ -2599,7 +2602,7 @@ I&amp;rsquo;m going to post something about our tourist scene, if anyone is inte
                 <title>Workshop Planning Session</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Workshop-Planning-Session/workshop-planning-session-python-ladies-night-2-recap/" type="text/html" />
                 <id>https://pyladies.com/blog/Workshop-Planning-Session/workshop-planning-session-python-ladies-night-2-recap/</id>
-                <updated>2012-05-10T18:29:00Z</updated>
+                <updated>2012-05-10T20:42:00Z</updated>
                 
                 <summary type="html">On May 8, 2011, six of the PyLadies got together at Intelligentsia Coffee in Pasadena.  It was really great to see everyone!  Sadly Jess was out of town attending Google I/O, otherwise we would have had seven of us.</summary>
                 <content type="html">&lt;p&gt;On May 8, 2011, six of the PyLadies got together at Intelligentsia Coffee in Pasadena.  It was really great to see everyone!  Sadly Jess was out of town attending Google I/O, otherwise we would have had seven of us.&lt;/p&gt;
@@ -2663,7 +2666,7 @@ I&amp;rsquo;m going to post something about our tourist scene, if anyone is inte
                 <title>Welcome to mynt</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Welcome-to-mynt/Welcome-to-mynt/" type="text/html" />
                 <id>https://pyladies.com/blog/Welcome-to-mynt/Welcome-to-mynt/</id>
-                <updated>2012-04-12T18:29:00Z</updated>
+                <updated>2012-04-12T20:42:00Z</updated>
                 
                 <summary type="html">For a quick overview of what mynt has to offer, give the &lt;a href=&#34;http://mynt.mirroredwhite.com/quickstart/&#34;&gt;quickstart&lt;/a&gt; guide a read. You can also find API reference style documentation on the &lt;a href=&#34;http://mynt.mirroredwhite.com/docs/&#34;&gt;docs&lt;/a&gt; page. If you run into any problems open an issue on &lt;a href=&#34;https://github.com/Anomareh/mynt&#34;&gt;GitHub&lt;/a&gt;. Lastly, if you have any questions or just want to chat, you can hop into our IRC channel on &lt;a href=&#34;http://webchat.freenode.net/?channels=mynt&#34;&gt;freenode&lt;/a&gt;, #mynt.</summary>
                 <content type="html">&lt;p&gt;For a quick overview of what mynt has to offer, give the &lt;a href=&#34;http://mynt.mirroredwhite.com/quickstart/&#34;&gt;quickstart&lt;/a&gt; guide a read. You can also find API reference style documentation on the &lt;a href=&#34;http://mynt.mirroredwhite.com/docs/&#34;&gt;docs&lt;/a&gt; page. If you run into any problems open an issue on &lt;a href=&#34;https://github.com/Anomareh/mynt&#34;&gt;GitHub&lt;/a&gt;. Lastly, if you have any questions or just want to chat, you can hop into our IRC channel on &lt;a href=&#34;http://webchat.freenode.net/?channels=mynt&#34;&gt;freenode&lt;/a&gt;, #mynt.&lt;/p&gt;
@@ -2674,7 +2677,7 @@ I&amp;rsquo;m going to post something about our tourist scene, if anyone is inte
                 <title>Bay Area Girl Geek Dinner</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Bay-Area-Girl-Geek-Dinner/bay-area-girl-geek-dinner-at-yelp/" type="text/html" />
                 <id>https://pyladies.com/blog/Bay-Area-Girl-Geek-Dinner/bay-area-girl-geek-dinner-at-yelp/</id>
-                <updated>2012-03-29T18:29:00Z</updated>
+                <updated>2012-03-29T20:42:00Z</updated>
                 
                 <summary type="html">&lt;em&gt;Ed. note&lt;/em&gt; The most recent &lt;a href=&#34;http://bayareagirlgeekdinners.com&#34;&gt;Bay Area Girl Geek Dinner&lt;/a&gt; was Python-themed, and hosted by Yelp. Many thanks to &lt;a href=&#34;https://twitter.com/roguelynn&#34;&gt;Lynn&lt;/a&gt; for letting us repost this article from &lt;a href=&#34;http://www.roguelynn.com/2012/03/28/girl-geek-dinner/&#34; title=&#34;RogueLynn Blog&#34;&gt;her blog&lt;/a&gt;! Lynn is starting up the &lt;a href=&#34;https://twitter.com/pyladiessf&#34; title=&#34;PyLadies SF Meetup&#34;&gt;SF Chapter of PyLadies&lt;/a&gt;, so drop her a line if you&amp;rsquo;re interested in joining!</summary>
                 <content type="html">&lt;p&gt;&lt;em&gt;Ed. note&lt;/em&gt; The most recent &lt;a href=&#34;http://bayareagirlgeekdinners.com&#34;&gt;Bay Area Girl Geek Dinner&lt;/a&gt; was Python-themed, and hosted by Yelp. Many thanks to &lt;a href=&#34;https://twitter.com/roguelynn&#34;&gt;Lynn&lt;/a&gt; for letting us repost this article from &lt;a href=&#34;http://www.roguelynn.com/2012/03/28/girl-geek-dinner/&#34; title=&#34;RogueLynn Blog&#34;&gt;her blog&lt;/a&gt;! Lynn is starting up the &lt;a href=&#34;https://twitter.com/pyladiessf&#34; title=&#34;PyLadies SF Meetup&#34;&gt;SF Chapter of PyLadies&lt;/a&gt;, so drop her a line if you&amp;rsquo;re interested in joining!&lt;/p&gt;
@@ -2699,7 +2702,7 @@ I&amp;rsquo;m going to post something about our tourist scene, if anyone is inte
                 <title>PyLadies in the News</title>
                 <link rel="alternate" href="https://pyladies.com/blog/PyLadies-in-the-News/pyladies-in-the-news/" type="text/html" />
                 <id>https://pyladies.com/blog/PyLadies-in-the-News/pyladies-in-the-news/</id>
-                <updated>2012-02-24T18:29:00Z</updated>
+                <updated>2012-02-24T20:42:00Z</updated>
                 
                 <summary type="html">The LA Weekly blog featured a few of the LA PyLadies in a &lt;a href=&#34;http://blogs.laweekly.com/arts/2012/02/pyladies_django_python.php&#34;&gt;recent post.&lt;/a&gt; The Open Hatchery highlights a nice example of the &lt;a href=&#34;https://openhatch.org/blog/2012/diversifying-pycon-the-power-of-cooperative-outreach/&#34;&gt;power of community collaboration&lt;/a&gt; and outreach (we can&amp;rsquo;t wait to meet Pam at PyCon!)</summary>
                 <content type="html">&lt;p&gt;The LA Weekly blog featured a few of the LA PyLadies in a &lt;a href=&#34;http://blogs.laweekly.com/arts/2012/02/pyladies_django_python.php&#34;&gt;recent post.&lt;/a&gt; The Open Hatchery highlights a nice example of the &lt;a href=&#34;https://openhatch.org/blog/2012/diversifying-pycon-the-power-of-cooperative-outreach/&#34;&gt;power of community collaboration&lt;/a&gt; and outreach (we can&amp;rsquo;t wait to meet Pam at PyCon!)&lt;/p&gt;
@@ -2716,7 +2719,7 @@ I&amp;rsquo;m going to post something about our tourist scene, if anyone is inte
                 <title>Get the Most out of your Conference-going Experience</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Get-the-Most-out-of-your-Conference-going-Experience/get-the-most-out-of-your-conference-going-experience/" type="text/html" />
                 <id>https://pyladies.com/blog/Get-the-Most-out-of-your-Conference-going-Experience/get-the-most-out-of-your-conference-going-experience/</id>
-                <updated>2012-01-22T18:29:00Z</updated>
+                <updated>2012-01-22T20:42:00Z</updated>
                 
                 <summary type="html">As seen in our last newsletter: @&lt;a href=&#34;https://twitter.com/kjam&#34;&gt;kjam&lt;/a&gt; and @&lt;a href=&#34;https://twitter.com/sandymahalo&#34;&gt;sandymahalo&lt;/a&gt; are pro conference attendees (and speakers!). Here they present advice for those who may be new to the world of tech conferences and other neck-beard-laden gatherings like &lt;a href=&#34;http://www.socallinuxexpo.org/&#34;&gt;SCALE10x&lt;/a&gt;, which is happening this entire weekend in Los Angeles.</summary>
                 <content type="html">&lt;p&gt;As seen in our last newsletter: @&lt;a href=&#34;https://twitter.com/kjam&#34;&gt;kjam&lt;/a&gt; and @&lt;a href=&#34;https://twitter.com/sandymahalo&#34;&gt;sandymahalo&lt;/a&gt; are pro conference attendees (and speakers!). Here they present advice for those who may be new to the world of tech conferences and other neck-beard-laden gatherings like &lt;a href=&#34;http://www.socallinuxexpo.org/&#34;&gt;SCALE10x&lt;/a&gt;, which is happening this entire weekend in Los Angeles.&lt;/p&gt;
@@ -2737,7 +2740,7 @@ I&amp;rsquo;m going to post something about our tourist scene, if anyone is inte
                 <title>Call for PyCon Applications and Sponsors</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Call-for-PyCon-Applications-and-Sponsors/call-for-applications-and-sponsors-for-pyladies-pycon-us-2012/" type="text/html" />
                 <id>https://pyladies.com/blog/Call-for-PyCon-Applications-and-Sponsors/call-for-applications-and-sponsors-for-pyladies-pycon-us-2012/</id>
-                <updated>2011-12-15T18:29:00Z</updated>
+                <updated>2011-12-15T20:42:00Z</updated>
                 
                 <summary type="html">&lt;a href=&#34;static/blog/pyladies-at-pycon-2012&#34;&gt;As previously mentioned&lt;/a&gt;, the PyLadies are working with the PSF to ensure that PyLadies who want to attend &lt;a href=&#34;http://us.pycon.org/2012&#34;&gt;PyCon 2012&lt;/a&gt; can do so.  To that end,we are accepting &lt;a href=&#34;https://docs.google.com/spreadsheet/viewform?formkey=dEtUbUZxZWN6V3FGdkVydEtvU2ZwMUE6MQ&#34;&gt;applications for grants to attend PyCon&lt;/a&gt; in Santa Clara, CA from March 7-15.</summary>
                 <content type="html">&lt;p&gt;&lt;a href=&#34;static/blog/pyladies-at-pycon-2012&#34;&gt;As previously mentioned&lt;/a&gt;, the PyLadies are working with the PSF to ensure that PyLadies who want to attend &lt;a href=&#34;http://us.pycon.org/2012&#34;&gt;PyCon 2012&lt;/a&gt; can do so.  To that end,we are accepting &lt;a href=&#34;https://docs.google.com/spreadsheet/viewform?formkey=dEtUbUZxZWN6V3FGdkVydEtvU2ZwMUE6MQ&#34;&gt;applications for grants to attend PyCon&lt;/a&gt; in Santa Clara, CA from March 7-15.&lt;/p&gt;
@@ -2787,7 +2790,7 @@ and put friendly pressure on them to contribute to open-source =)&lt;/li&gt;
                 <title>PyLadies at PyCon 2012</title>
                 <link rel="alternate" href="https://pyladies.com/blog/PyLadies-at-PyCon-2012/pyladies-at-pycon-2012/" type="text/html" />
                 <id>https://pyladies.com/blog/PyLadies-at-PyCon-2012/pyladies-at-pycon-2012/</id>
-                <updated>2011-12-12T18:29:00Z</updated>
+                <updated>2011-12-12T20:42:00Z</updated>
                 
                 <summary type="html">We&amp;rsquo;re happy to announce that with the help of the Python Software Foundation, PyLadies will be making an appearance at &lt;a href=&#34;http://us.pycon.org/2012&#34;&gt;PyCon&lt;/a&gt; 2012! We will be exhibiting during the main portion of conference and will be on hand to help any other interested PyLadies in joining or starting up their own chapter. We will soon have details about grants to attend this upcoming PyCon, so stay tuned!</summary>
                 <content type="html">&lt;p&gt;We&amp;rsquo;re happy to announce that with the help of the Python Software Foundation, PyLadies will be making an appearance at &lt;a href=&#34;http://us.pycon.org/2012&#34;&gt;PyCon&lt;/a&gt; 2012! We will be exhibiting during the main portion of conference and will be on hand to help any other interested PyLadies in joining or starting up their own chapter. We will soon have details about grants to attend this upcoming PyCon, so stay tuned!&lt;/p&gt;
@@ -2802,7 +2805,7 @@ and put friendly pressure on them to contribute to open-source =)&lt;/li&gt;
                 <title>Recaps: October Hackathon, November Beginner&#39;s Workshop</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Recaps-October-Hackathon-November-Beginners-Workshop/recaps-october-hackathon-at-idealab-november-beginners-workshop-at-usc/" type="text/html" />
                 <id>https://pyladies.com/blog/Recaps-October-Hackathon-November-Beginners-Workshop/recaps-october-hackathon-at-idealab-november-beginners-workshop-at-usc/</id>
-                <updated>2011-11-29T18:29:00Z</updated>
+                <updated>2011-11-29T20:42:00Z</updated>
                 
                 <summary type="html">&lt;a href=&#34;http://idealab.com&#34;&gt;Idealab&lt;/a&gt; in Pasadena played host to a PyLadies hackathon this past October. Our very own Sophia has posted some great photos of the event over at her own site, &lt;a href=&#34;http://backcode.com/pyladies-hackathon-the-idea-lab/&#34;&gt;backCODE&lt;/a&gt; &amp;ndash; check them out!</summary>
                 <content type="html">&lt;p&gt;&lt;a href=&#34;http://idealab.com&#34;&gt;Idealab&lt;/a&gt; in Pasadena played host to a PyLadies hackathon this past October. Our very own Sophia has posted some great photos of the event over at her own site, &lt;a href=&#34;http://backcode.com/pyladies-hackathon-the-idea-lab/&#34;&gt;backCODE&lt;/a&gt; &amp;ndash; check them out!&lt;/p&gt;
@@ -2865,7 +2868,7 @@ and put friendly pressure on them to contribute to open-source =)&lt;/li&gt;
                 <title>Djangsta Shirts - Extra Print Run!</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Djangsta-Shirts---Extra-Print-Run/djangsta-shirts-extra-print-run/" type="text/html" />
                 <id>https://pyladies.com/blog/Djangsta-Shirts---Extra-Print-Run/djangsta-shirts-extra-print-run/</id>
-                <updated>2011-09-19T18:29:00Z</updated>
+                <updated>2011-09-19T20:42:00Z</updated>
                 
                 <summary type="html">If you were at DjangoCon you probably saw people wearing these, standing out magnificently amongst the sea of bright green. They were the cool people &amp;ndash; the Djangstas, if you will.</summary>
                 <content type="html">&lt;p&gt;If you were at DjangoCon you probably saw people wearing these, standing out magnificently amongst the sea of bright green. They were the cool people &amp;ndash; the Djangstas, if you will.&lt;/p&gt;
@@ -2892,7 +2895,7 @@ and put friendly pressure on them to contribute to open-source =)&lt;/li&gt;
                 <title>Recap: PyLadies at DjangoCon 2011</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Recap-PyLadies-at-DjangoCon-2011/recap-pyladies-at-djangocon-2011/" type="text/html" />
                 <id>https://pyladies.com/blog/Recap-PyLadies-at-DjangoCon-2011/recap-pyladies-at-djangocon-2011/</id>
-                <updated>2011-09-14T18:29:00Z</updated>
+                <updated>2011-09-14T20:42:00Z</updated>
                 
                 <summary type="html">Last week the PyLadies took Portland, Oregon by storm: after months of planning, brainstorming, planning, rehearsing, and even a bit of planning, we flew in &lt;em&gt;en masse&lt;/em&gt; to &lt;a href=&#34;http://djangocon.us&#34;&gt;DjangoCon 2011&lt;/a&gt; for six action-packed days of tutorials, talks, code sprints, and raucous socializing with Django developers from all over the world.</summary>
                 <content type="html">&lt;p&gt;Last week the PyLadies took Portland, Oregon by storm: after months of planning, brainstorming, planning, rehearsing, and even a bit of planning, we flew in &lt;em&gt;en masse&lt;/em&gt; to &lt;a href=&#34;http://djangocon.us&#34;&gt;DjangoCon 2011&lt;/a&gt; for six action-packed days of tutorials, talks, code sprints, and raucous socializing with Django developers from all over the world.&lt;/p&gt;
@@ -2945,7 +2948,7 @@ and put friendly pressure on them to contribute to open-source =)&lt;/li&gt;
                 <title>Djangsta Shirts on Sale at DjangoCon</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Djangsta-Shirts-on-Sale-at-DjangoCon/djangsta-shirts-on-sale-at-djangocon/" type="text/html" />
                 <id>https://pyladies.com/blog/Djangsta-Shirts-on-Sale-at-DjangoCon/djangsta-shirts-on-sale-at-djangocon/</id>
-                <updated>2011-09-06T18:29:00Z</updated>
+                <updated>2011-09-06T20:42:00Z</updated>
                 
                 <summary type="html">These &amp;ldquo;Djangsta&amp;rdquo; shirts premiered at DjangoCon to a rousing success and are selling out quickly! If you are coming to DjangoCon this year, find a PyLady and get one! Proceeds help PyLadies outreach efforts. Shirt logo was designed by xtine.</summary>
                 <content type="html">&lt;p&gt;These &amp;ldquo;Djangsta&amp;rdquo; shirts premiered at DjangoCon to a rousing success and are selling out quickly! If you are coming to DjangoCon this year, find a PyLady and get one! Proceeds help PyLadies outreach efforts. Shirt logo was designed by xtine.&lt;/p&gt;
@@ -2966,7 +2969,7 @@ and put friendly pressure on them to contribute to open-source =)&lt;/li&gt;
                 <title>PyLadies Meetup at DjangoCon</title>
                 <link rel="alternate" href="https://pyladies.com/blog/PyLadies-Meetup-at-DjangoCon/pyladies-meetup-at-djangocon/" type="text/html" />
                 <id>https://pyladies.com/blog/PyLadies-Meetup-at-DjangoCon/pyladies-meetup-at-djangocon/</id>
-                <updated>2011-09-05T18:29:00Z</updated>
+                <updated>2011-09-05T20:42:00Z</updated>
                 
                 <summary type="html">All women at DjangoCon are invited to the PyLadies meetup, Wed night at DjangoCon US!  Thanks to Michelle Rowley and Eric Holscher (both of PDX Python) for organizing and planning the party.</summary>
                 <content type="html">&lt;p&gt;All women at DjangoCon are invited to the PyLadies meetup, Wed night at DjangoCon US!  Thanks to Michelle Rowley and Eric Holscher (both of PDX Python) for organizing and planning the party.&lt;/p&gt;
@@ -2989,7 +2992,7 @@ and put friendly pressure on them to contribute to open-source =)&lt;/li&gt;
                 <title>DjangoCon Sponsorship Program</title>
                 <link rel="alternate" href="https://pyladies.com/blog/DjangoCon-Sponsorship-Program/djangocon-sponsorship-program-results/" type="text/html" />
                 <id>https://pyladies.com/blog/DjangoCon-Sponsorship-Program/djangocon-sponsorship-program-results/</id>
-                <updated>2011-09-05T18:29:00Z</updated>
+                <updated>2011-09-05T20:42:00Z</updated>
                 
                 <summary type="html">Announcing the results of the PyLadies&amp;#39; DjangoCon Sponsorship Program.</summary>
                 <content type="html">&lt;p&gt;Announcing the results of the PyLadies&amp;#39; DjangoCon Sponsorship Program.&lt;/p&gt;
@@ -3031,7 +3034,7 @@ to be women).&lt;/p&gt;
                 <title>Mid-August News Bites</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Mid-August-News-Bites/mid-august-news-bites/" type="text/html" />
                 <id>https://pyladies.com/blog/Mid-August-News-Bites/mid-august-news-bites/</id>
-                <updated>2011-08-16T18:29:00Z</updated>
+                <updated>2011-08-16T20:42:00Z</updated>
                 
                 <summary type="html">Mid-August &amp;ndash; in France we&amp;rsquo;d be halfway through our nationally recognized four weeks of vacation, but here in Los Angeles we PyLadies have been as busy as ever, working hard to plan some big, big things!</summary>
                 <content type="html">&lt;p&gt;Mid-August &amp;ndash; in France we&amp;rsquo;d be halfway through our nationally recognized four weeks of vacation, but here in Los Angeles we PyLadies have been as busy as ever, working hard to plan some big, big things!&lt;/p&gt;
@@ -3060,7 +3063,7 @@ to be women).&lt;/p&gt;
                 <title>Intro to Django at Mahalo</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Intro-to-Django-at-Mahalo/introduction-to-django-at-mahalo-july-23rd-pyladies-workshop/" type="text/html" />
                 <id>https://pyladies.com/blog/Intro-to-Django-at-Mahalo/introduction-to-django-at-mahalo-july-23rd-pyladies-workshop/</id>
-                <updated>2011-07-25T18:29:00Z</updated>
+                <updated>2011-07-25T20:42:00Z</updated>
                 
                 <summary type="html">Last Saturday the PyLadies and the LA Django meetup group held an introductory Django Workshop, with generous amounts of support by &lt;a href=&#34;http://mahalo.com&#34;&gt;Mahalo&lt;/a&gt; and &lt;a href=&#34;http://cars.com&#34;&gt;Cars.com&lt;/a&gt; Guided by Sandy and Katharine, two of the PyLadies&amp;#39; Djangologists extraordinaires, the &lt;a href=&#34;http://bit.ly/qMcEAT&#34;&gt;morning tutorial&lt;/a&gt; covered the basics of setting up a Django web application, from database configuration to navigating the built-in admin interface.</summary>
                 <content type="html">&lt;p&gt;Last Saturday the PyLadies and the LA Django meetup group held an introductory Django Workshop, with generous amounts of support by &lt;a href=&#34;http://mahalo.com&#34;&gt;Mahalo&lt;/a&gt; and &lt;a href=&#34;http://cars.com&#34;&gt;Cars.com&lt;/a&gt; Guided by Sandy and Katharine, two of the PyLadies&amp;#39; Djangologists extraordinaires, the &lt;a href=&#34;http://bit.ly/qMcEAT&#34;&gt;morning tutorial&lt;/a&gt; covered the basics of setting up a Django web application, from database configuration to navigating the built-in admin interface.&lt;/p&gt;
@@ -3113,7 +3116,7 @@ to be women).&lt;/p&gt;
                 <title>Django Workshop and Hackathon</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Django-Workshop-and-Hackathon/django-workshop-and-hackathon-july-23rd/" type="text/html" />
                 <id>https://pyladies.com/blog/Django-Workshop-and-Hackathon/django-workshop-and-hackathon-july-23rd/</id>
-                <updated>2011-07-12T18:29:00Z</updated>
+                <updated>2011-07-12T20:42:00Z</updated>
                 
                 <summary type="html">The PyLadies are continuing their summer series of hackathons with a Django-themed day on July 23rd, hosted by venue sponsor 
 &lt;a href=&#34;http://mahalo.com&#34;&gt;Mahalo&lt;/a&gt; in Santa Monica. This time, we&amp;rsquo;re teaming up with the awesome  &lt;a href=&#34;http://www.meetup.com/ladjango/&#34;&gt;LA Django Meetup Group&lt;/a&gt;, who have valiantly supported our efforts to increase diversity by providing mentors like  &lt;a href=&#34;https://twitter.com/jacobburch&#34;&gt;Jacob&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/jeffschenck&#34;&gt;Jeff&lt;/a&gt;.</summary>
@@ -3153,7 +3156,7 @@ attendees are encouraged to hack away on their own projects.&lt;/p&gt;
                 <title>Call for Sponsorship</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Call-for-Sponsorship/call-for-sponsorship/" type="text/html" />
                 <id>https://pyladies.com/blog/Call-for-Sponsorship/call-for-sponsorship/</id>
-                <updated>2011-06-30T18:29:00Z</updated>
+                <updated>2011-06-30T20:42:00Z</updated>
                 
                 <summary type="html">PyLadies needs your help getting women to DjangoCon.  There are women who could really benefit from the experience.</summary>
                 <content type="html">&lt;p&gt;PyLadies needs your help getting women to DjangoCon.  There are women who could really benefit from the experience.&lt;/p&gt;
@@ -3215,7 +3218,7 @@ and put friendly pressure on them to contribute to open-source&lt;/li&gt;
                 <title>Recap: Hollywood Hackathon at Border Stylo</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Recap-Hollywood-Hackathon-at-Border-Stylo/recap-june-2011-hollywood-hackathon-at-border-stylo/" type="text/html" />
                 <id>https://pyladies.com/blog/Recap-Hollywood-Hackathon-at-Border-Stylo/recap-june-2011-hollywood-hackathon-at-border-stylo/</id>
-                <updated>2011-06-24T18:29:00Z</updated>
+                <updated>2011-06-24T20:42:00Z</updated>
                 
                 <summary type="html">Last Saturday we held our first hackathon of the summer at the offices of &lt;a href=&#34;http://borderstylo.com&#34;&gt;Border Stylo&lt;/a&gt; in Hollywood, in partnership with the &lt;a href=&#34;http://socal-piggies.org&#34;&gt;SoCal Python Interest Group&lt;/a&gt; (“SoCal Piggies”). We invited not only newcomers to Python programming, like those who attended the &lt;a href=&#34;static/blog/3_intro-to-python-workshop-recap.html&#34;&gt;May Beginner’s Workshop,&lt;/a&gt; but also seasoned developers who came to hack away on their own projects &amp;ndash; and who happily volunteered themselves to be mentors to those aforementioned n00bs.</summary>
                 <content type="html">&lt;p&gt;Last Saturday we held our first hackathon of the summer at the offices of &lt;a href=&#34;http://borderstylo.com&#34;&gt;Border Stylo&lt;/a&gt; in Hollywood, in partnership with the &lt;a href=&#34;http://socal-piggies.org&#34;&gt;SoCal Python Interest Group&lt;/a&gt; (“SoCal Piggies”). We invited not only newcomers to Python programming, like those who attended the &lt;a href=&#34;static/blog/3_intro-to-python-workshop-recap.html&#34;&gt;May Beginner’s Workshop,&lt;/a&gt; but also seasoned developers who came to hack away on their own projects &amp;ndash; and who happily volunteered themselves to be mentors to those aforementioned n00bs.&lt;/p&gt;
@@ -3270,7 +3273,7 @@ of &lt;a href=&#34;http://www.slideshare.net/pydanny/confessions-of-a-joe-develo
                 <title>Great turnout at the Python Ladies Night 3</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Great-turnout-at-the-Python-Ladies-Night-3/great-turnout-at-python-ladies-night-3/" type="text/html" />
                 <id>https://pyladies.com/blog/Great-turnout-at-the-Python-Ladies-Night-3/great-turnout-at-python-ladies-night-3/</id>
-                <updated>2011-06-07T18:29:00Z</updated>
+                <updated>2011-06-07T20:42:00Z</updated>
                 
                 <summary type="html">We had around 14 people come and go throughout the night. It was a blast! We talked Python but also other things. Did you know that there are enough of us who ride scooters/motorcycles that we could have our very own PyLadies rally club?</summary>
                 <content type="html">&lt;p&gt;We had around 14 people come and go throughout the night. It was a blast! We talked Python but also other things. Did you know that there are enough of us who ride scooters/motorcycles that we could have our very own PyLadies rally club?&lt;/p&gt;
@@ -3291,7 +3294,7 @@ of &lt;a href=&#34;http://www.slideshare.net/pydanny/confessions-of-a-joe-develo
                 <title>Thank you, Python Software Foundation!</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Thank-you-Python-Software-Foundation/thank-you-python-software-foundation/" type="text/html" />
                 <id>https://pyladies.com/blog/Thank-you-Python-Software-Foundation/thank-you-python-software-foundation/</id>
-                <updated>2011-06-07T18:29:00Z</updated>
+                <updated>2011-06-07T20:42:00Z</updated>
                 
                 <summary type="html">It&amp;rsquo;s true:</summary>
                 <content type="html">&lt;p&gt;It&amp;rsquo;s true:&lt;/p&gt;
@@ -3308,7 +3311,7 @@ of &lt;a href=&#34;http://www.slideshare.net/pydanny/confessions-of-a-joe-develo
                 <title>Python Ladies&#39; Night 3</title>
                 <link rel="alternate" href="https://pyladies.com/blog/Python-Ladies-Night-3/python-ladies-night-3-on-june-2-2011/" type="text/html" />
                 <id>https://pyladies.com/blog/Python-Ladies-Night-3/python-ladies-night-3-on-june-2-2011/</id>
-                <updated>2011-06-02T18:29:00Z</updated>
+                <updated>2011-06-02T20:42:00Z</updated>
                 
                 <summary type="html">We&amp;rsquo;re looking forward to the upcoming Python Ladies&amp;#39; Night 3 tomorrow, starting at 9pm.</summary>
                 <content type="html">&lt;p&gt;We&amp;rsquo;re looking forward to the upcoming Python Ladies&amp;#39; Night 3 tomorrow, starting at 9pm.&lt;/p&gt;
@@ -3335,7 +3338,7 @@ of &lt;a href=&#34;http://www.slideshare.net/pydanny/confessions-of-a-joe-develo
                 <title>PyLadies Intro to Python Workshop</title>
                 <link rel="alternate" href="https://pyladies.com/blog/PyLadies-Intro-to-Python-Workshop/pyladies-intro-to-python-workshop-recap/" type="text/html" />
                 <id>https://pyladies.com/blog/PyLadies-Intro-to-Python-Workshop/pyladies-intro-to-python-workshop-recap/</id>
-                <updated>2011-05-22T18:29:00Z</updated>
+                <updated>2011-05-22T20:42:00Z</updated>
                 
                 <summary type="html">On Sunday, May 15, 2011, the PyLadies held an Intro to Python workshop at KPCC&amp;rsquo;s Crawford Family Forum in Pasadena.</summary>
                 <content type="html">&lt;p&gt;On Sunday, May 15, 2011, the PyLadies held an Intro to Python workshop at KPCC&amp;rsquo;s Crawford Family Forum in Pasadena.&lt;/p&gt;
@@ -3405,7 +3408,7 @@ of &lt;a href=&#34;http://www.slideshare.net/pydanny/confessions-of-a-joe-develo
                 <title>First Python Ladies&#39; Night Recap</title>
                 <link rel="alternate" href="https://pyladies.com/blog/First-Python-Ladies-Night-Recap/first-python-ladies-night-recap/" type="text/html" />
                 <id>https://pyladies.com/blog/First-Python-Ladies-Night-Recap/first-python-ladies-night-recap/</id>
-                <updated>2011-04-19T18:29:00Z</updated>
+                <updated>2011-04-19T20:42:00Z</updated>
                 
                 <summary type="html">On April 16, 2011, a group of 5 local female Python developers got together for the first ever Python ladies&amp;#39; night.</summary>
                 <content type="html">&lt;p&gt;On April 16, 2011, a group of 5 local female Python developers got together for the first ever Python ladies&amp;#39; night.&lt;/p&gt;
