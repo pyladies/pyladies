@@ -18,7 +18,7 @@ PyLadiesCon is an extraordinary event designed to promote diversity, learning, a
 
 **Conference dates**: Dec 1-3, 2023
 **Location**: Online across various timezones
-
+**Cost**: Free
 
 **🌟 Share Your Knowledge: Call for Papers**
 
