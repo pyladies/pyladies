@@ -361,6 +361,15 @@ chapters:
   name: Doboj, BiH
   twitter: PyLadiesDoboj
   website: http://doboj.pyladies.com/
+  - name: Dubai, UAE
+  meetup_id: 399618397
+  image: dubai_pyladies.png
+  email: dubai@pyaldies.com
+  twitter: PyladiesDubai
+  meetup: PyLadies Dubai
+  location:
+      latitude: 25.276987
+      longitude: 55.296249
 - email: dublin@pyladies.com
   image: pyladies-dublin.png
   location:
