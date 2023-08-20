@@ -1332,6 +1332,21 @@ chapters:
     latitude: -33.45
     longitude: -70.666667
   name: Santiago, Chile
+- email: panama@pyladies.com
+  external_website: false
+  image: Pyladies_Panama.png
+  location:
+    latitude: 8.54
+    longitude: 80.78
+  meetup: null
+  meetup_id: null
+  meetup_image: null
+  name: Panamaacute;
+  organizer: PyLadies Panama
+  pro_network: Python Software Foundation Meetup Pro Network
+  twitter: PyLadiesPanama
+  instagram: pyladiespanama
+  website: null
 date_format: '%B %d, %Y'
 domain: pyladies.com
 feed: true
