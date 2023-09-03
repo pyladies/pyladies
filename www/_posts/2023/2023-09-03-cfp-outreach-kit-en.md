@@ -17,6 +17,7 @@ Your connection and introduction will help make our conference great.
 
 We encourage you to invite potential speakers to submit a talk to PyLadies Conference,
 this could be:
+
 - Someone who have given talks at your event or an event that you attended (i.e another conference)
 - Someone who showed interest in giving a talk
 - Someone who has not given a talk but you know they’ve done interesting work/project that is worth sharing
