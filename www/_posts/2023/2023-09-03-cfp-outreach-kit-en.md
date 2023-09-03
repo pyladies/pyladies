@@ -43,7 +43,11 @@ You can help us in a variety of ways:
 
 2. Share news about PyLadiesCon CFP on social media (Twitter/X, LinkedIn, Mastodon, Instagram, Facebook, etc). 
 
+   Reshare the following posts:
 
+   - Blog post: https://pyladies.com/blog/Announcement-CFP-Launch/cfp-launch-announcement/
+   - Twitter: https://twitter.com/pyladiescon/status/1689681818591666177
+   - Mastodon: https://fosstodon.org/@pyladiescon/110866389133560784
 
 3. Connect potential speakers with one of our conference organizers
 
