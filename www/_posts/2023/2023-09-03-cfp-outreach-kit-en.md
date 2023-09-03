@@ -48,6 +48,7 @@ You can help us in a variety of ways:
    - Blog post: https://pyladies.com/blog/Announcement-CFP-Launch/cfp-launch-announcement/
    - Twitter: https://twitter.com/pyladiescon/status/1689681818591666177
    - Mastodon: https://fosstodon.org/@pyladiescon/110866389133560784
+   - LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7095449927098478592?utm_source=share&utm_medium=member_desktop
 
 **3. Connect potential speakers with one of our conference organizers**
 
