@@ -8,7 +8,7 @@ author_link: https://mariatta.ca
 
 # PyLadiesCon CFP Outreach Kit (English)
 
-Dear PyLadies organizers, members, and supporters
+Dear PyLadies organizers, members, and supporters,
 
 We need your help in spreading the news of PyLadiesCon. You, as one of our organizers,
 members, and supporters, can help in reaching out to individuals who could be a
@@ -23,7 +23,7 @@ this could be:
 
 You can help us in a variety of ways:
 
-## 1. Reach out to individuals by sending them an email or private message.
+**1. Reach out to individuals by sending them an email or private message.**
    
    Use your own wordings, or feel free to use one of the following:
 
@@ -41,7 +41,7 @@ You can help us in a variety of ways:
    > Hi {name}, I saw your blog post/project about {something}. I think it would be
    > a good talk idea for PyLadiesCon. Can you submit it as a talk? https://pretalx.com/pyladiescon-2023/cfp
 
-## 2. Share news about PyLadiesCon CFP on social media (Twitter/X, LinkedIn, Mastodon, Instagram, Facebook, etc). 
+**2. Share news about PyLadiesCon CFP on social media (Twitter/X, LinkedIn, Mastodon, Instagram, Facebook, etc).** 
 
    Re-share the following posts:
 
@@ -49,7 +49,7 @@ You can help us in a variety of ways:
    - Twitter: https://twitter.com/pyladiescon/status/1689681818591666177
    - Mastodon: https://fosstodon.org/@pyladiescon/110866389133560784
 
-## 3. Connect potential speakers with one of our conference organizers
+**3. Connect potential speakers with one of our conference organizers**
 
    If you have contact info of speaker we should invite, please share it with us via email:
    pyladiescon@pyladies.com
@@ -64,7 +64,7 @@ please don’t hesitate to get in touch with one of the conference organizers.
 We are available on Slack, or through email: pyladiescon@pyladies.com.
 
 
-## Additional info
+**Additional info**
 
 Relevant links to share:
 
@@ -74,7 +74,7 @@ Relevant links to share:
 
 - https://pyladies.com/blog/Announcement-CFP-Launch/cfp-launch-announcement/
 
-## Our social media handles are:
+**Our social media handles are:**
 
 - https://twitter.com/pyladiescon
 - https://www.instagram.com/pyladiescon/
@@ -82,7 +82,7 @@ Relevant links to share:
 - https://www.linkedin.com/groups/12870459/
 
 
-## When posting on social media, use the hashtags: 
+**When posting on social media, use the hashtags:**
 
 - **#PyLadies**
 - **#PyLadiesCon**
