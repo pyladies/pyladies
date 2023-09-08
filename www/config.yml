@@ -1332,6 +1332,15 @@ chapters:
     latitude: -33.45
     longitude: -70.666667
   name: Santiago, Chile
+- email: panama@pyladies.com
+  image: Pyladies_Panama.png
+  location:
+    latitude: 8.54
+    longitude: 80.78
+  name: Panama
+  organizer: PyLadies Panama
+  twitter: PyLadiesPanama
+  instagram: pyladiespanama
 date_format: '%B %d, %Y'
 domain: pyladies.com
 feed: true
