@@ -28,7 +28,7 @@ Given our global reach, you're welcome to present in any of the following langua
 
 🔗 Submit Your Proposal:
 
-To submit your proposal, please visit our submission page.
+To submit your proposal, please visit our [submission page](https://pretalx.com/pyladiescon-2023/cfp).
 
 The topics span from technical talks to best practices, case studies, and beyond. Every story and perspective enriches the conference experience for everyone.
 
