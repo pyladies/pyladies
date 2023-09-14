@@ -312,6 +312,16 @@ chapters:
   pro_network: Python Software Foundation Meetup Pro Network
   twitter: CLEPyLadies
   website: https://clepyladies.github.io/pyladies-official
+- email: cochabamba@pyladies.com
+  image: pyladies_cochabamba.png
+  location:
+    latitude: -17.41403
+    longitude: -66.17727
+  name: Cochabamba, Bolivia
+  twitter: pyladiescbba
+  facebook: pyladiescbba
+  github: pyladiesCochabamba
+  website: cochabamba
 - email: curitiba@pyladies.com
   external_website: true
   facebook: PyLadiesCuritiba
