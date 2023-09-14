@@ -1,9 +1,9 @@
 ---
 layout: post.html
-title: "PyLadiesCon - Sponsorship available"
+title: "PyLadiesCon - Sponsorship Launch"
 tags: [PyLadies, Conference, Global]
 author: Naomi Ceder
-author_link: 
+author_link: https://naomiceder.tech 
 ---
 
 **Join us! Become a sponsor of the first ever Global PyLadies conference!**
