@@ -1,6 +1,6 @@
 ---
 layout: post.html
-title: "PyLadiesCon - CFP 在社交媒体上发帖时，请使用主题标签"
+title: "PyLadiesCon - CFP 外展套件"
 tags: [PyLadies, Conference, Global]
 author: Mariatta
 author_link: https://mariatta.ca
