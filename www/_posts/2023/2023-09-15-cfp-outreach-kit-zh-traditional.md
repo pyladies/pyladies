@@ -58,7 +58,7 @@ author_link: https://mariatta.ca
 
 - 網站 https://conference.pyladies.com
 
-- 金融理財師 https://pretalx.com/pyladiescon-2023/cfp
+- 演講徵稿 https://pretalx.com/pyladiescon-2023/cfp
 
 - 博客 https://pyladies.com/blog/Announcement-CFP-Launch/cfp-launch-announcement/
 
