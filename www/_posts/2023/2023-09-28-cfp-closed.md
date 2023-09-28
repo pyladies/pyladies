@@ -1,6 +1,6 @@
 ---
 layout: post.html
-title: "PyLadiesCon - CFP Closed. A summary, and a post-mortem. "
+title: "PyLadiesCon - CFP Closed. A summary, and a Retrospective. "
 tags: [PyLadies, Conference, Global]
 author: Mariatta
 author_link: https://mariatta.ca
@@ -8,7 +8,7 @@ author_link: https://mariatta.ca
 
 The CFP for the first PyLadiesCon has closed on September 17, 2023. On behalf
 of PyLadies organizers team, we're grateful for the support from the community
-in helping is spread the news about  our CFP, and also for everyone who submitted
+in helping us spread the news about  our CFP, and also for everyone who submitted
 their proposals.
 
 In total we received **164 proposals**. Considering this is our
@@ -160,10 +160,11 @@ We identified several issues related to our CFP and our outreach.
   all of our chapter organizers joined the official PyLadies Slack. Additionally,
   not all of our chapter organizers have been actively checking their PyLadies email
   address. Therefore, PyLadies as a global community need to establish a better
-  way to communicate and engage with the local chapter organizers. We also need
-  a better way to communicate with our worldwide members, aside from social media (Twitter/X).
-  At the moment, PyLadies do not have a members mailing list or newsletter, making
-  it difficult to reach the members unless if they are on social media.
+  way to communicate and engage with the local chapter organizers.
+
+- We also need a better way to communicate with our worldwide members, aside from social media (like Twitter/X, etc.).
+  At the moment, PyLadies do not have a global members mailing list or newsletter, making
+  it challenging to reach the members unless if they are on social media.
 
 - Even though Français and 中文 are considered major languages of the world, and
   the official languages of the UN, it is possible that we do not actually have as
@@ -174,7 +175,7 @@ We identified several issues related to our CFP and our outreach.
 - We recognize the possibility that the members from the targeted communities
   simply chose not to submit any talk to our conference. Perhaps, we did not
   gain the trust from the targeted PyLadies communities. We are learning and trying
-  understand why this happened. We would welcome input from our community
+  understand why this is happening. We would welcome input from our community
   on how we can improve and gain the trust.
 
 **What's Next for PyLadiesCon**
