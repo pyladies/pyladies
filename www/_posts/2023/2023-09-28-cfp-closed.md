@@ -74,7 +74,7 @@ anyone in the world who would be more comfortable presenting in that language.
   [Mastodon](https://fosstodon.org/deck/@pyladiescon/110866389133560784), and [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7095449927098478592?utm_source=share&utm_medium=member_desktop).
 
 - We also announced it on our internal Slack channel under both
-  #general and #organizers channel. We encouraged our PyLadies chapter organizers to
+  the ``#general`` and ``#organizers`` channel. We encouraged our PyLadies chapter organizers to
   share the CFP with their members.
 
 - We emphasized the fact that we would love to see representation from PyLadies all
@@ -100,15 +100,15 @@ Mandarin, and Cantonese-speaking communities.
 
 - We created [CFP Outreach Kit](https://pyladies.com/blog/PyLadiesCon---CFP-Outreach-Kit-English/cfp-outreach-kit-en/)
   and translated it into the various languages:
-  (Português)[https://pyladies.com/blog/PyLadiesCon---CFP-Outreach-Kit-Portugus/cfp-outreach-kit-pt/],
-  (Français)[https://pyladies.com/blog/PyLadiesCon---CFP-Outreach-Kit-Franais/cfp-outreach-kit-fr/],
-  (Español)[https://pyladies.com/blog/PyLadiesCon---CFP-Outreach-Kit-Espaol/cfp-outreach-kit-es/],
-  (简体中文)[https://pyladies.com/blog/PyLadiesCon---CFP-/cfp-outreach-kit-zh-simplified/], 
-  and (漢語)[https://pyladies.com/blog/PyLadiesCon---CFP-/cfp-outreach-kit-zh-traditional/]
+  [Português](https://pyladies.com/blog/PyLadiesCon---CFP-Outreach-Kit-Portugus/cfp-outreach-kit-pt/),
+  [Français](https://pyladies.com/blog/PyLadiesCon---CFP-Outreach-Kit-Franais/cfp-outreach-kit-fr/),
+  [Español](https://pyladies.com/blog/PyLadiesCon---CFP-Outreach-Kit-Espaol/cfp-outreach-kit-es/),
+  [简体中文](https://pyladies.com/blog/PyLadiesCon---CFP-/cfp-outreach-kit-zh-simplified/), 
+  and [漢語](https://pyladies.com/blog/PyLadiesCon---CFP-/cfp-outreach-kit-zh-traditional/)
 
 - We shared the CFP Outreach Kit through our social media accounts and Slack channels.
 
-- We emailed the CFP Outreach Kit to all of our registered chapters (to their {chaptername}@pyladies.com email address)
+- We emailed the CFP Outreach Kit to all of our registered chapters (to their ```{chaptername}@pyladies.com``` email address)
 
 - Members of our organizing team personally reached out to their network in the targeted
   communities, asking them to help spread the news and share our CFP
@@ -153,15 +153,16 @@ We identified several issues related to our CFP and our outreach.
   run independently, and we are not well connected with the various local chapter
   organizers. We tried to reach our organizers through our Slack channel,
   and by sending email to their official Pyladies.com email address. However, not
-  all of our chapter organizers did not join the official PyLadies Slack. Additionally,
+  all of our chapter organizers join the official PyLadies Slack. Additionally,
   not all of our chapter organizers have been actively checking their PyLadies email
   address. Therefore, PyLadies as a global community need to establish a better
   way to communicate and engage with the local chapter organizers. We also need
   a better way to communicate with our worldwide members, aside from social media (Twitter/X).
-  At the moment, PyLadies do not have a members mailing list or newsletter.
+  At the moment, PyLadies do not have a members mailing list or newsletter, making
+  it difficult to reach the members unless if they are on social media.
 
 - Even though Français and 中文 are considered major languages of the world, and
-  official languages of the UN, it is possible that we do not actually have as
+  the official languages of the UN, it is possible that we do not actually have as
   many active members who can speak those languages. One way in which we can
   improve this, is to do a more thorough survey of our members of which languages
   they speak, so that going forward we can make our decision based on real data.
