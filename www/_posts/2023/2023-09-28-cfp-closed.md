@@ -157,7 +157,7 @@ We identified several issues related to our CFP and our outreach.
   run independently, and we are not well connected with the various local chapter
   organizers. We tried to reach our organizers through our Slack channel,
   and by sending email to their official Pyladies.com email address. However, not
-  all of our chapter organizers join the official PyLadies Slack. Additionally,
+  all of our chapter organizers joined the official PyLadies Slack. Additionally,
   not all of our chapter organizers have been actively checking their PyLadies email
   address. Therefore, PyLadies as a global community need to establish a better
   way to communicate and engage with the local chapter organizers. We also need
@@ -183,7 +183,7 @@ Our reviewers are still reviewing talk proposals. We plan to select the speakers
 in mid October.
 
 We have invited our Keynote Speakers. There will be
-5 keynote speakers, and each of the, will be presenting in
+5 keynote speakers, and each of them will be presenting in
 different languages: English, Español, Français, Português, and 中文 (Mandarin).
 
 We have begun discussing the logistics of translating or subtitling the conference
