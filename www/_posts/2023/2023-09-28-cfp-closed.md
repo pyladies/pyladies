@@ -23,25 +23,25 @@ conference program, where speakers can present in different languages. Additiona
 we also plan to host our talks in different timezones according to the regions:
 Americas, APAC, and EMEA.
 
-# Proposal Breakdown by Languages and Region
+**Proposal Breakdown by Languages and Region**
 
-English: 111
-Español: 31
-Português: 22
-Français: 0
-漢語: 0
-简体中文: 0
+- English: 111
+- Español: 31
+- Português: 22
+- Français: 0
+- 漢語: 0
+- 简体中文: 0
 
-Americas: 92
-EMEA: 59
-APAC: 13
+- Americas: 92
+- EMEA: 59
+- APAC: 13
 
 We'd like to now take a moment to acknowledge, that despite our efforts, we did not
 receive any submissions in Français, 漢語, or 简体中文, indicating there is a gap in
 our community. This is indeed a disappointing news to us, and we are trying to
 understand the situation, and learn from this experience.
 
-# Why these languages?
+**Why these languages?**
 
 As mentioned earlier, PyLadies is a global community with worldwide chapters. Even
 though PyLadies initially was founded in North America, and that English has
@@ -66,7 +66,7 @@ clarify this point, when we mentioned in our CFP that we welcome proposals in Fr
 we did not mean that we want to hear from speakers in France, but rather from
 anyone in the world who would be more comfortable presenting in that language.
 
-# Our initial efforts in promoting our CFP
+**Our initial efforts in promoting our CFP**
 
 - When we launched our CFP on August 4th, we announced it in various venues:
   as a [blog post](https://pyladies.com/blog/Announcement-CFP-Launch/cfp-launch-announcement/)
@@ -84,7 +84,7 @@ anyone in the world who would be more comfortable presenting in that language.
   languages (Español, Français, Português, 漢語, 简体中文 ). They took the time to
   translate our CFP on the Pretalx platform from English into the various languages.
 
-# When did we became aware of a problem?
+**When did we became aware of a problem?**
 
 One month after we launched the CFP, on September 3rd, our team
 has started noticing that we did not receive any proposals in Français, 漢語,
@@ -92,7 +92,7 @@ or 简体中文 yet. With the proposals due to close in a week's time, our team
 started taking additional steps to do a more targeted outreach to the French,
 Mandarin, and Cantonese-speaking communities.
 
-# Our further steps in the CFP Outreach
+**Our further steps in the CFP Outreach**
 
 - We decided to [extend the CFP](https://pyladies.com/blog/Announcement-CFP-Extended/cfp-extended/)
   for an additional week to allow more time for
@@ -124,7 +124,7 @@ Despite all of our efforts above, by the time the CFP closed on September 17,
 we still did not receive any proposals in Français, 漢語, 简体中文. On our next
 team meeting, we discussed this issue and we decided to acknowledge this issue.
 
-# How did this happen?
+**What went wrong?**
 
 We identified several issues related to our CFP and our outreach.
 
@@ -172,7 +172,7 @@ We identified several issues related to our CFP and our outreach.
   understand why this happened. We would welcome input from our community
   on how we can improve and gain the trust.
 
-# What's Next for PyLadiesCon
+**What's Next for PyLadiesCon**
 
 Our reviewers are still reviewing talk proposals. We plan to select the speakers
 in mid October.
@@ -188,7 +188,7 @@ on the cost and our sponsorship. Please check out our [sponsorship prospectus](h
 or write to sponsors@pyladies.com.
 
 
-# Parting Thoughts
+**Parting Thoughts**
 
 We recognize that there are a lot of room for improvement, and that we could
 have done better in reaching out to our global community members. 
