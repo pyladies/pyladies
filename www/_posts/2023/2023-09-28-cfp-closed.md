@@ -23,7 +23,9 @@ conference program, where speakers can present in different languages. Additiona
 we also plan to host our talks in different timezones according to the regions:
 Americas, APAC, and EMEA.
 
-**Proposal Breakdown by Languages and Region**
+**Proposal Breakdown**
+
+By Language:
 
 - English: 111
 - Español: 31
@@ -31,6 +33,8 @@ Americas, APAC, and EMEA.
 - Français: 0
 - 漢語: 0
 - 简体中文: 0
+
+By Region:
 
 - Americas: 92
 - EMEA: 59
