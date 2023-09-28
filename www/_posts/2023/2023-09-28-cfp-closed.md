@@ -185,7 +185,8 @@ different languages: English, Español, Français, Português, and 中文 (Manda
 We have begun discussing the logistics of translating or subtitling the conference
 talks and presentations into the above languages. We are exploring various options
 to have the talks translated/subtitled professionally. However this would depend
-on the cost and our sponsorship. Please check out our [sponsorship prospectus](https://conference.pyladies.com/sponsors.html)
+on the cost and our sponsorship. You can help and support us by sponsoring
+the conference. Please check out our [sponsorship prospectus](https://conference.pyladies.com/sponsors.html)
 or write to sponsors@pyladies.com.
 
 
