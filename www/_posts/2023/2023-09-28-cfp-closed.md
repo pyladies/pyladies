@@ -78,8 +78,8 @@ anyone in the world who would be more comfortable presenting in that language.
   [Mastodon](https://fosstodon.org/deck/@pyladiescon/110866389133560784), and [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7095449927098478592?utm_source=share&utm_medium=member_desktop).
 
 - We also announced it on our internal Slack channel under both
-  the ``#general`` and ``#organizers`` channel. We encouraged our PyLadies chapter organizers to
-  share the CFP with their members.
+  the ``#announcements`` (10,560 members) and ``#organizers`` (266 members) channels.
+  We encouraged our PyLadies chapter organizers to share the CFP with their members.
 
 - We emphasized the fact that we would love to see representation from PyLadies all
   over the world.
@@ -162,9 +162,10 @@ We identified several issues related to our CFP and our outreach.
   address. Therefore, PyLadies as a global community need to establish a better
   way to communicate and engage with the local chapter organizers.
 
-- We also need a better way to communicate with our worldwide members, aside from social media (like Twitter/X, etc.).
+- We also need a better way to communicate with our worldwide members, aside from social media or Slack.
+  We also currently rely heavily on our local organizers to spread the news to their members.
   At the moment, PyLadies do not have a global members mailing list or newsletter, making
-  it challenging to reach the members unless if they are on social media.
+  it challenging to reach the members directly.
 
 - Even though Français and 中文 are considered major languages of the world, and
   the official languages of the UN, it is possible that we do not actually have as
