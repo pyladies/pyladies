@@ -1369,3 +1369,13 @@ subtitle: Women Who Love Coding in Python
 tag_layout: tag.html
 tags_url: /tags/
 title: PyLadies
+email: singapore@pyladies
+image: pyladies-sg
+location:
+  latitude: 1.29
+  longitude: 103.85 
+meetup: pyladiesSingapore
+name: Singapore, Singapore
+organizer: Chloe Ji
+pro_network: Python Software Foundation Meetup Pro Network
+twitter: '@pyladies_singapore'
