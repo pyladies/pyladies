@@ -1,6 +1,6 @@
 ---
 layout: post.html
-title: "Chapters video request"
+title: "🎬 Share Your PyLadies Chapter at PyLadiesCon!"
 tags: [PyLadies, Conference, Global]
 author: Denny Perez
 author_link: https://twitter.com/dennyperez18
