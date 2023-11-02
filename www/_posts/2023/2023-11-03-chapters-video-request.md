@@ -6,10 +6,6 @@ author: Denny Perez
 author_link: https://twitter.com/dennyperez18
 ---
 
-Chapters video request
-
-Subject: 🎬 Share Your PyLadies Chapter at PyLadiesCon!
-
 Hello Amazing PyLadies!
 
 We have an exciting opportunity for your PyLadies Chapter to shine at the upcoming PyLadiesCon! We invite you to create and share a 90-second video (1 minute 30 sec) introducing your wonderful community. Here’s a guide to help craft your video:
