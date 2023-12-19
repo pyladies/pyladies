@@ -13,7 +13,7 @@ ipaddress==1.0.18
 Jinja2==2.9.6
 MarkupSafe==1.1.1
 mynt==0.4.0
-paramiko==2.7.1
+paramiko==3.4.0
 pathtools==0.1.2
 patchwork==1.0.1
 pyasn1==0.3.2
