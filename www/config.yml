@@ -792,6 +792,13 @@ chapters:
     longitude: 127.8767851
   name: Okinawa, Japan
   twitter: PyLadiesOkinawa
+- email: oslo@pyladies.com
+  name: Oslo, Norway
+  meetup: pyladies-oslo
+  image: pyladies-oslo.png
+  location:
+    latitude: 59.9111889074049
+    longitude: 10.750322585469299
 - email: pb@pyladies.com
   facebook: pyladiespb
   github: pyladiespb
