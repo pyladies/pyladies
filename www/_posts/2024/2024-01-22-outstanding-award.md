@@ -30,6 +30,6 @@ recognizing & rewarding individual PyLadies who give a lot of time and effort to
 its community better!_
 
 [nomination form]: https://docs.google.com/forms/d/e/1FAIpQLSccnm4kYFez8SPWJD7ZfaAojHZE0qoLF_MLarGzzzc3pcY-xA/viewform
-[award docs]: https://kit.pyladies.com/global/award.html
+[award docs]: https://kit.pyladies.com/en/latest/global/award.html
 [AOE]: https://en.wikipedia.org/wiki/Anywhere_on_Earth
 [Cheuk Ting Ho]: https://cheuk.dev
