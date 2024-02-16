@@ -261,7 +261,7 @@ See [CONTRIBUTING.md](https://github.com/pyladies/pyladies/blob/master/CONTRIBUT
 
 ### Collection of outside resources
 
-If you want to add a bullet item to an existing subject matter, find the relevant post in `www/_posts` (file titled by it's general category) and add to the `.md` file.  Please also update the date in the `.md` file.  For instance, if you want to add another suggestion to text editors, the original file is: `www/_posts/2013-04-19-tools-resources.md`, and once you're done editing, it would be renamed to `www/_post/todays-date-tools-resources.md`.
+If you want to add a bullet item to an existing subject matter, find the relevant post in `www/_posts` (file titled by its general category) and add to the `.md` file.  Please also update the date in the `.md` file.  For instance, if you want to add another suggestion to text editors, the original file is: `www/_posts/2013-04-19-tools-resources.md`, and once you're done editing, it would be renamed to `www/_post/todays-date-tools-resources.md`.
 
 If there is a collection of resources that do not fit into our loosely-named categories, like "tools" or "tutorials", etc, then start your own in `www/_posts/` and name the Markdown file with today's date, general category, plus the word "resources", like: `2013-04-21-developer-tips-resources.md`.  You will also need to have the following at the top:
 
