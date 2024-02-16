@@ -14,7 +14,7 @@ This is the source code for the http://pyladies.com/ website. It uses
 **Contents**
 - [Understanding the repo's directory layout](#understanding-the-repos-directory-layout)
 - [Setting up a development system](#setting-up-a-development-system)
-- [To add a new PyLadies location](#to-add-a-new-pyladies-location)
+- [To add a new PyLadies location](#to-add-a-new-pyLadies-location-to-the-pyladies-website)
 - [To write a blog post](#to-write-a-blog-post)
 - [To contribute source code to the repository](#to-contribute-to-the-repository)
 - [To write a resource](#to-write-a-resource-more-sticky-than-a-blog-post)
