@@ -3,7 +3,7 @@ argh==0.26.2
 asn1crypto==0.22.0
 bcrypt==4.0.1
 cffi==1.15.1
-cryptography==41.0.3
+cryptography==42.0.2
 docutils==0.14
 enum34==1.1.6
 Fabric==2.5.0
