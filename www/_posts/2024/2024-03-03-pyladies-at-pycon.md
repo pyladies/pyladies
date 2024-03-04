@@ -6,9 +6,9 @@ author: Naty Clementi
 author_link: https://twitter.com/ncclementi
 ---
 
-# PyLadies presenting at PyCon 2024
+# PyLadies presenting at PyCon US 2024
 
-Are you heading to PyCon 2024? 
+Are you heading to PyCon US 2024? 
 
 Here is a list of PyLadies that will be presenting their work at the conference. 
 Use this opportunity to learn more about the amazing work that PyLadies are 
