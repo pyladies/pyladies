@@ -14,6 +14,7 @@ Here is a list of PyLadies that will be presenting their work at the conference.
 Use this opportunity to learn more about the amazing work that PyLadies are 
 doing and don't hesitate to reach out. 
 
+
 ## Tutorials
 
 ### Wednesday 05/15
@@ -35,6 +36,7 @@ doing and don't hesitate to reach out.
 **9am - 12:30pm**
 
 - [Monitoring carbon emissions: making the impact of your python code visible](https://us.pycon.org/2024/schedule/presentation/38/) by [Jessica Greene](https://us.pycon.org/2024/speaker/profile/44/) and [Chioma Onyekpere](https://us.pycon.org/2024/speaker/profile/45/) - Room 318
+
 
 
 ## Talks and Charlas
@@ -73,13 +75,13 @@ doing and don't hesitate to reach out.
 
 **12pm - 12:30pm**
 
-- [Usando Python en una oficina tradicional](https://us.pycon.org/2024/schedule/presentation/96/) by [Steph Orellana Bello](https://us.pycon.org/2024/speaker/profile/111/) - Room 310/311
+- [Usando Python en una oficina tradicional](https://us.pycon.org/2024/schedule/presentation/96/) by [Steph Orellana Bello](https://us.pycon.org/2024/speaker/profile/111/) - Room 310/311 
 
 
 
 ## Posters
 
-### Sunday 05/19 - 10 am - 1pm in Expo Hall A **
+### Sunday 05/19 - 10 am - 1pm in Expo Hall A
 
 - The creative art of algorithmic embroidery by [Marie Roald](https://us.pycon.org/2024/speaker/profile/19/) and [Yngve Mardal Moe](https://us.pycon.org/2024/speaker/profile/20/)
 
