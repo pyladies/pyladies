@@ -1,7 +1,7 @@
 ---
 layout: post.html
 title: "PyLadies at PyCon US 2024"
-tags: [PyLadies, Global, Community]
+tags: [PyLadies, Global, Community, Conference, PyCon, PyCon US]
 author: Naty Clementi
 author_link: https://twitter.com/ncclementi
 ---
