@@ -6,11 +6,13 @@ author: Naty Clementi
 author_link: https://twitter.com/ncclementi
 ---
 
-# PyLadies presenting at PyCon US 2024
+# PyLadies at PyCon US 2024
 
 Are you heading to PyCon US 2024? 
 
-Here is a list of PyLadies that will be presenting their work at the conference. 
+Here is a list of PyLadies that will be presenting their work at the conference. As 
+well as conference events that you won't want to miss. 
+
 Use this opportunity to learn more about the amazing work that PyLadies are 
 doing and don't hesitate to reach out. 
 
@@ -86,3 +88,13 @@ doing and don't hesitate to reach out.
 - The creative art of algorithmic embroidery by [Marie Roald](https://us.pycon.org/2024/speaker/profile/19/) and [Yngve Mardal Moe](https://us.pycon.org/2024/speaker/profile/20/)
 
 Find descriptions in the [posters list](https://us.pycon.org/2024/schedule/posters/list/)
+
+
+
+## Events
+
+- **PyLadies booth at Expo Hall**: Stop by to chat with fellow PyLadies, get some stickers and buy a t-shirt to support PyLadies. 
+
+- **PyLadies Luncheon**: Free lunch with fellow PyLadies, keep and eye out for date announcement and sign up link. 
+
+- **PyLadies Auction (05/18)**: Register and join us for an evening of fun and refreshments while supporting the PyLadies community at the [twelfth PyLadies charity auction](https://us.pycon.org/2024/events/pyladies-auction/). If you want to donate an auction item please contact the auction coordinator (pycon-auction@python.org).
