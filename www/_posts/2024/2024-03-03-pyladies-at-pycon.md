@@ -6,7 +6,6 @@ author: Naty Clementi
 author_link: https://twitter.com/ncclementi
 ---
 
-# PyLadies at PyCon US 2024
 
 Are you heading to PyCon US 2024? 
 
@@ -68,12 +67,17 @@ doing and don't hesitate to reach out.
 
 - [Acknowledging Women’s Contributions in the Python Community Through Podcast](https://us.pycon.org/2024/schedule/presentation/94/) by [Cheuk Ting Ho](https://us.pycon.org/2024/speaker/profile/97/), [Georgi Ker](https://us.pycon.org/2024/speaker/profile/109/), [Mariatta](https://us.pycon.org/2024/speaker/profile/108/), and [Tereza Iofciu](https://us.pycon.org/2024/speaker/profile/107/)
 
+**11am - 4pm**
+
+- [Maintainers Summit](https://us.pycon.org/2024/events/maintainers-summit/) by Inessa Pawson, Leah Wasser, Kara Sowles, and Chris Rose - Room TBD
+
 ### Saturday 05/18
 
 **10:30am - 11am**
 
 - [Observabilidad en Python para principiantes](https://us.pycon.org/2024/schedule/presentation/21/) by [Ana Paula Gonzaga](https://us.pycon.org/2024/speaker/profile/27/) - Room 310/311
 
+- [Friends don't let friends package alone](https://us.pycon.org/2024/schedule/presentation/34/) by [Leah Wasser](https://us.pycon.org/2024/speaker/profile/40/) - Hall C
 
 **12pm - 12:30pm**
 
