@@ -6,15 +6,14 @@ author: Naty Clementi
 author_link: https://twitter.com/ncclementi
 ---
 
+We are proud to share that there will be strong representation from PyLadies and our community members at PyCon US.
+Don't miss the talks and tutorials presented by PyLadies, and be sure to attend and check out the events and summits
+organized by PyLadies members worldwide.
 
-Are you heading to PyCon US 2024? 
+[Register](https://us.pycon.org/2024/registration/register) for PyCon US 2024 now. Use this opportunity to learn more about
+the amazing work that PyLadies are doing.
 
-Here is a list of PyLadies that will be presenting their work at the conference. As 
-well as conference events that you won't want to miss. 
-
-Use this opportunity to learn more about the amazing work that PyLadies are 
-doing and don't hesitate to reach out. 
-
+We can't wait to see you all in Pittsburgh! Congratulations PyLadies!
 
 ## Tutorials
 
@@ -38,8 +37,7 @@ doing and don't hesitate to reach out.
 
 - [Monitoring carbon emissions: making the impact of your python code visible](https://us.pycon.org/2024/schedule/presentation/38/) by [Jessica Greene](https://us.pycon.org/2024/speaker/profile/44/) and [Chioma Onyekpere](https://us.pycon.org/2024/speaker/profile/45/) - Room 318
 
-- [From RAGs to riches: Build an AI document inquiry web-app
-](https://us.pycon.org/2024/schedule/presentation/103/) by [Pavithra Eswaramoorthy](https://us.pycon.org/2024/speaker/profile/119/), [Andrew Huang](https://us.pycon.org/2024/speaker/profile/121/), and [Dharhas Pothina](https://us.pycon.org/2024/speaker/profile/120/) - Room 321
+- [From RAGs to riches: Build an AI document inquiry web-app](https://us.pycon.org/2024/schedule/presentation/103/) by [Pavithra Eswaramoorthy](https://us.pycon.org/2024/speaker/profile/119/), [Andrew Huang](https://us.pycon.org/2024/speaker/profile/121/), and [Dharhas Pothina](https://us.pycon.org/2024/speaker/profile/120/) - Room 321
 
 
 ## Talks and Charlas
@@ -103,4 +101,10 @@ Find descriptions in the [posters list](https://us.pycon.org/2024/schedule/poste
 
 - **PyLadies Luncheon**: Free lunch with fellow PyLadies, keep and eye out for date announcement and sign up link. 
 
-- **PyLadies Auction (05/18)**: Register and join us for an evening of fun and refreshments while supporting the PyLadies community at the [twelfth PyLadies charity auction](https://us.pycon.org/2024/events/pyladies-auction/). If you want to donate an auction item please contact the auction coordinator (pycon-auction@python.org).
+- **PyLadies Auction (05/18)**: Register and join us for an evening of fun and refreshments while supporting the PyLadies community at the [twelfth PyLadies charity auction](https://us.pycon.org/2024/events/pyladies-auction/).
+
+# Support PyLadies
+
+Let's show our support to PyLadies by cheering and attending their talks at the conference!
+You can also further support our community by donating an auction item to the PyLadies Auction (contact the [auction coordinator](pycon-auction@python.org)), or by [sponsoring us].
+
