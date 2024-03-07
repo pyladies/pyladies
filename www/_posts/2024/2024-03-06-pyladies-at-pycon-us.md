@@ -6,7 +6,7 @@ author: Naty Clementi
 author_link: https://twitter.com/ncclementi
 ---
 
-We are proud to share that there will be strong representation from PyLadies and our community members at PyCon US.
+We are proud to share that there will be strong representation from PyLadies and our community members at PyCon US 2024.
 Don't miss the talks and tutorials presented by PyLadies, and be sure to attend and check out the events and summits
 organized by PyLadies members worldwide.
 
