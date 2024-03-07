@@ -103,6 +103,9 @@ Find descriptions in the [posters list](https://us.pycon.org/2024/schedule/poste
 
 - **PyLadies Auction (05/18)**: Register and join us for an evening of fun and refreshments while supporting the PyLadies community at the [twelfth PyLadies charity auction](https://us.pycon.org/2024/events/pyladies-auction/).
 
+- **Outstanding PyLadies Award Presentation**. PyLadies Global Council will present the Outstanding PyLadies Award on the main stage.
+  Details will be announced soon!
+ 
 # Support PyLadies
 
 Let's show our support to PyLadies by cheering and attending their talks at the conference!
