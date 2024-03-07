@@ -39,7 +39,7 @@ doing and don't hesitate to reach out.
 - [Monitoring carbon emissions: making the impact of your python code visible](https://us.pycon.org/2024/schedule/presentation/38/) by [Jessica Greene](https://us.pycon.org/2024/speaker/profile/44/) and [Chioma Onyekpere](https://us.pycon.org/2024/speaker/profile/45/) - Room 318
 
 - [From RAGs to riches: Build an AI document inquiry web-app
-](https://us.pycon.org/2024/schedule/presentation/103/) by [Pavithra Eswaramoorthy](https://us.pycon.org/2024/speaker/profile/119/), [Andrew Huang](https://us.pycon.org/2024/speaker/profile/121/), and [Dharhas Pothina](https://us.pycon.org/2024/speaker/profile/120/)
+](https://us.pycon.org/2024/schedule/presentation/103/) by [Pavithra Eswaramoorthy](https://us.pycon.org/2024/speaker/profile/119/), [Andrew Huang](https://us.pycon.org/2024/speaker/profile/121/), and [Dharhas Pothina](https://us.pycon.org/2024/speaker/profile/120/) - Room 321
 
 
 ## Talks and Charlas
