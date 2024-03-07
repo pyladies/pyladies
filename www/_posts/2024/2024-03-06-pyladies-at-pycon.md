@@ -106,5 +106,5 @@ Find descriptions in the [posters list](https://us.pycon.org/2024/schedule/poste
 # Support PyLadies
 
 Let's show our support to PyLadies by cheering and attending their talks at the conference!
-You can also further support our community by donating an auction item to the PyLadies Auction (contact the [auction coordinator](pycon-auction@python.org)), or by [sponsoring us].
+You can also further support our community by donating an auction item to the PyLadies Auction (contact the [auction coordinator](pycon-auction@python.org)), or by [sponsoring us](https://pyladies.com/sponsor/).
 
