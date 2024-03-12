@@ -217,6 +217,14 @@ chapters:
   name: Brno, Czech Republic
   twitter: pyladiesCZ
   website: cz
+- email: calgary@pyladies.com
+  external_website: false
+  github: pyladiescalgary
+  image: pyladies_calgary.png
+  location:
+    latitude: 51.04
+    longitude: -114.06
+  name: Calgary, Alberta, Canada
 - email: campinas@pyladies.com
   external_website: true
   facebook: pyladiescps
