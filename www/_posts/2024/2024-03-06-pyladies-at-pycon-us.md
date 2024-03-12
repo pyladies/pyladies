@@ -81,7 +81,11 @@ We can't wait to see you all in Pittsburgh! Congratulations PyLadies!
 
 **12pm - 12:30pm**
 
-- [Usando Python en una oficina tradicional](https://us.pycon.org/2024/schedule/presentation/96/) by [Steph Orellana Bello](https://us.pycon.org/2024/speaker/profile/111/) - Room 310/311 
+- [Usando Python en una oficina tradicional](https://us.pycon.org/2024/schedule/presentation/96/) by [Steph Orellana Bello](https://us.pycon.org/2024/speaker/profile/111/) - Room 310/311
+
+- **2:30pm - 3:00pm**
+
+- [Construyendo Puentes en Diversidad, Equidad e Inclusión en Open Source](https://us.pycon.org/2024/schedule/presentation/27/) by [Lucy Jiménez](https://us.pycon.org/2024/speaker/profile/33/) - Room 310/311 
 
 
 
