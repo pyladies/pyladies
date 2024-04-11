@@ -7,7 +7,7 @@ cryptography==41.0.3
 docutils==0.14
 enum34==1.1.6
 hoep==1.0.2
-idna==2.6
+idna==3.7
 ipaddress==1.0.18
 Jinja2==2.9.6
 MarkupSafe==1.1.1
