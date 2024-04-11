@@ -5,6 +5,7 @@ local_settings.py
 .idea/
 _site/
 .DS_Store
+.venv
 
 boston/.floo
 

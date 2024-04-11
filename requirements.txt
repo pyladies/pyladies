@@ -6,16 +6,13 @@ cffi==1.15.1
 cryptography==41.0.3
 docutils==0.14
 enum34==1.1.6
-Fabric==2.5.0
 hoep==1.0.2
 idna==2.6
 ipaddress==1.0.18
 Jinja2==2.9.6
 MarkupSafe==1.1.1
 mynt==0.4.0
-paramiko==2.7.1
 pathtools==0.1.2
-patchwork==1.0.1
 pyasn1==0.3.2
 pycparser==2.18
 Pygments==2.15.0
