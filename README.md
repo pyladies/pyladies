@@ -1,8 +1,8 @@
-# PyLadies 
+# PyLadies
 
 This website is managed by the [PyLadies Tech and Infra team](PROJECT_TECH_INFRA.md). If you would like to join as an official member, read more here! You can also join us in Slack, `#project-tech-infra` channel.
 
-This website welcomes pull requests from anyone in the community. 
+This website welcomes pull requests from anyone in the community.
 
 ## Overview
 
@@ -14,7 +14,7 @@ This is the source code for the http://pyladies.com/ website. It uses
 **Contents**
 - [Understanding the repo's directory layout](#understanding-the-repos-directory-layout)
 - [Setting up a development system](#setting-up-a-development-system)
-- [To add a new PyLadies location](#to-add-a-new-pyladies-location)
+- [To add a new PyLadies location](#to-add-a-new-pyLadies-location-to-the-pyladies-website)
 - [To write a blog post](#to-write-a-blog-post)
 - [To contribute source code to the repository](#to-contribute-to-the-repository)
 - [To write a resource](#to-write-a-resource-more-sticky-than-a-blog-post)
@@ -27,9 +27,8 @@ Before adding a new location or contributing to the pyladies website, it's
 helpful to understand a bit about the repo and its contents.
 
 This is a general overview of the repo's root directory structure.
-`requirements.txt`, `fabfile.py` and `.circleci` directory contain code for
-installing dependencies, configuring the CircleCI service, and instructions for
-testing and deployment. The repo's root directory also contains
+`requirements.txt` specifies the dependencies. `.github/workflows` contains
+the configuration for CI testing and deployment. The repo's root directory also contains
 the `www` folder. Most of the time, contributors will edit or add files in
 the `www` folder.
 
@@ -222,7 +221,7 @@ is correctly formatted. An example is [YAML Lint](http://www.yamllint.com/)
 though there are many others and some editors provide similar functionality.
 
 An example of a location:
-```
+```yaml
 - email: berlin@pyladies.com
   external_website: true
   image: pyladies_berlin.png
@@ -262,11 +261,11 @@ See [CONTRIBUTING.md](https://github.com/pyladies/pyladies/blob/master/CONTRIBUT
 
 ### Collection of outside resources
 
-If you want to add a bullet item to an existing subject matter, find the relevant post in `www/_posts` (file titled by it's general category) and add to the `.md` file.  Please also update the date in the `.md` file.  For instance, if you want to add another suggestion to text editors, the original file is: `www/_posts/2013-04-19-tools-resources.md`, and once you're done editing, it would be renamed to `www/_post/todays-date-tools-resources.md`.
+If you want to add a bullet item to an existing subject matter, find the relevant post in `www/_posts` (file titled by its general category) and add to the `.md` file.  Please also update the date in the `.md` file.  For instance, if you want to add another suggestion to text editors, the original file is: `www/_posts/2013-04-19-tools-resources.md`, and once you're done editing, it would be renamed to `www/_post/todays-date-tools-resources.md`.
 
 If there is a collection of resources that do not fit into our loosely-named categories, like "tools" or "tutorials", etc, then start your own in `www/_posts/` and name the Markdown file with today's date, general category, plus the word "resources", like: `2013-04-21-developer-tips-resources.md`.  You will also need to have the following at the top:
 
-```
+```yaml
 ---
 layout: post.html
 title: "Your title here"
@@ -278,7 +277,7 @@ category: resources
 ### Your own resource
 If you want to write your own resources, like [Barbara's beginner workshop notes](http://www.pyladies.com/blog/intro-python-april-6-recap/) or [Juliana's Mac setup](http://www.pyladies.com/blog/Get-Your-Mac-Ready-for-Python-Programming/), in addition to [CONTRIBUTING.md](https://github.com/pyladies/pyladies/blob/master/CONTRIBUTING.md), you will need to add more items in the header portion, like so:
 
-```
+```yaml
 ---
 layout: post.html
 title: "Your title here"
