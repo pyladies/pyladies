@@ -688,7 +688,7 @@ chapters:
     longitude: 76.717873
   name: Mohali
 - email: montreal@pyladies.com
-  image: pyladies_dc_atl_sea_tor.png
+  image: pyladies_mtl.png
   location:
     latitude: 45.52
     longitude: -73.58
@@ -696,9 +696,10 @@ chapters:
   meetup_id: 4663509776
   meetup_image: https://secure.meetupstatic.com/photos/event/1/8/4/e/highres_227526222.jpeg
   name: Montreal, Canada
-  organizer: Julie Lewis
-  twitter: pyladiesMTL
-  website: mtl
+  organizer: Olga Avramenko
+  twitter: PyLadiesMTL
+  linkedin: company/pyladies-montreal
+  instagram: pyladiesmtl
 - email: MA@pyladies.com
   image: pyladies_ma.png
   location:
@@ -1340,7 +1341,7 @@ chapters:
   website: null
   image: pyladies_mpt.png
   email: maputo@pyladies.com
-  twitter: null 
+  twitter: null
   instagram: null
   meetup: pyladies-mpt
   location:
