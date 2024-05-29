@@ -12,18 +12,17 @@ Announcing the first recipients of the Outstanding PyLady Awards (🎉 OPA 🎉)
     <img src="{{ get_asset('images/blog/opa_winners_2024.png') }}" alt="Award winners posing at PyCon US 2024 Closing Ceremony" width="70%" style="margin-left: auto; margin-right: auto; margin-bottom: 2em; margin-top: 2em; display: block;">
 <figcaption style="text-align: center;"><i>Abigail Mesrenyame Dogbe (left-most), Maaya Ishida (second from right), and Jessica Green (right-most) posing with their blue gem awards with Lynn Root (second from left) at the closing ceremony of PyCon 2024. Photo taken by <a href="https://x.com/psobot">@psobot</a>.</i></figcaption></figure>
 
-I am sure many of us know and have experienced ourselves: the PyLadies community is made up of many
-remarkable members and volunteers that make significant contributions to bettering the Python
-community.
+The PyLadies community is made up of many remarkable members and volunteers who make significant 
+contributions to bettering the Python community.
 
-To celebrate that, [Cheuk Ting Ho] proposed an idea to the PyLadies Global Council last year to 
-recognize remarkable PyLadies. Cheuk saw many folks are doing amazing things for the community
-and proposed the [Outstanding PyLady Award][blog announcement]. This new Outstanding PyLady Award
-is meant to underscore diverse Pythonistas doing extraordinary community-elevating things, to 
-highlight their achievements, and to thank them for all the work they've contributed.
+To celebrate that, [Cheuk Ting Ho] saw many folks doing amazing things for the community and 
+proposed establishing the [Outstanding PyLady Award][blog announcement] to the PyLadies Global
+Council. This new Outstanding PyLady Award is meant to underscore diverse Pythonistas doing 
+extraordinary community-elevating things, to highlight their achievements, and to thank them for
+all the work they've contributed.
 
-Each year, the PyLadies Global Council will be selecting a handful of folks from nominations from
-the Python community at large (anyone in the Python community is encouraged to 
+Moving forward, every year the PyLadies Global Council will be selecting a handful of folks from 
+nominations from the Python community at large (anyone in the Python community is encouraged to 
 [nominate][nomination form]!). Award winners are recognized at PyCon US, and receive their choice of
 either free registration & travel assistance to PyCon US, or a cash award of $1,000. Its intention
 is to demonstrate that their service and contributions to the PyLadies community does lead to
@@ -35,8 +34,8 @@ come, if they wish.
 <figcaption style="text-align: center;"><i>Outstanding PyLady Award recipient lanyard pin. Photo taken by <a href="https://x.com/psobot">@psobot</a>.</i></figcaption></figure>
 
 This is the first year of the Outstanding PyLady awards, and we got a whopping _**84 submissions**_ 
-for nominations. Unfortunately, we do not have the capacity to award all the nominations, although 
-all of them are very clearly deserving. 
+for nominations. Unfortunately, we do not have the capacity to award all nominees, although all of 
+them clearly deserve it. 
 
 The PyLadies Global Council has selected 3 women to receive the inaugural award, and we are all so 
 very excited to celebrate them. In alphabetical order by last name:
