@@ -12,14 +12,14 @@ Announcing the first recipients of the Outstanding PyLady Awards (🎉 OPA 🎉)
     <img src="{{ get_asset('images/blog/opa_winners_2024.png') }}" alt="Award winners posing at PyCon US 2024 Closing Ceremony" width="70%" style="margin-left: auto; margin-right: auto; margin-bottom: 2em; margin-top: 2em; display: block;">
 <figcaption style="text-align: center;"><i>Abigail Mesrenyame Dogbe (left-most), Maaya Ishida (second from right), and Jessica Green (right-most) posing with their blue gem awards with Lynn Root (second from left) at the closing ceremony of PyCon 2024. Photo taken by <a href="https://x.com/psobot">@psobot</a>.</i></figcaption></figure>
 
-The PyLadies community is made up of many remarkable members and volunteers who make significant 
+Many remarkable members and volunteers make up the PyLadies community and make significant
 contributions to bettering the Python community.
 
 To celebrate that, [Cheuk Ting Ho] saw many folks doing amazing things for the community and 
 proposed establishing the [Outstanding PyLady Award][blog announcement] to the PyLadies Global
-Council. This new Outstanding PyLady Award is meant to underscore diverse Pythonistas doing 
-extraordinary community-elevating things, to highlight their achievements, and to thank them for
-all the work they've contributed.
+Council. This new Outstanding PyLady Award recognizes diverse Pythonistas doing extraordinary 
+community-elevating things, highlights their achievements, and thanks them for all the work 
+they've contributed.
 
 Moving forward, every year the PyLadies Global Council will be selecting a handful of folks from 
 nominations from the Python community at large (anyone in the Python community is encouraged to 
