@@ -1,7 +1,7 @@
 ---
 layout: post.html
 title: "Announcing: The Outstanding PyLady Award"
-tags: [PyLadies, Global, Community, Outreach]
+tags: [PyLadies, Global, Community, Outreach, "Outstanding PyLady Award"]
 author: Lynn Root
 author_link: https://mastodon.online/@roguelynn
 ---
