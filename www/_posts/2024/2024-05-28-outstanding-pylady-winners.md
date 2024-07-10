@@ -61,9 +61,8 @@ Read more about Abigail in [PyDev of the Week][abigail_pydev].
 Jessica Greene ([X][jessica_x], [LinkedIn][jessica_li], [Mastodon][jessica_mast]) comes to us from 
 🇩🇪 Berlin, Germany 🇩🇪 - a PyLadies chapter ([X][berlin_x], [Instagram][berlin_inst], [Meetup][berlin_meetup]) 
 that has some awesome stickers of their own. She has been the organizer for the [Berlin chapter][berlin_site]
-for over 6 years. Her work has inspired other chapters to spin up, like Delhi, India. You might have 
-caught her from this year's [PyCon US's Diversity & Inclusion panel talk][pycon_di_panel] - she's a 
-part of the PSF's [Code of Conduct Committee][psf_coc], which is a lot of unnoticed and important 
+for over 6 years. You might have caught her from this year's [PyCon US's Diversity & Inclusion panel talk][pycon_di_panel] - 
+she's a part of the PSF's [Code of Conduct Committee][psf_coc], which is a lot of unnoticed and important 
 work. It's been said that Jessica has a penchant for [automating the administrative tasks][berlin_gh]
 for her and her chapter organizers. But naturally, who wouldn't! And when she's not organizing 
 PyLadies events, or participating in committees, or writing Python code, she helps put on the 
@@ -88,7 +87,7 @@ Be sure to check out [Maaya's impressive blog][maaya_blog].
 
 <figure>
     <img src="{{ get_asset('images/blog/opa_winners_auction_2024.png') }}" alt="Award winners posing at the PyLadies auction at PyCon US 2024" width="50%" style="margin-left: auto; margin-right: auto; margin-bottom: 2em; margin-top: 2em; display: block;">
-<figcaption style="text-align: center;"><i>Abigail Mesrenyame Dogbe (left), Jessica Green (center), and Maaya Ishida (right) at the PyLadies auction at PyCon US 2024. Photo taken by <a href="https://www.instagram.com/loooorenanicole">@loooorenanicole</a>.</i></figcaption></figure>
+<figcaption style="text-align: center;"><i>Abigail Mesrenyame Dogbe (left), Jessica Greene (center), and Maaya Ishida (right) at the PyLadies auction at PyCon US 2024. Photo taken by <a href="https://www.instagram.com/loooorenanicole">@loooorenanicole</a>.</i></figcaption></figure>
 
 
 ## Nominate Someone! or Yourself!
