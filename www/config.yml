@@ -174,13 +174,6 @@ chapters:
   organizer: Laura Stone
   twitter: PyLadiesBoston
   website: http://boston.pyladies.com
-- email: bratislava@pyladies.org
-  facebook: PyLadiesBratislava
-  image: pyladies_logo.png
-  location:
-    latitude: 48.148598
-    longitude: 17.107748
-  name: Bratislava, Slovakia
 - email: brazil@pyladies.com
   external_website: true
   facebook: PyLadiesBrazil
