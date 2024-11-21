@@ -11,7 +11,7 @@ idna==2.6
 ipaddress==1.0.18
 Jinja2==2.9.6
 MarkupSafe==1.1.1
-mynt==0.4.0
+# mynt==0.4.0
 pathtools==0.1.2
 pyasn1==0.3.2
 pycparser==2.18
