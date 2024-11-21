@@ -1,3 +1,3 @@
 [build]
-    command = "pip install setuptools==39.1.0 && pip install hoep --no-binary=hoep && pip install -r requirements.txt && cd www && mynt gen -f _site"
+    command = "pip install setuptools==39.1.0 && pip install hoep --no-binary=hoep && echo 'do we get here?' && pip install -r requirements.txt && cd www && mynt gen -f _site"
     publish = "www/_site"
