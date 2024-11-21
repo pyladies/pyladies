@@ -1,3 +1,6 @@
 [build]
-    command = "brew install llvm && pip install setuptools==39.1.0 && pip install hoep --no-binary=hoep && echo 'do we get here?' && pip install -r requirements.txt && pip install mynt==0.4.0 && cd www && mynt gen -f _site"
+    # Before the build command is run, netlify installs the dependencies declared in requirements; it fails with `hoep` because clang is not installed.
+    # So we exclude `hoep` and `mynt` from the requirements file for the initialization stage, then explicitly install them in the build command after
+    # installing clang. UGH. - @econchick (https://github.com/pyladies/pyladies/pull/674)
+    command = "brew install llvm && pip install setuptools==39.1.0 && pip install hoep --no-binary=hoep && pip install mynt==0.4.0 && cd www && mynt gen -f _site"
     publish = "www/_site"
