@@ -19,9 +19,10 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: ${{ matrix.python-version }}
-      - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
+      - name: Install and Build
+        # see netlify.toml for why this build command is the way it is
         run: |
-          pip install setuptools==39.1.0 && pip install -r requirements.txt && cd www && mynt gen -f _site
+          pip install setuptools==39.1.0 && pip install hoep --no-binary=hoep && pip install mynt==0.4.0 && pip install -r requirements.txt && cd www && mynt gen -f _site
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
