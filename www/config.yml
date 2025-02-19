@@ -1219,12 +1219,12 @@ chapters:
     longitude: -123.04
   meetup: PyLadies-Vancouver
   meetup_id: 4663660624
-  meetup_image: https://secure.meetupstatic.com/photos/event/a/d/d/e/highres_447404510.jpeg
+  meetup_image: https://vancouver.pyladies.com/img/pyladiesvancouver-square-logo.png
   name: Vancouver, Canada
   organizer: Mariatta
   pro_network: Python Software Foundation Meetup Pro Network
   twitter: pyladiesvan
-  website: vancouver
+  website: https://vancouver.pyladies.com
 - email: vienna@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
   location:
