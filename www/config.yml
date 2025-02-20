@@ -217,6 +217,16 @@ chapters:
   name: Brno, Czech Republic
   twitter: pyladiesCZ
   website: cz
+- email: brussels@pyladies.com
+  image: pyladies_brussels.png
+  location:
+    latitude: 50.85
+    longitude: 4.35
+  meetup: PyLadies-brussels
+  meetup_id: 4663509776
+  meetup_image: https://secure.meetupstatic.com/photos/event/6/0/4/e/clean_526044654.jpeg
+  name: Brussels, Belgium
+  organizer: Marlene Marchena
 - email: calgary@pyladies.com
   external_website: false
   github: pyladiescalgary
@@ -1213,18 +1223,18 @@ chapters:
   twitter: pyladiesvale
   website: http://vale.pyladies.com
 - email: vancouver@pyladies.com
-  image: pyladies_dc_atl_sea_tor.png
+  image: pyladiesvancouver_square_logo.png
   location:
     latitude: 49.28
     longitude: -123.04
   meetup: PyLadies-Vancouver
   meetup_id: 4663660624
-  meetup_image: https://secure.meetupstatic.com/photos/event/a/d/d/e/highres_447404510.jpeg
+  meetup_image: https://vancouver.pyladies.com/img/pyladiesvancouver-square-logo.png
   name: Vancouver, Canada
   organizer: Mariatta
   pro_network: Python Software Foundation Meetup Pro Network
   twitter: pyladiesvan
-  website: vancouver
+  website: https://vancouver.pyladies.com
 - email: vienna@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
   location:
