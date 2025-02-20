@@ -217,6 +217,16 @@ chapters:
   name: Brno, Czech Republic
   twitter: pyladiesCZ
   website: cz
+- email: brussels@pyladies.com
+  image: pyladies_brussels.png
+  location:
+    latitude: 50.85
+    longitude: 4.35
+  meetup: PyLadies-brussels
+  meetup_id: 4663509776
+  meetup_image: https://secure.meetupstatic.com/photos/event/6/0/4/e/clean_526044654.jpeg
+  name: Brussels, Belgium
+  organizer: Marlene Marchena
 - email: calgary@pyladies.com
   external_website: false
   github: pyladiescalgary
