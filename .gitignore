@@ -1,16 +1,22 @@
+# Ignorar archivos y carpetas de Python
 *.pyc
 *.db
 *.log
+
+# Ignorar configuraciones locales y privadas
 local_settings.py
+.env
+
+# Ignorar entornos virtuales
+.venv/
+venv/
+
+# Archivos y carpetas específicas de IDEs y editores
 .idea/
 _site/
 .DS_Store
-.venv
 
+# Archivos de proyectos en boston
 boston/.floo
-
 boston/.flooignore
-
 boston/.sublime-project
-# Ignorar configuraciones de entorno
-.env
