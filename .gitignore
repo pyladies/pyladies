@@ -12,3 +12,5 @@ boston/.floo
 boston/.flooignore
 
 boston/.sublime-project
+# Ignorar configuraciones de entorno
+.env
