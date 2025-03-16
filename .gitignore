@@ -1,14 +1,17 @@
 *.pyc
 *.db
 *.log
+
 local_settings.py
+.env
+
+.venv/
+venv/
+
 .idea/
 _site/
 .DS_Store
-.venv
 
 boston/.floo
-
 boston/.flooignore
-
 boston/.sublime-project

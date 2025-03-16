@@ -1369,6 +1369,15 @@ chapters:
     latitude: -33.45
     longitude: -70.666667
   name: Santiago, Chile
+- name: Ilo, PERU
+  image: pyladies-Ilo.png
+  email: ilo@pyladies.com
+  github: PyLadiesIlo
+  facebook: people/PyLadies-Ilo/61572566786202
+
+  location:
+      latitude: -17.6394
+      longitude: -71.3376
 - email: panama@pyladies.com
   image: Pyladies_Panama.png
   location:
