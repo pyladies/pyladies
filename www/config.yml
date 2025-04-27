@@ -16,7 +16,8 @@ chapters:
   organizer: Alyona Galyeva
   pro_network: Python Software Foundation Meetup Pro Network
   twitter: PyLadiesAMS
-  website: amsterdam
+  external_website: true
+  website: https://amsterdam.pyladies.com/
 - email: ankara@pyladies.com
   image: pyladies_ankara.png
   location:
