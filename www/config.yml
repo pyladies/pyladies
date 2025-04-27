@@ -5,7 +5,7 @@ author: A PyLady
 base_url: /
 chapters:
 - email: amsterdam@pyladies.com
-  image: pyladies_amsterdam.jpeg
+  image: pyladies_amsterdam.png
   location:
     latitude: 52.37
     longitude: 4.89
@@ -15,8 +15,10 @@ chapters:
   name: Amsterdam, the Netherlands
   organizer: Alyona Galyeva
   pro_network: Python Software Foundation Meetup Pro Network
-  twitter: PyLadiesAMS
-  website: amsterdam
+  external_website: true
+  website: https://amsterdam.pyladies.com/
+  github: pyladiesams
+  linkedin: company/pyaldies-amsterdam
 - email: ankara@pyladies.com
   image: pyladies_ankara.png
   location:
