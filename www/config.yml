@@ -17,6 +17,7 @@ chapters:
   pro_network: Python Software Foundation Meetup Pro Network
   external_website: true
   website: https://amsterdam.pyladies.com/
+  github: pyladiesams
 - email: ankara@pyladies.com
   image: pyladies_ankara.png
   location:
