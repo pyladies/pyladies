@@ -10,7 +10,7 @@ The PyLadies Global Council was formed in 2020, during the COVID-19 pandemic, to
 
 Along the way, we’ve also learned a lot about what it takes to govern a growing, global volunteer organization. This post is about being transparent with our community: sharing both the progress we’ve made and the challenges we’ve faced, as well as how we’re moving forward.
 
-# What We’ve Accomplished
+## What We’ve Accomplished
 
 Even with a small and busy council, we’ve been able to:
 
@@ -25,13 +25,13 @@ Even with a small and busy council, we’ve been able to:
 
 We’re proud of this progress, and equally aware that governance processes and community input have not always been clear or consistent.
 
-# Listening to the Community
+## Listening to the Community
 
 As part of our commitment to transparency, the Council has been publishing [monthly meeting notes on GitHub](https://github.com/pyladies/global-organizing/issues) since our formation with over 50 meetings, which is now being cross-posted to the [PyLadies Slack](http://slackin.pyladies.com/).
 
 But we hear the concern that increased transparency would be better for the community, about how PyLadies Global Council operates, communicates, and makes decisions. We want to acknowledge this feedback openly: it is clear we need stronger structures, clearer processes, and more opportunities for community participation.
 
-# Building a Governance Model
+## Building a Governance Model
 
 To address these concerns, we’ve started outlining a governance model back in [July 2025](https://github.com/pyladies/global-organizing/issues/164) that will guide how the PyLadies Global Council - and PyLadies more broadly - works. 
 
@@ -66,7 +66,7 @@ We’ve divided up this work among council members and [are currently drafting c
 
 This process is underway now, and we commit to sharing updates along the way. We don’t need a particularly thorough model right now; we need *something* to jump start us for our next elections.
 
-# Upcoming Elections
+## Upcoming Elections
 
 Elections are a top priority following the establishment of our governance framework. We're targeting Q1 for our next election cycle and are working through several important considerations:
 
@@ -76,19 +76,19 @@ Elections are a top priority following the establishment of our governance frame
 
 The technical challenge of membership verification is significant, and we're exploring practical solutions that balance security with accessibility. For our upcoming elections, we may implement a trust-based, self-verification system while working on longer-term technical solutions.
 
-# Community Collaboration
+## Community Collaboration
 
 We recognize that effective governance requires active community participation. We set up a [GitHub Discussion board](https://github.com/pyladies/global-organizing/discussions) as a space for community-wide conversations. While the board hasn’t been used as much as we’d hoped, we would like to encourage chapters and individual members to begin using it as a way to ask questions, share ideas, and connect with the Council.
 
 We also want to acknowledge that community members have brought forward proposals for technical solutions to our chapter and membership management challenges. While not all proposals align with our current technical requirements or budget constraints, we appreciate the community's initiative in identifying problems and suggesting solutions. We're committed to working collaboratively on these challenges while maintaining responsible stewardship of PyLadies resources. We will ensure that the next Global Council will make this need a top priority.
 
-# Challenges and Reality
+## Challenges and Reality
 
 Leading a volunteer organization comes with inherent challenges. Council members balance PyLadies responsibilities with full-time work, family commitments, and personal circumstances including health challenges and major life events. This reality affects our capacity and timeline for governance improvements.
 
 We're working to distribute responsibilities more evenly among council members and explore ways to sustainably manage the organization's growing needs. This includes potentially expanding working groups and committees to involve more community members in PyLadies leadership.
 
-# Looking Ahead
+## Looking Ahead
 
 We are committed to:
 
@@ -99,7 +99,7 @@ We are committed to:
 
 This is ongoing work, and we know it will take time, feedback, and patience. We ask for your continued engagement, questions, and ideas as we move forward together.
 
-# How You Can Help
+## How You Can Help
 
 * Share your thoughts when the governance draft is opened for comments.
 * Encourage your local chapter to stay engaged with the Council.
