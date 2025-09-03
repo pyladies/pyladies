@@ -577,6 +577,20 @@ chapters:
     longitude: 21.261074
   name: Kosice, Slovakia
   organizer: Iveta Tonhauserova
+- email: kl@pyladies.com
+  external_website: true
+  image: pyladies_kl.png
+  location:
+    latitude: 3.13
+    longitude: 101.68
+  meetup: PyLadies-KL
+  meetup_id: 474876668
+  meetup_image: https://secure.meetupstatic.com/photos/member/3/e/0/5/highres_323595877.jpeg 
+  name: Kuala Lumpur, Malaysia
+  organizer: Daphne Choong, Ivy Fung, Daveena Sri, Delyn Choong, Siow Yen Chong, Yen Wai Hong. Nithiya Malar
+  pro_network: Python Software Foundation Meetup Pro Network
+  twitter: PyLadiesKL
+  website: http://kl.pyladies.com
 - external_website: true
   facebook: PyLadiesKyoto
   google_plus: https://plus.google.com/u/0/communities/113677670074162908256
@@ -1330,13 +1344,6 @@ chapters:
   twitter: Pyladiesasaba
   website: null
   whatsapp: null
-  image: pyladies-asaba.png
-  email: asaba@pyladies.com
-  twitter: Pyladiesasaba
-  meetup: null
-  github: Pyladiesasaba
-  facebook: asabapyladies
-  location: {latitude: 6.19824, longitude: 6.73187}
 - name: Guatemala city, Guatemala
   email: guatemalacity@pyladies.com
   organizer: PyladiesGT City
