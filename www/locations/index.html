@@ -115,10 +115,10 @@
         const chapters = [
           {% for chapter in site.chapters %}
           {
-            name: {{ chapter.name | tojson }},
-            image: {{ chapter.image | tojson }},
-            lat: {{ chapter.location.latitude }},
-            lng: {{ chapter.location.longitude }},
+            name: {{ chapter.name | default("") | tojson }},
+            image: {{ chapter.image | default("") | tojson }},
+            lat: {{ chapter.location.latitude | default(0) }},
+            lng: {{ chapter.location.longitude | default(0) }},
             email: {{ chapter.email | default("") | tojson }},
             meetup: {{ chapter.meetup | default("") | tojson }},
             website: {{ chapter.website | default("") | tojson }},
