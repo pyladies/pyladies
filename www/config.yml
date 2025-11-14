@@ -1396,6 +1396,18 @@ chapters:
   organizer: PyLadies Panama
   twitter: PyLadiesPanama
   instagram: pyladiespanama
+- name: Kaohsiung, Taiwan
+  image: pyladies-kaohsiung.png
+  email: kaohsiung@pyladies.com
+  github: PyLadies-Kaohsiung
+  facebook: pyladies.kaohsiung
+  organizer: PyLadies Kaohsiung
+  instagram: pyladies.kaohsiung
+  linkedin: company/pyladies-kaohsiung
+  website: https://kaohsiung.pyladies.com
+  location:
+      latitude: 22.6223005
+      longitude: 120.2947468
 date_format: '%B %d, %Y'
 domain: pyladies.com
 feed: true
