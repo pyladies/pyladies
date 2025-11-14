@@ -1401,11 +1401,11 @@ chapters:
   email: kaohsiung@pyladies.com
   github: PyLadies-Kaohsiung
   facebook: pyladies.kaohsiung
-  organizer: Mars Weng
+  organizer: PyLadies Kaohsiung
   website: https://kaohsiung.pyladies.com
   location:
-      latitude: 22.3700
-      longitude: 120.1800
+      latitude: 22.6223005
+      longitude: 120.2947468
 date_format: '%B %d, %Y'
 domain: pyladies.com
 feed: true
