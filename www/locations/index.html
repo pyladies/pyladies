@@ -112,24 +112,7 @@
         }).addTo(map);
 
         // Chapters
-        const chapters = [
-          {% for chapter in site.chapters %}
-          {
-            name: {{ chapter.name | default("") | tojson }},
-            image: {{ chapter.image | default("") | tojson }},
-            lat: {{ chapter.location.latitude | default(0) }},
-            lng: {{ chapter.location.longitude | default(0) }},
-            email: {{ chapter.email | default("") | tojson }},
-            meetup: {{ chapter.meetup | default("") | tojson }},
-            website: {{ chapter.website | default("") | tojson }},
-            github: {{ chapter.github | default("") | tojson }},
-            linkedin: {{ chapter.linkedin | default("") | tojson }},
-            facebook: {{ chapter.facebook | default("") | tojson }},
-            twitter: {{ chapter.twitter | default("") | tojson }},
-            instagram: {{ chapter.instagram | default("") | tojson }}
-          }{% if not loop.last %},{% endif %}
-          {% endfor %}
-        ];
+        const chapters = {{ site.chapters | tojson }};
 
         // Feature group for markers
         const markers = L.featureGroup().addTo(map);
@@ -158,7 +141,7 @@
                 iconAnchor: [16, 20],
                 popupAnchor: [0, -20]
           });
-          const marker = L.marker([p.lat, p.lng], {
+          const marker = L.marker([p.location.latitude, p.location.longitude], {
             icon: customIcon,
             name: p.name
           }).addTo(markers);
@@ -174,7 +157,7 @@
             chapterTwitter.innerHTML = p.twitter ? `<i style="color: grey">Twitter</i><br><a target = "_blank" href="https://twitter.com/${p.twitter}">${p.twitter}</a>` : '';
             chapterMeetup.innerHTML = p.meetup ? `<i style="color: grey">Meetup</i><br><a target = "_blank" href="https://www.meetup.com/${p.meetup}">${p.meetup}</a>` : '';
             chapterLinkedin.innerHTML = p.linkedin ? `<i style="color: grey">LinkedIn</i><br><a target = "_blank" href="https://www.linkedin.com/${p.linkedin}">${p.linkedin}</a>` : '';
-            chapterInstagram.innerHTML = p.instgram ? `<i style="color: grey">Instagram</i><br><a target = "_blank" href="https://www.instagram.com/${p.instgram}">${p.instgram}</a>` : '';
+            chapterInstagram.innerHTML = p.instagram ? `<i style="color: grey">Instagram</i><br><a target = "_blank" href="https://www.instagram.com/${p.instagram}">${p.instagram}</a>` : '';
             chapterPanel.style.display = 'block';
           });
         });
