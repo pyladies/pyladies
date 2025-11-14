@@ -135,31 +135,37 @@
 
         // Create markers
         chapters.forEach(p => {
-          const customIcon = L.icon({
+          if (
+              p.location &&
+              p.location.latitude && 
+              p.location.longitude
+          ){
+              const customIcon = L.icon({
                 iconUrl: `https://pyladies.com/assets/images/${p.image}`,
                 iconSize: [20, 20],
                 iconAnchor: [16, 20],
                 popupAnchor: [0, -20]
-          });
-          const marker = L.marker([p.location.latitude, p.location.longitude], {
-            icon: customIcon,
-            name: p.name
-          }).addTo(markers);
+              });
+              const marker = L.marker([p.location.latitude, p.location.longitude], {
+                icon: customIcon,
+                name: p.name
+              }).addTo(markers);
 
-          // On click, update chapter panel
-          marker.on('click', () => {
-            chapterName.textContent = p.name;
-            chapterImage.innerHTML = p.image ? `<img style="max-height: 100px; max-width:100px; vertical-align: middle;" src="https://pyladies.com/assets/images/${p.image}"/>` : '';
-            chapterWebsite.innerHTML = p.website ? `<i style="color: grey">Website</i><br><a target = "_blank" href="${p.website}">${p.website}</a>` : '';
-            chapterEmail.innerHTML = p.email ? `<i style="color: grey">Email</i><br><a target = "_blank" href="mailto:${p.email}">${p.email}</a>` : '';
-            chapterFacebook.innerHTML = p.facebook ? `<i style="color: grey">Facebook</i><br><a target = "_blank" href="https://facebook.com/${p.facebook}">${p.facebook}</a>` : '';
-            chapterGithub.innerHTML = p.github ? `<i style="color: grey">Github</i><br><a target = "_blank" href="https://github.com/${p.github}">${p.github}</a>` : '';
-            chapterTwitter.innerHTML = p.twitter ? `<i style="color: grey">Twitter</i><br><a target = "_blank" href="https://twitter.com/${p.twitter}">${p.twitter}</a>` : '';
-            chapterMeetup.innerHTML = p.meetup ? `<i style="color: grey">Meetup</i><br><a target = "_blank" href="https://www.meetup.com/${p.meetup}">${p.meetup}</a>` : '';
-            chapterLinkedin.innerHTML = p.linkedin ? `<i style="color: grey">LinkedIn</i><br><a target = "_blank" href="https://www.linkedin.com/${p.linkedin}">${p.linkedin}</a>` : '';
-            chapterInstagram.innerHTML = p.instagram ? `<i style="color: grey">Instagram</i><br><a target = "_blank" href="https://www.instagram.com/${p.instagram}">${p.instagram}</a>` : '';
-            chapterPanel.style.display = 'block';
-          });
+              // On click, update chapter panel
+              marker.on('click', () => {
+                chapterName.textContent = p.name;
+                chapterImage.innerHTML = p.image ? `<img style="max-height: 100px; max-width:100px; vertical-align: middle;" src="https://pyladies.com/assets/images/${p.image}"/>` : '';
+                chapterWebsite.innerHTML = p.website ? `<i style="color: grey">Website</i><br><a target = "_blank" href="${p.website}">${p.website}</a>` : '';
+                chapterEmail.innerHTML = p.email ? `<i style="color: grey">Email</i><br><a target = "_blank" href="mailto:${p.email}">${p.email}</a>` : '';
+                chapterFacebook.innerHTML = p.facebook ? `<i style="color: grey">Facebook</i><br><a target = "_blank" href="https://facebook.com/${p.facebook}">${p.facebook}</a>` : '';
+                chapterGithub.innerHTML = p.github ? `<i style="color: grey">Github</i><br><a target = "_blank" href="https://github.com/${p.github}">${p.github}</a>` : '';
+                chapterTwitter.innerHTML = p.twitter ? `<i style="color: grey">Twitter</i><br><a target = "_blank" href="https://twitter.com/${p.twitter}">${p.twitter}</a>` : '';
+                chapterMeetup.innerHTML = p.meetup ? `<i style="color: grey">Meetup</i><br><a target = "_blank" href="https://www.meetup.com/${p.meetup}">${p.meetup}</a>` : '';
+                chapterLinkedin.innerHTML = p.linkedin ? `<i style="color: grey">LinkedIn</i><br><a target = "_blank" href="https://www.linkedin.com/${p.linkedin}">${p.linkedin}</a>` : '';
+                chapterInstagram.innerHTML = p.instagram ? `<i style="color: grey">Instagram</i><br><a target = "_blank" href="https://www.instagram.com/${p.instagram}">${p.instagram}</a>` : '';
+                chapterPanel.style.display = 'block';
+              });
+            }
         });
 
         // Add search control
