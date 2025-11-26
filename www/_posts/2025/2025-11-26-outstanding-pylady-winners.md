@@ -35,7 +35,7 @@ Karolina Surma ([Mastodon][karo_mast], [LinkedIn][karolina_LI]) is one of two pe
 
 ## Cecília Tivir
 
-While from Senegal :flag-sn:, Cecília Tivir ([LinkedIn][ctivir_LI](https://www.linkedin.com/in/ctivir/) ) _"basically created the Python Community in Mozambique :flag-mz:"_, first bringing DjangoGirls to her area, then the Python community itself, and of course she couldn't stop there - she started PyLadies Maputo in 2023. From afar, Cecília keeps actively involved in the Mozambique Python and PyLadies community to help it grow and thrive.
+While from Senegal 🇸🇳, Cecília Tivir ([LinkedIn][ctivir_LI](https://www.linkedin.com/in/ctivir/) ) _"basically created the Python Community in Mozambique 🇲🇿 "_, first bringing DjangoGirls to her area, then the Python community itself, and of course she couldn't stop there - she started PyLadies Maputo in 2023. From afar, Cecília keeps actively involved in the Mozambique Python and PyLadies community to help it grow and thrive.
 
 
 ### Nominate Someone! or Yourself!
