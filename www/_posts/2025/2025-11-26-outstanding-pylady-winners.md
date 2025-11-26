@@ -23,7 +23,7 @@ This is the second year of the Outstanding PyLady awards, and we received over 5
 Anwesha Das ([X][anwesha_x], [LinkedIn][anwesha_LI], [Mastodon][anwesha_mast]) is influential across multiple countries - first with PyLadies Pune ("poo-nay") in India :flag-in: and with inspiring 8 other chapters across the country. She brought PyLadies to PyCon India by organizing many of the activities we have at PyCon US, including a PyLadies booth and the PyLadies lunch. Her nominators label her as a strong role model of resilience and persistence paired with empathy and grit. Anwesha's transformative leadership, cross-cultural impact, and commitment to empowering underrepresented groups make her a very deserving candidate for this award.
 
 
-## Katie McLaughlin (they/them)
+## Katie McLaughlin
 
 Katie McLaughlin ([Mastodon][glasnt_mast] , [LinkedIn][glasnt_LI]) from Australia :flag-au: has been a vital part of the Python and Django communities for many years. They have served both on the Django Software Foundation and the Python Software Foundation boards. They were our keynote speaker for the second iteration of PyLadiesCon. Katie has drawn attention to the importance of recognizing all forms of open source contributions, not just code, and is themselves a regular contributor to sprints, with code, with documentation, and with helping onboard new contributors.
 
