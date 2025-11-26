@@ -3,7 +3,7 @@ layout: post.html
 title: "Celebrating the Recipients of the Outstanding PyLady Awards 2025!"
 tags: [Global, "Outstanding PyLady Awards"]
 author: Marie-Louise Annan
-___
+---
 
 
 # We are proud to announce the recipients of the Outstanding PyLady Awards 2025 !!
