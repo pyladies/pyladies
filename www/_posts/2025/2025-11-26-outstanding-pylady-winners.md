@@ -25,7 +25,7 @@ Anwesha Das ([X][anwesha_x], [LinkedIn][anwesha_LI], [Mastodon][anwesha_mast]) i
 
 ## Katie McLaughlin
 
-Katie McLaughlin ([Mastodon][glasnt_mast] , [LinkedIn][glasnt_LI]) from Australia :flag-au: has been a vital part of the Python and Django communities for many years. They have served both on the Django Software Foundation and the Python Software Foundation boards. They were our keynote speaker for the second iteration of PyLadiesCon. Katie has drawn attention to the importance of recognizing all forms of open source contributions, not just code, and is themselves a regular contributor to sprints, with code, with documentation, and with helping onboard new contributors.
+Katie McLaughlin ([Mastodon][glasnt_mast] , [LinkedIn][glasnt_LI]) from Australia 🇦🇺 has been a vital part of the Python and Django communities for many years. They have served both on the Django Software Foundation and the Python Software Foundation boards. They were our keynote speaker for the second iteration of PyLadiesCon. Katie has drawn attention to the importance of recognizing all forms of open source contributions, not just code, and is themselves a regular contributor to sprints, with code, with documentation, and with helping onboard new contributors.
 
 
 ## Karolina Surma
