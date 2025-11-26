@@ -30,7 +30,7 @@ Katie McLaughlin ([Mastodon][glasnt_mast] , [LinkedIn][glasnt_LI]) from Australi
 
 ## Karolina Surma
 
-Karolina Surma ([Mastodon][karo_mast], [LinkedIn][karolina_LI]) is one of two people in Brno, Czech Republic :flag-cz: who has kept the local PyLadies chapter alive and thriving for years. She organises chapter events like programming courses and workshops, creating new and fresh teaching materials, and even leading the lectures herself. Her nominators say that the local community would not be where it is now without her continual, long-term contributions. And that she is one of the most inspiring, positive, "walking-the-talk" persons they know.
+Karolina Surma ([Mastodon][karo_mast], [LinkedIn][karolina_LI]) is one of two people in Brno, Czech Republic 🇨🇿 who has kept the local PyLadies chapter alive and thriving for years. She organises chapter events like programming courses and workshops, creating new and fresh teaching materials, and even leading the lectures herself. Her nominators say that the local community would not be where it is now without her continual, long-term contributions. And that she is one of the most inspiring, positive, "walking-the-talk" persons they know.
 
 
 ## Cecília Tivir
