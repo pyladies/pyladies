@@ -28,7 +28,7 @@ Anwesha Das ([X][anwesha_x], [LinkedIn][anwesha_LI], [Mastodon][anwesha_mast]) i
 Katie McLaughlin ([Mastodon][glasnt_mast] , [LinkedIn][glasnt_LI]) from Australia :flag-au: has been a vital part of the Python and Django communities for many years. They have served both on the Django Software Foundation and the Python Software Foundation boards. They were our keynote speaker for the second iteration of PyLadiesCon. Katie has drawn attention to the importance of recognizing all forms of open source contributions, not just code, and is themselves a regular contributor to sprints, with code, with documentation, and with helping onboard new contributors.
 
 
-## Karolina Surma (she/her)
+## Karolina Surma
 
 Karolina Surma ([Mastodon][karo_mast], [LinkedIn][karolina_LI]) is one of two people in Brno, Czech Republic :flag-cz: who has kept the local PyLadies chapter alive and thriving for years. She organises chapter events like programming courses and workshops, creating new and fresh teaching materials, and even leading the lectures herself. Her nominators say that the local community would not be where it is now without her continual, long-term contributions. And that she is one of the most inspiring, positive, "walking-the-talk" persons they know.
 
