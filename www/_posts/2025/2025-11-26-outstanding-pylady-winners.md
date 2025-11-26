@@ -18,7 +18,7 @@ This is the second year of the Outstanding PyLady awards, and we received over 5
  Unfortunately, we do not have the capacity to award all the nominees - although all of them are very clearly deserving. This year, the PyLadies Global Council selected 4 members to receive this award, and we are so very excited to celebrate them:
 
 
-## Anwesha Das (she/her)
+## Anwesha Das
 
 Anwesha Das ([X][anwesha_x], [LinkedIn][anwesha_LI], [Mastodon][anwesha_mast]) is influential across multiple countries - first with PyLadies Pune ("poo-nay") in India :flag-in: and with inspiring 8 other chapters across the country. She brought PyLadies to PyCon India by organizing many of the activities we have at PyCon US, including a PyLadies booth and the PyLadies lunch. Her nominators label her as a strong role model of resilience and persistence paired with empathy and grit. Anwesha's transformative leadership, cross-cultural impact, and commitment to empowering underrepresented groups make her a very deserving candidate for this award.
 
