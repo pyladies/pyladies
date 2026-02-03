@@ -29,6 +29,15 @@ chapters:
   facebook: pyladiesankara
   github: pyladiesankara
   website: ankara
+- name: Athens, Greece
+  email: athens@pyladies.com
+  image: pyladies_athens.png
+  github: PyLadies-Athens
+  instagram: pyladiesathens
+  linkedin: company/pyladies-athens
+  location:
+    latitude: 37.9838
+    longitude: 23.7275
 - email: tnr@pyladies.com
   image: pyladies_tnr.png
   location:
@@ -585,7 +594,7 @@ chapters:
     longitude: 101.68
   meetup: PyLadies-KL
   meetup_id: 474876668
-  meetup_image: https://secure.meetupstatic.com/photos/member/3/e/0/5/highres_323595877.jpeg 
+  meetup_image: https://secure.meetupstatic.com/photos/member/3/e/0/5/highres_323595877.jpeg
   name: Kuala Lumpur, Malaysia
   organizer: Daphne Choong, Ivy Fung, Daveena Sri, Delyn Choong, Siow Yen Chong, Yen Wai Hong. Nithiya Malar
   pro_network: Python Software Foundation Meetup Pro Network
