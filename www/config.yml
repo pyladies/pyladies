@@ -898,6 +898,14 @@ chapters:
   name: Porto Alegre, Brazil
   twitter: Pyladiespoas
   website: https://pyladiespoa.pythonanywhere.com
+- email: prishtina@pyladies.com
+  image: pyladies_prishtina.jpeg
+  location:
+    latitude: 42.6629
+    longitude: 21.1655
+  name: Prishtina, Kosovo
+  instagram: pyladies_prishtina
+  linkedin: company/pyladiesprishtina
 - email: pune@pyladies.com
   external_website: true
   facebook: PyLadiesPune
