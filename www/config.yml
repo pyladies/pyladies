@@ -1405,6 +1405,19 @@ chapters:
   organizer: PyLadies Panama
   twitter: PyLadiesPanama
   instagram: pyladiespanama
+
+- email: cuernavaca@pyladies.com
+  image: pyladies_cuernavaca.png
+  location:
+    latitude: 18.9837
+    longitude: -99.2343
+  meetup: null
+  name: Cuernavaca, M&eacute;xico
+  organizer: Pyladies Cuernavaca
+  website: https://pyladies-cuernavaca.quarto.pub/web/
+  twitter: PyLadies_Cuerna
+  github: PyLadies-Cuernavaca
+
 - name: Kaohsiung, Taiwan
   image: pyladies-kaohsiung.png
   email: kaohsiung@pyladies.com
