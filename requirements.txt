@@ -11,7 +11,7 @@ ipaddress==1.0.18
 Jinja2==2.9.6
 MarkupSafe==1.1.1
 pathtools==0.1.2
-pyasn1==0.3.2
+pyasn1==0.6.3
 pycparser==2.18
 Pygments==2.15.0
 PyNaCl>1.1.2
