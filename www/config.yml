@@ -627,6 +627,13 @@ chapters:
   name: El Alto, Bolivia
   twitter: PyLadiesElAlto
   website: elalto
+- name: Lavras, MG
+  email: lavras@pyladies.com
+  twitter: pyladieslavras
+  image: pyladies_lavras.png
+  location:
+    latitude: -21.2485
+    longitude: -45.0013
 - email: lisboa@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
   location:
@@ -837,6 +844,9 @@ chapters:
     longitude: 127.8767851
   name: Okinawa, Japan
   twitter: PyLadiesOkinawa
+- email: shizuoka@pyladies.com
+  name: Shizuoka, Japan
+  website: https://pyladiesshizuoka.github.io/
 - email: oslo@pyladies.com
   name: Oslo, Norway
   meetup: pyladies-oslo
@@ -898,6 +908,14 @@ chapters:
   name: Porto Alegre, Brazil
   twitter: Pyladiespoas
   website: https://pyladiespoa.pythonanywhere.com
+- email: prishtina@pyladies.com
+  image: pyladies_prishtina.jpeg
+  location:
+    latitude: 42.6629
+    longitude: 21.1655
+  name: Prishtina, Kosovo
+  instagram: pyladies_prishtina
+  linkedin: company/pyladiesprishtina
 - email: pune@pyladies.com
   external_website: true
   facebook: PyLadiesPune
@@ -1405,6 +1423,19 @@ chapters:
   organizer: PyLadies Panama
   twitter: PyLadiesPanama
   instagram: pyladiespanama
+
+- email: cuernavaca@pyladies.com
+  image: pyladies_cuernavaca.png
+  location:
+    latitude: 18.9837
+    longitude: -99.2343
+  meetup: null
+  name: Cuernavaca, M&eacute;xico
+  organizer: Pyladies Cuernavaca
+  website: https://pyladies-cuernavaca.quarto.pub/web/
+  twitter: PyLadies_Cuerna
+  github: PyLadies-Cuernavaca
+
 - name: Kaohsiung, Taiwan
   image: pyladies-kaohsiung.png
   email: kaohsiung@pyladies.com
