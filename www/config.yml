@@ -837,6 +837,9 @@ chapters:
     longitude: 127.8767851
   name: Okinawa, Japan
   twitter: PyLadiesOkinawa
+- email: shizuoka@pyladies.com
+  name: Shizuoka, Japan
+  website: https://pyladiesshizuoka.github.io/
 - email: oslo@pyladies.com
   name: Oslo, Norway
   meetup: pyladies-oslo
