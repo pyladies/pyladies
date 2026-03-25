@@ -5,7 +5,7 @@ author: A PyLady
 base_url: /
 chapters:
 - email: amsterdam@pyladies.com
-  image: pyladies_amsterdam.jpeg
+  image: pyladies_amsterdam.png
   location:
     latitude: 52.37
     longitude: 4.89
@@ -15,8 +15,10 @@ chapters:
   name: Amsterdam, the Netherlands
   organizer: Alyona Galyeva
   pro_network: Python Software Foundation Meetup Pro Network
-  twitter: PyLadiesAMS
-  website: amsterdam
+  external_website: true
+  website: https://amsterdam.pyladies.com/
+  github: pyladiesams
+  linkedin: company/pyladies-amsterdam
 - email: ankara@pyladies.com
   image: pyladies_ankara.png
   location:
@@ -27,6 +29,15 @@ chapters:
   facebook: pyladiesankara
   github: pyladiesankara
   website: ankara
+- name: Athens, Greece
+  email: athens@pyladies.com
+  image: pyladies_athens.png
+  github: PyLadies-Athens
+  instagram: pyladiesathens
+  linkedin: company/pyladies-athens
+  location:
+    latitude: 37.9838
+    longitude: 23.7275
 - email: tnr@pyladies.com
   image: pyladies_tnr.png
   location:
@@ -575,6 +586,20 @@ chapters:
     longitude: 21.261074
   name: Kosice, Slovakia
   organizer: Iveta Tonhauserova
+- email: kl@pyladies.com
+  external_website: true
+  image: pyladies_kl.png
+  location:
+    latitude: 3.13
+    longitude: 101.68
+  meetup: PyLadies-KL
+  meetup_id: 474876668
+  meetup_image: https://secure.meetupstatic.com/photos/member/3/e/0/5/highres_323595877.jpeg
+  name: Kuala Lumpur, Malaysia
+  organizer: Daphne Choong, Ivy Fung, Daveena Sri, Delyn Choong, Siow Yen Chong, Yen Wai Hong. Nithiya Malar
+  pro_network: Python Software Foundation Meetup Pro Network
+  twitter: PyLadiesKL
+  website: http://kl.pyladies.com
 - external_website: true
   facebook: PyLadiesKyoto
   google_plus: https://plus.google.com/u/0/communities/113677670074162908256
@@ -819,6 +844,9 @@ chapters:
     longitude: 127.8767851
   name: Okinawa, Japan
   twitter: PyLadiesOkinawa
+- email: shizuoka@pyladies.com
+  name: Shizuoka, Japan
+  website: https://pyladiesshizuoka.github.io/
 - email: oslo@pyladies.com
   name: Oslo, Norway
   meetup: pyladies-oslo
@@ -880,6 +908,14 @@ chapters:
   name: Porto Alegre, Brazil
   twitter: Pyladiespoas
   website: https://pyladiespoa.pythonanywhere.com
+- email: prishtina@pyladies.com
+  image: pyladies_prishtina.jpeg
+  location:
+    latitude: 42.6629
+    longitude: 21.1655
+  name: Prishtina, Kosovo
+  instagram: pyladies_prishtina
+  linkedin: company/pyladiesprishtina
 - email: pune@pyladies.com
   external_website: true
   facebook: PyLadiesPune
@@ -1335,13 +1371,6 @@ chapters:
   twitter: Pyladiesasaba
   website: null
   whatsapp: null
-  image: pyladies-asaba.png
-  email: asaba@pyladies.com
-  twitter: Pyladiesasaba
-  meetup: null
-  github: Pyladiesasaba
-  facebook: asabapyladies
-  location: {latitude: 6.19824, longitude: 6.73187}
 - name: Guatemala city, Guatemala
   email: guatemalacity@pyladies.com
   organizer: PyladiesGT City
@@ -1376,6 +1405,15 @@ chapters:
     latitude: -33.45
     longitude: -70.666667
   name: Santiago, Chile
+- name: Ilo, PERU
+  image: pyladies-Ilo.png
+  email: ilo@pyladies.com
+  github: PyLadiesIlo
+  facebook: people/PyLadies-Ilo/61572566786202
+
+  location:
+      latitude: -17.6394
+      longitude: -71.3376
 - email: panama@pyladies.com
   image: Pyladies_Panama.png
   location:
@@ -1385,6 +1423,31 @@ chapters:
   organizer: PyLadies Panama
   twitter: PyLadiesPanama
   instagram: pyladiespanama
+
+- email: cuernavaca@pyladies.com
+  image: pyladies_cuernavaca.png
+  location:
+    latitude: 18.9837
+    longitude: -99.2343
+  meetup: null
+  name: Cuernavaca, M&eacute;xico
+  organizer: Pyladies Cuernavaca
+  website: https://pyladies-cuernavaca.quarto.pub/web/
+  twitter: PyLadies_Cuerna
+  github: PyLadies-Cuernavaca
+
+- name: Kaohsiung, Taiwan
+  image: pyladies-kaohsiung.png
+  email: kaohsiung@pyladies.com
+  github: PyLadies-Kaohsiung
+  facebook: pyladies.kaohsiung
+  organizer: PyLadies Kaohsiung
+  instagram: pyladies.kaohsiung
+  linkedin: company/pyladies-kaohsiung
+  website: https://kaohsiung.pyladies.com
+  location:
+      latitude: 22.6223005
+      longitude: 120.2947468
 date_format: '%B %d, %Y'
 domain: pyladies.com
 feed: true
