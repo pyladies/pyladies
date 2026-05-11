@@ -554,6 +554,15 @@ chapters:
   name: India
   organizer: Rituparna
   twitter: PyladiesIndia
+- email: indonesia@pyladies.com
+  image: pyladies_indonesia.png
+  location:
+    latitude: -6.2088
+    longitude: 106.8456
+  name: Indonesia
+  twitter: PyLadiesID
+  instagram: pyladiesid
+  linkedin: company/pyladies-indonesia
 - email: plateau@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
   location:
