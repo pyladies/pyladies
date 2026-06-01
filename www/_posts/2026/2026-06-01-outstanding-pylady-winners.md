@@ -1,6 +1,6 @@
 ---
 layout: post.html
-title: "Celebrating the Winners of the Outstanding PyLadies Awards for 2026!"
+title: "Celebrating the Winners of the Outstanding PyLady Awards for 2026!"
 tags: [Global, "Outstanding PyLady Award"]
 author: Lynn Root
 author_link: https://mastodon.online/@roguelynn
