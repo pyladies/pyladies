@@ -1090,6 +1090,7 @@ chapters:
   twitter: pyladiesSEA
   website: sea
 - email: seoul@pyladies.com
+  external_website: true
   facebook: pyladieseoul
   google_plus: https://plus.google.com/106890062399007175692/posts
   image: pyladies-seoul-logo.png
@@ -1099,7 +1100,7 @@ chapters:
   meetup_id: 10708842
   name: Seoul, Korea
   twitter: PyladiesSeoul
-  website: seoul
+  website: https://pyladies.kr
 - email: siliconvalley@pyladies.com
   facebook: svpyladies
   github: SiliconValleyPyLadies
