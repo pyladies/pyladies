@@ -9,7 +9,7 @@ author_link: https://mastodon.online/@roguelynn
 The PyLadies community is made possible by the incredible people around the world who dedicate their time, care, leadership, and energy to building welcoming spaces in tech. Through organizing events, mentoring others, supporting local communities, advocating for inclusion, and helping people grow in Python, these community members continue to make a lasting impact across the global Python ecosystem.
 
 <figure>
-    <img src="{{ get_asset('images/blog/opa_winners_2026.jpg') }}" alt="Award winners posing after PyCon US 2026 Closing Ceremony" width="70%" style="margin-left: auto; margin-right: auto; margin-bottom: 2em; margin-top: 2em; display: block;">
+    <img src="{{ get_asset('images/blog/opa_winners_2026.JPG') }}" alt="Award winners posing after PyCon US 2026 Closing Ceremony" width="70%" style="margin-left: auto; margin-right: auto; margin-bottom: 2em; margin-top: 2em; display: block;">
 <figcaption style="text-align: center;"><i>María José Molina-Contreras (left-most), Denny Perez (second from left), and Fay Shaw (second from right) posing with their Sapphire diamond trophy with Lynn Root (right-most) at the closing ceremony of PyConUS 2026.</i></figcaption></figure>
 
 The [Outstanding PyLady Award](https://kit.pyladies.com/en/latest/global/award.html) exists to recognize and celebrate those contributions. It is a way to highlight diverse Pythonistas doing meaningful work in their communities and to thank them for the dedication and care they bring to PyLadies and the broader Python community.
