@@ -95,6 +95,13 @@ chapters:
   name: Australia
   twitter: pyladiesau
   website: http://australia.pyladies.com/
+- email: bandung@pyladies.com
+  image: pyladies_bandung.png
+  location:
+    latitude: -6.9023
+    longitude: 107.6186
+  name: Bandung, Indonesia
+  instagram: pyladies.bdg
 - email: pyblr@pyladies.com
   image: pyladies_blr_logo.jpeg
   location:
@@ -562,7 +569,7 @@ chapters:
   name: Indonesia
   twitter: PyLadiesID
   instagram: pyladiesid
-  linkedin: company/pyladies-indonesia
+  linkedin: in/pyladies-indonesia
 - email: plateau@pyladies.com
   image: pyladies_dc_atl_sea_tor.png
   location:
@@ -1457,6 +1464,13 @@ chapters:
   location:
       latitude: 22.6223005
       longitude: 120.2947468
+- email: yogyakarta@pyladies.com
+  image: pyladies_yogyakarta.png
+  location:
+    latitude: -7.7827
+    longitude: 110.367
+  name: Yogyakarta, Indonesia
+  instagram: pyladies.yk
 date_format: '%B %d, %Y'
 domain: pyladies.com
 feed: true
