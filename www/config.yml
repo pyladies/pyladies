@@ -863,6 +863,13 @@ chapters:
 - email: shizuoka@pyladies.com
   name: Shizuoka, Japan
   website: https://pyladiesshizuoka.github.io/
+  twitter: PyLadiesFukuoka
+- email: fukuoka@pyladies.com
+  location:
+    latitude: 33.5930742
+    longitude: 130.4017806
+  name: fukuoka, Japan
+  website: https://pyladies-fukuoka.connpass.com/
 - email: oslo@pyladies.com
   name: Oslo, Norway
   meetup: pyladies-oslo
