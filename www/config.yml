@@ -1064,6 +1064,13 @@ chapters:
   name: Santa Cruz, CA
   organizer: Santa Cruz PyLadies
   twitter: PyLadiesSC
+- email: santamarta@pyladies.com
+  image: pyladies_dc_atl_sea_tor.png
+  location:
+    latitude: 11.2408
+    longitude: -74.1990
+  name: Santa Marta, Colombia
+  instagram: pyladiessmr
 - email: saocarlos@pyladies.org
   external_website: true
   facebook: PyLadiesSaoCarlos
