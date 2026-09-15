@@ -1485,6 +1485,16 @@ chapters:
     longitude: 110.367
   name: Yogyakarta, Indonesia
   instagram: pyladies.yk
+- email: santacruzdelasierra@pyladies.com
+  image: pyladies_santacruzdelasierra.png
+  location:
+    latitude: -17.7833
+    longitude: -63.1821
+  name: Santa Cruz de La Sierra, Bolivia
+  meetup: pyladies-santa-cruz-de-la-sierra
+  facebook: '61592250856601'
+  instagram: pyladiessantacruzbolivia
+  linkedin: company/pyladies-santa-cruz
 date_format: '%B %d, %Y'
 domain: pyladies.com
 feed: true
