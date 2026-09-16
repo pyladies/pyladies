@@ -208,7 +208,7 @@ chapters:
     latitude: -10.3333333
     longitude: -53.2
   name: Brazil
-  instagram: PyLadiesBrazil
+  twitter: PyLadiesBrazil
   website: http://brasil.pyladies.com/
 - email: floripa@pyladies.com
   external_website: true
@@ -218,7 +218,7 @@ chapters:
     longitude: -48.5480
   name: PyLadies Floripa
   website: http://floripa.pyladies.com/
-  instagram: @pyladiesfloripa
+  instagram: pyladiesfloripa
   linkedin: company/pyladies-floripa
 - linkedin: company/pyladiesbrisbane
   email: brisbane@pyladies.com
