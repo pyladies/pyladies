@@ -210,6 +210,16 @@ chapters:
   name: Brazil
   twitter: PyLadiesBrazil
   website: http://brasil.pyladies.com/
+- email: floripa@pyladies.com
+  external_website: true
+  image: pyladies-floripa.png
+  location:
+    latitude: -27.5954
+    longitude: -48.5480
+  name: PyLadies Floripa
+  website: http://floripa.pyladies.com/
+  instagram: pyladiesfloripa
+  linkedin: company/pyladies-floripa
 - linkedin: company/pyladiesbrisbane
   email: brisbane@pyladies.com
   github: BrisbanePyLadies
