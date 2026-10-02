@@ -576,6 +576,17 @@ chapters:
     latitude: 9.2446
     longitude: 9.3673
   name: Jos, plateau
+- name: Istanbul, Turkey
+  image: pyladies_istanbul_logo.jpeg
+  email: istanbul@pyladies.com
+  instagram: pyladiesistanbul
+  linkedin: company/pyladies-istanbul
+  youtube: channel/UC7tQ-cKS4-Wk_Dm1e71R5ow
+  github: pyladiesistanbul
+  tiktok: pyladiesistanbul
+  location:
+    latitude: 41.0082
+    longitude: 28.9784
 - email: kampala@pyladies.com
   image: pyladies_kampala.png
   location:
